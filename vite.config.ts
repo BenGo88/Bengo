@@ -6,7 +6,7 @@ export default defineConfig({
   // For GitHub Pages: set to "/<repo-name>/" after creating the repo
   // e.g. "/bengo/"
   // Leave as "/" for local dev or custom domain
-  base: "/bengo/",
+  base: "/Bengo/",
   resolve: {
     alias: { "@": "/src" },
   },

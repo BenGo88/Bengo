@@ -1,0 +1,175 @@
+[
+  {
+    "id": "k001",
+    "character": "承",
+    "meanings": ["consent", "accept", "inherit"],
+    "onyomi": ["ショウ"],
+    "kunyomi": ["うけたまわ.る"],
+    "mnemonic": "Three hands (三 + hand radical) reaching up to accept something from above.",
+    "components": "Three (三) + hand",
+    "similar": ["永"],
+    "common_words": [
+      { "word": "承認", "reading": "しょうにん", "meaning": "approval" },
+      { "word": "承知", "reading": "しょうち", "meaning": "consent / understanding" },
+      { "word": "了承", "reading": "りょうしょう", "meaning": "acknowledgement" }
+    ],
+    "usage_note": "Very common in business Japanese — approval flows, emails, and formal communication.",
+    "jlpt": "N2",
+    "tags": ["business"]
+  },
+  {
+    "id": "k002",
+    "character": "届",
+    "meanings": ["deliver", "reach", "notify"],
+    "onyomi": ["トドケ"],
+    "kunyomi": ["とど.ける", "とど.く"],
+    "mnemonic": "A body (尸) at the door (由 = reason/source) — delivering something to the door.",
+    "components": "尸 (body/corpse) + 由 (reason)",
+    "similar": ["届出 vs 届け — both mean notification but 届出 is more official"],
+    "common_words": [
+      { "word": "届ける", "reading": "とどける", "meaning": "to deliver" },
+      { "word": "届く", "reading": "とどく", "meaning": "to reach / arrive" },
+      { "word": "届出", "reading": "とどけで", "meaning": "notification / report" }
+    ],
+    "usage_note": "Used for physical delivery and also official notifications/paperwork.",
+    "jlpt": "N2",
+    "tags": ["daily", "business"]
+  },
+  {
+    "id": "k003",
+    "character": "捨",
+    "meanings": ["discard", "throw away", "abandon"],
+    "onyomi": ["シャ"],
+    "kunyomi": ["す.てる"],
+    "mnemonic": "A hand (扌) letting go of something from a building/shelter (舎).",
+    "components": "扌(hand) + 舎 (building)",
+    "similar": ["拾 (pick up — the opposite!)"],
+    "common_words": [
+      { "word": "捨てる", "reading": "すてる", "meaning": "to throw away" },
+      { "word": "使い捨て", "reading": "つかいすて", "meaning": "disposable" },
+      { "word": "見捨てる", "reading": "みすてる", "meaning": "to abandon" }
+    ],
+    "usage_note": "Don't confuse with 拾 (ひろ.う = to pick up). They're visual opposites!",
+    "jlpt": "N2",
+    "tags": ["daily"]
+  },
+  {
+    "id": "k004",
+    "character": "犯",
+    "meanings": ["crime", "offense", "commit"],
+    "onyomi": ["ハン"],
+    "kunyomi": ["おか.す"],
+    "common_words": [
+      { "word": "犯人", "reading": "はんにん", "meaning": "criminal / culprit" },
+      { "word": "犯罪", "reading": "はんざい", "meaning": "crime" },
+      { "word": "犯す", "reading": "おかす", "meaning": "to commit (a crime)" }
+    ],
+    "usage_note": "犯す can also mean 'to violate' — often seen in news and legal contexts.",
+    "jlpt": "N2",
+    "tags": ["news", "legal"]
+  },
+  {
+    "id": "k005",
+    "character": "許",
+    "meanings": ["permit", "approve", "forgive"],
+    "onyomi": ["キョ"],
+    "kunyomi": ["ゆる.す"],
+    "mnemonic": "Words (言) spoken at noon (午) — the boss gives permission during lunch.",
+    "components": "言 (say) + 午 (noon)",
+    "similar": ["計 (measure)"],
+    "common_words": [
+      { "word": "許可", "reading": "きょか", "meaning": "permission" },
+      { "word": "許す", "reading": "ゆるす", "meaning": "to forgive / permit" },
+      { "word": "免許", "reading": "めんきょ", "meaning": "license" }
+    ],
+    "usage_note": "免許 (license) is one of the most common words — driver's license = 運転免許.",
+    "jlpt": "N2",
+    "tags": ["daily", "legal"]
+  },
+  {
+    "id": "k006",
+    "character": "感",
+    "meanings": ["perceive", "feel", "sense"],
+    "onyomi": ["カン"],
+    "kunyomi": [],
+    "mnemonic": "All (咸) the feelings in your heart (心).",
+    "components": "咸 (all) + 心 (heart)",
+    "common_words": [
+      { "word": "感じる", "reading": "かんじる", "meaning": "to feel / sense" },
+      { "word": "感動", "reading": "かんどう", "meaning": "being moved / impressed" },
+      { "word": "感謝", "reading": "かんしゃ", "meaning": "gratitude" }
+    ],
+    "usage_note": "Extremely common. 感じ (kanji) by itself means 'feeling' or 'impression'.",
+    "jlpt": "N2",
+    "tags": ["daily", "emotions"]
+  },
+  {
+    "id": "k007",
+    "character": "預",
+    "meanings": ["deposit", "entrust", "leave in care"],
+    "onyomi": ["ヨ"],
+    "kunyomi": ["あず.ける", "あず.かる"],
+    "mnemonic": "In advance (予) with a page/head (頁) — you leave your head (thoughts) with someone in advance.",
+    "components": "予 (beforehand) + 頁 (head/page)",
+    "similar": ["予 (beforehand)"],
+    "common_words": [
+      { "word": "預ける", "reading": "あずける", "meaning": "to deposit / entrust" },
+      { "word": "預金", "reading": "よきん", "meaning": "savings / deposit" },
+      { "word": "預かる", "reading": "あずかる", "meaning": "to keep / look after" }
+    ],
+    "usage_note": "預金 is the standard word for a bank deposit. Very common in banking/finance.",
+    "jlpt": "N2",
+    "tags": ["business", "finance"]
+  },
+  {
+    "id": "k008",
+    "character": "値",
+    "meanings": ["value", "price", "worth"],
+    "onyomi": ["チ"],
+    "kunyomi": ["ね", "あたい"],
+    "mnemonic": "A person (亻) standing straight (直) — a person of upright value.",
+    "components": "亻(person) + 直 (straight/direct)",
+    "common_words": [
+      { "word": "値段", "reading": "ねだん", "meaning": "price" },
+      { "word": "価値", "reading": "かち", "meaning": "value / worth" },
+      { "word": "値上げ", "reading": "ねあげ", "meaning": "price increase" }
+    ],
+    "usage_note": "値段 (price) is everyday Japanese. 価値 (value/worth) is more abstract.",
+    "jlpt": "N2",
+    "tags": ["daily", "business"]
+  },
+  {
+    "id": "k009",
+    "character": "割",
+    "meanings": ["divide", "split", "proportion"],
+    "onyomi": ["カツ"],
+    "kunyomi": ["わ.る", "わ.れる", "わり"],
+    "mnemonic": "A sword (刂) cutting through damage (害) — splitting things apart.",
+    "components": "害 (harm) + 刂 (sword)",
+    "common_words": [
+      { "word": "割合", "reading": "わりあい", "meaning": "proportion / ratio" },
+      { "word": "割引", "reading": "わりびき", "meaning": "discount" },
+      { "word": "割る", "reading": "わる", "meaning": "to divide / break" }
+    ],
+    "usage_note": "割 by itself means '10%' — so 3割 = 30%. Used constantly in Japanese.",
+    "jlpt": "N2",
+    "tags": ["daily", "math", "business"]
+  },
+  {
+    "id": "k010",
+    "character": "否",
+    "meanings": ["negate", "no", "deny"],
+    "onyomi": ["ヒ"],
+    "kunyomi": ["いな"],
+    "mnemonic": "Not (不) + mouth (口) — the mouth says 'no'.",
+    "components": "不 (not) + 口 (mouth)",
+    "common_words": [
+      { "word": "否定", "reading": "ひてい", "meaning": "denial / negation" },
+      { "word": "賛否", "reading": "さんぴ", "meaning": "pros and cons" },
+      { "word": "可否", "reading": "かひ", "meaning": "approval or disapproval" }
+    ],
+    "usage_note": "否定 is the standard word for 'denial/negation' — used in grammar explanations too!",
+    "jlpt": "N2",
+    "tags": ["abstract", "news"]
+  }
+]

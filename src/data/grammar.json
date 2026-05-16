@@ -1,0 +1,124 @@
+[
+  {
+    "id": "g001",
+    "title": "〜わけではない",
+    "meaning_short": "It doesn't mean that… / Not necessarily…",
+    "explanation": "Use this when you want to partially deny something. You're not saying the whole idea is wrong — you're correcting a possible misunderstanding. It's a soft, nuanced denial.",
+    "formation": [
+      "Verb (plain form) + わけではない",
+      "い-adjective + わけではない",
+      "な-adjective + なわけではない",
+      "Noun + というわけではない"
+    ],
+    "examples": [
+      { "ja": "日本語が嫌いなわけではない。", "en": "It's not that I dislike Japanese." },
+      { "ja": "忙しくないわけではないが、手伝えます。", "en": "It's not that I'm not busy, but I can help." },
+      { "ja": "全員が賛成したわけではない。", "en": "It doesn't mean everyone agreed." }
+    ],
+    "similar": [
+      { "title": "〜とは限らない", "diff": "とは限らない = 'not always true / not necessarily'. More about general possibilities. わけではない = partial denial of a specific idea." },
+      { "title": "〜わけがない", "diff": "わけがない = 'there's no way that…' — a strong, complete denial. わけではない is a soft, partial denial." }
+    ],
+    "common_mistakes": [
+      { "wrong": "行くわけない。", "correct": "行くわけではない。", "why": "わけない (without では) sounds like わけがない (no way!). Add では for the softer 'not necessarily' meaning." }
+    ],
+    "jlpt": "N2",
+    "tags": ["negation", "nuance"]
+  },
+  {
+    "id": "g002",
+    "title": "〜ようにする",
+    "meaning_short": "To try to / to make sure to / to make it a habit to",
+    "explanation": "Use this when you make a conscious effort to do something, usually as a habit or ongoing effort. It implies deliberate, sustained action — not a one-time attempt.",
+    "formation": [
+      "Verb (dictionary form) + ようにする",
+      "Verb (ない form) + ようにする"
+    ],
+    "examples": [
+      { "ja": "毎日運動するようにしている。", "en": "I try to exercise every day." },
+      { "ja": "遅刻しないようにしてください。", "en": "Please try not to be late." },
+      { "ja": "野菜をたくさん食べるようにしています。", "en": "I make a point of eating lots of vegetables." }
+    ],
+    "similar": [
+      { "title": "〜ようとする", "diff": "ようとする = attempting something right now (often a single attempt, sometimes unsuccessful). ようにする = making an ongoing effort or habit." }
+    ],
+    "common_mistakes": [
+      { "wrong": "食べるようにしようとした。", "correct": "食べるようにした。", "why": "Don't combine ようにする with ようとする — it's redundant. Pick one." }
+    ],
+    "jlpt": "N2",
+    "tags": ["effort", "habit"]
+  },
+  {
+    "id": "g003",
+    "title": "〜に対して",
+    "meaning_short": "Toward / against / in contrast to / per",
+    "explanation": "This has two main uses: (1) indicating who/what an action or attitude is directed toward, and (2) making a contrast between two things. Context determines which.",
+    "formation": [
+      "Noun + に対して",
+      "Verb (plain form) + のに対して",
+      "Noun + に対する + Noun (when modifying)"
+    ],
+    "examples": [
+      { "ja": "彼は誰に対しても礼儀正しい。", "en": "He is polite toward everyone." },
+      { "ja": "兄が理系なのに対して、弟は文系だ。", "en": "While the older brother is in sciences, the younger is in humanities." },
+      { "ja": "お客様に対する態度が大切です。", "en": "Your attitude toward customers is important." }
+    ],
+    "similar": [
+      { "title": "〜について", "diff": "について = 'about/regarding' (topic). に対して = 'toward' (direction of action/attitude) or 'in contrast to'." },
+      { "title": "〜一方（で）", "diff": "一方 also shows contrast but emphasizes 'on the other hand'. に対して can be either 'toward' or 'in contrast'." }
+    ],
+    "common_mistakes": [
+      { "wrong": "日本語に対して勉強する。", "correct": "日本語について勉強する。", "why": "Use について for 'studying about' a topic. に対して is for directing an attitude or action toward someone/something." }
+    ],
+    "jlpt": "N2",
+    "tags": ["contrast", "direction"]
+  },
+  {
+    "id": "g004",
+    "title": "〜ことになっている",
+    "meaning_short": "It is decided that / It is the rule that / It is supposed to",
+    "explanation": "Use this for rules, arrangements, schedules, or customs that have been established (not by you personally, but as an external decision or societal norm). It describes how things are set up.",
+    "formation": [
+      "Verb (dictionary form) + ことになっている",
+      "Verb (ない form) + ことになっている"
+    ],
+    "examples": [
+      { "ja": "この部屋では飲食しないことになっている。", "en": "It's the rule that you don't eat or drink in this room." },
+      { "ja": "来月から新しいオフィスに移ることになっている。", "en": "It's been decided that we'll move to a new office from next month." },
+      { "ja": "日本では靴を脱ぐことになっている。", "en": "In Japan, it's the custom to take off your shoes." }
+    ],
+    "similar": [
+      { "title": "〜ことにする", "diff": "ことにする = YOU decide. ことになる = it is decided (external). ことになっている = it's an established rule/arrangement." },
+      { "title": "〜ことにしている", "diff": "ことにしている = a personal rule you've set for yourself. ことになっている = an external rule/arrangement." }
+    ],
+    "common_mistakes": [
+      { "wrong": "毎日走ることになっている。(meaning: I decided to run)", "correct": "毎日走ることにしている。", "why": "If YOU made the decision, use ことにしている. ことになっている implies someone else or society set the rule." }
+    ],
+    "jlpt": "N2",
+    "tags": ["rules", "decisions"]
+  },
+  {
+    "id": "g005",
+    "title": "〜たびに",
+    "meaning_short": "Every time / whenever",
+    "explanation": "Use this to express that something happens repeatedly — every time a certain event occurs. It emphasizes the consistency of the pattern.",
+    "formation": [
+      "Verb (dictionary form) + たびに",
+      "Noun + のたびに"
+    ],
+    "examples": [
+      { "ja": "この曲を聞くたびに、学生時代を思い出す。", "en": "Every time I hear this song, I remember my school days." },
+      { "ja": "旅行のたびにお土産を買う。", "en": "I buy souvenirs every time I travel." },
+      { "ja": "会うたびに元気になる。", "en": "Every time we meet, I feel better." }
+    ],
+    "similar": [
+      { "title": "〜ごとに", "diff": "ごとに can mean 'every X' for regular intervals (3日ごとに = every 3 days). たびに is specifically 'every time an event happens'." },
+      { "title": "〜とき", "diff": "とき = 'when' (neutral timing). たびに = 'every time' (emphasizes repetition/pattern)." }
+    ],
+    "common_mistakes": [
+      { "wrong": "3日たびに", "correct": "3日ごとに", "why": "For regular numeric intervals, use ごとに, not たびに. たびに attaches to events, not numbers." }
+    ],
+    "jlpt": "N2",
+    "tags": ["frequency", "time"]
+  }
+]

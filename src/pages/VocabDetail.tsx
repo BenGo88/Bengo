@@ -121,10 +121,10 @@ export default function VocabDetail() {
         ) : (
           <>
             <button className="btn-primary w-full text-base py-4" onClick={handleStartLearning}>
-              Start Learning 「{vocab.word}」
+              Add to Study Queue 「{vocab.word}」
             </button>
             <p className="text-xs text-ink-500">
-              Adds this word to your study progress and SRS queue.
+              Adds this word to your SRS queue. Or try a guided lesson from the Lessons page.
             </p>
           </>
         )}

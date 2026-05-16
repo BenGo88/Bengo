@@ -132,10 +132,10 @@ export default function GrammarDetail() {
         ) : (
           <>
             <button className="btn-primary w-full text-base py-4" onClick={handleStartLearning}>
-              Start Learning 「{grammar.title}」
+              Add to Study Queue 「{grammar.title}」
             </button>
             <p className="text-xs text-ink-500">
-              Adds this grammar point to your study progress and SRS queue.
+              Adds this grammar point to your SRS queue. Or try a guided lesson from the Lessons page.
             </p>
           </>
         )}

@@ -23,20 +23,17 @@ export default function Dashboard() {
     vocab: getLearnedCount("vocab"),
     grammar: getLearnedCount("grammar"),
   };
-
-  const message = getMessage(profile);
+  const unlearnedTotal = counts.kanji + counts.vocab + counts.grammar - learned.kanji - learned.vocab - learned.grammar;
 
   return (
     <div className="max-w-3xl mx-auto space-y-8 animate-fade-in">
-      {/* Header */}
       <header>
         <p className="label mb-1">Dashboard</p>
         <h1 className="font-display text-2xl md:text-3xl font-bold text-ink-50 tracking-tight">
-          {message}
+          {getMessage(profile)}
         </h1>
       </header>
 
-      {/* Stat cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         <StatCard label="Streak" value={`${profile.currentStreak}日`} accent="vermillion" />
         <StatCard label="XP" value={profile.totalXp.toLocaleString()} accent="jade" />
@@ -44,47 +41,41 @@ export default function Dashboard() {
         <StatCard label="Target" value={profile.targetLevel} accent="vermillion" />
       </div>
 
-      {/* Today's study actions */}
       <section className="space-y-3">
         <h2 className="label">Today&apos;s Study</h2>
         <div className="grid gap-3 md:grid-cols-2">
           <ActionCard
             title="Reviews Due"
             count={dueItems.length}
-            subtitle={
-              dueItems.length === 0
-                ? "You're all caught up"
-                : `${dueItems.length} item${dueItems.length === 1 ? "" : "s"} waiting`
-            }
+            subtitle={dueItems.length === 0 ? "You're all caught up" : `${dueItems.length} item${dueItems.length === 1 ? "" : "s"} waiting`}
             action="Start Reviews"
             onClick={() => navigate("/reviews")}
           />
           <ActionCard
             title="New Lessons"
-            count={counts.kanji + counts.vocab + counts.grammar - learned.kanji - learned.vocab - learned.grammar}
+            count={unlearnedTotal}
             subtitle={`${counts.kanji + counts.vocab + counts.grammar} total ${profile.targetLevel} items`}
-            action="Start Lessons"
-            onClick={() => navigate("/lessons")}
+            action="Start Lesson"
+            onClick={() => navigate("/lessons/session?type=mixed")}
           />
         </div>
       </section>
 
-      {/* Quick actions */}
       <section className="space-y-3">
         <h2 className="label">Quick Actions</h2>
         <div className="flex flex-wrap gap-2">
+          <QuickButton label="Mixed Lesson" onClick={() => navigate("/lessons/session?type=mixed")} />
+          <QuickButton label="Kanji Lesson" onClick={() => navigate("/lessons/session?type=kanji")} />
+          <QuickButton label="Grammar Lesson" onClick={() => navigate("/lessons/session?type=grammar")} />
           <QuickButton label={`Random ${profile.targetLevel} Quiz`} onClick={() => navigate("/quiz")} />
-          <QuickButton
-            label={`Weak Points${weakItems.length > 0 ? ` (${weakItems.length})` : ""}`}
-            onClick={() => navigate("/weak-points")}
-          />
           <QuickButton label="Browse Kanji" onClick={() => navigate("/kanji")} />
-          <QuickButton label="Browse Vocab" onClick={() => navigate("/vocab")} />
           <QuickButton label="Browse Grammar" onClick={() => navigate("/grammar")} />
+          {weakItems.length > 0 && (
+            <QuickButton label={`Weak Points (${weakItems.length})`} onClick={() => navigate("/weak-points")} />
+          )}
         </div>
       </section>
 
-      {/* Progress */}
       <section className="space-y-3">
         <h2 className="label">{profile.targetLevel} Progress</h2>
         <div className="card p-5 space-y-4">
@@ -94,7 +85,6 @@ export default function Dashboard() {
         </div>
       </section>
 
-      {/* Weak points */}
       {weakItems.length > 0 && (
         <section
           className="card border-vermillion-500/20 p-5 cursor-pointer hover:border-vermillion-500/40 transition-colors"
@@ -102,13 +92,11 @@ export default function Dashboard() {
         >
           <h2 className="label mb-2">Weak Points</h2>
           <p className="text-sm text-ink-300">
-            <span className="text-vermillion-400 font-semibold">{weakItems.length}</span>{" "}
-            item{weakItems.length === 1 ? "" : "s"} flagged as weak.
+            <span className="text-vermillion-400 font-semibold">{weakItems.length}</span> item{weakItems.length === 1 ? "" : "s"} flagged as weak.
           </p>
         </section>
       )}
 
-      {/* Lifetime stats */}
       <section className="space-y-3">
         <h2 className="label">Lifetime Stats</h2>
         <div className="card p-5">
@@ -124,69 +112,40 @@ export default function Dashboard() {
   );
 }
 
-/* ── Sub-components ──────────────────────────────────────────────────────── */
-
 function StatCard({ label, value, accent }: { label: string; value: string; accent?: "vermillion" | "jade" }) {
   const cls = accent === "vermillion" ? "text-vermillion-400" : accent === "jade" ? "text-jade-400" : "text-ink-100";
-  return (
-    <div className="card px-4 py-3">
-      <p className="label mb-1">{label}</p>
-      <p className={`text-xl font-bold font-display ${cls}`}>{value}</p>
-    </div>
-  );
+  return <div className="card px-4 py-3"><p className="label mb-1">{label}</p><p className={`text-xl font-bold font-display ${cls}`}>{value}</p></div>;
 }
 
-function ActionCard({ title, count, subtitle, action, onClick }: {
-  title: string; count: number; subtitle: string; action: string; onClick: () => void;
-}) {
+function ActionCard({ title, count, subtitle, action, onClick }: { title: string; count: number; subtitle: string; action: string; onClick: () => void }) {
   return (
     <div className="card-hover p-5 flex flex-col gap-3">
-      <div>
-        <div className="flex items-baseline justify-between">
-          <h3 className="font-semibold text-ink-100">{title}</h3>
-          <span className="text-2xl font-display font-bold text-ink-300">{count}</span>
-        </div>
-        <p className="text-sm text-ink-400 mt-1">{subtitle}</p>
-      </div>
+      <div><div className="flex items-baseline justify-between"><h3 className="font-semibold text-ink-100">{title}</h3><span className="text-2xl font-display font-bold text-ink-300">{count}</span></div><p className="text-sm text-ink-400 mt-1">{subtitle}</p></div>
       <button className="btn-primary mt-auto w-full" onClick={onClick}>{action}</button>
     </div>
   );
 }
 
 function QuickButton({ label, onClick }: { label: string; onClick: () => void }) {
-  return (
-    <button className="btn-secondary" onClick={onClick}>{label}</button>
-  );
+  return <button className="btn-secondary" onClick={onClick}>{label}</button>;
 }
 
 function ProgressRow({ label, current, total }: { label: string; current: number; total: number }) {
   const pct = total > 0 ? Math.round((current / total) * 100) : 0;
   return (
     <div>
-      <div className="flex justify-between text-sm mb-1.5">
-        <span className="text-ink-300 font-medium">{label}</span>
-        <span className="text-ink-500">{total > 0 ? `${current} / ${total}` : "No content yet"}</span>
-      </div>
-      <div className="h-2 rounded-full bg-ink-800 overflow-hidden">
-        <div className="h-full rounded-full bg-jade-500 transition-all duration-500" style={{ width: `${pct}%` }} />
-      </div>
+      <div className="flex justify-between text-sm mb-1.5"><span className="text-ink-300 font-medium">{label}</span><span className="text-ink-500">{total > 0 ? `${current} / ${total}` : "No content"}</span></div>
+      <div className="h-2 rounded-full bg-ink-800 overflow-hidden"><div className="h-full rounded-full bg-jade-500 transition-all duration-500" style={{ width: `${pct}%` }} /></div>
     </div>
   );
 }
 
 function MiniStat({ label, value }: { label: string; value: number }) {
-  return (
-    <div>
-      <p className="text-ink-500">{label}</p>
-      <p className="font-semibold text-ink-200">{value}</p>
-    </div>
-  );
+  return <div><p className="text-ink-500">{label}</p><p className="font-semibold text-ink-200">{value}</p></div>;
 }
 
-function getMessage(profile: UserProfile): string {
-  if (profile.currentStreak === 0 && profile.totalXp === 0)
-    return `Welcome, ${profile.displayName}! Ready to start your ${profile.targetLevel} journey?`;
-  if (profile.currentStreak >= 7)
-    return `${profile.currentStreak}-day streak! Keep going, ${profile.displayName}.`;
-  return `Welcome back, ${profile.displayName}. Let's study ${profile.targetLevel} today.`;
+function getMessage(p: UserProfile): string {
+  if (p.currentStreak === 0 && p.totalXp === 0) return `Welcome, ${p.displayName}! Ready to start your ${p.targetLevel} journey?`;
+  if (p.currentStreak >= 7) return `${p.currentStreak}-day streak! Keep going, ${p.displayName}.`;
+  return `Welcome back, ${p.displayName}. Let's study ${p.targetLevel} today.`;
 }

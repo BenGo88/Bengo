@@ -2,6 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const SIDEBAR_ITEMS = [
   { to: "/", label: "Dashboard", icon: "◉" },
+  { to: "/study-path", label: "Study Path", icon: "🗺" },
   { to: "/lessons", label: "Lessons", icon: "📖" },
   { to: "/kanji", label: "Kanji", icon: "字" },
   { to: "/vocab", label: "Vocabulary", icon: "語" },
@@ -36,7 +37,7 @@ export default function Layout() {
         {SIDEBAR_ITEMS.map((item, i) => (
           <div key={item.to}>
             {/* Divider before Reviews group */}
-            {i === 5 && <div className="border-t border-ink-800/40 my-2" />}
+            {i === 6 && <div className="border-t border-ink-800/40 my-2" />}
             <NavLink
               to={item.to}
               end={item.to === "/"}
@@ -55,7 +56,7 @@ export default function Layout() {
         ))}
 
         <div className="mt-auto px-3 py-2">
-          <p className="label">v0.4.0</p>
+          <p className="label">v0.5.0</p>
         </div>
       </aside>
 

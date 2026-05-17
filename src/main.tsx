@@ -14,7 +14,8 @@ import GrammarList from "./pages/GrammarList";
 import GrammarDetail from "./pages/GrammarDetail";
 import Reviews from "./pages/Reviews";
 import Quiz from "./pages/Quiz";
-import ComingSoon from "./pages/ComingSoon";
+import WeakPoints from "./pages/WeakPoints";
+import StudyPath from "./pages/StudyPath";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -33,7 +34,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/grammar/:id" element={<GrammarDetail />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/quiz" element={<Quiz />} />
-          <Route path="/weak-points" element={<ComingSoon title="Weak Points" description="Items you repeatedly get wrong will appear here. Practice targeted drills on your weakest kanji, vocabulary, and grammar." version="v0.5" />} />
+          <Route path="/weak-points" element={<WeakPoints />} />
+          <Route path="/study-path" element={<StudyPath />} />
           <Route path="/settings" element={<Settings />} />
         </Route>
       </Routes>

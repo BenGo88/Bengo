@@ -4,6 +4,9 @@ export interface WordBreakdown {
   text: string;
   reading: string;
   meaning: string;
+  partOfSpeech?: string;
+  role?: string;
+  note?: string;
 }
 
 /** Sentence with optional furigana, breakdown, and notes. */
@@ -12,6 +15,7 @@ export interface RichSentence {
   en: string;
   reading?: string;
   breakdown?: WordBreakdown[];
+  structure?: string;
   note?: string;
 }
 

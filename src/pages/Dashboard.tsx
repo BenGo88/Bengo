@@ -9,27 +9,20 @@ export default function Dashboard() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
 
   useEffect(() => { setProfile(getProfile()); }, []);
-
   if (!profile) return null;
 
   const stats = getStats();
   const dueItems = getDueItems();
   const weakItems = getWeakItems();
   const counts = getContentCounts(profile.targetLevel as JLPTLevel);
-  const learned = {
-    kanji: getLearnedCount("kanji"),
-    vocab: getLearnedCount("vocab"),
-    grammar: getLearnedCount("grammar"),
-  };
+  const learned = { kanji: getLearnedCount("kanji"), vocab: getLearnedCount("vocab"), grammar: getLearnedCount("grammar") };
   const unlearnedTotal = counts.kanji + counts.vocab + counts.grammar - learned.kanji - learned.vocab - learned.grammar;
 
   return (
     <div className="max-w-3xl mx-auto space-y-8 animate-fade-in">
       <header>
         <p className="label mb-1">Dashboard</p>
-        <h1 className="font-display text-2xl md:text-3xl font-bold text-ink-50 tracking-tight">
-          {getMessage(profile)}
-        </h1>
+        <h1 className="font-display text-2xl md:text-3xl font-bold text-ink-50 tracking-tight">{getMessage(profile)}</h1>
       </header>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
@@ -60,6 +53,32 @@ export default function Dashboard() {
         </div>
       </section>
 
+      {/* Path + Weak points row */}
+      <section className="grid gap-3 md:grid-cols-2">
+        <div className="card-hover p-5" onClick={() => navigate("/study-path")}>
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-lg">🗺</span>
+            <h3 className="font-semibold text-ink-100">Study Path</h3>
+          </div>
+          <p className="text-sm text-ink-400">
+            Foundation → N5 → N4 → N3 → N2 → N1
+          </p>
+          <p className="text-xs text-vermillion-400 mt-2 font-medium">Current target: {profile.targetLevel}</p>
+        </div>
+
+        <div className="card-hover p-5" onClick={() => navigate("/weak-points")}>
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-lg">△</span>
+            <h3 className="font-semibold text-ink-100">Weak Points</h3>
+          </div>
+          {weakItems.length > 0 ? (
+            <p className="text-sm text-vermillion-400">{weakItems.length} item{weakItems.length === 1 ? "" : "s"} need practice</p>
+          ) : (
+            <p className="text-sm text-ink-400">No weak points — keep it up!</p>
+          )}
+        </div>
+      </section>
+
       {/* Quick actions */}
       <section className="space-y-3">
         <h2 className="label">Quick Actions</h2>
@@ -68,9 +87,6 @@ export default function Dashboard() {
           <QuickButton label={`${profile.targetLevel} Quiz`} onClick={() => navigate("/quiz")} />
           <QuickButton label="Browse Kanji" onClick={() => navigate("/kanji")} />
           <QuickButton label="Browse Grammar" onClick={() => navigate("/grammar")} />
-          {weakItems.length > 0 && (
-            <QuickButton label={`Weak Points (${weakItems.length})`} onClick={() => navigate("/weak-points")} />
-          )}
         </div>
       </section>
 
@@ -84,20 +100,6 @@ export default function Dashboard() {
         </div>
       </section>
 
-      {/* Weak points */}
-      {weakItems.length > 0 && (
-        <section
-          className="card border-vermillion-500/20 p-5 cursor-pointer hover:border-vermillion-500/40 transition-colors"
-          onClick={() => navigate("/weak-points")}
-        >
-          <h2 className="label mb-2">Weak Points</h2>
-          <p className="text-sm text-ink-300">
-            <span className="text-vermillion-400 font-semibold">{weakItems.length}</span> item{weakItems.length === 1 ? "" : "s"} flagged as weak.
-          </p>
-        </section>
-      )}
-
-      {/* Stats */}
       <section className="space-y-3">
         <h2 className="label">Lifetime Stats</h2>
         <div className="card p-5">
@@ -117,34 +119,19 @@ function StatCard({ label, value, accent }: { label: string; value: string; acce
   const cls = accent === "vermillion" ? "text-vermillion-400" : accent === "jade" ? "text-jade-400" : "text-ink-100";
   return <div className="card px-4 py-3"><p className="label mb-1">{label}</p><p className={`text-xl font-bold font-display ${cls}`}>{value}</p></div>;
 }
-
 function ActionCard({ title, count, subtitle, action, onClick }: { title: string; count: number; subtitle: string; action: string; onClick: () => void }) {
-  return (
-    <div className="card-hover p-5 flex flex-col gap-3">
-      <div><div className="flex items-baseline justify-between"><h3 className="font-semibold text-ink-100">{title}</h3><span className="text-2xl font-display font-bold text-ink-300">{count}</span></div><p className="text-sm text-ink-400 mt-1">{subtitle}</p></div>
-      <button className="btn-primary mt-auto w-full" onClick={onClick}>{action}</button>
-    </div>
-  );
+  return <div className="card-hover p-5 flex flex-col gap-3"><div><div className="flex items-baseline justify-between"><h3 className="font-semibold text-ink-100">{title}</h3><span className="text-2xl font-display font-bold text-ink-300">{count}</span></div><p className="text-sm text-ink-400 mt-1">{subtitle}</p></div><button className="btn-primary mt-auto w-full" onClick={onClick}>{action}</button></div>;
 }
-
 function QuickButton({ label, onClick }: { label: string; onClick: () => void }) {
   return <button className="btn-secondary" onClick={onClick}>{label}</button>;
 }
-
 function ProgressRow({ label, current, total }: { label: string; current: number; total: number }) {
   const pct = total > 0 ? Math.round((current / total) * 100) : 0;
-  return (
-    <div>
-      <div className="flex justify-between text-sm mb-1.5"><span className="text-ink-300 font-medium">{label}</span><span className="text-ink-500">{total > 0 ? `${current} / ${total}` : "No content"}</span></div>
-      <div className="h-2 rounded-full bg-ink-800 overflow-hidden"><div className="h-full rounded-full bg-jade-500 transition-all duration-500" style={{ width: `${pct}%` }} /></div>
-    </div>
-  );
+  return <div><div className="flex justify-between text-sm mb-1.5"><span className="text-ink-300 font-medium">{label}</span><span className="text-ink-500">{total > 0 ? `${current} / ${total}` : "No content"}</span></div><div className="h-2 rounded-full bg-ink-800 overflow-hidden"><div className="h-full rounded-full bg-jade-500 transition-all duration-500" style={{ width: `${pct}%` }} /></div></div>;
 }
-
 function MiniStat({ label, value }: { label: string; value: number }) {
   return <div><p className="text-ink-500">{label}</p><p className="font-semibold text-ink-200">{value}</p></div>;
 }
-
 function getMessage(p: UserProfile): string {
   if (p.currentStreak === 0 && p.totalXp === 0) return `Welcome, ${p.displayName}! Ready to start your ${p.targetLevel} journey?`;
   if (p.currentStreak >= 7) return `${p.currentStreak}-day streak! Keep going, ${p.displayName}.`;

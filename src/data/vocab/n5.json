@@ -33,7 +33,7 @@
     "tags": [
       "food"
     ],
-    "unit": "Unit 1 — First Sentences"
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-002",
@@ -49,13 +49,20 @@
       {
         "ja": "水を飲みます。",
         "en": "I drink water.",
-        "reading": "みず を のみます。"
+        "reading": "みず を のみます。",
+        "tokens": [
+          {
+            "text": "飲む",
+            "lexemeId": "lex-n5-飲む",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "food"
     ],
-    "unit": "Unit 1 — First Sentences"
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-003",
@@ -71,13 +78,20 @@
       {
         "ja": "学校に行きます。",
         "en": "I go to school.",
-        "reading": "がっこう に いきます。"
+        "reading": "がっこう に いきます。",
+        "tokens": [
+          {
+            "text": "行く",
+            "lexemeId": "lex-n5-行く",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "movement"
     ],
-    "unit": "Unit 2 — Basic Particles"
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-004",
@@ -94,13 +108,20 @@
       {
         "ja": "テレビを見ます。",
         "en": "I watch TV.",
-        "reading": "テレビ を みます。"
+        "reading": "テレビ を みます。",
+        "tokens": [
+          {
+            "text": "見る",
+            "lexemeId": "lex-n5-見る",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
     ],
-    "unit": "Unit 2 — Basic Particles"
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-005",
@@ -116,13 +137,20 @@
       {
         "ja": "日本語が分かります。",
         "en": "I understand Japanese.",
-        "reading": "にほんご が わかります。"
+        "reading": "にほんご が わかります。",
+        "tokens": [
+          {
+            "text": "分かる",
+            "lexemeId": "lex-n5-分かる",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
     ],
-    "unit": "Unit 2 — Basic Particles"
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-006",
@@ -183,7 +211,14 @@
       {
         "ja": "この犬は大きいです。",
         "en": "This dog is big.",
-        "reading": "この いぬ は おおきい です。"
+        "reading": "この いぬ は おおきい です。",
+        "tokens": [
+          {
+            "text": "大きい",
+            "lexemeId": "lex-n5-大きい",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -205,7 +240,14 @@
       {
         "ja": "小さい猫がいます。",
         "en": "There is a small cat.",
-        "reading": "ちいさい ねこ が います。"
+        "reading": "ちいさい ねこ が います。",
+        "tokens": [
+          {
+            "text": "小さい",
+            "lexemeId": "lex-n5-小さい",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -227,7 +269,14 @@
       {
         "ja": "今日はいい天気です。",
         "en": "Nice weather today.",
-        "reading": "きょう は いい てんき です。"
+        "reading": "きょう は いい てんき です。",
+        "tokens": [
+          {
+            "text": "いい",
+            "lexemeId": "lex-n5-いい",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -249,7 +298,14 @@
       {
         "ja": "友達と映画を見ます。",
         "en": "I watch a movie with a friend.",
-        "reading": "ともだち と えいが を みます。"
+        "reading": "ともだち と えいが を みます。",
+        "tokens": [
+          {
+            "text": "友達",
+            "lexemeId": "lex-n5-友達",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -272,7 +328,14 @@
       {
         "ja": "先生はやさしいです。",
         "en": "The teacher is kind.",
-        "reading": "せんせい は やさしい です。"
+        "reading": "せんせい は やさしい です。",
+        "tokens": [
+          {
+            "text": "先生",
+            "lexemeId": "lex-n5-先生",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -294,12 +357,20 @@
       {
         "ja": "新しい本を買いました。",
         "en": "I bought a new book.",
-        "reading": "あたらしい ほん を かいました。"
+        "reading": "あたらしい ほん を かいました。",
+        "tokens": [
+          {
+            "text": "新しい",
+            "lexemeId": "lex-n5-新しい",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "basic"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   },
   {
     "id": "v-n5-014",
@@ -316,12 +387,20 @@
       {
         "ja": "時間がありません。",
         "en": "I don't have time.",
-        "reading": "じかん が ありません。"
+        "reading": "じかん が ありません。",
+        "tokens": [
+          {
+            "text": "時間",
+            "lexemeId": "lex-n5-時間",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "time"
-    ]
+    ],
+    "unit": "Unit 2 — Basic Particles"
   },
   {
     "id": "v-n5-015",
@@ -337,12 +416,20 @@
       {
         "ja": "電車で会社に行きます。",
         "en": "I go to the office by train.",
-        "reading": "でんしゃ で かいしゃ に いきます。"
+        "reading": "でんしゃ で かいしゃ に いきます。",
+        "tokens": [
+          {
+            "text": "電車",
+            "lexemeId": "lex-n5-電車",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "transport"
-    ]
+    ],
+    "unit": "Unit 2 — Basic Particles"
   },
   {
     "id": "v-n5-016",
@@ -358,12 +445,20 @@
       {
         "ja": "本を買います。",
         "en": "I buy a book.",
-        "reading": "ほん を かいます。"
+        "reading": "ほん を かいます。",
+        "tokens": [
+          {
+            "text": "買う",
+            "lexemeId": "lex-n5-買う",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "shopping"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-017",
@@ -379,12 +474,20 @@
       {
         "ja": "手紙を書きます。",
         "en": "I write a letter.",
-        "reading": "てがみ を かきます。"
+        "reading": "てがみ を かきます。",
+        "tokens": [
+          {
+            "text": "書く",
+            "lexemeId": "lex-n5-書く",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-018",
@@ -400,12 +503,20 @@
       {
         "ja": "本を読みます。",
         "en": "I read a book.",
-        "reading": "ほん を よみます。"
+        "reading": "ほん を よみます。",
+        "tokens": [
+          {
+            "text": "読む",
+            "lexemeId": "lex-n5-読む",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-019",
@@ -422,12 +533,20 @@
       {
         "ja": "音楽を聞きます。",
         "en": "I listen to music.",
-        "reading": "おんがく を ききます。"
+        "reading": "おんがく を ききます。",
+        "tokens": [
+          {
+            "text": "聞く",
+            "lexemeId": "lex-n5-聞く",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-020",
@@ -444,12 +563,20 @@
       {
         "ja": "日本語を話します。",
         "en": "I speak Japanese.",
-        "reading": "にほんご を はなします。"
+        "reading": "にほんご を はなします。",
+        "tokens": [
+          {
+            "text": "話す",
+            "lexemeId": "lex-n5-話す",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "communication"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-021",
@@ -465,12 +592,20 @@
       {
         "ja": "友達に会います。",
         "en": "I meet my friend.",
-        "reading": "ともだち に あいます。"
+        "reading": "ともだち に あいます。",
+        "tokens": [
+          {
+            "text": "会う",
+            "lexemeId": "lex-n5-会う",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-022",
@@ -486,12 +621,20 @@
       {
         "ja": "ここで待ってください。",
         "en": "Please wait here.",
-        "reading": "ここ で まって ください。"
+        "reading": "ここ で まって ください。",
+        "tokens": [
+          {
+            "text": "待つ",
+            "lexemeId": "lex-n5-待つ",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-023",
@@ -508,7 +651,14 @@
       {
         "ja": "猫が好きです。",
         "en": "I like cats.",
-        "reading": "ねこ が すき です。"
+        "reading": "ねこ が すき です。",
+        "tokens": [
+          {
+            "text": "好き",
+            "lexemeId": "lex-n5-好き",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -531,7 +681,14 @@
       {
         "ja": "野菜が嫌いです。",
         "en": "I dislike vegetables.",
-        "reading": "やさい が きらい です。"
+        "reading": "やさい が きらい です。",
+        "tokens": [
+          {
+            "text": "嫌い",
+            "lexemeId": "lex-n5-嫌い",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -554,7 +711,14 @@
       {
         "ja": "お元気ですか。",
         "en": "How are you?",
-        "reading": "おげんき です か。"
+        "reading": "おげんき です か。",
+        "tokens": [
+          {
+            "text": "元気",
+            "lexemeId": "lex-n5-元気",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -577,12 +741,20 @@
       {
         "ja": "この本は高いです。",
         "en": "This book is expensive.",
-        "reading": "この ほん は たかい です。"
+        "reading": "この ほん は たかい です。",
+        "tokens": [
+          {
+            "text": "高い",
+            "lexemeId": "lex-n5-高い",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "basic"
-    ]
+    ],
+    "unit": "Unit 7 — Connecting Ideas"
   },
   {
     "id": "v-n5-027",
@@ -599,12 +771,20 @@
       {
         "ja": "この店は安いです。",
         "en": "This shop is cheap.",
-        "reading": "この みせ は やすい です。"
+        "reading": "この みせ は やすい です。",
+        "tokens": [
+          {
+            "text": "安い",
+            "lexemeId": "lex-n5-安い",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "shopping"
-    ]
+    ],
+    "unit": "Unit 7 — Connecting Ideas"
   },
   {
     "id": "v-n5-028",
@@ -625,7 +805,8 @@
     ],
     "tags": [
       "family"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   },
   {
     "id": "v-n5-029",
@@ -646,7 +827,8 @@
     ],
     "tags": [
       "family"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   },
   {
     "id": "v-n5-030",
@@ -662,12 +844,20 @@
       {
         "ja": "明日の天気はどうですか。",
         "en": "How's the weather tomorrow?",
-        "reading": "あした の てんき は どう です か。"
+        "reading": "あした の てんき は どう です か。",
+        "tokens": [
+          {
+            "text": "天気",
+            "lexemeId": "lex-n5-天気",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "weather"
-    ]
+    ],
+    "unit": "Unit 7 — Connecting Ideas"
   },
   {
     "id": "v-n5-031",
@@ -684,12 +874,20 @@
       {
         "ja": "仕事は忙しいです。",
         "en": "Work is busy.",
-        "reading": "しごと は いそがしい です。"
+        "reading": "しごと は いそがしい です。",
+        "tokens": [
+          {
+            "text": "仕事",
+            "lexemeId": "lex-n5-仕事",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "work"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-032",
@@ -705,12 +903,20 @@
       {
         "ja": "映画が好きです。",
         "en": "I like movies.",
-        "reading": "えいが が すき です。"
+        "reading": "えいが が すき です。",
+        "tokens": [
+          {
+            "text": "映画",
+            "lexemeId": "lex-n5-映画",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "entertainment"
-    ]
+    ],
+    "unit": "Unit 8 — Suggestions"
   },
   {
     "id": "v-n5-033",
@@ -726,12 +932,20 @@
       {
         "ja": "音楽を聞きます。",
         "en": "I listen to music.",
-        "reading": "おんがく を ききます。"
+        "reading": "おんがく を ききます。",
+        "tokens": [
+          {
+            "text": "音楽",
+            "lexemeId": "lex-n5-音楽",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "entertainment"
-    ]
+    ],
+    "unit": "Unit 8 — Suggestions"
   },
   {
     "id": "v-n5-034",
@@ -752,7 +966,8 @@
     ],
     "tags": [
       "time"
-    ]
+    ],
+    "unit": "Unit 4 — Existence"
   },
   {
     "id": "v-n5-035",
@@ -774,7 +989,8 @@
     ],
     "tags": [
       "time"
-    ]
+    ],
+    "unit": "Unit 8 — Suggestions"
   },
   {
     "id": "v-n5-036",
@@ -796,7 +1012,8 @@
     ],
     "tags": [
       "time"
-    ]
+    ],
+    "unit": "Unit 7 — Connecting Ideas"
   },
   {
     "id": "v-n5-037",
@@ -817,7 +1034,8 @@
     ],
     "tags": [
       "time"
-    ]
+    ],
+    "unit": "Unit 4 — Existence"
   },
   {
     "id": "v-n5-038",
@@ -833,12 +1051,20 @@
       {
         "ja": "今日は寒いです。",
         "en": "It's cold today.",
-        "reading": "きょう は さむい です。"
+        "reading": "きょう は さむい です。",
+        "tokens": [
+          {
+            "text": "寒い",
+            "lexemeId": "lex-n5-寒い",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "weather"
-    ]
+    ],
+    "unit": "Unit 7 — Connecting Ideas"
   },
   {
     "id": "v-n5-039",
@@ -854,12 +1080,20 @@
       {
         "ja": "夏は暑いです。",
         "en": "Summer is hot.",
-        "reading": "なつ は あつい です。"
+        "reading": "なつ は あつい です。",
+        "tokens": [
+          {
+            "text": "暑い",
+            "lexemeId": "lex-n5-暑い",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "weather"
-    ]
+    ],
+    "unit": "Unit 7 — Connecting Ideas"
   },
   {
     "id": "v-n5-040",
@@ -875,12 +1109,20 @@
       {
         "ja": "今週は忙しいです。",
         "en": "I'm busy this week.",
-        "reading": "こんしゅう は いそがしい です。"
+        "reading": "こんしゅう は いそがしい です。",
+        "tokens": [
+          {
+            "text": "忙しい",
+            "lexemeId": "lex-n5-忙しい",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 7 — Connecting Ideas"
   },
   {
     "id": "v-n5-041",
@@ -897,7 +1139,14 @@
       {
         "ja": "名前は何ですか。",
         "en": "What is your name?",
-        "reading": "なまえ は なん です か。"
+        "reading": "なまえ は なん です か。",
+        "tokens": [
+          {
+            "text": "名前",
+            "lexemeId": "lex-n5-名前",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
@@ -919,12 +1168,20 @@
       {
         "ja": "お茶を飲みませんか。",
         "en": "Would you like some tea?",
-        "reading": "おちゃ を のみませんか。"
+        "reading": "おちゃ を のみませんか。",
+        "tokens": [
+          {
+            "text": "お茶",
+            "lexemeId": "lex-n5-お茶",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "food"
-    ]
+    ],
+    "unit": "Unit 8 — Suggestions"
   },
   {
     "id": "v-n5-043",
@@ -941,12 +1198,20 @@
       {
         "ja": "ご飯を食べましょう。",
         "en": "Let's eat.",
-        "reading": "ごはん を たべましょう。"
+        "reading": "ごはん を たべましょう。",
+        "tokens": [
+          {
+            "text": "ご飯",
+            "lexemeId": "lex-n5-ご飯",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "food"
-    ]
+    ],
+    "unit": "Unit 8 — Suggestions"
   },
   {
     "id": "v-n5-044",
@@ -962,12 +1227,20 @@
       {
         "ja": "部屋はきれいです。",
         "en": "The room is clean.",
-        "reading": "へや は きれい です。"
+        "reading": "へや は きれい です。",
+        "tokens": [
+          {
+            "text": "部屋",
+            "lexemeId": "lex-n5-部屋",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "house"
-    ]
+    ],
+    "unit": "Unit 2 — Basic Particles"
   },
   {
     "id": "v-n5-045",
@@ -983,12 +1256,20 @@
       {
         "ja": "病院に行きます。",
         "en": "I go to the hospital.",
-        "reading": "びょういん に いきます。"
+        "reading": "びょういん に いきます。",
+        "tokens": [
+          {
+            "text": "病院",
+            "lexemeId": "lex-n5-病院",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "health"
-    ]
+    ],
+    "unit": "Unit 2 — Basic Particles"
   },
   {
     "id": "v-n5-046",
@@ -1004,12 +1285,20 @@
       {
         "ja": "銀行は何時までですか。",
         "en": "Until what time is the bank open?",
-        "reading": "ぎんこう は なんじ まで です か。"
+        "reading": "ぎんこう は なんじ まで です か。",
+        "tokens": [
+          {
+            "text": "銀行",
+            "lexemeId": "lex-n5-銀行",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "places"
-    ]
+    ],
+    "unit": "Unit 2 — Basic Particles"
   },
   {
     "id": "v-n5-047",
@@ -1025,12 +1314,20 @@
       {
         "ja": "駅まで歩きます。",
         "en": "I walk to the station.",
-        "reading": "えき まで あるきます。"
+        "reading": "えき まで あるきます。",
+        "tokens": [
+          {
+            "text": "駅",
+            "lexemeId": "lex-n5-駅",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "transport"
-    ]
+    ],
+    "unit": "Unit 2 — Basic Particles"
   },
   {
     "id": "v-n5-048",
@@ -1047,12 +1344,20 @@
       {
         "ja": "あの店は安いです。",
         "en": "That shop is cheap.",
-        "reading": "あの みせ は やすい です。"
+        "reading": "あの みせ は やすい です。",
+        "tokens": [
+          {
+            "text": "店",
+            "lexemeId": "lex-n5-店",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "shopping"
-    ]
+    ],
+    "unit": "Unit 2 — Basic Particles"
   },
   {
     "id": "v-n5-049",
@@ -1068,12 +1373,20 @@
       {
         "ja": "毎日歩きます。",
         "en": "I walk every day.",
-        "reading": "まいにち あるきます。"
+        "reading": "まいにち あるきます。",
+        "tokens": [
+          {
+            "text": "歩く",
+            "lexemeId": "lex-n5-歩く",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "movement"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-050",
@@ -1089,12 +1402,20 @@
       {
         "ja": "公園で走ります。",
         "en": "I run in the park.",
-        "reading": "こうえん で はしります。"
+        "reading": "こうえん で はしります。",
+        "tokens": [
+          {
+            "text": "走る",
+            "lexemeId": "lex-n5-走る",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "movement"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-051",
@@ -1115,7 +1436,8 @@
     ],
     "tags": [
       "sports"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-052",
@@ -1137,7 +1459,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 2 — Basic Particles"
   },
   {
     "id": "v-n5-053",
@@ -1154,12 +1477,20 @@
       {
         "ja": "料理を作ります。",
         "en": "I cook (make a dish).",
-        "reading": "りょうり を つくります。"
+        "reading": "りょうり を つくります。",
+        "tokens": [
+          {
+            "text": "作る",
+            "lexemeId": "lex-n5-作る",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-054",
@@ -1175,12 +1506,20 @@
       {
         "ja": "パソコンを使います。",
         "en": "I use a computer.",
-        "reading": "パソコン を つかいます。"
+        "reading": "パソコン を つかいます。",
+        "tokens": [
+          {
+            "text": "使う",
+            "lexemeId": "lex-n5-使う",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-055",
@@ -1196,12 +1535,20 @@
       {
         "ja": "日本語は難しいです。",
         "en": "Japanese is difficult.",
-        "reading": "にほんご は むずかしい です。"
+        "reading": "にほんご は むずかしい です。",
+        "tokens": [
+          {
+            "text": "難しい",
+            "lexemeId": "lex-n5-難しい",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "basic"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   },
   {
     "id": "v-n5-056",
@@ -1223,7 +1570,8 @@
     ],
     "tags": [
       "basic"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   },
   {
     "id": "v-n5-057",
@@ -1240,12 +1588,20 @@
       {
         "ja": "旅行は楽しかったです。",
         "en": "The trip was fun.",
-        "reading": "りょこう は たのしかった です。"
+        "reading": "りょこう は たのしかった です。",
+        "tokens": [
+          {
+            "text": "楽しい",
+            "lexemeId": "lex-n5-楽しい",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "emotions"
-    ]
+    ],
+    "unit": "Unit 5 — Plain Form Basics"
   },
   {
     "id": "v-n5-058",
@@ -1266,7 +1622,8 @@
     ],
     "tags": [
       "basic"
-    ]
+    ],
+    "unit": "Unit 5 — Plain Form Basics"
   },
   {
     "id": "v-n5-059",
@@ -1283,12 +1640,20 @@
       {
         "ja": "日本料理が好きです。",
         "en": "I like Japanese cuisine.",
-        "reading": "にほん りょうり が すき です。"
+        "reading": "にほん りょうり が すき です。",
+        "tokens": [
+          {
+            "text": "料理",
+            "lexemeId": "lex-n5-料理",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "food"
-    ]
+    ],
+    "unit": "Unit 8 — Suggestions"
   },
   {
     "id": "v-n5-060",
@@ -1309,7 +1674,8 @@
     ],
     "tags": [
       "events"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   },
   {
     "id": "v-n5-061",
@@ -1326,12 +1692,20 @@
       {
         "ja": "道を教えてください。",
         "en": "Please tell me the way.",
-        "reading": "みち を おしえて ください。"
+        "reading": "みち を おしえて ください。",
+        "tokens": [
+          {
+            "text": "教える",
+            "lexemeId": "lex-n5-教える",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "communication"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-062",
@@ -1347,12 +1721,20 @@
       {
         "ja": "今から出かけます。",
         "en": "I'm going out now.",
-        "reading": "いまから でかけます。"
+        "reading": "いまから でかけます。",
+        "tokens": [
+          {
+            "text": "出かける",
+            "lexemeId": "lex-n5-出かける",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "movement"
-    ]
+    ],
+    "unit": "Unit 3 — Polite Verbs"
   },
   {
     "id": "v-n5-063",
@@ -1369,12 +1751,20 @@
       {
         "ja": "歌が上手ですね。",
         "en": "You're good at singing.",
-        "reading": "うた が じょうず です ね。"
+        "reading": "うた が じょうず です ね。",
+        "tokens": [
+          {
+            "text": "上手",
+            "lexemeId": "lex-n5-上手",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "description"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   },
   {
     "id": "v-n5-064",
@@ -1391,12 +1781,20 @@
       {
         "ja": "料理が下手です。",
         "en": "I'm bad at cooking.",
-        "reading": "りょうり が へた です。"
+        "reading": "りょうり が へた です。",
+        "tokens": [
+          {
+            "text": "下手",
+            "lexemeId": "lex-n5-下手",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "description"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   },
   {
     "id": "v-n5-065",
@@ -1413,11 +1811,19 @@
       {
         "ja": "この花はきれいです。",
         "en": "This flower is beautiful.",
-        "reading": "この はな は きれい です。"
+        "reading": "この はな は きれい です。",
+        "tokens": [
+          {
+            "text": "きれい",
+            "lexemeId": "lex-n5-きれい",
+            "role": "target vocab"
+          }
+        ]
       }
     ],
     "tags": [
       "description"
-    ]
+    ],
+    "unit": "Unit 1 — First Sentences"
   }
 ]

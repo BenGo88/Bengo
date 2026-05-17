@@ -167,8 +167,8 @@ export function getUnitsForLevel(level: JLPTLevel): CurriculumUnit[] {
   return unitNames.map((name) => ({
     name,
     grammar: grammar.filter((g) => g.unit === name),
-    vocab: [],   // future: link vocab to units
-    kanji: [],   // future: link kanji to units
+    vocab: vocab.filter((v) => (v as any).unit === name),
+    kanji: kanji.filter((k) => (k as any).unit === name),
   }));
 }
 
@@ -176,7 +176,11 @@ export function getUnitsForLevel(level: JLPTLevel): CurriculumUnit[] {
 export function getNextIncompleteUnit(level: JLPTLevel): CurriculumUnit | null {
   const units = getUnitsForLevel(level);
   for (const unit of units) {
-    const allIds = unit.grammar.map((g) => ({ type: "grammar" as ItemType, id: g.id }));
+    const allIds = [
+      ...unit.grammar.map((g) => ({ type: "grammar" as ItemType, id: g.id })),
+      ...unit.vocab.map((v) => ({ type: "vocab" as ItemType, id: v.id })),
+      ...unit.kanji.map((k) => ({ type: "kanji" as ItemType, id: k.id })),
+    ];
     const hasUnlearned = allIds.some(({ type, id }) => !getUserItem(type, id));
     if (hasUnlearned) return unit;
   }
@@ -187,7 +191,6 @@ export function getNextIncompleteUnit(level: JLPTLevel): CurriculumUnit | null {
 export function getCurriculumLessonBatch(level: JLPTLevel, batchSize = 4): LessonItem[] {
   const unit = getNextIncompleteUnit(level);
   if (!unit) {
-    // Fallback to generic unlearned
     return getSuggestedLessonBatch(level, undefined, batchSize);
   }
 
@@ -200,11 +203,19 @@ export function getCurriculumLessonBatch(level: JLPTLevel, batchSize = 4): Lesso
     }
   }
 
-  // Fill with unlearned vocab/kanji from level
-  const vocab = getUnlearnedByType("vocab", level);
-  const kanji = getUnlearnedByType("kanji", level);
-  for (const v of vocab) { if (batch.length < batchSize - 1) batch.push(v); }
-  for (const k of kanji) { if (batch.length < batchSize) batch.push(k); }
+  // Unit-linked vocab first, then level-wide
+  const unitVocab = unit.vocab.filter((v) => !getUserItem("vocab", v.id));
+  const unitKanji = unit.kanji.filter((k) => !getUserItem("kanji", k.id));
+  for (const v of unitVocab) { if (batch.length < batchSize - 1) batch.push(toLessonItem("vocab", v.id, v.word, v.meanings[0], v.jlpt)); }
+  for (const k of unitKanji) { if (batch.length < batchSize) batch.push(toLessonItem("kanji", k.id, k.character, k.meanings[0], k.jlpt)); }
+
+  // Fill remaining from level if needed
+  if (batch.length < batchSize) {
+    const vocab = getUnlearnedByType("vocab", level);
+    const kanji = getUnlearnedByType("kanji", level);
+    for (const v of vocab) { if (batch.length < batchSize - 1) batch.push(v); }
+    for (const k of kanji) { if (batch.length < batchSize) batch.push(k); }
+  }
 
   return batch.slice(0, batchSize);
 }

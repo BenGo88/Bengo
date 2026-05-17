@@ -77,9 +77,13 @@ export default function Curriculum() {
 }
 
 function UnitCard({ unit, index, level, navigate }: { unit: CurriculumUnit; index: number; level: JLPTLevel; navigate: (p: string) => void }) {
-  const items = unit.grammar.map((g) => ({ type: "grammar" as ItemType, id: g.id }));
-  const learned = items.filter(({ type, id }) => getUserItem(type, id)).length;
-  const total = items.length;
+  const allItems = [
+    ...unit.grammar.map((g) => ({ type: "grammar" as ItemType, id: g.id })),
+    ...unit.vocab.map((v) => ({ type: "vocab" as ItemType, id: v.id })),
+    ...unit.kanji.map((k) => ({ type: "kanji" as ItemType, id: k.id })),
+  ];
+  const learned = allItems.filter(({ type, id }) => getUserItem(type, id)).length;
+  const total = allItems.length;
   const pct = total > 0 ? Math.round((learned / total) * 100) : 0;
   const isComplete = learned === total && total > 0;
 
@@ -95,8 +99,8 @@ function UnitCard({ unit, index, level, navigate }: { unit: CurriculumUnit; inde
         <div className={`h-full rounded-full transition-all duration-500 ${isComplete ? "bg-jade-500" : "bg-vermillion-500"}`} style={{ width: `${pct}%` }} />
       </div>
 
-      {/* Grammar items in unit */}
-      <div className="flex flex-wrap gap-1.5 mb-3">
+      {/* Grammar items */}
+      <div className="flex flex-wrap gap-1.5 mb-2">
         {unit.grammar.map((g) => {
           const isLearned = !!getUserItem("grammar", g.id);
           return (
@@ -109,6 +113,41 @@ function UnitCard({ unit, index, level, navigate }: { unit: CurriculumUnit; inde
           );
         })}
       </div>
+
+      {/* Linked vocab preview */}
+      {unit.vocab.length > 0 && (
+        <div className="mb-2">
+          <p className="text-[10px] text-ink-600 mb-1">Vocab ({unit.vocab.length})</p>
+          <div className="flex flex-wrap gap-1">
+            {unit.vocab.slice(0, 5).map((v) => (
+              <span key={v.id} onClick={() => navigate(`/vocab/${v.id}`)}
+                className={`text-[10px] px-1.5 py-0.5 rounded cursor-pointer ${
+                  getUserItem("vocab", v.id) ? "bg-jade-500/10 text-jade-500" : "bg-ink-800/40 text-ink-500 hover:bg-ink-800"
+                }`}>{v.word}</span>
+            ))}
+            {unit.vocab.length > 5 && <span className="text-[10px] text-ink-600">+{unit.vocab.length - 5} more</span>}
+          </div>
+        </div>
+      )}
+
+      {/* Linked kanji preview */}
+      {unit.kanji.length > 0 && (
+        <div className="mb-3">
+          <p className="text-[10px] text-ink-600 mb-1">Kanji ({unit.kanji.length})</p>
+          <div className="flex flex-wrap gap-1">
+            {unit.kanji.slice(0, 8).map((k) => (
+              <span key={k.id} onClick={() => navigate(`/kanji/${k.id}`)}
+                className={`text-sm px-1.5 py-0.5 rounded cursor-pointer font-display ${
+                  getUserItem("kanji", k.id) ? "bg-jade-500/10 text-jade-500" : "bg-ink-800/40 text-ink-500 hover:bg-ink-800"
+                }`}>{k.character}</span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {unit.vocab.length === 0 && unit.kanji.length === 0 && (
+        <p className="text-[10px] text-ink-600 mb-3">No linked vocab/kanji yet.</p>
+      )}
 
       {/* Actions */}
       <div className="flex gap-2">

@@ -94,11 +94,21 @@ export default function ContentTools() {
       {/* Content health */}
       <div className="card p-5">
         <h2 className="label mb-3">Current Content Health</h2>
-        <div className="grid grid-cols-3 gap-3 text-center mb-3">
+        <div className="grid grid-cols-4 gap-3 text-center mb-3">
           <div><p className="text-xl font-bold text-ink-200">{counts.kanji}</p><p className="text-xs text-ink-500">Kanji</p></div>
           <div><p className="text-xl font-bold text-ink-200">{counts.vocab}</p><p className="text-xs text-ink-500">Vocab</p></div>
           <div><p className="text-xl font-bold text-ink-200">{counts.grammar}</p><p className="text-xs text-ink-500">Grammar</p></div>
+          <div><p className="text-xl font-bold text-jade-400">{getLexiconCounts().total}</p><p className="text-xs text-ink-500">Lexicon</p></div>
         </div>
+
+        {/* Per-level breakdown */}
+        <div className="text-xs text-ink-500 space-y-1 mb-3">
+          {["N5","N4","N3","N2","N1"].map(lvl => {
+            const lc = getContentCounts(lvl as any);
+            return <div key={lvl} className="flex gap-3"><span className="w-6 font-semibold text-ink-400">{lvl}</span><span>{lc.kanji}k</span><span>{lc.vocab}v</span><span>{lc.grammar}g</span></div>;
+          })}
+        </div>
+
         <div className="flex gap-4 text-xs">
           <span className={errors.length > 0 ? "text-vermillion-400" : "text-jade-400"}>
             {errors.length} errors

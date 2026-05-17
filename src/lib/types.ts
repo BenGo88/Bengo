@@ -1,3 +1,20 @@
+/* ── Shared enrichment types ──────────────────────────────────────────────── */
+
+export interface WordBreakdown {
+  text: string;
+  reading: string;
+  meaning: string;
+}
+
+/** Sentence with optional furigana, breakdown, and notes. */
+export interface RichSentence {
+  ja: string;
+  en: string;
+  reading?: string;
+  breakdown?: WordBreakdown[];
+  note?: string;
+}
+
 /* ── Content types (loaded from JSON data files) ─────────────────────────── */
 
 export type JLPTLevel = "N5" | "N4" | "N3" | "N2" | "N1";
@@ -15,6 +32,9 @@ export interface Kanji {
   usage_note?: string;
   jlpt: JLPTLevel;
   tags?: string[];
+  // v0.3.1 beginner support
+  beginner_hint?: string;
+  component_explanation?: string;
 }
 
 export interface Vocab {
@@ -24,12 +44,16 @@ export interface Vocab {
   meanings: string[];
   part_of_speech: string;
   jlpt: JLPTLevel;
-  sentences: { ja: string; en: string }[];
+  sentences: RichSentence[];
   nuance?: string;
   collocations?: string[];
   similar?: { word: string; note: string }[];
   formality?: "formal" | "informal" | "neutral";
   tags?: string[];
+  // v0.3.1 beginner support
+  simple_usage?: string;
+  beginner_warning?: string;
+  related_basic_words?: string[];
 }
 
 export interface GrammarPoint {
@@ -38,11 +62,15 @@ export interface GrammarPoint {
   meaning_short: string;
   explanation: string;
   formation: string[];
-  examples: { ja: string; en: string; note?: string }[];
+  examples: RichSentence[];
   similar?: { title: string; diff: string }[];
   common_mistakes?: { wrong: string; correct: string; why: string }[];
   jlpt: JLPTLevel;
   tags?: string[];
+  // v0.3.1 beginner support
+  simple_explanation?: string;
+  prerequisites?: string[];
+  beginner_warning?: string;
 }
 
 /* ── User progress (stored in localStorage) ──────────────────────────────── */
@@ -60,11 +88,13 @@ export type SRSStage =
 
 export type ItemType = "kanji" | "vocab" | "grammar";
 
+export type FuriganaMode = "always" | "hover" | "hide";
+
 export interface UserItem {
-  id: string;           // matches content id
+  id: string;
   type: ItemType;
   srsStage: SRSStage;
-  nextReview: string;   // ISO datetime
+  nextReview: string;
   lastReviewed?: string;
   totalReviews: number;
   totalCorrect: number;
@@ -81,11 +111,14 @@ export interface UserProfile {
   currentStreak: number;
   longestStreak: number;
   totalXp: number;
-  lastStudyDate: string | null; // YYYY-MM-DD
+  lastStudyDate: string | null;
+  // v0.3.1 display settings
+  furiganaMode?: FuriganaMode;
+  beginnerAssist?: boolean;
 }
 
 export interface UserData {
   profile: UserProfile;
-  items: Record<string, UserItem>;  // keyed by `${type}:${id}`
+  items: Record<string, UserItem>;
   version: number;
 }

@@ -7,9 +7,14 @@ import {
   resetAllData,
   getStats,
 } from "../lib/storage";
-import type { UserProfile, JLPTLevel } from "../lib/types";
+import type { UserProfile, JLPTLevel, FuriganaMode } from "../lib/types";
 
 const LEVELS: JLPTLevel[] = ["N5", "N4", "N3", "N2", "N1"];
+const FURIGANA_MODES: { value: FuriganaMode; label: string; desc: string }[] = [
+  { value: "always", label: "Always", desc: "Show readings above kanji" },
+  { value: "hover", label: "Tap/Hover", desc: "Tap or hover to reveal" },
+  { value: "hide", label: "Hide", desc: "No furigana shown" },
+];
 
 export default function Settings() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
@@ -142,6 +147,54 @@ export default function Settings() {
               {profile.newItemsPerDay}
             </span>
           </div>
+        </Field>
+
+        {/* Furigana Display */}
+        <Field label="Furigana Display">
+          <div className="flex gap-2">
+            {FURIGANA_MODES.map((m) => (
+              <button
+                key={m.value}
+                onClick={() => setProfile({ ...profile, furiganaMode: m.value })}
+                className={`flex-1 px-3 py-2.5 rounded-lg text-xs font-semibold transition-all text-center ${
+                  (profile.furiganaMode ?? "always") === m.value
+                    ? "bg-vermillion-500 text-white shadow-lg shadow-vermillion-500/20"
+                    : "bg-ink-800 text-ink-400 hover:text-ink-200 hover:bg-ink-700"
+                }`}
+              >
+                <div>{m.label}</div>
+                <div className="font-normal text-[10px] mt-0.5 opacity-70">{m.desc}</div>
+              </button>
+            ))}
+          </div>
+        </Field>
+
+        {/* Beginner Assist */}
+        <Field label="Beginner Assist">
+          <button
+            onClick={() => setProfile({ ...profile, beginnerAssist: !(profile.beginnerAssist ?? true) })}
+            className="flex items-center gap-3 w-full text-left"
+          >
+            <div
+              className={`w-11 h-6 rounded-full transition-colors duration-200 flex items-center px-0.5 ${
+                (profile.beginnerAssist ?? true) ? "bg-vermillion-500" : "bg-ink-700"
+              }`}
+            >
+              <div
+                className={`w-5 h-5 rounded-full bg-white transition-transform duration-200 ${
+                  (profile.beginnerAssist ?? true) ? "translate-x-5" : "translate-x-0"
+                }`}
+              />
+            </div>
+            <div>
+              <p className="text-sm text-ink-200 font-medium">
+                {(profile.beginnerAssist ?? true) ? "On" : "Off"}
+              </p>
+              <p className="text-xs text-ink-500">
+                Shows simpler explanations, prerequisites, hints, and sentence breakdowns
+              </p>
+            </div>
+          </button>
         </Field>
 
         <div className="flex items-center gap-3 pt-2">

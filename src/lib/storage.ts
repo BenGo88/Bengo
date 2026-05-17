@@ -6,7 +6,7 @@
  * This replaces the entire FastAPI backend from the old design.
  */
 
-import type { UserData, UserProfile, UserItem, ItemType, SRSStage } from "./types";
+import type { UserData, UserProfile, UserItem, ItemType, SRSStage, FuriganaMode } from "./types";
 
 const STORAGE_KEY = "bengo";
 const CURRENT_VERSION = 1;
@@ -22,6 +22,8 @@ const DEFAULT_PROFILE: UserProfile = {
   longestStreak: 0,
   totalXp: 0,
   lastStudyDate: null,
+  furiganaMode: "always",
+  beginnerAssist: true,
 };
 
 function createDefaultData(): UserData {
@@ -40,9 +42,11 @@ export function loadUserData(): UserData {
     if (!raw) return createDefaultData();
     const parsed = JSON.parse(raw) as UserData;
     if (parsed.version !== CURRENT_VERSION) {
-      // future: run migrations here
       return createDefaultData();
     }
+    // Backfill new profile fields for existing users
+    if (parsed.profile.furiganaMode === undefined) parsed.profile.furiganaMode = "always";
+    if (parsed.profile.beginnerAssist === undefined) parsed.profile.beginnerAssist = true;
     return parsed;
   } catch {
     return createDefaultData();
@@ -57,6 +61,14 @@ export function saveUserData(data: UserData): void {
 
 export function getProfile(): UserProfile {
   return loadUserData().profile;
+}
+
+export function getFuriganaMode(): FuriganaMode {
+  return getProfile().furiganaMode ?? "always";
+}
+
+export function getBeginnerAssist(): boolean {
+  return getProfile().beginnerAssist ?? true;
 }
 
 export function updateProfile(updates: Partial<UserProfile>): UserProfile {

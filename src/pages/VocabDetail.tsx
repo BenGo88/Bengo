@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getVocabById } from "../lib/content";
 import { getUserItem, startLearning } from "../lib/storage";
+import SentenceBlock from "../components/SentenceBlock";
+import BeginnerNote from "../components/BeginnerNote";
 
 export default function VocabDetail() {
   const { id } = useParams<{ id: string }>();
@@ -56,15 +58,18 @@ export default function VocabDetail() {
         </div>
       </div>
 
+      {/* Beginner support */}
+      <BeginnerNote
+        simpleExplanation={vocab.simple_usage}
+        warning={vocab.beginner_warning}
+      />
+
       {/* Example Sentences */}
       {vocab.sentences.length > 0 && (
         <Section title="Example Sentences">
           <div className="space-y-4">
             {vocab.sentences.map((s, i) => (
-              <div key={i} className="space-y-1">
-                <p className="text-base text-ink-100 font-display leading-relaxed">{s.ja}</p>
-                <p className="text-sm text-ink-400">{s.en}</p>
-              </div>
+              <SentenceBlock key={i} sentence={s} />
             ))}
           </div>
         </Section>

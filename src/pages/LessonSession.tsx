@@ -8,6 +8,8 @@ import {
   type LessonItem,
 } from "../lib/content";
 import { getProfile, startLearning, recordStudySession } from "../lib/storage";
+import SentenceBlock from "../components/SentenceBlock";
+import BeginnerNote from "../components/BeginnerNote";
 import type { ItemType, Kanji, Vocab, GrammarPoint, JLPTLevel } from "../lib/types";
 
 type Phase = "preview" | "teach" | "quiz" | "results";
@@ -349,6 +351,8 @@ function TeachKanji({ kanji }: { kanji: Kanji }) {
         </div>
       </div>
 
+      <BeginnerNote hint={kanji.beginner_hint} simpleExplanation={kanji.component_explanation} />
+
       {kanji.mnemonic && (
         <div className="card p-4">
           <p className="label mb-1">Mnemonic</p>
@@ -393,15 +397,16 @@ function TeachVocab({ vocab }: { vocab: Vocab }) {
         </div>
       </div>
 
+      <BeginnerNote simpleExplanation={vocab.simple_usage} warning={vocab.beginner_warning} />
+
       {vocab.sentences.length > 0 && (
         <div className="card p-4">
           <p className="label mb-2">Examples</p>
-          {vocab.sentences.map((s, i) => (
-            <div key={i} className="mb-3 last:mb-0">
-              <p className="text-base text-ink-100 font-display">{s.ja}</p>
-              <p className="text-sm text-ink-400">{s.en}</p>
-            </div>
-          ))}
+          <div className="space-y-4">
+            {vocab.sentences.map((s, i) => (
+              <SentenceBlock key={i} sentence={s} compact />
+            ))}
+          </div>
         </div>
       )}
 
@@ -435,6 +440,12 @@ function TeachGrammar({ grammar }: { grammar: GrammarPoint }) {
         <p className="text-base text-vermillion-400 font-medium mt-1">{grammar.meaning_short}</p>
       </div>
 
+      <BeginnerNote
+        simpleExplanation={grammar.simple_explanation}
+        prerequisites={grammar.prerequisites}
+        warning={grammar.beginner_warning}
+      />
+
       <div className="card p-4">
         <p className="label mb-2">Explanation</p>
         <p className="text-sm text-ink-200 leading-relaxed">{grammar.explanation}</p>
@@ -452,12 +463,11 @@ function TeachGrammar({ grammar }: { grammar: GrammarPoint }) {
       {grammar.examples.length > 0 && (
         <div className="card p-4">
           <p className="label mb-2">Examples</p>
-          {grammar.examples.map((ex, i) => (
-            <div key={i} className="mb-3 last:mb-0">
-              <p className="text-base text-ink-100 font-display">{ex.ja}</p>
-              <p className="text-sm text-ink-400">{ex.en}</p>
-            </div>
-          ))}
+          <div className="space-y-4">
+            {grammar.examples.map((ex, i) => (
+              <SentenceBlock key={i} sentence={ex} compact />
+            ))}
+          </div>
         </div>
       )}
 

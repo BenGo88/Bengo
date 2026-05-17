@@ -6,9 +6,23 @@
     "meanings": ["approval", "recognition", "authorization"],
     "part_of_speech": "noun / suru-verb",
     "jlpt": "N2",
+    "simple_usage": "When your boss needs to say 'OK' to something officially — that's 承認. Think of it as formal, stamped approval.",
     "sentences": [
-      { "ja": "上司の承認が必要です。", "en": "Approval from your manager is required." },
-      { "ja": "この計画は承認されました。", "en": "This plan has been approved." }
+      {
+        "ja": "上司の承認が必要です。",
+        "en": "Approval from your manager is required.",
+        "reading": "じょうし の しょうにん が ひつよう です。",
+        "breakdown": [
+          { "text": "上司", "reading": "じょうし", "meaning": "boss/manager" },
+          { "text": "の", "reading": "の", "meaning": "possessive particle" },
+          { "text": "承認", "reading": "しょうにん", "meaning": "approval" },
+          { "text": "が", "reading": "が", "meaning": "subject marker" },
+          { "text": "必要", "reading": "ひつよう", "meaning": "necessary" },
+          { "text": "です", "reading": "です", "meaning": "is (polite)" }
+        ],
+        "note": "Very common in Japanese workplaces."
+      },
+      { "ja": "この計画は承認されました。", "en": "This plan has been approved.", "reading": "この けいかく は しょうにん されました。" }
     ],
     "nuance": "More formal/official than OKする. Used for official approval processes.",
     "collocations": ["承認を得る", "承認を求める", "承認済み"],
@@ -22,9 +36,20 @@
     "meanings": ["to deliver", "to report", "to notify"],
     "part_of_speech": "ichidan verb",
     "jlpt": "N2",
+    "simple_usage": "Two meanings: (1) physically bringing something to someone, (2) officially telling the police or an office about something.",
     "sentences": [
-      { "ja": "荷物を届けてもらえますか。", "en": "Could you deliver the package?" },
-      { "ja": "警察に届けた方がいいですよ。", "en": "You should report it to the police." }
+      {
+        "ja": "荷物を届けてもらえますか。",
+        "en": "Could you deliver the package?",
+        "reading": "にもつ を とどけて もらえますか。",
+        "breakdown": [
+          { "text": "荷物", "reading": "にもつ", "meaning": "package/luggage" },
+          { "text": "を", "reading": "を", "meaning": "object marker" },
+          { "text": "届けて", "reading": "とどけて", "meaning": "deliver (te-form)" },
+          { "text": "もらえますか", "reading": "もらえますか", "meaning": "could you (polite request)" }
+        ]
+      },
+      { "ja": "警察に届けた方がいいですよ。", "en": "You should report it to the police.", "reading": "けいさつ に とどけた ほう が いい です よ。" }
     ],
     "nuance": "Has two distinct uses: physical delivery AND official reporting/notification.",
     "collocations": ["届けを出す", "届け先", "届け物"],
@@ -38,11 +63,21 @@
     "meanings": ["proportion", "ratio", "relatively"],
     "part_of_speech": "noun / adverb",
     "jlpt": "N2",
+    "simple_usage": "As a noun: 'the ratio' or 'the proportion of something.' As an adverb: 'relatively' or 'fairly' (like わりと).",
     "sentences": [
-      { "ja": "女性の割合が増えている。", "en": "The proportion of women is increasing." },
-      { "ja": "今日は割合暖かいですね。", "en": "It's relatively warm today, isn't it?" }
+      {
+        "ja": "女性の割合が増えている。",
+        "en": "The proportion of women is increasing.",
+        "reading": "じょせい の わりあい が ふえている。",
+        "breakdown": [
+          { "text": "女性", "reading": "じょせい", "meaning": "women" },
+          { "text": "の", "reading": "の", "meaning": "possessive" },
+          { "text": "割合", "reading": "わりあい", "meaning": "proportion" },
+          { "text": "が増えている", "reading": "がふえている", "meaning": "is increasing" }
+        ]
+      },
+      { "ja": "今日は割合暖かいですね。", "en": "It's relatively warm today, isn't it?", "reading": "きょう は わりあい あたたかい です ね。" }
     ],
-    "nuance": "As a noun it means 'ratio/proportion'. As an adverb (割合に or just 割合) it means 'relatively/fairly'.",
     "similar": [
       { "word": "比率", "note": "比率 is more technical/statistical. 割合 is more everyday." }
     ],
@@ -56,11 +91,11 @@
     "meanings": ["denial", "negation"],
     "part_of_speech": "noun / suru-verb",
     "jlpt": "N2",
+    "simple_usage": "Saying 'no, that's not true.' The opposite of 肯定 (affirmation). Used when denying facts or statements.",
     "sentences": [
-      { "ja": "彼は関与を否定した。", "en": "He denied his involvement." },
-      { "ja": "全てを否定するのは良くない。", "en": "It's not good to deny everything." }
+      { "ja": "彼は関与を否定した。", "en": "He denied his involvement.", "reading": "かれ は かんよ を ひてい した。" },
+      { "ja": "全てを否定するのは良くない。", "en": "It's not good to deny everything.", "reading": "すべて を ひてい する の は よくない。" }
     ],
-    "nuance": "The opposite of 肯定 (affirmation). Used in logic, debate, and everyday denial.",
     "similar": [
       { "word": "拒否", "note": "拒否 is active rejection. 否定 is stating something isn't true." }
     ],
@@ -74,11 +109,11 @@
     "meanings": ["value", "worth", "merit"],
     "part_of_speech": "noun",
     "jlpt": "N2",
+    "simple_usage": "Abstract 'worth' or 'value' — not price! If you mean the price tag, use 値段 instead. 価値 is for 'is this worth doing?'",
     "sentences": [
-      { "ja": "この経験には大きな価値がある。", "en": "This experience has great value." },
-      { "ja": "価値観が違う。", "en": "Our values are different." }
+      { "ja": "この経験には大きな価値がある。", "en": "This experience has great value.", "reading": "この けいけん には おおきな かち が ある。" },
+      { "ja": "価値観が違う。", "en": "Our values are different.", "reading": "かちかん が ちがう。" }
     ],
-    "nuance": "Abstract value/worth, not price. For price, use 値段 instead.",
     "collocations": ["価値がある", "価値観", "価値を見出す"],
     "similar": [
       { "word": "値段", "note": "値段 = concrete price. 価値 = abstract worth/value." }
@@ -93,11 +128,11 @@
     "meanings": ["permission", "approval", "authorization"],
     "part_of_speech": "noun / suru-verb",
     "jlpt": "N2",
+    "simple_usage": "Official permission to do something. Like getting a permit or authorization. More formal than just asking 'is it OK?'",
     "sentences": [
-      { "ja": "撮影の許可を取ってください。", "en": "Please get permission to film." },
-      { "ja": "駐車は許可されていません。", "en": "Parking is not permitted." }
+      { "ja": "撮影の許可を取ってください。", "en": "Please get permission to film.", "reading": "さつえい の きょか を とって ください。" },
+      { "ja": "駐車は許可されていません。", "en": "Parking is not permitted.", "reading": "ちゅうしゃ は きょか されていません。" }
     ],
-    "nuance": "Official permission. More formal than just asking someone if it's OK.",
     "collocations": ["許可を取る", "許可を出す", "許可証"],
     "similar": [
       { "word": "承認", "note": "承認 = approval of something submitted. 許可 = granting permission to do something." }
@@ -109,14 +144,14 @@
     "id": "v007",
     "word": "感動",
     "reading": "かんどう",
-    "meanings": ["being deeply moved", "deep impression", "emotion"],
+    "meanings": ["being deeply moved", "deep impression"],
     "part_of_speech": "noun / suru-verb",
     "jlpt": "N2",
+    "simple_usage": "That feeling when a movie or speech makes you cry or feel strongly. Not just 'emotional' — specifically 'moved' or 'touched' in a positive way.",
     "sentences": [
-      { "ja": "映画に感動して泣いてしまった。", "en": "I was so moved by the movie that I cried." },
-      { "ja": "感動的なスピーチだった。", "en": "It was a moving speech." }
+      { "ja": "映画に感動して泣いてしまった。", "en": "I was so moved by the movie that I cried.", "reading": "えいが に かんどう して ないて しまった。" },
+      { "ja": "感動的なスピーチだった。", "en": "It was a moving speech.", "reading": "かんどうてき な スピーチ だった。" }
     ],
-    "nuance": "A strong positive emotional impact. Not just 'emotional' — specifically 'moved/touched'.",
     "collocations": ["感動する", "感動的", "感動を与える"],
     "formality": "neutral",
     "tags": ["emotions", "daily"]
@@ -128,11 +163,11 @@
     "meanings": ["deposit", "savings (in bank)"],
     "part_of_speech": "noun / suru-verb",
     "jlpt": "N2",
+    "simple_usage": "Money in the bank. 普通預金 = regular savings account. 定期預金 = fixed deposit. You'll see this at any Japanese bank.",
     "sentences": [
-      { "ja": "預金の残高を確認した。", "en": "I checked my savings balance." },
-      { "ja": "毎月少しずつ預金している。", "en": "I deposit a little every month." }
+      { "ja": "預金の残高を確認した。", "en": "I checked my savings balance.", "reading": "よきん の ざんだか を かくにん した。" },
+      { "ja": "毎月少しずつ預金している。", "en": "I deposit a little every month.", "reading": "まいつき すこしずつ よきん している。" }
     ],
-    "nuance": "Specifically money deposited in a bank. 普通預金 = regular savings, 定期預金 = fixed deposit.",
     "collocations": ["預金口座", "預金残高", "普通預金"],
     "formality": "neutral",
     "tags": ["finance", "business"]
@@ -144,9 +179,10 @@
     "meanings": ["crime", "offense"],
     "part_of_speech": "noun",
     "jlpt": "N2",
+    "simple_usage": "The word for 'crime' in general. You'll hear this in news reports all the time. サイバー犯罪 = cybercrime.",
     "sentences": [
-      { "ja": "犯罪率が下がっている。", "en": "The crime rate is decreasing." },
-      { "ja": "サイバー犯罪が増えている。", "en": "Cybercrime is increasing." }
+      { "ja": "犯罪率が下がっている。", "en": "The crime rate is decreasing.", "reading": "はんざいりつ が さがっている。" },
+      { "ja": "サイバー犯罪が増えている。", "en": "Cybercrime is increasing.", "reading": "サイバー はんざい が ふえている。" }
     ],
     "collocations": ["犯罪を犯す", "犯罪率", "犯罪者"],
     "formality": "neutral",
@@ -159,11 +195,11 @@
     "meanings": ["disposable", "throwaway", "single-use"],
     "part_of_speech": "noun / の-adjective",
     "jlpt": "N2",
+    "simple_usage": "Literally 'use and throw away.' Any single-use product: masks, cups, cameras. Very common in daily Japanese.",
     "sentences": [
-      { "ja": "使い捨てのマスクを買った。", "en": "I bought disposable masks." },
-      { "ja": "使い捨て文化は環境に悪い。", "en": "Throwaway culture is bad for the environment." }
+      { "ja": "使い捨てのマスクを買った。", "en": "I bought disposable masks.", "reading": "つかいすて の マスク を かった。" },
+      { "ja": "使い捨て文化は環境に悪い。", "en": "Throwaway culture is bad for the environment.", "reading": "つかいすて ぶんか は かんきょう に わるい。" }
     ],
-    "nuance": "Literally 'use-and-discard'. Very common in daily life.",
     "collocations": ["使い捨てカメラ", "使い捨てコップ"],
     "formality": "neutral",
     "tags": ["daily", "environment"]

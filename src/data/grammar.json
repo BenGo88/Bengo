@@ -3,7 +3,10 @@
     "id": "g001",
     "title": "〜わけではない",
     "meaning_short": "It doesn't mean that… / Not necessarily…",
+    "simple_explanation": "Use this when someone might misunderstand you. You're saying 'it's not that...' to gently correct them. Think of it as a soft 'no, that's not what I mean.'",
     "explanation": "Use this when you want to partially deny something. You're not saying the whole idea is wrong — you're correcting a possible misunderstanding. It's a soft, nuanced denial.",
+    "prerequisites": ["plain form verbs", "い-adjective plain form", "な-adjective + な", "ではない"],
+    "beginner_warning": "Don't confuse わけではない (soft denial: 'it's not that...') with わけがない (strong denial: 'there's no way!'). They look similar but mean very different things.",
     "formation": [
       "Verb (plain form) + わけではない",
       "い-adjective + わけではない",
@@ -11,9 +14,28 @@
       "Noun + というわけではない"
     ],
     "examples": [
-      { "ja": "日本語が嫌いなわけではない。", "en": "It's not that I dislike Japanese." },
-      { "ja": "忙しくないわけではないが、手伝えます。", "en": "It's not that I'm not busy, but I can help." },
-      { "ja": "全員が賛成したわけではない。", "en": "It doesn't mean everyone agreed." }
+      {
+        "ja": "日本語が嫌いなわけではない。",
+        "en": "It's not that I dislike Japanese.",
+        "reading": "にほんご が きらい な わけ では ない。",
+        "breakdown": [
+          { "text": "日本語", "reading": "にほんご", "meaning": "Japanese language" },
+          { "text": "が", "reading": "が", "meaning": "subject marker" },
+          { "text": "嫌いな", "reading": "きらいな", "meaning": "disliked (な-adj)" },
+          { "text": "わけではない", "reading": "わけではない", "meaning": "it's not that..." }
+        ],
+        "note": "The speaker doesn't hate Japanese — they're correcting someone's assumption."
+      },
+      {
+        "ja": "忙しくないわけではないが、手伝えます。",
+        "en": "It's not that I'm not busy, but I can help.",
+        "reading": "いそがしくない わけ では ない が、てつだえます。"
+      },
+      {
+        "ja": "全員が賛成したわけではない。",
+        "en": "It doesn't mean everyone agreed.",
+        "reading": "ぜんいん が さんせい した わけ では ない。"
+      }
     ],
     "similar": [
       { "title": "〜とは限らない", "diff": "とは限らない = 'not always true / not necessarily'. More about general possibilities. わけではない = partial denial of a specific idea." },
@@ -29,15 +51,35 @@
     "id": "g002",
     "title": "〜ようにする",
     "meaning_short": "To try to / to make sure to / to make it a habit to",
+    "simple_explanation": "This means 'I try to do X regularly' or 'I make sure to do X.' It's about building habits or being careful about something ongoing — not a one-time attempt.",
     "explanation": "Use this when you make a conscious effort to do something, usually as a habit or ongoing effort. It implies deliberate, sustained action — not a one-time attempt.",
+    "prerequisites": ["dictionary form verbs", "ない form verbs", "ように"],
+    "beginner_warning": "Don't mix this up with ようとする (attempting something once, right now). ようにする is about ongoing habits.",
     "formation": [
       "Verb (dictionary form) + ようにする",
       "Verb (ない form) + ようにする"
     ],
     "examples": [
-      { "ja": "毎日運動するようにしている。", "en": "I try to exercise every day." },
-      { "ja": "遅刻しないようにしてください。", "en": "Please try not to be late." },
-      { "ja": "野菜をたくさん食べるようにしています。", "en": "I make a point of eating lots of vegetables." }
+      {
+        "ja": "毎日運動するようにしている。",
+        "en": "I try to exercise every day.",
+        "reading": "まいにち うんどう する ように している。",
+        "breakdown": [
+          { "text": "毎日", "reading": "まいにち", "meaning": "every day" },
+          { "text": "運動する", "reading": "うんどうする", "meaning": "to exercise" },
+          { "text": "ようにしている", "reading": "ようにしている", "meaning": "try to / make a habit of" }
+        ]
+      },
+      {
+        "ja": "遅刻しないようにしてください。",
+        "en": "Please try not to be late.",
+        "reading": "ちこく しない ように して ください。"
+      },
+      {
+        "ja": "野菜をたくさん食べるようにしています。",
+        "en": "I make a point of eating lots of vegetables.",
+        "reading": "やさい を たくさん たべる ように しています。"
+      }
     ],
     "similar": [
       { "title": "〜ようとする", "diff": "ようとする = attempting something right now (often a single attempt, sometimes unsuccessful). ようにする = making an ongoing effort or habit." }
@@ -51,17 +93,39 @@
   {
     "id": "g003",
     "title": "〜に対して",
-    "meaning_short": "Toward / against / in contrast to / per",
+    "meaning_short": "Toward / against / in contrast to",
+    "simple_explanation": "This has two uses: (1) 'toward someone' — directing an action or feeling at a person/thing, and (2) 'in contrast to' — comparing two different things. Read the sentence carefully to tell which one.",
     "explanation": "This has two main uses: (1) indicating who/what an action or attitude is directed toward, and (2) making a contrast between two things. Context determines which.",
+    "prerequisites": ["noun + に", "plain form verbs", "の nominalizer"],
     "formation": [
       "Noun + に対して",
       "Verb (plain form) + のに対して",
       "Noun + に対する + Noun (when modifying)"
     ],
     "examples": [
-      { "ja": "彼は誰に対しても礼儀正しい。", "en": "He is polite toward everyone." },
-      { "ja": "兄が理系なのに対して、弟は文系だ。", "en": "While the older brother is in sciences, the younger is in humanities." },
-      { "ja": "お客様に対する態度が大切です。", "en": "Your attitude toward customers is important." }
+      {
+        "ja": "彼は誰に対しても礼儀正しい。",
+        "en": "He is polite toward everyone.",
+        "reading": "かれ は だれ に たいしても れいぎただしい。",
+        "breakdown": [
+          { "text": "彼", "reading": "かれ", "meaning": "he" },
+          { "text": "は", "reading": "は", "meaning": "topic marker" },
+          { "text": "誰に対しても", "reading": "だれにたいしても", "meaning": "toward anyone" },
+          { "text": "礼儀正しい", "reading": "れいぎただしい", "meaning": "polite" }
+        ],
+        "note": "に対して here means 'toward' — it's about the direction of his politeness."
+      },
+      {
+        "ja": "兄が理系なのに対して、弟は文系だ。",
+        "en": "While the older brother is in sciences, the younger is in humanities.",
+        "reading": "あに が りけい な のに たいして、おとうと は ぶんけい だ。",
+        "note": "に対して here means 'in contrast to' — comparing two brothers."
+      },
+      {
+        "ja": "お客様に対する態度が大切です。",
+        "en": "Your attitude toward customers is important.",
+        "reading": "おきゃくさま に たいする たいど が たいせつ です。"
+      }
     ],
     "similar": [
       { "title": "〜について", "diff": "について = 'about/regarding' (topic). に対して = 'toward' (direction of action/attitude) or 'in contrast to'." },
@@ -76,16 +140,37 @@
   {
     "id": "g004",
     "title": "〜ことになっている",
-    "meaning_short": "It is decided that / It is the rule that / It is supposed to",
+    "meaning_short": "It is decided that / It is the rule that",
+    "simple_explanation": "This means 'it's been decided that...' or 'it's the rule that...' — but NOT by you personally. Someone else, a company, or society made the rule. You're just describing how things are set up.",
     "explanation": "Use this for rules, arrangements, schedules, or customs that have been established (not by you personally, but as an external decision or societal norm). It describes how things are set up.",
+    "prerequisites": ["dictionary form verbs", "ない form verbs", "ことになる", "ことにする"],
+    "beginner_warning": "ことにする = YOU decide. ことになる = it is decided (by others). ことになっている = it's an established rule. Make sure you know who decided!",
     "formation": [
       "Verb (dictionary form) + ことになっている",
       "Verb (ない form) + ことになっている"
     ],
     "examples": [
-      { "ja": "この部屋では飲食しないことになっている。", "en": "It's the rule that you don't eat or drink in this room." },
-      { "ja": "来月から新しいオフィスに移ることになっている。", "en": "It's been decided that we'll move to a new office from next month." },
-      { "ja": "日本では靴を脱ぐことになっている。", "en": "In Japan, it's the custom to take off your shoes." }
+      {
+        "ja": "この部屋では飲食しないことになっている。",
+        "en": "It's the rule that you don't eat or drink in this room.",
+        "reading": "この へや では いんしょく しない こと に なっている。",
+        "breakdown": [
+          { "text": "この部屋", "reading": "このへや", "meaning": "this room" },
+          { "text": "では", "reading": "では", "meaning": "in (location)" },
+          { "text": "飲食しない", "reading": "いんしょくしない", "meaning": "not eat or drink" },
+          { "text": "ことになっている", "reading": "ことになっている", "meaning": "it is the rule that" }
+        ]
+      },
+      {
+        "ja": "来月から新しいオフィスに移ることになっている。",
+        "en": "It's been decided that we'll move to a new office from next month.",
+        "reading": "らいげつ から あたらしい オフィス に うつる こと に なっている。"
+      },
+      {
+        "ja": "日本では靴を脱ぐことになっている。",
+        "en": "In Japan, it's the custom to take off your shoes.",
+        "reading": "にほん では くつ を ぬぐ こと に なっている。"
+      }
     ],
     "similar": [
       { "title": "〜ことにする", "diff": "ことにする = YOU decide. ことになる = it is decided (external). ことになっている = it's an established rule/arrangement." },
@@ -101,15 +186,36 @@
     "id": "g005",
     "title": "〜たびに",
     "meaning_short": "Every time / whenever",
+    "simple_explanation": "This means 'every time X happens, Y also happens.' It's about a pattern — something that repeats consistently. Like 'every time I hear that song, I think of summer.'",
     "explanation": "Use this to express that something happens repeatedly — every time a certain event occurs. It emphasizes the consistency of the pattern.",
+    "prerequisites": ["dictionary form verbs", "noun + の"],
     "formation": [
       "Verb (dictionary form) + たびに",
       "Noun + のたびに"
     ],
     "examples": [
-      { "ja": "この曲を聞くたびに、学生時代を思い出す。", "en": "Every time I hear this song, I remember my school days." },
-      { "ja": "旅行のたびにお土産を買う。", "en": "I buy souvenirs every time I travel." },
-      { "ja": "会うたびに元気になる。", "en": "Every time we meet, I feel better." }
+      {
+        "ja": "この曲を聞くたびに、学生時代を思い出す。",
+        "en": "Every time I hear this song, I remember my school days.",
+        "reading": "この きょく を きく たびに、がくせい じだい を おもいだす。",
+        "breakdown": [
+          { "text": "この曲", "reading": "このきょく", "meaning": "this song" },
+          { "text": "を聞く", "reading": "をきく", "meaning": "to listen to" },
+          { "text": "たびに", "reading": "たびに", "meaning": "every time" },
+          { "text": "学生時代", "reading": "がくせいじだい", "meaning": "school days" },
+          { "text": "を思い出す", "reading": "をおもいだす", "meaning": "to remember" }
+        ]
+      },
+      {
+        "ja": "旅行のたびにお土産を買う。",
+        "en": "I buy souvenirs every time I travel.",
+        "reading": "りょこう の たびに おみやげ を かう。"
+      },
+      {
+        "ja": "会うたびに元気になる。",
+        "en": "Every time we meet, I feel better.",
+        "reading": "あう たびに げんき に なる。"
+      }
     ],
     "similar": [
       { "title": "〜ごとに", "diff": "ごとに can mean 'every X' for regular intervals (3日ごとに = every 3 days). たびに is specifically 'every time an event happens'." },

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getGrammarById } from "../lib/content";
 import { getUserItem, startLearning } from "../lib/storage";
+import SentenceBlock from "../components/SentenceBlock";
+import BeginnerNote from "../components/BeginnerNote";
 
 export default function GrammarDetail() {
   const { id } = useParams<{ id: string }>();
@@ -49,6 +51,13 @@ export default function GrammarDetail() {
         </p>
       </div>
 
+      {/* Beginner support */}
+      <BeginnerNote
+        simpleExplanation={grammar.simple_explanation}
+        prerequisites={grammar.prerequisites}
+        warning={grammar.beginner_warning}
+      />
+
       {/* Explanation */}
       <Section title="Explanation">
         <p className="text-sm text-ink-200 leading-relaxed">{grammar.explanation}</p>
@@ -70,11 +79,7 @@ export default function GrammarDetail() {
         <Section title="Example Sentences">
           <div className="space-y-5">
             {grammar.examples.map((ex, i) => (
-              <div key={i} className="space-y-1">
-                <p className="text-base text-ink-100 font-display leading-relaxed">{ex.ja}</p>
-                <p className="text-sm text-ink-400">{ex.en}</p>
-                {ex.note && <p className="text-xs text-ink-500 italic">💡 {ex.note}</p>}
-              </div>
+              <SentenceBlock key={i} sentence={ex} />
             ))}
           </div>
         </Section>

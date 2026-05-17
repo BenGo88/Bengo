@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getKanjiById } from "../lib/content";
 import { getUserItem, startLearning } from "../lib/storage";
+import BeginnerNote from "../components/BeginnerNote";
 
 export default function KanjiDetail() {
   const { id } = useParams<{ id: string }>();
@@ -70,6 +71,12 @@ export default function KanjiDetail() {
           </p>
         </div>
       </div>
+
+      {/* Beginner support */}
+      <BeginnerNote
+        hint={kanji.beginner_hint}
+        simpleExplanation={kanji.component_explanation}
+      />
 
       {/* Mnemonic */}
       {kanji.mnemonic && (

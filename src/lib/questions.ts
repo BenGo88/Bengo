@@ -22,6 +22,7 @@ export interface Question {
   correctIndex: number;
   explanation: string;
   questionKind: "meaning" | "reading";
+  detailPath?: string;            // link to detail page (v0.8+)
 }
 
 /** Build a meaning question for any item type. */
@@ -63,7 +64,8 @@ function meaningQuestion(type: ItemType, id: string): Question | null {
     choices: choices.slice(0, 4),
     correctIndex: Math.min(correctIndex, 3),
     explanation,
-    questionKind: "meaning",
+    questionKind: "meaning" as const,
+    detailPath: `/${type}/${id}`,
   };
 }
 
@@ -103,7 +105,8 @@ function readingQuestion(type: "kanji" | "vocab", id: string): Question | null {
     choices: choices.slice(0, 4),
     correctIndex: Math.min(correctIndex, 3),
     explanation,
-    questionKind: "reading",
+    questionKind: "reading" as const,
+    detailPath: `/${type}/${id}`,
   };
 }
 

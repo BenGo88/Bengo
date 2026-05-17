@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import { enrichTokens, type EnrichedToken } from "../lib/lexicon";
 import type { WordBreakdown } from "../lib/types";
 
 interface Props {
@@ -6,28 +7,23 @@ interface Props {
   className?: string;
 }
 
-/**
- * Renders a Japanese sentence as tappable word tokens.
- * Tapping a token highlights it and shows an inline explanation card below.
- * No fragile floating popups — works reliably on mobile and desktop.
- */
 export default function InteractiveSentence({ tokens, className = "" }: Props) {
   const [activeIdx, setActiveIdx] = useState<number | null>(null);
+  const enriched = useMemo(() => enrichTokens(tokens), [tokens]);
 
-  function handleTokenClick(idx: number) {
+  function handleClick(idx: number) {
     setActiveIdx(activeIdx === idx ? null : idx);
   }
 
-  const active = activeIdx !== null ? tokens[activeIdx] : null;
+  const active = activeIdx !== null ? enriched[activeIdx] : null;
 
   return (
     <div className={className}>
-      {/* Token pills */}
       <p className="text-lg font-display text-ink-100 leading-loose flex flex-wrap gap-y-1">
-        {tokens.map((t, i) => (
+        {enriched.map((t, i) => (
           <span
             key={i}
-            onClick={() => handleTokenClick(i)}
+            onClick={() => handleClick(i)}
             className={`cursor-pointer transition-all duration-150 rounded-md px-1 py-0.5 ${
               activeIdx === i
                 ? "bg-vermillion-500/25 text-vermillion-400 ring-1 ring-vermillion-500/40"
@@ -39,7 +35,6 @@ export default function InteractiveSentence({ tokens, className = "" }: Props) {
         ))}
       </p>
 
-      {/* Inline explanation card — appears below sentence */}
       {active && (
         <div className="mt-3 p-3 rounded-xl bg-ink-800/60 border border-ink-700/50 animate-fade-in">
           <div className="flex items-start justify-between gap-2">
@@ -62,18 +57,55 @@ export default function InteractiveSentence({ tokens, className = "" }: Props) {
                     {active.role}
                   </span>
                 )}
+                {active.fromLexicon && (
+                  <span className="text-[10px] px-1.5 py-0.5 rounded bg-ink-700/60 text-ink-500 font-semibold">
+                    lexicon
+                  </span>
+                )}
               </div>
-              {active.note && (
-                <p className="text-xs text-ink-500 italic mt-1.5">{active.note}</p>
-              )}
+              {active.note && <p className="text-xs text-ink-500 italic mt-1.5">{active.note}</p>}
             </div>
-            <button
-              className="text-ink-600 hover:text-ink-400 text-xs shrink-0 p-1"
-              onClick={() => setActiveIdx(null)}
-            >
-              ✕
-            </button>
+            <button className="text-ink-600 hover:text-ink-400 text-xs shrink-0 p-1" onClick={() => setActiveIdx(null)}>✕</button>
           </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** Auto-detected word chips — shown when no tokens exist */
+export function AutoDetectedChips({ entries }: { entries: { text: string; reading: string; meanings: string[]; partOfSpeech: string }[] }) {
+  const [activeIdx, setActiveIdx] = useState<number | null>(null);
+  const active = activeIdx !== null ? entries[activeIdx] : null;
+
+  if (entries.length === 0) return null;
+
+  return (
+    <div className="mt-2">
+      <p className="text-[10px] text-ink-600 mb-1">Detected words (approximate):</p>
+      <div className="flex flex-wrap gap-1">
+        {entries.map((e, i) => (
+          <button
+            key={i}
+            onClick={() => setActiveIdx(activeIdx === i ? null : i)}
+            className={`text-xs px-2 py-1 rounded-md transition-all ${
+              activeIdx === i
+                ? "bg-jade-500/20 text-jade-400 ring-1 ring-jade-500/30"
+                : "bg-ink-800/50 text-ink-400 hover:bg-ink-800/80 border border-dashed border-ink-700/40"
+            }`}
+          >
+            {e.text}
+          </button>
+        ))}
+      </div>
+      {active && (
+        <div className="mt-2 p-2.5 rounded-lg bg-ink-800/40 border border-ink-700/30 animate-fade-in">
+          <div className="flex items-baseline gap-2 mb-1">
+            <span className="font-display font-bold text-ink-100">{active.text}</span>
+            {active.reading !== active.text && <span className="text-xs text-ink-500 font-mono">{active.reading}</span>}
+          </div>
+          <p className="text-xs text-ink-300">{active.meanings.join(", ")}</p>
+          <span className="text-[9px] text-ink-600">{active.partOfSpeech}</span>
         </div>
       )}
     </div>

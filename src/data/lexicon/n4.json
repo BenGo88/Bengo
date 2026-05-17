@@ -1,0 +1,12 @@
+[
+  { "id": "lex-n4-心配", "text": "心配", "reading": "しんぱい", "meanings": ["worry", "concern"], "partOfSpeech": "noun / suru-verb", "jlpt": "N4" },
+  { "id": "lex-n4-準備", "text": "準備", "reading": "じゅんび", "meanings": ["preparation"], "partOfSpeech": "noun / suru-verb", "jlpt": "N4" },
+  { "id": "lex-n4-必要", "text": "必要", "reading": "ひつよう", "meanings": ["necessary", "needed"], "partOfSpeech": "な-adjective", "jlpt": "N4" },
+  { "id": "lex-n4-予定", "text": "予定", "reading": "よてい", "meanings": ["plan", "schedule"], "partOfSpeech": "noun", "jlpt": "N4" },
+  { "id": "lex-n4-最近", "text": "最近", "reading": "さいきん", "meanings": ["recently", "lately"], "partOfSpeech": "adverb", "jlpt": "N4" },
+  { "id": "lex-n4-特に", "text": "特に", "reading": "とくに", "meanings": ["especially"], "partOfSpeech": "adverb", "jlpt": "N4" },
+  { "id": "lex-n4-経験", "text": "経験", "reading": "けいけん", "meanings": ["experience"], "partOfSpeech": "noun / suru-verb", "jlpt": "N4" },
+  { "id": "lex-n4-決める", "text": "決める", "reading": "きめる", "meanings": ["to decide"], "partOfSpeech": "ichidan verb", "jlpt": "N4" },
+  { "id": "lex-n4-変わる", "text": "変わる", "reading": "かわる", "meanings": ["to change"], "partOfSpeech": "godan verb", "jlpt": "N4" },
+  { "id": "lex-n4-宿題", "text": "宿題", "reading": "しゅくだい", "meanings": ["homework"], "partOfSpeech": "noun", "jlpt": "N4" }
+]

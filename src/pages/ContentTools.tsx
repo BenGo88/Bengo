@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { validateContent } from "../lib/contentValidation";
 import { getContentCounts, allKanji, allVocab, allGrammar } from "../lib/content";
+import { getLexiconCounts } from "../lib/lexicon";
 
 type ContentType = "kanji" | "vocab" | "grammar";
 

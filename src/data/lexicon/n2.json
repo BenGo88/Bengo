@@ -1,0 +1,18 @@
+[
+  { "id": "lex-n2-承認", "text": "承認", "reading": "しょうにん", "meanings": ["approval", "authorization"], "partOfSpeech": "noun / suru-verb", "jlpt": "N2" },
+  { "id": "lex-n2-上司", "text": "上司", "reading": "じょうし", "meanings": ["boss", "manager"], "partOfSpeech": "noun", "jlpt": "N2" },
+  { "id": "lex-n2-届ける", "text": "届ける", "reading": "とどける", "meanings": ["to deliver", "to report"], "partOfSpeech": "ichidan verb", "jlpt": "N2" },
+  { "id": "lex-n2-割合", "text": "割合", "reading": "わりあい", "meanings": ["proportion", "relatively"], "partOfSpeech": "noun / adverb", "jlpt": "N2" },
+  { "id": "lex-n2-否定", "text": "否定", "reading": "ひてい", "meanings": ["denial", "negation"], "partOfSpeech": "noun / suru-verb", "jlpt": "N2" },
+  { "id": "lex-n2-価値", "text": "価値", "reading": "かち", "meanings": ["value", "worth"], "partOfSpeech": "noun", "jlpt": "N2" },
+  { "id": "lex-n2-許可", "text": "許可", "reading": "きょか", "meanings": ["permission"], "partOfSpeech": "noun / suru-verb", "jlpt": "N2" },
+  { "id": "lex-n2-感動", "text": "感動", "reading": "かんどう", "meanings": ["being deeply moved"], "partOfSpeech": "noun / suru-verb", "jlpt": "N2" },
+  { "id": "lex-n2-預金", "text": "預金", "reading": "よきん", "meanings": ["deposit", "savings"], "partOfSpeech": "noun", "jlpt": "N2" },
+  { "id": "lex-n2-犯罪", "text": "犯罪", "reading": "はんざい", "meanings": ["crime"], "partOfSpeech": "noun", "jlpt": "N2" },
+  { "id": "lex-n2-荷物", "text": "荷物", "reading": "にもつ", "meanings": ["package", "luggage"], "partOfSpeech": "noun", "jlpt": "N2" },
+  { "id": "lex-n2-全員", "text": "全員", "reading": "ぜんいん", "meanings": ["everyone", "all members"], "partOfSpeech": "noun", "jlpt": "N2" },
+  { "id": "lex-n2-賛成", "text": "賛成", "reading": "さんせい", "meanings": ["agreement", "approval"], "partOfSpeech": "noun / suru-verb", "jlpt": "N2" },
+  { "id": "lex-n2-遅刻", "text": "遅刻", "reading": "ちこく", "meanings": ["being late"], "partOfSpeech": "noun / suru-verb", "jlpt": "N2" },
+  { "id": "lex-n2-野菜", "text": "野菜", "reading": "やさい", "meanings": ["vegetables"], "partOfSpeech": "noun", "jlpt": "N2" },
+  { "id": "lex-n2-運動", "text": "運動", "reading": "うんどう", "meanings": ["exercise"], "partOfSpeech": "noun / suru-verb", "jlpt": "N2" }
+]

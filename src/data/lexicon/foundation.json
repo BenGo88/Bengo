@@ -1,0 +1,20 @@
+[
+  { "id": "lex-f-は", "text": "は", "reading": "は", "meanings": ["topic marker"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "Marks the topic. Pronounced 'wa'." },
+  { "id": "lex-f-が", "text": "が", "reading": "が", "meanings": ["subject marker", "but"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "Marks subject/new info. Also means 'but'." },
+  { "id": "lex-f-を", "text": "を", "reading": "を", "meanings": ["object marker"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "Marks the direct object." },
+  { "id": "lex-f-に", "text": "に", "reading": "に", "meanings": ["at", "to", "in", "on"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "Location, time, direction, indirect object." },
+  { "id": "lex-f-で", "text": "で", "reading": "で", "meanings": ["at (action location)", "by means of"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "Where actions happen, or tool/means." },
+  { "id": "lex-f-の", "text": "の", "reading": "の", "meanings": ["possessive", "of"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "A の B = B of A, or A's B." },
+  { "id": "lex-f-と", "text": "と", "reading": "と", "meanings": ["and", "with", "quote"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "Connects nouns, companionship, or quotation." },
+  { "id": "lex-f-も", "text": "も", "reading": "も", "meanings": ["also", "too"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "Replaces は/が to mean 'also'." },
+  { "id": "lex-f-か", "text": "か", "reading": "か", "meanings": ["question marker"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"], "notes": "Makes a sentence a question." },
+  { "id": "lex-f-です", "text": "です", "reading": "です", "meanings": ["is (polite)"], "partOfSpeech": "copula", "jlpt": "Foundation", "tags": ["politeness"], "notes": "Polite sentence-ending copula." },
+  { "id": "lex-f-ます", "text": "ます", "reading": "ます", "meanings": ["polite verb ending"], "partOfSpeech": "auxiliary", "jlpt": "Foundation", "tags": ["politeness"], "notes": "Polite verb conjugation suffix." },
+  { "id": "lex-f-ません", "text": "ません", "reading": "ません", "meanings": ["polite negative"], "partOfSpeech": "auxiliary", "jlpt": "Foundation", "tags": ["politeness", "negative"] },
+  { "id": "lex-f-ました", "text": "ました", "reading": "ました", "meanings": ["polite past"], "partOfSpeech": "auxiliary", "jlpt": "Foundation", "tags": ["politeness", "past"] },
+  { "id": "lex-f-ください", "text": "ください", "reading": "ください", "meanings": ["please"], "partOfSpeech": "auxiliary", "jlpt": "Foundation", "tags": ["request"] },
+  { "id": "lex-f-から", "text": "から", "reading": "から", "meanings": ["from", "because"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"] },
+  { "id": "lex-f-まで", "text": "まで", "reading": "まで", "meanings": ["until", "up to"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["particle"] },
+  { "id": "lex-f-よ", "text": "よ", "reading": "よ", "meanings": ["emphasis", "assertion"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["sentence-final"] },
+  { "id": "lex-f-ね", "text": "ね", "reading": "ね", "meanings": ["right?", "isn't it?"], "partOfSpeech": "particle", "jlpt": "Foundation", "tags": ["sentence-final"] }
+]

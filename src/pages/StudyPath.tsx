@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { getProfile, getLearnedCount } from "../lib/storage";
 import { getContentCounts } from "../lib/content";
 import type { JLPTLevel } from "../lib/types";
@@ -156,6 +156,14 @@ function LevelCard({ level, index, isTarget, targetLevel }: {
           {counts && totalContent === 0 && (
             <p className="text-xs text-ink-600 mt-2">Content coming soon</p>
           )}
+
+          {/* Curriculum link */}
+          <Link
+            to={`/curriculum/${level.id}`}
+            className="inline-block text-xs text-vermillion-400 hover:text-vermillion-300 font-medium mt-2"
+          >
+            View {level.name} Curriculum →
+          </Link>
         </div>
       </div>
     </div>

@@ -1,0 +1,11 @@
+[
+  { "id": "lex-n3-確認", "text": "確認", "reading": "かくにん", "meanings": ["confirmation", "checking"], "partOfSpeech": "noun / suru-verb", "jlpt": "N3" },
+  { "id": "lex-n3-説明", "text": "説明", "reading": "せつめい", "meanings": ["explanation"], "partOfSpeech": "noun / suru-verb", "jlpt": "N3" },
+  { "id": "lex-n3-比べる", "text": "比べる", "reading": "くらべる", "meanings": ["to compare"], "partOfSpeech": "ichidan verb", "jlpt": "N3" },
+  { "id": "lex-n3-増える", "text": "増える", "reading": "ふえる", "meanings": ["to increase"], "partOfSpeech": "ichidan verb", "jlpt": "N3" },
+  { "id": "lex-n3-減る", "text": "減る", "reading": "へる", "meanings": ["to decrease"], "partOfSpeech": "godan verb", "jlpt": "N3" },
+  { "id": "lex-n3-伝える", "text": "伝える", "reading": "つたえる", "meanings": ["to convey", "to tell"], "partOfSpeech": "ichidan verb", "jlpt": "N3" },
+  { "id": "lex-n3-関係", "text": "関係", "reading": "かんけい", "meanings": ["relationship", "connection"], "partOfSpeech": "noun", "jlpt": "N3" },
+  { "id": "lex-n3-残念", "text": "残念", "reading": "ざんねん", "meanings": ["regrettable", "too bad"], "partOfSpeech": "な-adjective", "jlpt": "N3" },
+  { "id": "lex-n3-受ける", "text": "受ける", "reading": "うける", "meanings": ["to receive", "to take (exam)"], "partOfSpeech": "ichidan verb", "jlpt": "N3" }
+]

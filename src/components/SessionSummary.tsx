@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Question } from "../lib/questions";
 import { TypeBadge } from "./QuestionCard";
 
@@ -70,7 +71,15 @@ export default function SessionSummary({ title, results, xpEarned, children }: P
                 <span className="font-display font-bold text-ink-100">{r.question.prompt}</span>
                 <TypeBadge type={r.question.itemType} />
               </div>
+              <p className="text-xs text-ink-300">
+                <span className="text-jade-400">Correct:</span> {r.question.choices[r.question.correctIndex]}
+              </p>
               <p className="text-xs text-ink-400">{r.question.explanation}</p>
+              {r.question.detailPath && (
+                <Link to={r.question.detailPath} className="text-xs text-vermillion-400 hover:text-vermillion-300">
+                  View full explanation →
+                </Link>
+              )}
             </div>
           ))}
         </div>

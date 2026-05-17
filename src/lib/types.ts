@@ -1,9 +1,21 @@
 /* ── Shared enrichment types ──────────────────────────────────────────────── */
 
-export interface WordBreakdown {
+export interface LexiconEntry {
+  id: string;
   text: string;
   reading: string;
-  meaning: string;
+  meanings: string[];
+  partOfSpeech: string;
+  jlpt: string;
+  tags?: string[];
+  notes?: string;
+}
+
+export interface WordBreakdown {
+  text: string;
+  lexemeId?: string;           // reference to lexicon entry (v0.8+)
+  reading?: string;            // local override or standalone
+  meaning?: string;            // local override or standalone
   partOfSpeech?: string;
   role?: string;
   note?: string;
@@ -14,8 +26,8 @@ export interface RichSentence {
   ja: string;
   en: string;
   reading?: string;
-  tokens?: WordBreakdown[];    // canonical field (v0.6+)
-  breakdown?: WordBreakdown[]; // legacy field (v0.3–v0.5) — still supported
+  tokens?: WordBreakdown[];
+  breakdown?: WordBreakdown[];
   structure?: string;
   note?: string;
 }

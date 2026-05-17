@@ -824,5 +824,153 @@
     ],
     "partOfSpeech": "noun / suru-verb",
     "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-雇用",
+    "text": "雇用",
+    "reading": "こよう",
+    "meanings": [
+      "employment"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-創出",
+    "text": "創出",
+    "reading": "そうしゅつ",
+    "meanings": [
+      "creation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-依然",
+    "text": "依然",
+    "reading": "いぜん",
+    "meanings": [
+      "still",
+      "as before"
+    ],
+    "partOfSpeech": "adverb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-持続",
+    "text": "持続",
+    "reading": "じぞく",
+    "meanings": [
+      "sustainability"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-再生",
+    "text": "再生",
+    "reading": "さいせい",
+    "meanings": [
+      "regeneration",
+      "recycling"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-意識",
+    "text": "意識",
+    "reading": "いしき",
+    "meanings": [
+      "consciousness",
+      "awareness"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-背景",
+    "text": "背景",
+    "reading": "はいけい",
+    "meanings": [
+      "background"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-措置",
+    "text": "措置",
+    "reading": "そち",
+    "meanings": [
+      "measure",
+      "step"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-概念",
+    "text": "概念",
+    "reading": "がいねん",
+    "meanings": [
+      "concept"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-見解",
+    "text": "見解",
+    "reading": "けんかい",
+    "meanings": [
+      "opinion",
+      "view"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-手段",
+    "text": "手段",
+    "reading": "しゅだん",
+    "meanings": [
+      "means",
+      "method"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-人材",
+    "text": "人材",
+    "reading": "じんざい",
+    "meanings": [
+      "human resources",
+      "talent"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-尊重",
+    "text": "尊重",
+    "reading": "そんちょう",
+    "meanings": [
+      "respect"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-価値観",
+    "text": "価値観",
+    "reading": "かちかん",
+    "meanings": [
+      "values",
+      "sense of values"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
   }
 ]

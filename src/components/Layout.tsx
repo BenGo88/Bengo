@@ -11,6 +11,8 @@ const SIDEBAR_ITEMS = [
   { to: "/reviews", label: "Reviews", icon: "↻" },
   { to: "/quiz", label: "Quiz", icon: "⚡" },
   { to: "/reading", label: "Reading", icon: "📄" },
+  { to: "/listening", label: "Listening", icon: "🎧" },
+  { to: "/test-history", label: "Test History", icon: "📊" },
   { to: "/weak-points", label: "Weak Points", icon: "△" },
   { to: "/content-tools", label: "Content Tools", icon: "🔧" },
   { to: "/sources", label: "About / Sources", icon: "ℹ" },
@@ -60,7 +62,7 @@ export default function Layout() {
         ))}
 
         <div className="mt-auto px-3 py-2">
-          <p className="label">v1.2.09</p>
+          <p className="label">v1.2.10</p>
         </div>
       </aside>
 

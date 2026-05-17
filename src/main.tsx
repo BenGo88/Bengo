@@ -23,6 +23,7 @@ import Sources from "./pages/Sources";
 import ReadingLibrary from "./pages/ReadingLibrary";
 import ReadingDetail from "./pages/ReadingDetail";
 import TestHistory from "./pages/TestHistory";
+import Listening from "./pages/Listening";
 import "./index.css";
 
 if (import.meta.env.DEV) {
@@ -53,6 +54,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/reading" element={<ReadingLibrary />} />
           <Route path="/reading/:id" element={<ReadingDetail />} />
           <Route path="/test-history" element={<TestHistory />} />
+          <Route path="/listening" element={<Listening />} />
           <Route path="/sources" element={<Sources />} />
           <Route path="/settings" element={<Settings />} />
         </Route>

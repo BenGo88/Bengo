@@ -909,5 +909,146 @@
     ],
     "partOfSpeech": "noun",
     "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-通勤",
+    "text": "通勤",
+    "reading": "つうきん",
+    "meanings": [
+      "commuting"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-残業",
+    "text": "残業",
+    "reading": "ざんぎょう",
+    "meanings": [
+      "overtime work"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-収入",
+    "text": "収入",
+    "reading": "しゅうにゅう",
+    "meanings": [
+      "income"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-支出",
+    "text": "支出",
+    "reading": "ししゅつ",
+    "meanings": [
+      "expenditure"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-貯金",
+    "text": "貯金",
+    "reading": "ちょきん",
+    "meanings": [
+      "savings"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-契約",
+    "text": "契約",
+    "reading": "けいやく",
+    "meanings": [
+      "contract"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-責任",
+    "text": "責任",
+    "reading": "せきにん",
+    "meanings": [
+      "responsibility"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-期限",
+    "text": "期限",
+    "reading": "きげん",
+    "meanings": [
+      "deadline"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-手続き",
+    "text": "手続き",
+    "reading": "てつづき",
+    "meanings": [
+      "procedure"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-申し込む",
+    "text": "申し込む",
+    "reading": "もうしこむ",
+    "meanings": [
+      "to apply"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-取り消す",
+    "text": "取り消す",
+    "reading": "とりけす",
+    "meanings": [
+      "to cancel"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-繰り返す",
+    "text": "繰り返す",
+    "reading": "くりかえす",
+    "meanings": [
+      "to repeat"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-比較",
+    "text": "比較",
+    "reading": "ひかく",
+    "meanings": [
+      "comparison"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-削減",
+    "text": "削減",
+    "reading": "さくげん",
+    "meanings": [
+      "reduction",
+      "cutback"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
   }
 ]

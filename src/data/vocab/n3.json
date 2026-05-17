@@ -2124,5 +2124,306 @@
     "tags": [
       "abstract"
     ]
+  },
+  {
+    "id": "v-n3-096",
+    "word": "通勤",
+    "reading": "つうきん",
+    "meanings": [
+      "commuting"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "通勤。",
+        "en": "commuting.",
+        "reading": "つうきん。"
+      }
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "v-n3-097",
+    "word": "残業",
+    "reading": "ざんぎょう",
+    "meanings": [
+      "overtime work"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "残業。",
+        "en": "overtime work.",
+        "reading": "ざんぎょう。"
+      }
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "v-n3-098",
+    "word": "収入",
+    "reading": "しゅうにゅう",
+    "meanings": [
+      "income"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "収入。",
+        "en": "income.",
+        "reading": "しゅうにゅう。"
+      }
+    ],
+    "tags": [
+      "money"
+    ]
+  },
+  {
+    "id": "v-n3-099",
+    "word": "支出",
+    "reading": "ししゅつ",
+    "meanings": [
+      "expenditure"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "支出。",
+        "en": "expenditure.",
+        "reading": "ししゅつ。"
+      }
+    ],
+    "tags": [
+      "money"
+    ]
+  },
+  {
+    "id": "v-n3-100",
+    "word": "貯金",
+    "reading": "ちょきん",
+    "meanings": [
+      "savings"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "貯金。",
+        "en": "savings.",
+        "reading": "ちょきん。"
+      }
+    ],
+    "tags": [
+      "money"
+    ]
+  },
+  {
+    "id": "v-n3-101",
+    "word": "契約",
+    "reading": "けいやく",
+    "meanings": [
+      "contract"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "契約。",
+        "en": "contract.",
+        "reading": "けいやく。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n3-102",
+    "word": "責任",
+    "reading": "せきにん",
+    "meanings": [
+      "responsibility"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "責任。",
+        "en": "responsibility.",
+        "reading": "せきにん。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-103",
+    "word": "期限",
+    "reading": "きげん",
+    "meanings": [
+      "deadline"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "期限。",
+        "en": "deadline.",
+        "reading": "きげん。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n3-104",
+    "word": "手続き",
+    "reading": "てつづき",
+    "meanings": [
+      "procedure"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "手続き。",
+        "en": "procedure.",
+        "reading": "てつづき。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-105",
+    "word": "申し込む",
+    "reading": "もうしこむ",
+    "meanings": [
+      "to apply"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "申し込む。",
+        "en": "to apply.",
+        "reading": "もうしこむ。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-106",
+    "word": "取り消す",
+    "reading": "とりけす",
+    "meanings": [
+      "to cancel"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "取り消す。",
+        "en": "to cancel.",
+        "reading": "とりけす。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-107",
+    "word": "繰り返す",
+    "reading": "くりかえす",
+    "meanings": [
+      "to repeat"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "繰り返す。",
+        "en": "to repeat.",
+        "reading": "くりかえす。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-108",
+    "word": "比較",
+    "reading": "ひかく",
+    "meanings": [
+      "comparison"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "比較。",
+        "en": "comparison.",
+        "reading": "ひかく。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-109",
+    "word": "影響",
+    "reading": "えいきょう",
+    "meanings": [
+      "influence"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "影響。",
+        "en": "influence.",
+        "reading": "えいきょう。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-110",
+    "word": "削減",
+    "reading": "さくげん",
+    "meanings": [
+      "reduction",
+      "cutback"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "sentences": [
+      {
+        "ja": "削減。",
+        "en": "reduction.",
+        "reading": "さくげん。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
   }
 ]

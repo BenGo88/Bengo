@@ -1935,5 +1935,314 @@
     "tags": [
       "business"
     ]
+  },
+  {
+    "id": "v-n2-086",
+    "word": "雇用",
+    "reading": "こよう",
+    "meanings": [
+      "employment"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "雇用。",
+        "en": "employment.",
+        "reading": "こよう。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-087",
+    "word": "創出",
+    "reading": "そうしゅつ",
+    "meanings": [
+      "creation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "創出。",
+        "en": "creation.",
+        "reading": "そうしゅつ。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-088",
+    "word": "依然",
+    "reading": "いぜん",
+    "meanings": [
+      "still",
+      "as before"
+    ],
+    "part_of_speech": "adverb",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "依然。",
+        "en": "still.",
+        "reading": "いぜん。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-089",
+    "word": "持続",
+    "reading": "じぞく",
+    "meanings": [
+      "sustainability"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "持続。",
+        "en": "sustainability.",
+        "reading": "じぞく。"
+      }
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "v-n2-090",
+    "word": "再生",
+    "reading": "さいせい",
+    "meanings": [
+      "regeneration",
+      "recycling"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "再生。",
+        "en": "regeneration.",
+        "reading": "さいせい。"
+      }
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "v-n2-091",
+    "word": "意識",
+    "reading": "いしき",
+    "meanings": [
+      "consciousness",
+      "awareness"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "意識。",
+        "en": "consciousness.",
+        "reading": "いしき。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-092",
+    "word": "背景",
+    "reading": "はいけい",
+    "meanings": [
+      "background"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "背景。",
+        "en": "background.",
+        "reading": "はいけい。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-093",
+    "word": "制度",
+    "reading": "せいど",
+    "meanings": [
+      "system",
+      "institution"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "制度。",
+        "en": "system.",
+        "reading": "せいど。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n2-094",
+    "word": "措置",
+    "reading": "そち",
+    "meanings": [
+      "measure",
+      "step"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "措置。",
+        "en": "measure.",
+        "reading": "そち。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-095",
+    "word": "概念",
+    "reading": "がいねん",
+    "meanings": [
+      "concept"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "概念。",
+        "en": "concept.",
+        "reading": "がいねん。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n2-096",
+    "word": "見解",
+    "reading": "けんかい",
+    "meanings": [
+      "opinion",
+      "view"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "見解。",
+        "en": "opinion.",
+        "reading": "けんかい。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-097",
+    "word": "手段",
+    "reading": "しゅだん",
+    "meanings": [
+      "means",
+      "method"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "手段。",
+        "en": "means.",
+        "reading": "しゅだん。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-098",
+    "word": "人材",
+    "reading": "じんざい",
+    "meanings": [
+      "human resources",
+      "talent"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "人材。",
+        "en": "human resources.",
+        "reading": "じんざい。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-099",
+    "word": "尊重",
+    "reading": "そんちょう",
+    "meanings": [
+      "respect"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "尊重。",
+        "en": "respect.",
+        "reading": "そんちょう。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n2-100",
+    "word": "価値観",
+    "reading": "かちかん",
+    "meanings": [
+      "values",
+      "sense of values"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "sentences": [
+      {
+        "ja": "価値観。",
+        "en": "values.",
+        "reading": "かちかん。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
   }
 ]

@@ -1,17 +1,349 @@
 [
-  {"id":"lex-n1-概念","text":"概念","reading":"がいねん","meanings":["concept"],"partOfSpeech":"noun","jlpt":"N1"},
-  {"id":"lex-n1-抽象","text":"抽象","reading":"ちゅうしょう","meanings":["abstract"],"partOfSpeech":"noun","jlpt":"N1"},
-  {"id":"lex-n1-妥協","text":"妥協","reading":"だきょう","meanings":["compromise"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
-  {"id":"lex-n1-矛盾","text":"矛盾","reading":"むじゅん","meanings":["contradiction"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
-  {"id":"lex-n1-促進","text":"促進","reading":"そくしん","meanings":["promotion"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
-  {"id":"lex-n1-措置","text":"措置","reading":"そち","meanings":["measure"],"partOfSpeech":"noun","jlpt":"N1"},
-  {"id":"lex-n1-是正","text":"是正","reading":"ぜせい","meanings":["correction"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
-  {"id":"lex-n1-遂行","text":"遂行","reading":"すいこう","meanings":["execution"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
-  {"id":"lex-n1-怠る","text":"怠る","reading":"おこたる","meanings":["to neglect"],"partOfSpeech":"godan verb","jlpt":"N1"},
-  {"id":"lex-n1-覆す","text":"覆す","reading":"くつがえす","meanings":["to overturn"],"partOfSpeech":"godan verb","jlpt":"N1"},
-  {"id":"lex-n1-顕著","text":"顕著","reading":"けんちょ","meanings":["remarkable"],"partOfSpeech":"な-adjective","jlpt":"N1"},
-  {"id":"lex-n1-著しい","text":"著しい","reading":"いちじるしい","meanings":["remarkable"],"partOfSpeech":"い-adjective","jlpt":"N1"},
-  {"id":"lex-n1-一概に","text":"一概に","reading":"いちがいに","meanings":["unconditionally"],"partOfSpeech":"adverb","jlpt":"N1"},
-  {"id":"lex-n1-辛うじて","text":"辛うじて","reading":"かろうじて","meanings":["barely"],"partOfSpeech":"adverb","jlpt":"N1"},
-  {"id":"lex-n1-余儀ない","text":"余儀ない","reading":"よぎない","meanings":["unavoidable"],"partOfSpeech":"い-adjective","jlpt":"N1"}
+  {
+    "id": "lex-n1-概念",
+    "text": "概念",
+    "reading": "がいねん",
+    "meanings": [
+      "concept"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-抽象",
+    "text": "抽象",
+    "reading": "ちゅうしょう",
+    "meanings": [
+      "abstract"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-妥協",
+    "text": "妥協",
+    "reading": "だきょう",
+    "meanings": [
+      "compromise"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-矛盾",
+    "text": "矛盾",
+    "reading": "むじゅん",
+    "meanings": [
+      "contradiction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-促進",
+    "text": "促進",
+    "reading": "そくしん",
+    "meanings": [
+      "promotion"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-措置",
+    "text": "措置",
+    "reading": "そち",
+    "meanings": [
+      "measure"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-是正",
+    "text": "是正",
+    "reading": "ぜせい",
+    "meanings": [
+      "correction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-遂行",
+    "text": "遂行",
+    "reading": "すいこう",
+    "meanings": [
+      "execution"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-怠る",
+    "text": "怠る",
+    "reading": "おこたる",
+    "meanings": [
+      "to neglect"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-覆す",
+    "text": "覆す",
+    "reading": "くつがえす",
+    "meanings": [
+      "to overturn"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-顕著",
+    "text": "顕著",
+    "reading": "けんちょ",
+    "meanings": [
+      "remarkable"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-著しい",
+    "text": "著しい",
+    "reading": "いちじるしい",
+    "meanings": [
+      "remarkable"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-一概に",
+    "text": "一概に",
+    "reading": "いちがいに",
+    "meanings": [
+      "unconditionally"
+    ],
+    "partOfSpeech": "adverb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-辛うじて",
+    "text": "辛うじて",
+    "reading": "かろうじて",
+    "meanings": [
+      "barely"
+    ],
+    "partOfSpeech": "adverb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-余儀ない",
+    "text": "余儀ない",
+    "reading": "よぎない",
+    "meanings": [
+      "unavoidable"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-概要",
+    "text": "概要",
+    "reading": "がいよう",
+    "meanings": [
+      "outline",
+      "summary"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-論文",
+    "text": "論文",
+    "reading": "ろんぶん",
+    "meanings": [
+      "thesis",
+      "paper"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-仮説",
+    "text": "仮説",
+    "reading": "かせつ",
+    "meanings": [
+      "hypothesis"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-根本",
+    "text": "根本",
+    "reading": "こんぽん",
+    "meanings": [
+      "fundamental"
+    ],
+    "partOfSpeech": "noun / な-adjective",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-模索",
+    "text": "模索",
+    "reading": "もさく",
+    "meanings": [
+      "groping",
+      "searching"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-排除",
+    "text": "排除",
+    "reading": "はいじょ",
+    "meanings": [
+      "exclusion"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-獲得",
+    "text": "獲得",
+    "reading": "かくとく",
+    "meanings": [
+      "acquisition"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-契機",
+    "text": "契機",
+    "reading": "けいき",
+    "meanings": [
+      "opportunity",
+      "turning point"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-及ぼす",
+    "text": "及ぼす",
+    "reading": "およぼす",
+    "meanings": [
+      "to exert",
+      "to have an effect"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-捉える",
+    "text": "捉える",
+    "reading": "とらえる",
+    "meanings": [
+      "to grasp",
+      "to perceive"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-問い直す",
+    "text": "問い直す",
+    "reading": "といなおす",
+    "meanings": [
+      "to re-examine"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-暗記",
+    "text": "暗記",
+    "reading": "あんき",
+    "meanings": [
+      "memorization"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-批判的",
+    "text": "批判的",
+    "reading": "ひはんてき",
+    "meanings": [
+      "critical"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-創造性",
+    "text": "創造性",
+    "reading": "そうぞうせい",
+    "meanings": [
+      "creativity"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-普遍的",
+    "text": "普遍的",
+    "reading": "ふへんてき",
+    "meanings": [
+      "universal"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-多様性",
+    "text": "多様性",
+    "reading": "たようせい",
+    "meanings": [
+      "diversity"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-共生",
+    "text": "共生",
+    "reading": "きょうせい",
+    "meanings": [
+      "coexistence"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-相互",
+    "text": "相互",
+    "reading": "そうご",
+    "meanings": [
+      "mutual"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  },
+  {
+    "id": "lex-n1-基盤",
+    "text": "基盤",
+    "reading": "きばん",
+    "meanings": [
+      "foundation",
+      "basis"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N1"
+  }
 ]

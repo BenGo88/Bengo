@@ -1,17 +1,736 @@
 [
-  {"id":"v-n1-001","word":"概念","reading":"がいねん","meanings":["concept","notion"],"part_of_speech":"noun","jlpt":"N1","simple_usage":"Abstract concept.","sentences":[{"ja":"この概念は難しい。","en":"This concept is difficult.","reading":"この がいねん は むずかしい。"}],"tags":["academic"]},
-  {"id":"v-n1-002","word":"抽象","reading":"ちゅうしょう","meanings":["abstract"],"part_of_speech":"noun / な-adjective","jlpt":"N1","simple_usage":"Abstract (opposite: 具体的).","sentences":[{"ja":"抽象的な議論は避けたい。","en":"I want to avoid abstract discussions.","reading":"ちゅうしょうてき な ぎろん は さけたい。"}],"tags":["academic"]},
-  {"id":"v-n1-003","word":"妥協","reading":"だきょう","meanings":["compromise"],"part_of_speech":"noun / suru-verb","jlpt":"N1","simple_usage":"Making a compromise.","sentences":[{"ja":"妥協点を見つける。","en":"Find a point of compromise.","reading":"だきょうてん を みつける。"}],"tags":["negotiation"]},
-  {"id":"v-n1-004","word":"矛盾","reading":"むじゅん","meanings":["contradiction"],"part_of_speech":"noun / suru-verb","jlpt":"N1","simple_usage":"Contradictory.","sentences":[{"ja":"彼の話は矛盾している。","en":"His story is contradictory.","reading":"かれ の はなし は むじゅん している。"}],"tags":["logic"]},
-  {"id":"v-n1-005","word":"促進","reading":"そくしん","meanings":["promotion","acceleration"],"part_of_speech":"noun / suru-verb","jlpt":"N1","simple_usage":"Promoting/accelerating progress.","sentences":[{"ja":"経済成長を促進する。","en":"Promote economic growth.","reading":"けいざい せいちょう を そくしん する。"}],"tags":["formal"]},
-  {"id":"v-n1-006","word":"措置","reading":"そち","meanings":["measure","step"],"part_of_speech":"noun","jlpt":"N1","simple_usage":"Official measures taken.","sentences":[{"ja":"緊急措置を取る。","en":"Take emergency measures.","reading":"きんきゅう そち を とる。"}],"tags":["formal"]},
-  {"id":"v-n1-007","word":"是正","reading":"ぜせい","meanings":["correction","rectification"],"part_of_speech":"noun / suru-verb","jlpt":"N1","simple_usage":"Correcting an injustice/error.","sentences":[{"ja":"格差を是正する必要がある。","en":"It's necessary to rectify the disparity.","reading":"かくさ を ぜせい する ひつよう が ある。"}],"tags":["formal"]},
-  {"id":"v-n1-008","word":"遂行","reading":"すいこう","meanings":["execution","carrying out"],"part_of_speech":"noun / suru-verb","jlpt":"N1","simple_usage":"Carrying out a duty/task.","sentences":[{"ja":"任務を遂行する。","en":"Carry out the mission.","reading":"にんむ を すいこう する。"}],"tags":["formal"]},
-  {"id":"v-n1-009","word":"怠る","reading":"おこたる","meanings":["to neglect","to be lazy about"],"part_of_speech":"godan verb","jlpt":"N1","simple_usage":"Neglecting a duty.","sentences":[{"ja":"準備を怠ってはならない。","en":"You must not neglect preparations.","reading":"じゅんび を おこたっては ならない。"}],"tags":["formal"]},
-  {"id":"v-n1-010","word":"覆す","reading":"くつがえす","meanings":["to overturn","to reverse"],"part_of_speech":"godan verb","jlpt":"N1","simple_usage":"Overturn a decision/result.","sentences":[{"ja":"判決を覆すことは難しい。","en":"Overturning the verdict is difficult.","reading":"はんけつ を くつがえす こと は むずかしい。"}],"tags":["legal"]},
-  {"id":"v-n1-011","word":"顕著","reading":"けんちょ","meanings":["remarkable","striking"],"part_of_speech":"な-adjective","jlpt":"N1","simple_usage":"Notably visible/prominent.","sentences":[{"ja":"顕著な成果が見られた。","en":"Remarkable results were observed.","reading":"けんちょ な せいか が みられた。"}],"tags":["academic"]},
-  {"id":"v-n1-012","word":"余儀ない","reading":"よぎない","meanings":["unavoidable","forced"],"part_of_speech":"い-adjective","jlpt":"N1","simple_usage":"Forced/unavoidable situation.","sentences":[{"ja":"変更を余儀なくされた。","en":"We were forced to change.","reading":"へんこう を よぎなく された。"}],"tags":["formal"]},
-  {"id":"v-n1-013","word":"一概に","reading":"いちがいに","meanings":["unconditionally","sweepingly"],"part_of_speech":"adverb","jlpt":"N1","simple_usage":"Used with negatives: can't say unconditionally.","sentences":[{"ja":"一概には言えない。","en":"You can't say unconditionally.","reading":"いちがい には いえない。"}],"tags":["formal"]},
-  {"id":"v-n1-014","word":"著しい","reading":"いちじるしい","meanings":["remarkable","significant"],"part_of_speech":"い-adjective","jlpt":"N1","simple_usage":"Significantly noticeable.","sentences":[{"ja":"著しい進歩が見られた。","en":"Significant progress was observed.","reading":"いちじるしい しんぽ が みられた。"}],"tags":["academic"]},
-  {"id":"v-n1-015","word":"辛うじて","reading":"かろうじて","meanings":["barely","narrowly"],"part_of_speech":"adverb","jlpt":"N1","simple_usage":"Just barely managed.","sentences":[{"ja":"辛うじて間に合った。","en":"I barely made it in time.","reading":"かろうじて まにあった。"}],"tags":["daily"]}
+  {
+    "id": "v-n1-001",
+    "word": "概念",
+    "reading": "がいねん",
+    "meanings": [
+      "concept",
+      "notion"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "simple_usage": "Abstract concept.",
+    "sentences": [
+      {
+        "ja": "この概念は難しい。",
+        "en": "This concept is difficult.",
+        "reading": "この がいねん は むずかしい。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-002",
+    "word": "抽象",
+    "reading": "ちゅうしょう",
+    "meanings": [
+      "abstract"
+    ],
+    "part_of_speech": "noun / な-adjective",
+    "jlpt": "N1",
+    "simple_usage": "Abstract (opposite: 具体的).",
+    "sentences": [
+      {
+        "ja": "抽象的な議論は避けたい。",
+        "en": "I want to avoid abstract discussions.",
+        "reading": "ちゅうしょうてき な ぎろん は さけたい。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-003",
+    "word": "妥協",
+    "reading": "だきょう",
+    "meanings": [
+      "compromise"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "simple_usage": "Making a compromise.",
+    "sentences": [
+      {
+        "ja": "妥協点を見つける。",
+        "en": "Find a point of compromise.",
+        "reading": "だきょうてん を みつける。"
+      }
+    ],
+    "tags": [
+      "negotiation"
+    ]
+  },
+  {
+    "id": "v-n1-004",
+    "word": "矛盾",
+    "reading": "むじゅん",
+    "meanings": [
+      "contradiction"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "simple_usage": "Contradictory.",
+    "sentences": [
+      {
+        "ja": "彼の話は矛盾している。",
+        "en": "His story is contradictory.",
+        "reading": "かれ の はなし は むじゅん している。"
+      }
+    ],
+    "tags": [
+      "logic"
+    ]
+  },
+  {
+    "id": "v-n1-005",
+    "word": "促進",
+    "reading": "そくしん",
+    "meanings": [
+      "promotion",
+      "acceleration"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "simple_usage": "Promoting/accelerating progress.",
+    "sentences": [
+      {
+        "ja": "経済成長を促進する。",
+        "en": "Promote economic growth.",
+        "reading": "けいざい せいちょう を そくしん する。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-006",
+    "word": "措置",
+    "reading": "そち",
+    "meanings": [
+      "measure",
+      "step"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "simple_usage": "Official measures taken.",
+    "sentences": [
+      {
+        "ja": "緊急措置を取る。",
+        "en": "Take emergency measures.",
+        "reading": "きんきゅう そち を とる。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-007",
+    "word": "是正",
+    "reading": "ぜせい",
+    "meanings": [
+      "correction",
+      "rectification"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "simple_usage": "Correcting an injustice/error.",
+    "sentences": [
+      {
+        "ja": "格差を是正する必要がある。",
+        "en": "It's necessary to rectify the disparity.",
+        "reading": "かくさ を ぜせい する ひつよう が ある。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-008",
+    "word": "遂行",
+    "reading": "すいこう",
+    "meanings": [
+      "execution",
+      "carrying out"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "simple_usage": "Carrying out a duty/task.",
+    "sentences": [
+      {
+        "ja": "任務を遂行する。",
+        "en": "Carry out the mission.",
+        "reading": "にんむ を すいこう する。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-009",
+    "word": "怠る",
+    "reading": "おこたる",
+    "meanings": [
+      "to neglect",
+      "to be lazy about"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N1",
+    "simple_usage": "Neglecting a duty.",
+    "sentences": [
+      {
+        "ja": "準備を怠ってはならない。",
+        "en": "You must not neglect preparations.",
+        "reading": "じゅんび を おこたっては ならない。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-010",
+    "word": "覆す",
+    "reading": "くつがえす",
+    "meanings": [
+      "to overturn",
+      "to reverse"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N1",
+    "simple_usage": "Overturn a decision/result.",
+    "sentences": [
+      {
+        "ja": "判決を覆すことは難しい。",
+        "en": "Overturning the verdict is difficult.",
+        "reading": "はんけつ を くつがえす こと は むずかしい。"
+      }
+    ],
+    "tags": [
+      "legal"
+    ]
+  },
+  {
+    "id": "v-n1-011",
+    "word": "顕著",
+    "reading": "けんちょ",
+    "meanings": [
+      "remarkable",
+      "striking"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N1",
+    "simple_usage": "Notably visible/prominent.",
+    "sentences": [
+      {
+        "ja": "顕著な成果が見られた。",
+        "en": "Remarkable results were observed.",
+        "reading": "けんちょ な せいか が みられた。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-012",
+    "word": "余儀ない",
+    "reading": "よぎない",
+    "meanings": [
+      "unavoidable",
+      "forced"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N1",
+    "simple_usage": "Forced/unavoidable situation.",
+    "sentences": [
+      {
+        "ja": "変更を余儀なくされた。",
+        "en": "We were forced to change.",
+        "reading": "へんこう を よぎなく された。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-013",
+    "word": "一概に",
+    "reading": "いちがいに",
+    "meanings": [
+      "unconditionally",
+      "sweepingly"
+    ],
+    "part_of_speech": "adverb",
+    "jlpt": "N1",
+    "simple_usage": "Used with negatives: can't say unconditionally.",
+    "sentences": [
+      {
+        "ja": "一概には言えない。",
+        "en": "You can't say unconditionally.",
+        "reading": "いちがい には いえない。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-014",
+    "word": "著しい",
+    "reading": "いちじるしい",
+    "meanings": [
+      "remarkable",
+      "significant"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N1",
+    "simple_usage": "Significantly noticeable.",
+    "sentences": [
+      {
+        "ja": "著しい進歩が見られた。",
+        "en": "Significant progress was observed.",
+        "reading": "いちじるしい しんぽ が みられた。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-015",
+    "word": "辛うじて",
+    "reading": "かろうじて",
+    "meanings": [
+      "barely",
+      "narrowly"
+    ],
+    "part_of_speech": "adverb",
+    "jlpt": "N1",
+    "simple_usage": "Just barely managed.",
+    "sentences": [
+      {
+        "ja": "辛うじて間に合った。",
+        "en": "I barely made it in time.",
+        "reading": "かろうじて まにあった。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n1-016",
+    "word": "概要",
+    "reading": "がいよう",
+    "meanings": [
+      "outline",
+      "summary"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "概要。",
+        "en": "outline.",
+        "reading": "がいよう。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-017",
+    "word": "論文",
+    "reading": "ろんぶん",
+    "meanings": [
+      "thesis",
+      "paper"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "論文。",
+        "en": "thesis.",
+        "reading": "ろんぶん。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-018",
+    "word": "仮説",
+    "reading": "かせつ",
+    "meanings": [
+      "hypothesis"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "仮説。",
+        "en": "hypothesis.",
+        "reading": "かせつ。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-019",
+    "word": "根本",
+    "reading": "こんぽん",
+    "meanings": [
+      "fundamental"
+    ],
+    "part_of_speech": "noun / な-adjective",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "根本。",
+        "en": "fundamental.",
+        "reading": "こんぽん。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n1-020",
+    "word": "抽象",
+    "reading": "ちゅうしょう",
+    "meanings": [
+      "abstraction"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "抽象。",
+        "en": "abstraction.",
+        "reading": "ちゅうしょう。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-021",
+    "word": "模索",
+    "reading": "もさく",
+    "meanings": [
+      "groping",
+      "searching"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "模索。",
+        "en": "groping.",
+        "reading": "もさく。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-022",
+    "word": "排除",
+    "reading": "はいじょ",
+    "meanings": [
+      "exclusion"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "排除。",
+        "en": "exclusion.",
+        "reading": "はいじょ。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-023",
+    "word": "獲得",
+    "reading": "かくとく",
+    "meanings": [
+      "acquisition"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "獲得。",
+        "en": "acquisition.",
+        "reading": "かくとく。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-024",
+    "word": "契機",
+    "reading": "けいき",
+    "meanings": [
+      "opportunity",
+      "turning point"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "契機。",
+        "en": "opportunity.",
+        "reading": "けいき。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-025",
+    "word": "及ぼす",
+    "reading": "およぼす",
+    "meanings": [
+      "to exert",
+      "to have an effect"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "及ぼす。",
+        "en": "to exert.",
+        "reading": "およぼす。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-026",
+    "word": "捉える",
+    "reading": "とらえる",
+    "meanings": [
+      "to grasp",
+      "to perceive"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "捉える。",
+        "en": "to grasp.",
+        "reading": "とらえる。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-027",
+    "word": "問い直す",
+    "reading": "といなおす",
+    "meanings": [
+      "to re-examine"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "問い直す。",
+        "en": "to re-examine.",
+        "reading": "といなおす。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n1-028",
+    "word": "暗記",
+    "reading": "あんき",
+    "meanings": [
+      "memorization"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "暗記。",
+        "en": "memorization.",
+        "reading": "あんき。"
+      }
+    ],
+    "tags": [
+      "study"
+    ]
+  },
+  {
+    "id": "v-n1-029",
+    "word": "批判的",
+    "reading": "ひはんてき",
+    "meanings": [
+      "critical"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "批判的。",
+        "en": "critical.",
+        "reading": "ひはんてき。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-030",
+    "word": "創造性",
+    "reading": "そうぞうせい",
+    "meanings": [
+      "creativity"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "創造性。",
+        "en": "creativity.",
+        "reading": "そうぞうせい。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n1-031",
+    "word": "普遍的",
+    "reading": "ふへんてき",
+    "meanings": [
+      "universal"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "普遍的。",
+        "en": "universal.",
+        "reading": "ふへんてき。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n1-032",
+    "word": "多様性",
+    "reading": "たようせい",
+    "meanings": [
+      "diversity"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "多様性。",
+        "en": "diversity.",
+        "reading": "たようせい。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n1-033",
+    "word": "共生",
+    "reading": "きょうせい",
+    "meanings": [
+      "coexistence"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "共生。",
+        "en": "coexistence.",
+        "reading": "きょうせい。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n1-034",
+    "word": "相互",
+    "reading": "そうご",
+    "meanings": [
+      "mutual"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "相互。",
+        "en": "mutual.",
+        "reading": "そうご。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n1-035",
+    "word": "基盤",
+    "reading": "きばん",
+    "meanings": [
+      "foundation",
+      "basis"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N1",
+    "sentences": [
+      {
+        "ja": "基盤。",
+        "en": "foundation.",
+        "reading": "きばん。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  }
 ]

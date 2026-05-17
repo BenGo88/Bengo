@@ -58,6 +58,8 @@ export default function Quiz() {
   const [testLength, setTestLength] = useState<"short" | "medium" | "long">("short");
   const [timed, setTimed] = useState(false);
   const [timerStart, setTimerStart] = useState(0);
+  const [remainingTime, setRemainingTime] = useState(0);
+  const [timedOut, setTimedOut] = useState(false);
 
   // Session state
   const [phase, setPhase] = useState<Phase>("setup");
@@ -66,6 +68,26 @@ export default function Quiz() {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [results, setResults] = useState<ResultItem[]>([]);
   const [addedMissed, setAddedMissed] = useState(false);
+
+  // Interval-based countdown timer
+  const timeLimits = { short: 15 * 60, medium: 30 * 60, long: 60 * 60 };
+  useEffect(() => {
+    if (!timed || phase !== "session" || !timerStart) return;
+    const limit = timeLimits[testLength];
+    const tick = () => {
+      const elapsed = Math.floor((Date.now() - timerStart) / 1000);
+      const rem = Math.max(0, limit - elapsed);
+      setRemainingTime(rem);
+      if (rem <= 0 && !timedOut) {
+        setTimedOut(true);
+        recordStudySession();
+        setPhase("summary");
+      }
+    };
+    tick();
+    const id = setInterval(tick, 1000);
+    return () => clearInterval(id);
+  }, [timed, phase, timerStart, testLength, timedOut]);
 
   const counts = getContentCounts(level);
   const totalAvailable = counts.kanji + counts.vocab + counts.grammar;
@@ -90,6 +112,7 @@ export default function Quiz() {
     setResults([]);
     setAddedMissed(false);
     if (timed) setTimerStart(Date.now());
+    setTimedOut(false);
     setPhase("session");
   }
 
@@ -251,20 +274,11 @@ export default function Quiz() {
     const answered = selectedAnswer !== null;
     const showFeedback = answered && !testMode;
 
-    // Timer logic
-    const timeLimits = { short: 15 * 60, medium: 30 * 60, long: 60 * 60 };
-    const timeLimitSec = timed ? timeLimits[testLength] : 0;
-    const elapsed = timed && timerStart ? Math.floor((Date.now() - timerStart) / 1000) : 0;
-    const remaining = timed ? Math.max(0, timeLimitSec - elapsed) : 0;
-    const timerMin = Math.floor(remaining / 60);
-    const timerSecStr = String(remaining % 60).padStart(2, "0");
-    const timerWarn = timed && remaining <= 300;
-    const timerCrit = timed && remaining <= 60;
-
-    // Auto-submit on timeout
-    if (timed && remaining <= 0 && timerStart > 0) {
-      setTimeout(() => { recordStudySession(); setPhase("summary"); }, 100);
-    }
+    // Timer display from state
+    const timerMin = Math.floor(remainingTime / 60);
+    const timerSecStr = String(remainingTime % 60).padStart(2, "0");
+    const timerWarn = timed && remainingTime <= 300;
+    const timerCrit = timed && remainingTime <= 60;
 
     return (
       <div className="max-w-2xl mx-auto animate-fade-in" key={qIndex}>

@@ -267,7 +267,8 @@ export function exportData(): string {
   // Include reading progress and test history
   const reading = localStorage.getItem("bengo_reading_progress") || "{}";
   const tests = localStorage.getItem("bengo_test_history") || "[]";
-  return JSON.stringify({ ...core, readingProgress: JSON.parse(reading), testHistory: JSON.parse(tests) }, null, 2);
+  const listening = localStorage.getItem("bengo_listening_progress") || "{}";
+  return JSON.stringify({ ...core, readingProgress: JSON.parse(reading), testHistory: JSON.parse(tests), listeningProgress: JSON.parse(listening) }, null, 2);
 }
 
 export function importData(json: string): boolean {
@@ -279,6 +280,7 @@ export function importData(json: string): boolean {
       if (data.readingProgress) localStorage.setItem("bengo_reading_progress", JSON.stringify(data.readingProgress));
       // Import test history if present
       if (data.testHistory) localStorage.setItem("bengo_test_history", JSON.stringify(data.testHistory));
+      if (data.listeningProgress) localStorage.setItem("bengo_listening_progress", JSON.stringify(data.listeningProgress));
       return true;
     }
     return false;
@@ -291,4 +293,5 @@ export function resetAllData(): void {
   saveUserData(createDefaultData());
   localStorage.removeItem("bengo_reading_progress");
   localStorage.removeItem("bengo_test_history");
+  localStorage.removeItem("bengo_listening_progress");
 }

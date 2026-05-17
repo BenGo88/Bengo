@@ -143,3 +143,68 @@ export function getReadingDistractors(type: "kanji" | "vocab", excludeId: string
   else pool = allVocab.filter((v) => v.id !== excludeId).map((v) => v.reading);
   return pool.sort(() => Math.random() - 0.5).slice(0, count);
 }
+
+/* ── Unit/Curriculum helpers (v1.0) ──────────────────────────────────────── */
+
+export interface CurriculumUnit {
+  name: string;
+  grammar: GrammarPoint[];
+  vocab: Vocab[];
+  kanji: Kanji[];
+}
+
+/** Get all curriculum units for a level, ordered by grammar order field. */
+export function getUnitsForLevel(level: JLPTLevel): CurriculumUnit[] {
+  const grammar = getGrammarByLevel(level).filter((g) => g.unit).sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
+  const unitNames: string[] = [];
+  for (const g of grammar) {
+    if (g.unit && !unitNames.includes(g.unit)) unitNames.push(g.unit);
+  }
+
+  const vocab = getVocabByLevel(level);
+  const kanji = getKanjiByLevel(level);
+
+  return unitNames.map((name) => ({
+    name,
+    grammar: grammar.filter((g) => g.unit === name),
+    vocab: [],   // future: link vocab to units
+    kanji: [],   // future: link kanji to units
+  }));
+}
+
+/** Get next incomplete unit for a level. */
+export function getNextIncompleteUnit(level: JLPTLevel): CurriculumUnit | null {
+  const units = getUnitsForLevel(level);
+  for (const unit of units) {
+    const allIds = unit.grammar.map((g) => ({ type: "grammar" as ItemType, id: g.id }));
+    const hasUnlearned = allIds.some(({ type, id }) => !getUserItem(type, id));
+    if (hasUnlearned) return unit;
+  }
+  return null;
+}
+
+/** Get ordered lesson batch from curriculum. */
+export function getCurriculumLessonBatch(level: JLPTLevel, batchSize = 4): LessonItem[] {
+  const unit = getNextIncompleteUnit(level);
+  if (!unit) {
+    // Fallback to generic unlearned
+    return getSuggestedLessonBatch(level, undefined, batchSize);
+  }
+
+  const batch: LessonItem[] = [];
+
+  // Grammar from this unit first
+  for (const g of unit.grammar) {
+    if (!getUserItem("grammar", g.id) && batch.length < 2) {
+      batch.push(toLessonItem("grammar", g.id, g.title, g.meaning_short, g.jlpt));
+    }
+  }
+
+  // Fill with unlearned vocab/kanji from level
+  const vocab = getUnlearnedByType("vocab", level);
+  const kanji = getUnlearnedByType("kanji", level);
+  for (const v of vocab) { if (batch.length < batchSize - 1) batch.push(v); }
+  for (const k of kanji) { if (batch.length < batchSize) batch.push(k); }
+
+  return batch.slice(0, batchSize);
+}

@@ -199,7 +199,7 @@ export default function Quiz() {
             if (testMode) {
               // In test mode, immediately move to next
               const correct = idx === q.correctIndex;
-              const newResults = [...results, { question: q, correct }];
+              const newResults = [...results, { question: q, correct, selectedIndex: idx }];
               setResults(newResults);
               setTimeout(() => {
                 if (qIndex < questions.length - 1) {
@@ -220,7 +220,7 @@ export default function Quiz() {
             className="btn-primary w-full mt-6 py-3"
             onClick={() => {
               const correct = selectedAnswer === q.correctIndex;
-              const newResults = [...results, { question: q, correct }];
+              const newResults = [...results, { question: q, correct, selectedIndex: selectedAnswer! }];
               setResults(newResults);
 
               if (qIndex < questions.length - 1) {

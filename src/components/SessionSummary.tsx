@@ -5,6 +5,7 @@ import { TypeBadge } from "./QuestionCard";
 interface ResultItem {
   question: Question;
   correct: boolean;
+  selectedIndex?: number;  // which answer the user picked (v1.0+)
 }
 
 interface Props {
@@ -72,8 +73,13 @@ export default function SessionSummary({ title, results, xpEarned, children }: P
                 <TypeBadge type={r.question.itemType} />
               </div>
               <p className="text-xs text-ink-300">
-                <span className="text-jade-400">Correct:</span> {r.question.choices[r.question.correctIndex]}
+                <span className="text-jade-400">✓ Correct:</span> {r.question.choices[r.question.correctIndex]}
               </p>
+              {r.selectedIndex !== undefined && r.selectedIndex !== r.question.correctIndex && (
+                <p className="text-xs text-ink-300">
+                  <span className="text-vermillion-400">✗ You chose:</span> {r.question.choices[r.selectedIndex]}
+                </p>
+              )}
               <p className="text-xs text-ink-400">{r.question.explanation}</p>
               {r.question.detailPath && (
                 <Link to={r.question.detailPath} className="text-xs text-vermillion-400 hover:text-vermillion-300">

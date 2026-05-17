@@ -136,7 +136,7 @@ export default function Reviews() {
               processAnswer(q.itemType, q.itemId, correct);
               if (correct) setXpEarned((x) => x + 5);
 
-              const newResults = [...results, { question: q, correct }];
+              const newResults = [...results, { question: q, correct, selectedIndex: selectedAnswer! }];
               setResults(newResults);
 
               if (questionIndex < questions.length - 1) {

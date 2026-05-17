@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { getProfile, getDueItems, getWeakItems, getLearnedCount, getStats, getAllItems } from "../lib/storage";
-import { getContentCounts } from "../lib/content";
+import { getContentCounts, getNextIncompleteUnit } from "../lib/content";
 import type { UserProfile, JLPTLevel } from "../lib/types";
 
 export default function Dashboard() {
@@ -9,7 +9,6 @@ export default function Dashboard() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   useEffect(() => { setProfile(getProfile()); }, []);
 
-  // ALL hooks must be called before any early return
   const forecast = useMemo(() => {
     const items = getAllItems().filter((i) => i.srsStage !== "lesson" && i.srsStage !== "burned");
     const now = new Date();
@@ -25,7 +24,12 @@ export default function Dashboard() {
       else if (d <= weekEnd) thisWeek++;
     }
     return { laterToday, tomorrow, thisWeek };
-  }, [profile]); // re-run when profile loads
+  }, [profile]);
+
+  const nextUnit = useMemo(() => {
+    if (!profile) return null;
+    return getNextIncompleteUnit(profile.targetLevel as JLPTLevel);
+  }, [profile]);
 
   if (!profile) return null;
 
@@ -50,18 +54,27 @@ export default function Dashboard() {
         <SC label="Due Now" value={String(dueItems.length)} accent={dueItems.length > 0 ? "vermillion" : undefined} />
       </div>
 
-      {/* Placement card */}
-      {!profile.placementLevel ? (
+      {/* Continue Curriculum */}
+      {nextUnit ? (
+        <div className="card-hover p-5 border-vermillion-500/20" onClick={() => navigate(`/lessons/session?type=mixed&unit=${encodeURIComponent(nextUnit.name)}`)}>
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-lg">📖</span>
+            <div>
+              <h3 className="font-semibold text-ink-100">Continue Curriculum</h3>
+              <p className="text-xs text-ink-500">{profile.targetLevel} — {nextUnit.name}</p>
+            </div>
+          </div>
+          <p className="text-sm text-ink-400">{nextUnit.grammar.map(g => g.title).join(", ")}</p>
+          <button className="btn-primary mt-3 w-full">Start Next Lesson</button>
+        </div>
+      ) : !profile.placementLevel ? (
         <div className="card-hover p-5 border-jade-500/20" onClick={() => navigate("/placement")}>
           <div className="flex items-center gap-3 mb-2"><span className="text-lg">🎯</span><h3 className="font-semibold text-ink-100">Find Your Level</h3></div>
-          <p className="text-sm text-ink-400">Take a quick placement quiz to find your recommended starting point.</p>
+          <p className="text-sm text-ink-400">Take a placement quiz to find your starting point.</p>
         </div>
       ) : (
         <div className="card p-4 flex items-center justify-between">
-          <div>
-            <p className="text-xs text-ink-500">Recommended level</p>
-            <p className="text-lg font-display font-bold text-vermillion-400">{profile.placementLevel}</p>
-          </div>
+          <div><p className="text-xs text-ink-500">Recommended level</p><p className="text-lg font-display font-bold text-vermillion-400">{profile.placementLevel}</p></div>
           <button className="btn-secondary text-xs" onClick={() => navigate("/placement")}>Retake</button>
         </div>
       )}
@@ -75,7 +88,6 @@ export default function Dashboard() {
         </div>
       </section>
 
-      {/* Review forecast */}
       {(forecast.laterToday > 0 || forecast.tomorrow > 0 || forecast.thisWeek > 0) && (
         <div className="card p-4">
           <h2 className="label mb-2">Review Forecast</h2>
@@ -87,11 +99,10 @@ export default function Dashboard() {
         </div>
       )}
 
-      {/* Path + Weak points */}
       <section className="grid gap-3 md:grid-cols-2">
-        <div className="card-hover p-5" onClick={() => navigate("/study-path")}>
-          <div className="flex items-center gap-3 mb-2"><span className="text-lg">🗺</span><h3 className="font-semibold text-ink-100">Study Path</h3></div>
-          <p className="text-sm text-ink-400">Foundation → N5 → N4 → N3 → N2 → N1</p>
+        <div className="card-hover p-5" onClick={() => navigate(`/curriculum/${profile.targetLevel.toLowerCase()}`)}>
+          <div className="flex items-center gap-3 mb-2"><span className="text-lg">🗺</span><h3 className="font-semibold text-ink-100">{profile.targetLevel} Curriculum</h3></div>
+          <p className="text-sm text-ink-400">View units and track your progress</p>
         </div>
         <div className="card-hover p-5" onClick={() => navigate("/weak-points")}>
           <div className="flex items-center gap-3 mb-2"><span className="text-lg">△</span><h3 className="font-semibold text-ink-100">Weak Points</h3></div>
@@ -102,11 +113,10 @@ export default function Dashboard() {
       <section className="space-y-3">
         <h2 className="label">Quick Actions</h2>
         <div className="flex flex-wrap gap-2">
-          <button className="btn-secondary" onClick={() => navigate("/lessons/session?type=mixed")}>Mixed Lesson</button>
-          <button className="btn-secondary" onClick={() => navigate("/quiz")}>{profile.targetLevel} Quiz</button>
           <button className="btn-secondary" onClick={() => navigate("/quiz")}>Practice Test</button>
           <button className="btn-secondary" onClick={() => navigate("/kanji")}>Browse Kanji</button>
           <button className="btn-secondary" onClick={() => navigate("/grammar")}>Browse Grammar</button>
+          <button className="btn-secondary" onClick={() => navigate("/study-path")}>Study Path</button>
         </div>
       </section>
 
@@ -143,7 +153,7 @@ function PR({ label, cur, tot }: { label: string; cur: number; tot: number }) {
 }
 function MS({ l, v }: { l: string; v: number }) { return <div><p className="text-ink-500">{l}</p><p className="font-semibold text-ink-200">{v}</p></div>; }
 function getMessage(p: UserProfile): string {
-  if (p.currentStreak === 0 && p.totalXp === 0) return `Welcome, ${p.displayName}! Ready to start your ${p.targetLevel} journey?`;
+  if (p.currentStreak === 0 && p.totalXp === 0) return `Welcome, ${p.displayName}! Ready to start?`;
   if (p.currentStreak >= 7) return `${p.currentStreak}-day streak! Keep going, ${p.displayName}.`;
   return `Welcome back, ${p.displayName}. Let's study ${p.targetLevel} today.`;
 }

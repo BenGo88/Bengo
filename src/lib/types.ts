@@ -85,6 +85,9 @@ export interface GrammarPoint {
   simple_explanation?: string;
   prerequisites?: string[];
   beginner_warning?: string;
+  // Curriculum metadata (v1.0+)
+  order?: number;
+  unit?: string;
 }
 
 /* ── User progress (stored in localStorage) ──────────────────────────────── */

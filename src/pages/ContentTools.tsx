@@ -117,6 +117,40 @@ export default function ContentTools() {
         </div>
       </div>
 
+      {/* Content Readiness */}
+      <div className="card p-5">
+        <h2 className="label mb-3">Content Readiness (not learner readiness)</h2>
+        <div className="space-y-2">
+          {(["N5","N4","N3","N2","N1"] as const).map(lvl => {
+            const targets: Record<string, {k:number,v:number,g:number}> = {
+              N5:{k:80,v:250,g:50}, N4:{k:120,v:300,g:60}, N3:{k:300,v:1000,g:150}, N2:{k:1000,v:6000,g:200}, N1:{k:2000,v:10000,g:300}
+            };
+            const t = targets[lvl];
+            const lc = getContentCounts(lvl as any);
+            const qtyPct = Math.min(100, Math.round(((lc.kanji/t.k + lc.vocab/t.v + lc.grammar/t.g) / 3) * 100));
+            // Grammar token check
+            const gItems = allGrammar.filter(g => g.jlpt === lvl);
+            let gExTotal = 0, gExTokens = 0;
+            gItems.forEach(g => g.examples?.forEach(ex => { gExTotal++; if ((ex as any).tokens?.length) gExTokens++; }));
+            const tokenPct = gExTotal > 0 ? Math.round((gExTokens / gExTotal) * 100) : 0;
+            const unitPct = gItems.length > 0 ? Math.round((gItems.filter(g => (g as any).unit).length / gItems.length) * 100) : 0;
+            const readiness = Math.round((qtyPct * 0.4 + tokenPct * 0.3 + unitPct * 0.3));
+            const color = readiness >= 60 ? "text-jade-400" : readiness >= 30 ? "text-yellow-500" : "text-ink-500";
+            return (
+              <div key={lvl} className="flex items-center gap-3">
+                <span className="w-6 text-xs font-semibold text-ink-400">{lvl}</span>
+                <div className="flex-1 h-2 rounded-full bg-ink-800 overflow-hidden">
+                  <div className={`h-full rounded-full ${readiness >= 60 ? "bg-jade-500" : readiness >= 30 ? "bg-yellow-500" : "bg-ink-700"}`} style={{width:`${readiness}%`}} />
+                </div>
+                <span className={`text-xs font-semibold w-10 text-right ${color}`}>{readiness}%</span>
+                <span className="text-[10px] text-ink-600 w-32">qty:{qtyPct}% tok:{tokenPct}% cur:{unitPct}%</span>
+              </div>
+            );
+          })}
+        </div>
+        <p className="text-[10px] text-ink-600 mt-2">qty = content quantity vs target, tok = grammar token coverage, cur = curriculum metadata</p>
+      </div>
+
       {/* Input area */}
       <div className="space-y-3">
         <div className="flex gap-2">

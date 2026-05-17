@@ -6,8 +6,9 @@ import {
   getUserItem,
   recordStudySession,
 } from "../lib/storage";
-import { buildQuizQueue, buildUnitQuizQueue, buildMixedQuizQueue, type Question } from "../lib/questions";
+import { buildQuizQueue, buildUnitQuizQueue, buildMixedQuizQueue, buildJLPTStyleTest, type Question } from "../lib/questions";
 import { getContentCounts } from "../lib/content";
+import { saveTestResult } from "../lib/reading";
 import QuestionCard, { TypeBadge } from "../components/QuestionCard";
 import SessionSummary, { type ResultItem } from "../components/SessionSummary";
 import type { ItemType, JLPTLevel } from "../lib/types";
@@ -53,6 +54,10 @@ export default function Quiz() {
   const [unitName, setUnitName] = useState(urlUnit || "");
   const [testMode, setTestMode] = useState(false);
   const [questionStyle, setQuestionStyle] = useState<"standard" | "reading" | "mixed">("mixed");
+  const [testType, setTestType] = useState<"quick" | "practice" | "jlpt">("quick");
+  const [testLength, setTestLength] = useState<"short" | "medium" | "long">("short");
+  const [timed, setTimed] = useState(false);
+  const [timerStart, setTimerStart] = useState(0);
 
   // Session state
   const [phase, setPhase] = useState<Phase>("setup");
@@ -67,7 +72,9 @@ export default function Quiz() {
 
   function startQuiz() {
     let q: Question[];
-    if (source === "unit" && unitName) {
+    if (testType === "jlpt") {
+      q = buildJLPTStyleTest(level, testLength);
+    } else if (source === "unit" && unitName) {
       q = buildUnitQuizQueue(level, unitName, size);
     } else if (questionStyle === "reading") {
       q = buildMixedQuizQueue(category, level, source === "unit" ? "all" : source, size, 80);
@@ -82,6 +89,7 @@ export default function Quiz() {
     setSelectedAnswer(null);
     setResults([]);
     setAddedMissed(false);
+    if (timed) setTimerStart(Date.now());
     setPhase("session");
   }
 
@@ -127,7 +135,35 @@ export default function Quiz() {
           </div>
         </OptionGroup>
 
-        {/* Size */}
+        {/* Test Type */}
+        <OptionGroup label="Test Type">
+          <div className="flex flex-wrap gap-1.5">
+            {(["quick", "practice", "jlpt"] as const).map((t) => (
+              <Chip key={t} active={testType === t} onClick={() => setTestType(t)}>
+                {t === "quick" ? "Quick Quiz" : t === "practice" ? "Practice Test" : "JLPT-style Test"}
+              </Chip>
+            ))}
+          </div>
+          {testType === "jlpt" && (
+            <div className="mt-2 space-y-2">
+              <p className="text-[10px] text-ink-500">Sectioned test: Vocab/Kanji → Grammar → Reading</p>
+              <div className="flex gap-1.5">
+                {(["short", "medium", "long"] as const).map((l) => (
+                  <Chip key={l} active={testLength === l} onClick={() => setTestLength(l)}>
+                    {l === "short" ? "Short (~15)" : l === "medium" ? "Medium (~30)" : "Long (~50)"}
+                  </Chip>
+                ))}
+              </div>
+              <div className="flex gap-1.5">
+                <Chip active={!timed} onClick={() => setTimed(false)}>Untimed</Chip>
+                <Chip active={timed} onClick={() => setTimed(true)}>Timed</Chip>
+              </div>
+            </div>
+          )}
+        </OptionGroup>
+
+        {/* Size (for non-JLPT modes) */}
+        {testType !== "jlpt" && (
         <OptionGroup label="Quiz Size">
           <div className="flex gap-1.5">
             {SIZES.map((s) => (
@@ -137,6 +173,7 @@ export default function Quiz() {
             ))}
           </div>
         </OptionGroup>
+        )}
 
         {/* Source */}
         <OptionGroup label="Source">

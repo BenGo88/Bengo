@@ -2,9 +2,10 @@ import { useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getReadingById, saveReadingResult, getReadingProgress } from "../lib/reading";
 import { startLearning, getUserItem } from "../lib/storage";
-import { autoDetectLexicon } from "../lib/lexicon";
+import { autoDetectLexicon, findLexiconByText } from "../lib/lexicon";
+import { allVocab } from "../lib/content";
 import SentenceBlock from "../components/SentenceBlock";
-import type { ReadingQuestion } from "../lib/types";
+import type { ReadingPassage, ReadingQuestion } from "../lib/types";
 
 type Phase = "reading" | "questions" | "summary";
 
@@ -19,6 +20,7 @@ export default function ReadingDetail() {
   const [qIndex, setQIndex] = useState(0);
   const [answers, setAnswers] = useState<(string | null)[]>([]);
   const [unknownWords, setUnknownWords] = useState<string[]>([]);
+  const [addedToQueue, setAddedToQueue] = useState<string[]>([]);
 
   if (!passage) return <div className="max-w-md mx-auto text-center py-20"><p className="text-ink-400">Passage not found.</p><button className="btn-secondary mt-4" onClick={() => navigate("/reading")}>← Reading Library</button></div>;
 
@@ -43,6 +45,15 @@ export default function ReadingDetail() {
 
   function toggleUnknown(word: string) {
     setUnknownWords((prev) => prev.includes(word) ? prev.filter((w) => w !== word) : [...prev, word]);
+  }
+
+  function handleAddToQueue(word: string) {
+    // Find matching vocab item
+    const match = allVocab.find((v) => v.word === word || v.reading === word);
+    if (match && !getUserItem("vocab", match.id)) {
+      startLearning("vocab", match.id);
+      setAddedToQueue((prev) => [...prev, word]);
+    }
   }
 
   // Reading phase
@@ -79,6 +90,9 @@ export default function ReadingDetail() {
         </div>
 
         {passage.notes && <p className="text-xs text-ink-500 italic">💡 {passage.notes}</p>}
+
+        {/* Unknown word tools */}
+        <WordTools passage={passage} unknownWords={unknownWords} onToggle={toggleUnknown} addedToQueue={addedToQueue} onAddToQueue={handleAddToQueue} />
 
         <button className="btn-primary w-full py-3" onClick={() => { setPhase("questions"); setAnswers(new Array(questions.length).fill(null)); }}>
           Answer Questions ({questions.length})
@@ -173,6 +187,81 @@ export default function ReadingDetail() {
         <button className="btn-primary" onClick={() => navigate("/reading")}>Back to Library</button>
         <button className="btn-secondary" onClick={() => { setPhase("reading"); setQIndex(0); setAnswers([]); }}>Read Again</button>
       </div>
+    </div>
+  );
+}
+
+/** Word tools panel — mark unknown words, add to study queue */
+function WordTools({ passage, unknownWords, onToggle, addedToQueue, onAddToQueue }: {
+  passage: ReadingPassage; unknownWords: string[]; onToggle: (w: string) => void;
+  addedToQueue: string[]; onAddToQueue: (w: string) => void;
+}) {
+  // Collect all unique words from passage sentences
+  const words = useMemo(() => {
+    const seen = new Set<string>();
+    const result: { text: string; hasVocab: boolean }[] = [];
+    for (const s of passage.sentences) {
+      // From tokens
+      if (s.tokens) {
+        for (const t of s.tokens) {
+          if (!seen.has(t.text) && t.text.length > 1) {
+            const match = allVocab.find((v) => v.word === t.text);
+            result.push({ text: t.text, hasVocab: !!match });
+            seen.add(t.text);
+          }
+        }
+      }
+      // From auto-detect
+      const detected = autoDetectLexicon(s.japanese);
+      for (const d of detected) {
+        if (!seen.has(d.text)) {
+          const match = allVocab.find((v) => v.word === d.text);
+          result.push({ text: d.text, hasVocab: !!match });
+          seen.add(d.text);
+        }
+      }
+    }
+    return result;
+  }, [passage]);
+
+  const [expanded, setExpanded] = useState(false);
+
+  if (words.length === 0) return null;
+
+  return (
+    <div className="card p-4">
+      <div className="flex items-center justify-between mb-2">
+        <h3 className="label">Words in Passage ({words.length})</h3>
+        <button className="text-xs text-ink-500 hover:text-ink-300" onClick={() => setExpanded(!expanded)}>
+          {expanded ? "Collapse" : "Expand"}
+        </button>
+      </div>
+      {unknownWords.length > 0 && (
+        <p className="text-xs text-vermillion-400 mb-2">{unknownWords.length} unknown · {addedToQueue.length} added to queue</p>
+      )}
+      {expanded && (
+        <div className="flex flex-wrap gap-1.5 mt-2">
+          {words.map((w) => {
+            const isUnknown = unknownWords.includes(w.text);
+            const isQueued = addedToQueue.includes(w.text);
+            return (
+              <div key={w.text} className="flex items-center gap-0.5">
+                <button onClick={() => onToggle(w.text)}
+                  className={`text-xs px-2 py-1 rounded-md transition-all ${
+                    isUnknown ? "bg-vermillion-500/20 text-vermillion-400 ring-1 ring-vermillion-500/30" :
+                    isQueued ? "bg-jade-500/15 text-jade-400" :
+                    "bg-ink-800/50 text-ink-400 hover:bg-ink-800"
+                  }`}>{w.text}</button>
+                {isUnknown && w.hasVocab && !isQueued && (
+                  <button onClick={() => onAddToQueue(w.text)}
+                    className="text-[9px] px-1 py-0.5 rounded bg-jade-500/20 text-jade-400 hover:bg-jade-500/30">+Queue</button>
+                )}
+                {isQueued && <span className="text-[9px] text-jade-500">✓</span>}
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

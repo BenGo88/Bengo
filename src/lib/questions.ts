@@ -12,6 +12,7 @@ import {
   allGrammar,
 } from "./content";
 import { getUserItem } from "./storage";
+import { getReadingsByLevel } from "./reading";
 
 export interface Question {
   itemType: ItemType;
@@ -25,6 +26,7 @@ export interface Question {
   detailPath?: string;
   contextSentence?: string;  // Japanese sentence for cloze/context
   contextEnglish?: string;   // English meaning for context
+  section?: string;          // for sectioned tests (v1.2.08+)
 }
 
 /** Build a meaning question for any item type. */
@@ -312,5 +314,54 @@ export function buildMixedQuizQueue(
       : generateQuestion(item.type, item.id);
     if (q) questions.push(q);
   }
+  return questions;
+}
+
+/** Build a JLPT-style sectioned test with vocab/kanji, grammar, and reading. */
+export function buildJLPTStyleTest(
+  level: string,
+  length: "short" | "medium" | "long" = "short",
+): Question[] {
+  const sizes = { short: { vk: 5, g: 5, r: 1 }, medium: { vk: 10, g: 10, r: 2 }, long: { vk: 15, g: 15, r: 3 } };
+  const sz = sizes[length];
+  const questions: Question[] = [];
+
+  // Section 1: Vocab/Kanji
+  const vkCandidates = [
+    ...allVocab.filter((v) => v.jlpt === level).map((v) => ({ type: "vocab" as ItemType, id: v.id })),
+    ...allKanji.filter((k) => k.jlpt === level).map((k) => ({ type: "kanji" as ItemType, id: k.id })),
+  ].sort(() => Math.random() - 0.5).slice(0, sz.vk);
+  for (const item of vkCandidates) {
+    const q = Math.random() > 0.4
+      ? generateQuestion(item.type, item.id)
+      : (generateReadingStyleQuestion(item.type, item.id) ?? generateQuestion(item.type, item.id));
+    if (q) { q.section = "Vocabulary / Kanji"; questions.push(q); }
+  }
+
+  // Section 2: Grammar
+  const gCandidates = allGrammar.filter((g) => g.jlpt === level).sort(() => Math.random() - 0.5).slice(0, sz.g);
+  for (const g of gCandidates) {
+    const q = Math.random() > 0.3
+      ? (clozeGrammarQuestion(g.id) ?? meaningQuestion("grammar", g.id))
+      : meaningQuestion("grammar", g.id);
+    if (q) { q.section = "Grammar"; questions.push(q); }
+  }
+
+  // Section 3: Reading
+  const passages = getReadingsByLevel(level as any).sort(() => Math.random() - 0.5).slice(0, sz.r);
+  for (const p of passages) {
+    for (const rq of p.questions) {
+      const correctIdx = rq.choices.indexOf(rq.answer);
+      questions.push({
+        itemType: "grammar", itemId: p.id,
+        prompt: rq.question, promptLabel: `Reading: ${p.title}`,
+        choices: rq.choices, correctIndex: correctIdx >= 0 ? correctIdx : 0,
+        explanation: rq.explanation, questionKind: "context",
+        section: "Reading", detailPath: `/reading/${p.id}`,
+        contextSentence: p.sentences.map((s) => s.japanese).join(""),
+      });
+    }
+  }
+
   return questions;
 }

@@ -367,5 +367,338 @@
         "explanation": "一番 = the most. 一番好き = like the most."
       }
     ]
+  },
+  {
+    "id": "r-n5-006",
+    "title": "教室で",
+    "jlpt": "N5",
+    "difficulty": 1,
+    "category": "school",
+    "estimatedMinutes": 2,
+    "summary": "A simple school scene.",
+    "sentences": [
+      {
+        "japanese": "これは教室です。",
+        "reading": "これ は きょうしつ です。",
+        "english": "This is a classroom."
+      },
+      {
+        "japanese": "机と椅子があります。",
+        "reading": "つくえ と いす が あります。",
+        "english": "There are desks and chairs."
+      },
+      {
+        "japanese": "黒板の前に先生がいます。",
+        "reading": "こくばん の まえ に せんせい が います。",
+        "english": "The teacher is in front of the blackboard."
+      },
+      {
+        "japanese": "学生は十五人います。",
+        "reading": "がくせい は じゅうごにん います。",
+        "english": "There are 15 students."
+      },
+      {
+        "japanese": "今、日本語の授業をしています。",
+        "reading": "いま、にほんご の じゅぎょう を しています。",
+        "english": "We're having a Japanese class now."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-006-1",
+        "type": "detail",
+        "question": "教室に何がありますか。",
+        "choices": [
+          "テレビとソファ",
+          "机と椅子",
+          "ベッドと机",
+          "本と鉛筆"
+        ],
+        "answer": "机と椅子",
+        "explanation": "机と椅子があります。"
+      },
+      {
+        "id": "rq-n5-006-2",
+        "type": "detail",
+        "question": "学生は何人いますか。",
+        "choices": [
+          "十人",
+          "十五人",
+          "二十人",
+          "五人"
+        ],
+        "answer": "十五人",
+        "explanation": "学生は十五人います。"
+      },
+      {
+        "id": "rq-n5-006-3",
+        "type": "detail",
+        "question": "今何をしていますか。",
+        "choices": [
+          "英語の授業",
+          "数学の授業",
+          "日本語の授業",
+          "体育"
+        ],
+        "answer": "日本語の授業",
+        "explanation": "日本語の授業をしています。"
+      }
+    ]
+  },
+  {
+    "id": "r-n5-007",
+    "title": "友達へのメール",
+    "jlpt": "N5",
+    "difficulty": 1,
+    "category": "communication",
+    "estimatedMinutes": 2,
+    "summary": "A simple email to a friend.",
+    "sentences": [
+      {
+        "japanese": "田中さん、元気ですか。",
+        "reading": "たなかさん、げんき です か。",
+        "english": "Tanaka-san, how are you?"
+      },
+      {
+        "japanese": "私は今東京にいます。",
+        "reading": "わたし は いま とうきょう に います。",
+        "english": "I'm in Tokyo now."
+      },
+      {
+        "japanese": "毎日日本語を勉強しています。",
+        "reading": "まいにち にほんご を べんきょう しています。",
+        "english": "I study Japanese every day."
+      },
+      {
+        "japanese": "来月、大阪に行きます。",
+        "reading": "らいげつ、おおさか に いきます。",
+        "english": "Next month I'll go to Osaka."
+      },
+      {
+        "japanese": "一緒に遊びませんか。",
+        "reading": "いっしょ に あそびませんか。",
+        "english": "Won't you hang out together?"
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-007-1",
+        "type": "detail",
+        "question": "この人は今どこにいますか。",
+        "choices": [
+          "大阪",
+          "京都",
+          "東京",
+          "北海道"
+        ],
+        "answer": "東京",
+        "explanation": "私は今東京にいます。"
+      },
+      {
+        "id": "rq-n5-007-2",
+        "type": "detail",
+        "question": "来月どこに行きますか。",
+        "choices": [
+          "東京",
+          "大阪",
+          "名古屋",
+          "福岡"
+        ],
+        "answer": "大阪",
+        "explanation": "来月、大阪に行きます。"
+      }
+    ]
+  },
+  {
+    "id": "r-n5-008",
+    "title": "私のペット",
+    "jlpt": "N5",
+    "difficulty": 1,
+    "category": "daily_life",
+    "estimatedMinutes": 2,
+    "summary": "About a pet cat.",
+    "sentences": [
+      {
+        "japanese": "私の家に猫がいます。",
+        "reading": "わたし の いえ に ねこ が います。",
+        "english": "There's a cat in my house."
+      },
+      {
+        "japanese": "名前はミケです。",
+        "reading": "なまえ は ミケ です。",
+        "english": "Its name is Mike."
+      },
+      {
+        "japanese": "白と茶色の猫です。",
+        "reading": "しろ と ちゃいろ の ねこ です。",
+        "english": "It's a white and brown cat."
+      },
+      {
+        "japanese": "毎日魚を食べます。",
+        "reading": "まいにち さかな を たべます。",
+        "english": "It eats fish every day."
+      },
+      {
+        "japanese": "とてもかわいいです。",
+        "reading": "とても かわいい です。",
+        "english": "It's very cute."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-008-1",
+        "type": "detail",
+        "question": "ペットは何ですか。",
+        "choices": [
+          "犬",
+          "猫",
+          "鳥",
+          "魚"
+        ],
+        "answer": "猫",
+        "explanation": "猫がいます。"
+      },
+      {
+        "id": "rq-n5-008-2",
+        "type": "detail",
+        "question": "猫は何を食べますか。",
+        "choices": [
+          "肉",
+          "パン",
+          "魚",
+          "野菜"
+        ],
+        "answer": "魚",
+        "explanation": "毎日魚を食べます。"
+      }
+    ]
+  },
+  {
+    "id": "r-n5-009",
+    "title": "日曜日",
+    "jlpt": "N5",
+    "difficulty": 2,
+    "category": "daily_life",
+    "estimatedMinutes": 2,
+    "summary": "A relaxing Sunday.",
+    "sentences": [
+      {
+        "japanese": "日曜日はゆっくり起きます。",
+        "reading": "にちようび は ゆっくり おきます。",
+        "english": "On Sunday I wake up slowly."
+      },
+      {
+        "japanese": "朝ごはんの後で、掃除をします。",
+        "reading": "あさごはん の あとで、そうじ を します。",
+        "english": "After breakfast, I clean."
+      },
+      {
+        "japanese": "昼ごはんは友達と食べます。",
+        "reading": "ひるごはん は ともだち と たべます。",
+        "english": "I eat lunch with a friend."
+      },
+      {
+        "japanese": "午後は公園で散歩します。",
+        "reading": "ごご は こうえん で さんぽ します。",
+        "english": "In the afternoon I walk in the park."
+      },
+      {
+        "japanese": "夜は映画を見ます。",
+        "reading": "よる は えいが を みます。",
+        "english": "In the evening I watch a movie."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-009-1",
+        "type": "detail",
+        "question": "朝ごはんの後で何をしますか。",
+        "choices": [
+          "散歩する",
+          "映画を見る",
+          "掃除をする",
+          "買い物する"
+        ],
+        "answer": "掃除をする",
+        "explanation": "朝ごはんの後で、掃除をします。"
+      },
+      {
+        "id": "rq-n5-009-2",
+        "type": "detail",
+        "question": "午後はどこで散歩しますか。",
+        "choices": [
+          "学校",
+          "駅",
+          "公園",
+          "デパート"
+        ],
+        "answer": "公園",
+        "explanation": "公園で散歩します。"
+      }
+    ]
+  },
+  {
+    "id": "r-n5-010",
+    "title": "日本の食べ物",
+    "jlpt": "N5",
+    "difficulty": 2,
+    "category": "food",
+    "estimatedMinutes": 2,
+    "summary": "Japanese food.",
+    "sentences": [
+      {
+        "japanese": "日本にはおいしい食べ物がたくさんあります。",
+        "reading": "にほん に は おいしい たべもの が たくさん あります。",
+        "english": "Japan has lots of delicious food."
+      },
+      {
+        "japanese": "寿司は魚とご飯で作ります。",
+        "reading": "すし は さかな と ごはん で つくります。",
+        "english": "Sushi is made with fish and rice."
+      },
+      {
+        "japanese": "ラーメンはとても人気があります。",
+        "reading": "ラーメン は とても にんき が あります。",
+        "english": "Ramen is very popular."
+      },
+      {
+        "japanese": "天ぷらも有名です。",
+        "reading": "てんぷら も ゆうめい です。",
+        "english": "Tempura is also famous."
+      },
+      {
+        "japanese": "あなたはどの日本の食べ物が好きですか。",
+        "reading": "あなた は どの にほん の たべもの が すき です か。",
+        "english": "Which Japanese food do you like?"
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-010-1",
+        "type": "detail",
+        "question": "寿司は何で作りますか。",
+        "choices": [
+          "肉と野菜",
+          "魚とご飯",
+          "卵とパン",
+          "牛乳と砂糖"
+        ],
+        "answer": "魚とご飯",
+        "explanation": "寿司は魚とご飯で作ります。"
+      },
+      {
+        "id": "rq-n5-010-2",
+        "type": "vocabulary_in_context",
+        "question": "「人気がある」の意味は？",
+        "choices": [
+          "popular",
+          "expensive",
+          "difficult",
+          "old"
+        ],
+        "answer": "popular",
+        "explanation": "人気がある = is popular."
+      }
+    ]
   }
 ]

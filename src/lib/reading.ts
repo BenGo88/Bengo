@@ -63,3 +63,56 @@ export function getAllReadingProgress(): Record<string, ReadingProgress> {
 export function getCompletedReadingCount(): number {
   return Object.values(loadAll()).filter((p) => p.completed).length;
 }
+
+export function getRecommendedReading(level: JLPTLevel): ReadingPassage | null {
+  const passages = getReadingsByLevel(level);
+  const progress = loadAll();
+  // Find first uncompleted passage
+  for (const p of passages) {
+    if (!progress[p.id]?.completed) return p;
+  }
+  // If all completed, find lowest score
+  let lowest: ReadingPassage | null = null;
+  let lowestScore = 101;
+  for (const p of passages) {
+    const pr = progress[p.id];
+    if (pr && pr.bestScore < lowestScore) { lowest = p; lowestScore = pr.bestScore; }
+  }
+  return lowest ?? passages[0] ?? null;
+}
+
+// ── Practice test history ───────────────────────────────────────────────────
+
+const TEST_HISTORY_KEY = "bengo_test_history";
+
+export interface TestResult {
+  id: string;
+  date: string;
+  level: string;
+  mode: string;
+  timed: boolean;
+  durationSeconds: number;
+  totalQuestions: number;
+  correct: number;
+  accuracy: number;
+  sections: { name: string; total: number; correct: number }[];
+}
+
+function loadTestHistory(): TestResult[] {
+  try { return JSON.parse(localStorage.getItem(TEST_HISTORY_KEY) || "[]"); } catch { return []; }
+}
+
+export function saveTestResult(result: TestResult) {
+  const history = loadTestHistory();
+  history.unshift(result);
+  if (history.length > 50) history.length = 50; // keep last 50
+  localStorage.setItem(TEST_HISTORY_KEY, JSON.stringify(history));
+}
+
+export function getTestHistory(): TestResult[] {
+  return loadTestHistory();
+}
+
+export function getRecentTests(count = 5): TestResult[] {
+  return loadTestHistory().slice(0, count);
+}

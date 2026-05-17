@@ -263,14 +263,22 @@ export function getStats() {
 /* ── Export / Import (for backup) ────────────────────────────────────────── */
 
 export function exportData(): string {
-  return JSON.stringify(loadUserData(), null, 2);
+  const core = loadUserData();
+  // Include reading progress and test history
+  const reading = localStorage.getItem("bengo_reading_progress") || "{}";
+  const tests = localStorage.getItem("bengo_test_history") || "[]";
+  return JSON.stringify({ ...core, readingProgress: JSON.parse(reading), testHistory: JSON.parse(tests) }, null, 2);
 }
 
 export function importData(json: string): boolean {
   try {
-    const data = JSON.parse(json) as UserData;
+    const data = JSON.parse(json);
     if (data.version && data.profile && data.items) {
-      saveUserData(data);
+      saveUserData({ version: data.version, profile: data.profile, items: data.items });
+      // Import reading progress if present
+      if (data.readingProgress) localStorage.setItem("bengo_reading_progress", JSON.stringify(data.readingProgress));
+      // Import test history if present
+      if (data.testHistory) localStorage.setItem("bengo_test_history", JSON.stringify(data.testHistory));
       return true;
     }
     return false;
@@ -281,4 +289,6 @@ export function importData(json: string): boolean {
 
 export function resetAllData(): void {
   saveUserData(createDefaultData());
+  localStorage.removeItem("bengo_reading_progress");
+  localStorage.removeItem("bengo_test_history");
 }

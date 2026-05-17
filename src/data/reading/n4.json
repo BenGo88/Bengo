@@ -375,5 +375,346 @@
         "explanation": "〜てもらう = have someone do something for you."
       }
     ]
+  },
+  {
+    "id": "r-n4-006",
+    "title": "迷った犬",
+    "jlpt": "N4",
+    "difficulty": 2,
+    "category": "daily_life",
+    "estimatedMinutes": 3,
+    "summary": "Finding a lost dog.",
+    "sentences": [
+      {
+        "japanese": "昨日、公園で迷った犬を見つけました。",
+        "reading": "きのう、こうえん で まよった いぬ を みつけました。",
+        "english": "Yesterday I found a lost dog in the park."
+      },
+      {
+        "japanese": "首輪に電話番号が書いてありました。",
+        "reading": "くびわ に でんわ ばんごう が かいて ありました。",
+        "english": "A phone number was written on the collar."
+      },
+      {
+        "japanese": "すぐに電話をかけたら、飼い主が来てくれました。",
+        "reading": "すぐ に でんわ を かけたら、かいぬし が きて くれました。",
+        "english": "When I called right away, the owner came."
+      },
+      {
+        "japanese": "飼い主はとても喜んでいました。",
+        "reading": "かいぬし は とても よろこんでいました。",
+        "english": "The owner was very happy."
+      },
+      {
+        "japanese": "いいことをしたと思いました。",
+        "reading": "いい こと を した と おもいました。",
+        "english": "I thought I did a good thing."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-006-1",
+        "type": "detail",
+        "question": "犬をどこで見つけましたか。",
+        "choices": [
+          "駅",
+          "家",
+          "公園",
+          "学校"
+        ],
+        "answer": "公園",
+        "explanation": "公園で迷った犬を見つけました。"
+      },
+      {
+        "id": "rq-n4-006-2",
+        "type": "grammar_in_context",
+        "question": "「書いてありました」はどういう意味ですか。",
+        "choices": [
+          "was written (result remains)",
+          "was writing",
+          "will write",
+          "wants to write"
+        ],
+        "answer": "was written (result remains)",
+        "explanation": "〜てある = result of someone's action remains."
+      },
+      {
+        "id": "rq-n4-006-3",
+        "type": "grammar_in_context",
+        "question": "「来てくれました」はどういう意味ですか。",
+        "choices": [
+          "came (for me)",
+          "went",
+          "will come",
+          "came back"
+        ],
+        "answer": "came (for me)",
+        "explanation": "〜てくれる = someone does something for me."
+      }
+    ]
+  },
+  {
+    "id": "r-n4-007",
+    "title": "日本のお祭り",
+    "jlpt": "N4",
+    "difficulty": 3,
+    "category": "culture",
+    "estimatedMinutes": 3,
+    "summary": "Japanese festivals.",
+    "sentences": [
+      {
+        "japanese": "日本にはたくさんのお祭りがあります。",
+        "reading": "にほん に は たくさん の おまつり が あります。",
+        "english": "Japan has many festivals."
+      },
+      {
+        "japanese": "夏になると、花火大会が開かれます。",
+        "reading": "なつ に なると、はなび たいかい が ひらかれます。",
+        "english": "When summer comes, fireworks events are held."
+      },
+      {
+        "japanese": "浴衣を着て出かける人も多いです。",
+        "reading": "ゆかた を きて でかける ひと も おおい です。",
+        "english": "Many people go out wearing yukata."
+      },
+      {
+        "japanese": "屋台でたこ焼きや焼きそばを食べることができます。",
+        "reading": "やたい で たこやき や やきそば を たべる こと が できます。",
+        "english": "You can eat takoyaki and yakisoba at food stalls."
+      },
+      {
+        "japanese": "友達と行ったら、きっと楽しいと思います。",
+        "reading": "ともだち と いったら、きっと たのしい と おもいます。",
+        "english": "If you go with friends, I'm sure it'll be fun."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-007-1",
+        "type": "detail",
+        "question": "花火大会はいつありますか。",
+        "choices": [
+          "春",
+          "夏",
+          "秋",
+          "冬"
+        ],
+        "answer": "夏",
+        "explanation": "夏になると、花火大会が開かれます。"
+      },
+      {
+        "id": "rq-n4-007-2",
+        "type": "detail",
+        "question": "屋台で何が食べられますか。",
+        "choices": [
+          "寿司とラーメン",
+          "たこ焼きと焼きそば",
+          "カレーとパン",
+          "天ぷらとうどん"
+        ],
+        "answer": "たこ焼きと焼きそば",
+        "explanation": "たこ焼きや焼きそばを食べることができます。"
+      }
+    ]
+  },
+  {
+    "id": "r-n4-008",
+    "title": "忘れ物",
+    "jlpt": "N4",
+    "difficulty": 2,
+    "category": "daily_life",
+    "estimatedMinutes": 3,
+    "summary": "Forgetting something on the train.",
+    "sentences": [
+      {
+        "japanese": "電車の中で寝てしまいました。",
+        "reading": "でんしゃ の なか で ねて しまいました。",
+        "english": "I accidentally fell asleep on the train."
+      },
+      {
+        "japanese": "起きたら、降りるはずの駅を過ぎていました。",
+        "reading": "おきたら、おりる はず の えき を すぎていました。",
+        "english": "When I woke up, I had passed the station I was supposed to get off at."
+      },
+      {
+        "japanese": "しかも、カバンを電車に忘れてしまいました。",
+        "reading": "しかも、カバン を でんしゃ に わすれて しまいました。",
+        "english": "On top of that, I left my bag on the train."
+      },
+      {
+        "japanese": "駅員さんに相談したら、見つかるかもしれないと言われました。",
+        "reading": "えきいんさん に そうだん したら、みつかる かもしれない と いわれました。",
+        "english": "When I consulted the station staff, they said it might be found."
+      },
+      {
+        "japanese": "次の日、カバンが戻ってきました。日本はすごいと思いました。",
+        "reading": "つぎ の ひ、カバン が もどって きました。にほん は すごい と おもいました。",
+        "english": "The next day, my bag came back. I thought Japan is amazing."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-008-1",
+        "type": "grammar_in_context",
+        "question": "「寝てしまいました」はどういう意味ですか。",
+        "choices": [
+          "wanted to sleep",
+          "tried to sleep",
+          "accidentally fell asleep",
+          "always sleep"
+        ],
+        "answer": "accidentally fell asleep",
+        "explanation": "〜てしまう = did something accidentally/unfortunately."
+      },
+      {
+        "id": "rq-n4-008-2",
+        "type": "detail",
+        "question": "カバンはどうなりましたか。",
+        "choices": [
+          "なくなった",
+          "見つからなかった",
+          "次の日に戻ってきた",
+          "友達が持っていた"
+        ],
+        "answer": "次の日に戻ってきた",
+        "explanation": "次の日、カバンが戻ってきました。"
+      }
+    ]
+  },
+  {
+    "id": "r-n4-009",
+    "title": "料理に挑戦",
+    "jlpt": "N4",
+    "difficulty": 2,
+    "category": "food",
+    "estimatedMinutes": 3,
+    "summary": "Trying to cook Japanese food.",
+    "sentences": [
+      {
+        "japanese": "初めて日本料理を作ってみました。",
+        "reading": "はじめて にほん りょうり を つくって みました。",
+        "english": "I tried making Japanese food for the first time."
+      },
+      {
+        "japanese": "肉じゃがを作ることにしました。",
+        "reading": "にくじゃが を つくる こと に しました。",
+        "english": "I decided to make nikujaga."
+      },
+      {
+        "japanese": "レシピを見ながら、材料を準備しました。",
+        "reading": "レシピ を みながら、ざいりょう を じゅんび しました。",
+        "english": "While looking at the recipe, I prepared the ingredients."
+      },
+      {
+        "japanese": "少し味が薄かったですが、まあまあおいしかったです。",
+        "reading": "すこし あじ が うすかった です が、まあまあ おいしかった です。",
+        "english": "The taste was a bit weak, but it was fairly delicious."
+      },
+      {
+        "japanese": "次はもっと上手に作りたいです。",
+        "reading": "つぎ は もっと じょうず に つくりたい です。",
+        "english": "Next time I want to make it better."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-009-1",
+        "type": "grammar_in_context",
+        "question": "「作ってみました」はどういう意味ですか。",
+        "choices": [
+          "finished making",
+          "tried making",
+          "continued making",
+          "started making"
+        ],
+        "answer": "tried making",
+        "explanation": "〜てみる = try doing something to see the result."
+      },
+      {
+        "id": "rq-n4-009-2",
+        "type": "detail",
+        "question": "料理の味はどうでしたか。",
+        "choices": [
+          "とてもおいしかった",
+          "まずかった",
+          "少し薄かったがまあまあ",
+          "辛すぎた"
+        ],
+        "answer": "少し薄かったがまあまあ",
+        "explanation": "少し味が薄かったですが、まあまあおいしかったです。"
+      }
+    ]
+  },
+  {
+    "id": "r-n4-010",
+    "title": "携帯電話のルール",
+    "jlpt": "N4",
+    "difficulty": 3,
+    "category": "rules",
+    "estimatedMinutes": 3,
+    "summary": "Phone etiquette in Japan.",
+    "sentences": [
+      {
+        "japanese": "日本では電車の中で携帯電話で話してはいけません。",
+        "reading": "にほん では でんしゃ の なか で けいたい でんわ で はなしては いけません。",
+        "english": "In Japan, you must not talk on your phone on the train."
+      },
+      {
+        "japanese": "メールやSNSを見るのはいいですが、マナーモードにしなければなりません。",
+        "reading": "メール や SNS を みる の は いい です が、マナーモード に しなければ なりません。",
+        "english": "Checking email and SNS is OK, but you must put it on silent mode."
+      },
+      {
+        "japanese": "病院でも携帯電話を使ってはいけない場所があります。",
+        "reading": "びょういん でも けいたい でんわ を つかっては いけない ばしょ が あります。",
+        "english": "In hospitals too, there are places where you can't use phones."
+      },
+      {
+        "japanese": "周りの人のことを考えて行動することが大切です。",
+        "reading": "まわり の ひと の こと を かんがえて こうどう する こと が たいせつ です。",
+        "english": "It's important to act considering the people around you."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-010-1",
+        "type": "detail",
+        "question": "電車で何をしてはいけませんか。",
+        "choices": [
+          "メールを見る",
+          "音楽を聞く",
+          "電話で話す",
+          "寝る"
+        ],
+        "answer": "電話で話す",
+        "explanation": "電車の中で携帯電話で話してはいけません。"
+      },
+      {
+        "id": "rq-n4-010-2",
+        "type": "grammar_in_context",
+        "question": "「しなければなりません」はどういう意味ですか。",
+        "choices": [
+          "don't have to",
+          "must do",
+          "shouldn't do",
+          "want to do"
+        ],
+        "answer": "must do",
+        "explanation": "〜なければなりません = must do."
+      },
+      {
+        "id": "rq-n4-010-3",
+        "type": "main_idea",
+        "question": "この文の一番大切なメッセージは何ですか。",
+        "choices": [
+          "携帯は使うな",
+          "周りの人を考えることが大切",
+          "日本は厳しい",
+          "電車は不便だ"
+        ],
+        "answer": "周りの人を考えることが大切",
+        "explanation": "周りの人のことを考えて行動することが大切です。"
+      }
+    ]
   }
 ]

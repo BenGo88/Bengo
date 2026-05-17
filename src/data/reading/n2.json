@@ -193,5 +193,172 @@
         "explanation": "異なる価値観を認め合うことが基盤となる。"
       }
     ]
+  },
+  {
+    "id": "r-n2-004",
+    "title": "持続可能な社会",
+    "jlpt": "N2",
+    "difficulty": 5,
+    "category": "environment",
+    "estimatedMinutes": 5,
+    "summary": "Sustainable society and our role.",
+    "sentences": [
+      {
+        "japanese": "持続可能な社会の実現は、現代における最重要課題の一つである。",
+        "reading": "じぞく かのう な しゃかい の じつげん は、げんだい に おける さいじゅうよう かだい の ひとつ で ある。",
+        "english": "Achieving a sustainable society is one of the most important challenges of our time."
+      },
+      {
+        "japanese": "資源の無駄遣いを減らすだけでなく、再生可能エネルギーの普及を促す必要がある。",
+        "reading": "しげん の むだづかい を へらす だけでなく、さいせい かのう エネルギー の ふきゅう を うながす ひつよう が ある。",
+        "english": "Not only must we reduce waste of resources, but also promote the spread of renewable energy."
+      },
+      {
+        "japanese": "一人一人が日常の中で意識を変えていくことが、大きな変化につながるのではないだろうか。",
+        "reading": "ひとりひとり が にちじょう の なか で いしき を かえて いく こと が、おおきな へんか に つながる の では ないだろうか。",
+        "english": "Wouldn't each person changing their awareness in daily life lead to big changes?"
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-004-1",
+        "type": "grammar_in_context",
+        "question": "「だけでなく」はどういう意味ですか。",
+        "choices": [
+          "only",
+          "not only",
+          "because",
+          "despite"
+        ],
+        "answer": "not only",
+        "explanation": "〜だけでなく = not only ... but also."
+      },
+      {
+        "id": "rq-n2-004-2",
+        "type": "main_idea",
+        "question": "筆者は何が大きな変化につながると考えていますか。",
+        "choices": [
+          "政府の政策",
+          "一人一人の意識の変化",
+          "新しい技術",
+          "経済成長"
+        ],
+        "answer": "一人一人の意識の変化",
+        "explanation": "一人一人が意識を変えていくことが大きな変化につながる。"
+      }
+    ]
+  },
+  {
+    "id": "r-n2-005",
+    "title": "地方創生の課題",
+    "jlpt": "N2",
+    "difficulty": 5,
+    "category": "society",
+    "estimatedMinutes": 5,
+    "summary": "Challenges of regional revitalization.",
+    "sentences": [
+      {
+        "japanese": "日本では、都市部への人口集中が深刻化している。",
+        "reading": "にほん では、としぶ へ の じんこう しゅうちゅう が しんこくか している。",
+        "english": "In Japan, population concentration in urban areas is becoming more serious."
+      },
+      {
+        "japanese": "地方の若者が仕事を求めて都市に出ていく傾向は、依然として続いている。",
+        "reading": "ちほう の わかもの が しごと を もとめて とし に でていく けいこう は、いぜん として つづいている。",
+        "english": "The tendency for rural young people to go to cities seeking work continues."
+      },
+      {
+        "japanese": "地方創生を進めるにあたっては、魅力ある雇用の創出が不可欠である。",
+        "reading": "ちほう そうせい を すすめる に あたって は、みりょく ある こよう の そうしゅつ が ふかけつ で ある。",
+        "english": "In promoting regional revitalization, creating attractive employment is indispensable."
+      },
+      {
+        "japanese": "テレワークの普及は、地方に住みながら都市部の仕事をする可能性を広げつつある。",
+        "reading": "テレワーク の ふきゅう は、ちほう に すみながら としぶ の しごと を する かのうせい を ひろげつつ ある。",
+        "english": "The spread of telework is expanding the possibility of doing urban work while living in rural areas."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-005-1",
+        "type": "detail",
+        "question": "地方創生に何が不可欠ですか。",
+        "choices": [
+          "人口を増やすこと",
+          "魅力ある雇用の創出",
+          "都市を大きくすること",
+          "若者を引き止めること"
+        ],
+        "answer": "魅力ある雇用の創出",
+        "explanation": "魅力ある雇用の創出が不可欠である。"
+      },
+      {
+        "id": "rq-n2-005-2",
+        "type": "grammar_in_context",
+        "question": "「広げつつある」はどういう意味ですか。",
+        "choices": [
+          "has already expanded",
+          "is in the process of expanding",
+          "stopped expanding",
+          "will expand"
+        ],
+        "answer": "is in the process of expanding",
+        "explanation": "〜つつある = in the process of gradually doing."
+      }
+    ]
+  },
+  {
+    "id": "r-n2-006",
+    "title": "異文化コミュニケーション",
+    "jlpt": "N2",
+    "difficulty": 4,
+    "category": "culture",
+    "estimatedMinutes": 5,
+    "summary": "Cross-cultural communication challenges.",
+    "sentences": [
+      {
+        "japanese": "異文化コミュニケーションにおいて、言語の壁は最も分かりやすい障害であるが、それだけに留まらない。",
+        "reading": "いぶんか コミュニケーション に おいて、げんご の かべ は もっとも わかりやすい しょうがい で ある が、それ だけ に とどまらない。",
+        "english": "In cross-cultural communication, the language barrier is the most obvious obstacle, but it doesn't stop there."
+      },
+      {
+        "japanese": "非言語コミュニケーション、つまりジェスチャーや表情の解釈も文化によって異なる。",
+        "reading": "ひげんご コミュニケーション、つまり ジェスチャー や ひょうじょう の かいしゃく も ぶんか に よって ことなる。",
+        "english": "Non-verbal communication, that is, interpretation of gestures and expressions, also differs by culture."
+      },
+      {
+        "japanese": "相手の文化的背景を尊重しつつ、自分の文化も適切に伝えていくことが求められる。",
+        "reading": "あいて の ぶんかてき はいけい を そんちょう しつつ、じぶん の ぶんか も てきせつ に つたえて いく こと が もとめられる。",
+        "english": "While respecting the other's cultural background, appropriately communicating your own culture is also required."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-006-1",
+        "type": "vocabulary_in_context",
+        "question": "「障害」の意味に一番近いのは？",
+        "choices": [
+          "advantage",
+          "obstacle",
+          "culture",
+          "language"
+        ],
+        "answer": "obstacle",
+        "explanation": "障害 = obstacle, barrier."
+      },
+      {
+        "id": "rq-n2-006-2",
+        "type": "main_idea",
+        "question": "異文化コミュニケーションで大切なのは何ですか。",
+        "choices": [
+          "言語だけ学ぶこと",
+          "相手の文化を尊重しつつ自分も伝えること",
+          "自分の文化を押し付けること",
+          "非言語をなくすこと"
+        ],
+        "answer": "相手の文化を尊重しつつ自分も伝えること",
+        "explanation": "相手の文化的背景を尊重しつつ、自分の文化も適切に伝えていくことが求められる。"
+      }
+    ]
   }
 ]

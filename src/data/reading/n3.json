@@ -316,5 +316,262 @@
         "explanation": "一人一人の行動が未来を変えることができます。"
       }
     ]
+  },
+  {
+    "id": "r-n3-005",
+    "title": "世代間のギャップ",
+    "jlpt": "N3",
+    "difficulty": 4,
+    "category": "society",
+    "estimatedMinutes": 4,
+    "summary": "Generation gap in the workplace.",
+    "sentences": [
+      {
+        "japanese": "最近、職場での世代間のギャップが話題になっています。",
+        "reading": "さいきん、しょくば での せだいかん の ギャップ が わだい に なっています。",
+        "english": "Recently, generation gaps in the workplace have become a topic."
+      },
+      {
+        "japanese": "若い世代はSNSでの連絡を好む一方、上の世代は電話やメールを使いたがります。",
+        "reading": "わかい せだい は SNS での れんらく を このむ いっぽう、うえ の せだい は でんわ や メール を つかいたがります。",
+        "english": "While younger generations prefer SNS communication, older generations want to use phone and email."
+      },
+      {
+        "japanese": "お互いの考え方を理解しようとすることが、良い職場環境を作ることにつながります。",
+        "reading": "おたがい の かんがえかた を りかい しよう と する こと が、よい しょくば かんきょう を つくる こと に つながります。",
+        "english": "Trying to understand each other's perspectives leads to creating a good work environment."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-005-1",
+        "type": "detail",
+        "question": "若い世代は何を好みますか。",
+        "choices": [
+          "電話",
+          "手紙",
+          "SNS",
+          "FAX"
+        ],
+        "answer": "SNS",
+        "explanation": "若い世代はSNSでの連絡を好む。"
+      },
+      {
+        "id": "rq-n3-005-2",
+        "type": "main_idea",
+        "question": "筆者は何が大切だと言っていますか。",
+        "choices": [
+          "若い人に合わせる",
+          "年上に従う",
+          "お互いを理解する",
+          "SNSを使う"
+        ],
+        "answer": "お互いを理解する",
+        "explanation": "お互いの考え方を理解しようとすることが大切。"
+      }
+    ]
+  },
+  {
+    "id": "r-n3-006",
+    "title": "一人暮らしの工夫",
+    "jlpt": "N3",
+    "difficulty": 3,
+    "category": "daily_life",
+    "estimatedMinutes": 4,
+    "summary": "Tips for living alone.",
+    "sentences": [
+      {
+        "japanese": "一人暮らしを始めたばかりの時は、料理が全然できませんでした。",
+        "reading": "ひとりぐらし を はじめた ばかり の とき は、りょうり が ぜんぜん できませんでした。",
+        "english": "When I had just started living alone, I couldn't cook at all."
+      },
+      {
+        "japanese": "失敗を繰り返した結果、だんだん上手になりました。",
+        "reading": "しっぱい を くりかえした けっか、だんだん じょうず に なりました。",
+        "english": "As a result of repeating failures, I gradually got better."
+      },
+      {
+        "japanese": "今では友達に料理を作ってあげることもあります。",
+        "reading": "いまでは ともだち に りょうり を つくって あげる こと も あります。",
+        "english": "Now I even sometimes cook for friends."
+      },
+      {
+        "japanese": "自分で工夫することが、成長につながると思います。",
+        "reading": "じぶん で くふう する こと が、せいちょう に つながる と おもいます。",
+        "english": "I think figuring things out yourself leads to growth."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-006-1",
+        "type": "grammar_in_context",
+        "question": "「始めたばかり」はどういう意味ですか。",
+        "choices": [
+          "just started",
+          "will start",
+          "stopped",
+          "always did"
+        ],
+        "answer": "just started",
+        "explanation": "〜たばかり = just did something recently."
+      },
+      {
+        "id": "rq-n3-006-2",
+        "type": "grammar_in_context",
+        "question": "「作ってあげる」はどういう意味ですか。",
+        "choices": [
+          "cook for someone",
+          "receive cooking",
+          "try cooking",
+          "finish cooking"
+        ],
+        "answer": "cook for someone",
+        "explanation": "〜てあげる = do something for someone."
+      },
+      {
+        "id": "rq-n3-006-3",
+        "type": "main_idea",
+        "question": "この文の教訓は何ですか。",
+        "choices": [
+          "料理は難しい",
+          "一人暮らしはつまらない",
+          "自分で工夫することが成長につながる",
+          "友達に頼むべきだ"
+        ],
+        "answer": "自分で工夫することが成長につながる",
+        "explanation": "自分で工夫することが、成長につながる。"
+      }
+    ]
+  },
+  {
+    "id": "r-n3-007",
+    "title": "読書の効果",
+    "jlpt": "N3",
+    "difficulty": 3,
+    "category": "study",
+    "estimatedMinutes": 4,
+    "summary": "Benefits of reading.",
+    "sentences": [
+      {
+        "japanese": "読書には多くの効果があると言われています。",
+        "reading": "どくしょ に は おおく の こうか が ある と いわれています。",
+        "english": "Reading is said to have many benefits."
+      },
+      {
+        "japanese": "知識が増えるだけでなく、想像力も豊かになります。",
+        "reading": "ちしき が ふえる だけでなく、そうぞうりょく も ゆたか に なります。",
+        "english": "Not only does knowledge increase, but imagination also becomes richer."
+      },
+      {
+        "japanese": "ストレスを減らす効果もあるようです。",
+        "reading": "ストレス を へらす こうか も ある ようです。",
+        "english": "It also seems to have the effect of reducing stress."
+      },
+      {
+        "japanese": "毎日少しずつでも本を読む習慣をつけることをおすすめします。",
+        "reading": "まいにち すこしずつ でも ほん を よむ しゅうかん を つける こと を おすすめ します。",
+        "english": "I recommend developing a habit of reading even a little bit every day."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-007-1",
+        "type": "grammar_in_context",
+        "question": "「だけでなく」はどういう意味ですか。",
+        "choices": [
+          "only",
+          "not only",
+          "because of",
+          "instead of"
+        ],
+        "answer": "not only",
+        "explanation": "〜だけでなく = not only X but also Y."
+      },
+      {
+        "id": "rq-n3-007-2",
+        "type": "detail",
+        "question": "読書にはどんな効果がありますか。",
+        "choices": [
+          "お金が増える",
+          "知識と想像力が増える",
+          "友達ができる",
+          "運動になる"
+        ],
+        "answer": "知識と想像力が増える",
+        "explanation": "知識が増えるだけでなく、想像力も豊かになります。"
+      }
+    ]
+  },
+  {
+    "id": "r-n3-008",
+    "title": "ボランティア活動",
+    "jlpt": "N3",
+    "difficulty": 4,
+    "category": "society",
+    "estimatedMinutes": 4,
+    "summary": "Volunteering experience.",
+    "sentences": [
+      {
+        "japanese": "先月、地域のボランティア活動に参加しました。",
+        "reading": "せんげつ、ちいき の ボランティア かつどう に さんか しました。",
+        "english": "Last month I participated in local volunteer activities."
+      },
+      {
+        "japanese": "高齢者のために食事を届けるという活動でした。",
+        "reading": "こうれいしゃ の ため に しょくじ を とどける という かつどう でした。",
+        "english": "It was an activity to deliver meals for elderly people."
+      },
+      {
+        "japanese": "最初は緊張しましたが、おじいさんやおばあさんが喜んでくれたので、やってよかったと思いました。",
+        "reading": "さいしょ は きんちょう しました が、おじいさん や おばあさん が よろこんで くれた ので、やって よかった と おもいました。",
+        "english": "I was nervous at first, but the elderly people were happy, so I thought it was worth doing."
+      },
+      {
+        "japanese": "これからも続けていきたいと思います。",
+        "reading": "これから も つづけて いきたい と おもいます。",
+        "english": "I want to continue from now on."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-008-1",
+        "type": "detail",
+        "question": "どんなボランティアでしたか。",
+        "choices": [
+          "掃除",
+          "食事を届ける",
+          "子供の世話",
+          "動物の世話"
+        ],
+        "answer": "食事を届ける",
+        "explanation": "高齢者のために食事を届けるという活動でした。"
+      },
+      {
+        "id": "rq-n3-008-2",
+        "type": "grammar_in_context",
+        "question": "「という活動」はどういう意味ですか。",
+        "choices": [
+          "an activity called/that",
+          "despite the activity",
+          "instead of activity",
+          "because of activity"
+        ],
+        "answer": "an activity called/that",
+        "explanation": "〜という = called / that is / meaning."
+      },
+      {
+        "id": "rq-n3-008-3",
+        "type": "main_idea",
+        "question": "この人はボランティアをどう思いましたか。",
+        "choices": [
+          "つまらなかった",
+          "やってよかった",
+          "難しすぎた",
+          "もうやりたくない"
+        ],
+        "answer": "やってよかった",
+        "explanation": "やってよかったと思いました。"
+      }
+    ]
   }
 ]

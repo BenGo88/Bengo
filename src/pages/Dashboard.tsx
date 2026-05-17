@@ -8,16 +8,8 @@ export default function Dashboard() {
   const navigate = useNavigate();
   const [profile, setProfile] = useState<UserProfile | null>(null);
   useEffect(() => { setProfile(getProfile()); }, []);
-  if (!profile) return null;
 
-  const stats = getStats();
-  const dueItems = getDueItems();
-  const weakItems = getWeakItems();
-  const counts = getContentCounts(profile.targetLevel as JLPTLevel);
-  const learned = { kanji: getLearnedCount("kanji"), vocab: getLearnedCount("vocab"), grammar: getLearnedCount("grammar") };
-  const unlearnedTotal = counts.kanji + counts.vocab + counts.grammar - learned.kanji - learned.vocab - learned.grammar;
-
-  // Review forecast
+  // ALL hooks must be called before any early return
   const forecast = useMemo(() => {
     const items = getAllItems().filter((i) => i.srsStage !== "lesson" && i.srsStage !== "burned");
     const now = new Date();
@@ -27,13 +19,22 @@ export default function Dashboard() {
     let laterToday = 0, tomorrow = 0, thisWeek = 0;
     for (const i of items) {
       const d = new Date(i.nextReview);
-      if (d <= now) continue; // already due
+      if (d <= now) continue;
       if (d <= todayEnd) laterToday++;
       else if (d <= tmrEnd) tomorrow++;
       else if (d <= weekEnd) thisWeek++;
     }
     return { laterToday, tomorrow, thisWeek };
-  }, []);
+  }, [profile]); // re-run when profile loads
+
+  if (!profile) return null;
+
+  const stats = getStats();
+  const dueItems = getDueItems();
+  const weakItems = getWeakItems();
+  const counts = getContentCounts(profile.targetLevel as JLPTLevel);
+  const learned = { kanji: getLearnedCount("kanji"), vocab: getLearnedCount("vocab"), grammar: getLearnedCount("grammar") };
+  const unlearnedTotal = counts.kanji + counts.vocab + counts.grammar - learned.kanji - learned.vocab - learned.grammar;
 
   return (
     <div className="max-w-3xl mx-auto space-y-8 animate-fade-in">

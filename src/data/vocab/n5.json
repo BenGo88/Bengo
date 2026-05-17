@@ -1825,5 +1825,1451 @@
       "description"
     ],
     "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-066",
+    "word": "兄",
+    "reading": "あに",
+    "meanings": [
+      "older brother (own)"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Your own older brother.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "兄は大学生です。",
+        "en": "My older brother is a university student.",
+        "reading": "あに は だいがくせい です。"
+      }
+    ],
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "id": "v-n5-067",
+    "word": "姉",
+    "reading": "あね",
+    "meanings": [
+      "older sister (own)"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Your own older sister.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "姉は東京に住んでいます。",
+        "en": "My older sister lives in Tokyo.",
+        "reading": "あね は とうきょう に すんでいます。"
+      }
+    ],
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "id": "v-n5-068",
+    "word": "弟",
+    "reading": "おとうと",
+    "meanings": [
+      "younger brother"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Younger brother.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "弟は高校生です。",
+        "en": "My younger brother is a high school student.",
+        "reading": "おとうと は こうこうせい です。"
+      }
+    ],
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "id": "v-n5-069",
+    "word": "妹",
+    "reading": "いもうと",
+    "meanings": [
+      "younger sister"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Younger sister.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "妹は中学生です。",
+        "en": "My younger sister is a junior high student.",
+        "reading": "いもうと は ちゅうがくせい です。"
+      }
+    ],
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "id": "v-n5-070",
+    "word": "郵便局",
+    "reading": "ゆうびんきょく",
+    "meanings": [
+      "post office"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Post office.",
+    "unit": "Unit 2 — Basic Particles",
+    "sentences": [
+      {
+        "ja": "郵便局はどこですか。",
+        "en": "Where is the post office?",
+        "reading": "ゆうびんきょく は どこ です か。"
+      }
+    ],
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "v-n5-071",
+    "word": "公園",
+    "reading": "こうえん",
+    "meanings": [
+      "park"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "A park.",
+    "unit": "Unit 2 — Basic Particles",
+    "sentences": [
+      {
+        "ja": "公園で遊びます。",
+        "en": "I play in the park.",
+        "reading": "こうえん で あそびます。"
+      }
+    ],
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "v-n5-072",
+    "word": "デパート",
+    "reading": "デパート",
+    "meanings": [
+      "department store"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Department store.",
+    "unit": "Unit 2 — Basic Particles",
+    "sentences": [
+      {
+        "ja": "デパートで買い物をします。",
+        "en": "I shop at the department store.",
+        "reading": "デパート で かいもの を します。"
+      }
+    ],
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "id": "v-n5-073",
+    "word": "レストラン",
+    "reading": "レストラン",
+    "meanings": [
+      "restaurant"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Restaurant.",
+    "unit": "Unit 8 — Suggestions",
+    "sentences": [
+      {
+        "ja": "レストランで食べましょう。",
+        "en": "Let's eat at a restaurant.",
+        "reading": "レストラン で たべましょう。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-074",
+    "word": "肉",
+    "reading": "にく",
+    "meanings": [
+      "meat"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Meat.",
+    "unit": "Unit 8 — Suggestions",
+    "sentences": [
+      {
+        "ja": "肉が好きです。",
+        "en": "I like meat.",
+        "reading": "にく が すき です。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-075",
+    "word": "魚",
+    "reading": "さかな",
+    "meanings": [
+      "fish"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Fish.",
+    "unit": "Unit 8 — Suggestions",
+    "sentences": [
+      {
+        "ja": "魚を食べます。",
+        "en": "I eat fish.",
+        "reading": "さかな を たべます。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-076",
+    "word": "野菜",
+    "reading": "やさい",
+    "meanings": [
+      "vegetables"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Vegetables.",
+    "unit": "Unit 8 — Suggestions",
+    "sentences": [
+      {
+        "ja": "野菜をたくさん食べてください。",
+        "en": "Please eat lots of vegetables.",
+        "reading": "やさい を たくさん たべて ください。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-077",
+    "word": "卵",
+    "reading": "たまご",
+    "meanings": [
+      "egg"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Egg.",
+    "unit": "Unit 8 — Suggestions",
+    "sentences": [
+      {
+        "ja": "卵を買います。",
+        "en": "I buy eggs.",
+        "reading": "たまご を かいます。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-078",
+    "word": "パン",
+    "reading": "パン",
+    "meanings": [
+      "bread"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Bread.",
+    "unit": "Unit 4 — Existence",
+    "sentences": [
+      {
+        "ja": "朝パンを食べます。",
+        "en": "I eat bread in the morning.",
+        "reading": "あさ パン を たべます。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-079",
+    "word": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "meanings": [
+      "milk"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Cow's milk.",
+    "unit": "Unit 4 — Existence",
+    "sentences": [
+      {
+        "ja": "牛乳を飲みます。",
+        "en": "I drink milk.",
+        "reading": "ぎゅうにゅう を のみます。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-080",
+    "word": "昨日",
+    "reading": "きのう",
+    "meanings": [
+      "yesterday"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Yesterday.",
+    "unit": "Unit 5 — Plain Form Basics",
+    "sentences": [
+      {
+        "ja": "昨日映画を見ました。",
+        "en": "I watched a movie yesterday.",
+        "reading": "きのう えいが を みました。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-081",
+    "word": "明日",
+    "reading": "あした",
+    "meanings": [
+      "tomorrow"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Tomorrow.",
+    "unit": "Unit 10 — Plans & Opinions",
+    "sentences": [
+      {
+        "ja": "明日は休みです。",
+        "en": "Tomorrow is a day off.",
+        "reading": "あした は やすみ です。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-082",
+    "word": "来週",
+    "reading": "らいしゅう",
+    "meanings": [
+      "next week"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Next week.",
+    "unit": "Unit 10 — Plans & Opinions",
+    "sentences": [
+      {
+        "ja": "来週テストがあります。",
+        "en": "There's a test next week.",
+        "reading": "らいしゅう テスト が あります。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-083",
+    "word": "先週",
+    "reading": "せんしゅう",
+    "meanings": [
+      "last week"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Last week.",
+    "unit": "Unit 5 — Plain Form Basics",
+    "sentences": [
+      {
+        "ja": "先週は忙しかったです。",
+        "en": "Last week was busy.",
+        "reading": "せんしゅう は いそがしかった です。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-084",
+    "word": "来月",
+    "reading": "らいげつ",
+    "meanings": [
+      "next month"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Next month.",
+    "unit": "Unit 10 — Plans & Opinions",
+    "sentences": [
+      {
+        "ja": "来月日本に行きます。",
+        "en": "I'm going to Japan next month.",
+        "reading": "らいげつ にほん に いきます。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-085",
+    "word": "今年",
+    "reading": "ことし",
+    "meanings": [
+      "this year"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "This year.",
+    "unit": "Unit 5 — Plain Form Basics",
+    "sentences": [
+      {
+        "ja": "今年は暑いです。",
+        "en": "It's hot this year.",
+        "reading": "ことし は あつい です。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-086",
+    "word": "住む",
+    "reading": "すむ",
+    "meanings": [
+      "to live",
+      "to reside"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To live (at a place).",
+    "unit": "Unit 2 — Basic Particles",
+    "sentences": [
+      {
+        "ja": "東京に住んでいます。",
+        "en": "I live in Tokyo.",
+        "reading": "とうきょう に すんでいます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-087",
+    "word": "働く",
+    "reading": "はたらく",
+    "meanings": [
+      "to work"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To work (at a job).",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "銀行で働いています。",
+        "en": "I work at a bank.",
+        "reading": "ぎんこう で はたらいています。"
+      }
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "v-n5-088",
+    "word": "休む",
+    "reading": "やすむ",
+    "meanings": [
+      "to rest",
+      "to take a day off"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Rest or be absent.",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "今日は会社を休みます。",
+        "en": "I'm taking the day off work today.",
+        "reading": "きょう は かいしゃ を やすみます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-089",
+    "word": "帰る",
+    "reading": "かえる",
+    "meanings": [
+      "to return",
+      "to go home"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Go home / return.",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "6時に帰ります。",
+        "en": "I go home at 6.",
+        "reading": "ろくじ に かえります。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "v-n5-090",
+    "word": "入る",
+    "reading": "はいる",
+    "meanings": [
+      "to enter"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Enter a place.",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "部屋に入ります。",
+        "en": "I enter the room.",
+        "reading": "へや に はいります。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "v-n5-091",
+    "word": "出る",
+    "reading": "でる",
+    "meanings": [
+      "to exit",
+      "to leave"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "Leave/exit.",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "家を出ます。",
+        "en": "I leave the house.",
+        "reading": "いえ を でます。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "v-n5-092",
+    "word": "乗る",
+    "reading": "のる",
+    "meanings": [
+      "to ride",
+      "to get on"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Get on a vehicle.",
+    "unit": "Unit 2 — Basic Particles",
+    "sentences": [
+      {
+        "ja": "電車に乗ります。",
+        "en": "I get on the train.",
+        "reading": "でんしゃ に のります。"
+      }
+    ],
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "v-n5-093",
+    "word": "降りる",
+    "reading": "おりる",
+    "meanings": [
+      "to get off"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "Get off a vehicle.",
+    "unit": "Unit 2 — Basic Particles",
+    "sentences": [
+      {
+        "ja": "次の駅で降ります。",
+        "en": "I get off at the next station.",
+        "reading": "つぎ の えき で おります。"
+      }
+    ],
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "v-n5-094",
+    "word": "開ける",
+    "reading": "あける",
+    "meanings": [
+      "to open"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "Open something.",
+    "unit": "Unit 6 — Requests",
+    "sentences": [
+      {
+        "ja": "窓を開けてください。",
+        "en": "Please open the window.",
+        "reading": "まど を あけて ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-095",
+    "word": "閉める",
+    "reading": "しめる",
+    "meanings": [
+      "to close"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "Close something.",
+    "unit": "Unit 6 — Requests",
+    "sentences": [
+      {
+        "ja": "ドアを閉めてください。",
+        "en": "Please close the door.",
+        "reading": "ドア を しめて ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-096",
+    "word": "座る",
+    "reading": "すわる",
+    "meanings": [
+      "to sit"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To sit down.",
+    "unit": "Unit 6 — Requests",
+    "sentences": [
+      {
+        "ja": "ここに座ってください。",
+        "en": "Please sit here.",
+        "reading": "ここ に すわって ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-097",
+    "word": "立つ",
+    "reading": "たつ",
+    "meanings": [
+      "to stand"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To stand up.",
+    "unit": "Unit 6 — Requests",
+    "sentences": [
+      {
+        "ja": "立ってください。",
+        "en": "Please stand up.",
+        "reading": "たって ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-098",
+    "word": "消す",
+    "reading": "けす",
+    "meanings": [
+      "to turn off",
+      "to erase"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Turn off (lights) or erase.",
+    "unit": "Unit 6 — Requests",
+    "sentences": [
+      {
+        "ja": "電気を消してください。",
+        "en": "Please turn off the light.",
+        "reading": "でんき を けして ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-099",
+    "word": "つける",
+    "reading": "つける",
+    "meanings": [
+      "to turn on",
+      "to attach"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "Turn on or attach.",
+    "unit": "Unit 6 — Requests",
+    "sentences": [
+      {
+        "ja": "テレビをつけてください。",
+        "en": "Please turn on the TV.",
+        "reading": "テレビ を つけて ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-100",
+    "word": "広い",
+    "reading": "ひろい",
+    "meanings": [
+      "wide",
+      "spacious"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Wide or spacious.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "この部屋は広いです。",
+        "en": "This room is spacious.",
+        "reading": "この へや は ひろい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-101",
+    "word": "狭い",
+    "reading": "せまい",
+    "meanings": [
+      "narrow",
+      "cramped"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Narrow or cramped.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "道が狭いです。",
+        "en": "The road is narrow.",
+        "reading": "みち が せまい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-102",
+    "word": "長い",
+    "reading": "ながい",
+    "meanings": [
+      "long"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Long (length or time).",
+    "unit": "Unit 7 — Connecting Ideas",
+    "sentences": [
+      {
+        "ja": "夏休みは長いです。",
+        "en": "Summer vacation is long.",
+        "reading": "なつやすみ は ながい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-103",
+    "word": "短い",
+    "reading": "みじかい",
+    "meanings": [
+      "short"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Short (length or time).",
+    "unit": "Unit 7 — Connecting Ideas",
+    "sentences": [
+      {
+        "ja": "冬休みは短いです。",
+        "en": "Winter vacation is short.",
+        "reading": "ふゆやすみ は みじかい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-104",
+    "word": "多い",
+    "reading": "おおい",
+    "meanings": [
+      "many",
+      "much"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Many/much. Cannot directly modify nouns.",
+    "unit": "Unit 9 — Comparison",
+    "sentences": [
+      {
+        "ja": "人が多いです。",
+        "en": "There are many people.",
+        "reading": "ひと が おおい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-105",
+    "word": "少ない",
+    "reading": "すくない",
+    "meanings": [
+      "few",
+      "little"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Few/little.",
+    "unit": "Unit 9 — Comparison",
+    "sentences": [
+      {
+        "ja": "お金が少ないです。",
+        "en": "I have little money.",
+        "reading": "おかね が すくない です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-106",
+    "word": "近い",
+    "reading": "ちかい",
+    "meanings": [
+      "near",
+      "close"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Near/close.",
+    "unit": "Unit 9 — Comparison",
+    "sentences": [
+      {
+        "ja": "駅が近いです。",
+        "en": "The station is close.",
+        "reading": "えき が ちかい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-107",
+    "word": "遠い",
+    "reading": "とおい",
+    "meanings": [
+      "far"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Far/distant.",
+    "unit": "Unit 9 — Comparison",
+    "sentences": [
+      {
+        "ja": "学校は遠いです。",
+        "en": "School is far.",
+        "reading": "がっこう は とおい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-108",
+    "word": "早い",
+    "reading": "はやい",
+    "meanings": [
+      "early",
+      "fast"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Early or fast.",
+    "unit": "Unit 7 — Connecting Ideas",
+    "sentences": [
+      {
+        "ja": "朝が早いです。",
+        "en": "Morning is early.",
+        "reading": "あさ が はやい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-109",
+    "word": "遅い",
+    "reading": "おそい",
+    "meanings": [
+      "late",
+      "slow"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Late or slow.",
+    "unit": "Unit 7 — Connecting Ideas",
+    "sentences": [
+      {
+        "ja": "帰りが遅いです。",
+        "en": "I come home late.",
+        "reading": "かえり が おそい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-110",
+    "word": "甘い",
+    "reading": "あまい",
+    "meanings": [
+      "sweet"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Sweet taste.",
+    "unit": "Unit 8 — Suggestions",
+    "sentences": [
+      {
+        "ja": "このケーキは甘いです。",
+        "en": "This cake is sweet.",
+        "reading": "この ケーキ は あまい です。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-111",
+    "word": "辛い",
+    "reading": "からい",
+    "meanings": [
+      "spicy",
+      "hot"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Spicy/hot food.",
+    "unit": "Unit 8 — Suggestions",
+    "sentences": [
+      {
+        "ja": "カレーは辛いです。",
+        "en": "Curry is spicy.",
+        "reading": "カレー は からい です。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-112",
+    "word": "何",
+    "reading": "なに",
+    "meanings": [
+      "what"
+    ],
+    "part_of_speech": "pronoun",
+    "jlpt": "N5",
+    "simple_usage": "What? Also read なん before counters.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "何を食べますか。",
+        "en": "What will you eat?",
+        "reading": "なに を たべます か。"
+      }
+    ],
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "v-n5-113",
+    "word": "どこ",
+    "reading": "どこ",
+    "meanings": [
+      "where"
+    ],
+    "part_of_speech": "pronoun",
+    "jlpt": "N5",
+    "simple_usage": "Where?",
+    "unit": "Unit 2 — Basic Particles",
+    "sentences": [
+      {
+        "ja": "トイレはどこですか。",
+        "en": "Where is the toilet?",
+        "reading": "トイレ は どこ です か。"
+      }
+    ],
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "v-n5-114",
+    "word": "いつ",
+    "reading": "いつ",
+    "meanings": [
+      "when"
+    ],
+    "part_of_speech": "pronoun",
+    "jlpt": "N5",
+    "simple_usage": "When?",
+    "unit": "Unit 5 — Plain Form Basics",
+    "sentences": [
+      {
+        "ja": "いつ日本に来ましたか。",
+        "en": "When did you come to Japan?",
+        "reading": "いつ にほん に きました か。"
+      }
+    ],
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "v-n5-115",
+    "word": "誰",
+    "reading": "だれ",
+    "meanings": [
+      "who"
+    ],
+    "part_of_speech": "pronoun",
+    "jlpt": "N5",
+    "simple_usage": "Who?",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "あの人は誰ですか。",
+        "en": "Who is that person?",
+        "reading": "あの ひと は だれ です か。"
+      }
+    ],
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "v-n5-116",
+    "word": "どうして",
+    "reading": "どうして",
+    "meanings": [
+      "why"
+    ],
+    "part_of_speech": "adverb",
+    "jlpt": "N5",
+    "simple_usage": "Why? Casual: なぜ.",
+    "unit": "Unit 7 — Connecting Ideas",
+    "sentences": [
+      {
+        "ja": "どうして遅れましたか。",
+        "en": "Why were you late?",
+        "reading": "どうして おくれました か。"
+      }
+    ],
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "v-n5-117",
+    "word": "青い",
+    "reading": "あおい",
+    "meanings": [
+      "blue"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Blue.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "空は青いです。",
+        "en": "The sky is blue.",
+        "reading": "そら は あおい です。"
+      }
+    ],
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "id": "v-n5-118",
+    "word": "黒い",
+    "reading": "くろい",
+    "meanings": [
+      "black"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Black.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "黒い猫がいます。",
+        "en": "There is a black cat.",
+        "reading": "くろい ねこ が います。"
+      }
+    ],
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "id": "v-n5-119",
+    "word": "机",
+    "reading": "つくえ",
+    "meanings": [
+      "desk"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "A desk.",
+    "unit": "Unit 4 — Existence",
+    "sentences": [
+      {
+        "ja": "机の上に本があります。",
+        "en": "There's a book on the desk.",
+        "reading": "つくえ の うえ に ほん が あります。"
+      }
+    ],
+    "tags": [
+      "furniture"
+    ]
+  },
+  {
+    "id": "v-n5-120",
+    "word": "椅子",
+    "reading": "いす",
+    "meanings": [
+      "chair"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "A chair.",
+    "unit": "Unit 4 — Existence",
+    "sentences": [
+      {
+        "ja": "椅子に座ってください。",
+        "en": "Please sit on the chair.",
+        "reading": "いす に すわって ください。"
+      }
+    ],
+    "tags": [
+      "furniture"
+    ]
+  },
+  {
+    "id": "v-n5-121",
+    "word": "窓",
+    "reading": "まど",
+    "meanings": [
+      "window"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Window.",
+    "unit": "Unit 6 — Requests",
+    "sentences": [
+      {
+        "ja": "窓を開けましょう。",
+        "en": "Let's open the window.",
+        "reading": "まど を あけましょう。"
+      }
+    ],
+    "tags": [
+      "house"
+    ]
+  },
+  {
+    "id": "v-n5-122",
+    "word": "ドア",
+    "reading": "ドア",
+    "meanings": [
+      "door"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Door.",
+    "unit": "Unit 6 — Requests",
+    "sentences": [
+      {
+        "ja": "ドアを閉めてください。",
+        "en": "Please close the door.",
+        "reading": "ドア を しめて ください。"
+      }
+    ],
+    "tags": [
+      "house"
+    ]
+  },
+  {
+    "id": "v-n5-123",
+    "word": "傘",
+    "reading": "かさ",
+    "meanings": [
+      "umbrella"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Umbrella.",
+    "unit": "Unit 7 — Connecting Ideas",
+    "sentences": [
+      {
+        "ja": "傘を持っていきます。",
+        "en": "I'll bring an umbrella.",
+        "reading": "かさ を もっていきます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-124",
+    "word": "電話",
+    "reading": "でんわ",
+    "meanings": [
+      "telephone"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Phone/telephone.",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "電話をかけます。",
+        "en": "I make a phone call.",
+        "reading": "でんわ を かけます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-125",
+    "word": "写真",
+    "reading": "しゃしん",
+    "meanings": [
+      "photograph"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Photo/picture.",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "写真を撮ります。",
+        "en": "I take a photo.",
+        "reading": "しゃしん を とります。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-126",
+    "word": "お金",
+    "reading": "おかね",
+    "meanings": [
+      "money"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Money.",
+    "unit": "Unit 9 — Comparison",
+    "sentences": [
+      {
+        "ja": "お金がありません。",
+        "en": "I don't have money.",
+        "reading": "おかね が ありません。"
+      }
+    ],
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "id": "v-n5-127",
+    "word": "切手",
+    "reading": "きって",
+    "meanings": [
+      "stamp"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Postage stamp.",
+    "unit": "Unit 2 — Basic Particles",
+    "sentences": [
+      {
+        "ja": "切手を買います。",
+        "en": "I buy stamps.",
+        "reading": "きって を かいます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-128",
+    "word": "手紙",
+    "reading": "てがみ",
+    "meanings": [
+      "letter"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "A letter (mail).",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "友達に手紙を書きます。",
+        "en": "I write a letter to my friend.",
+        "reading": "ともだち に てがみ を かきます。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n5-129",
+    "word": "授業",
+    "reading": "じゅぎょう",
+    "meanings": [
+      "class",
+      "lesson"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "A class/lesson.",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "授業は9時に始まります。",
+        "en": "Class starts at 9.",
+        "reading": "じゅぎょう は くじ に はじまります。"
+      }
+    ],
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "v-n5-130",
+    "word": "宿題",
+    "reading": "しゅくだい",
+    "meanings": [
+      "homework"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Homework.",
+    "unit": "Unit 3 — Polite Verbs",
+    "sentences": [
+      {
+        "ja": "宿題をしましたか。",
+        "en": "Did you do the homework?",
+        "reading": "しゅくだい を しました か。"
+      }
+    ],
+    "tags": [
+      "school"
+    ]
   }
 ]

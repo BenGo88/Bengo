@@ -463,5 +463,314 @@
     ],
     "partOfSpeech": "noun",
     "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-挨拶",
+    "text": "挨拶",
+    "reading": "あいさつ",
+    "meanings": [
+      "greeting"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-留学",
+    "text": "留学",
+    "reading": "りゅうがく",
+    "meanings": [
+      "study abroad"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-文化",
+    "text": "文化",
+    "reading": "ぶんか",
+    "meanings": [
+      "culture"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-歴史",
+    "text": "歴史",
+    "reading": "れきし",
+    "meanings": [
+      "history"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-将来",
+    "text": "将来",
+    "reading": "しょうらい",
+    "meanings": [
+      "future"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-卒業",
+    "text": "卒業",
+    "reading": "そつぎょう",
+    "meanings": [
+      "graduation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-入学",
+    "text": "入学",
+    "reading": "にゅうがく",
+    "meanings": [
+      "enrollment"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-連絡",
+    "text": "連絡",
+    "reading": "れんらく",
+    "meanings": [
+      "contact"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-返事",
+    "text": "返事",
+    "reading": "へんじ",
+    "meanings": [
+      "reply"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-選ぶ",
+    "text": "選ぶ",
+    "reading": "えらぶ",
+    "meanings": [
+      "to choose"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-届く",
+    "text": "届く",
+    "reading": "とどく",
+    "meanings": [
+      "to arrive",
+      "to reach"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-片付ける",
+    "text": "片付ける",
+    "reading": "かたづける",
+    "meanings": [
+      "to tidy up"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-間違える",
+    "text": "間違える",
+    "reading": "まちがえる",
+    "meanings": [
+      "to make a mistake"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-謝る",
+    "text": "謝る",
+    "reading": "あやまる",
+    "meanings": [
+      "to apologize"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-褒める",
+    "text": "褒める",
+    "reading": "ほめる",
+    "meanings": [
+      "to praise"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-叱る",
+    "text": "叱る",
+    "reading": "しかる",
+    "meanings": [
+      "to scold"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-注文",
+    "text": "注文",
+    "reading": "ちゅうもん",
+    "meanings": [
+      "order"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-案内",
+    "text": "案内",
+    "reading": "あんない",
+    "meanings": [
+      "guidance",
+      "information"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-出発",
+    "text": "出発",
+    "reading": "しゅっぱつ",
+    "meanings": [
+      "departure"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-到着",
+    "text": "到着",
+    "reading": "とうちゃく",
+    "meanings": [
+      "arrival"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-お祝い",
+    "text": "お祝い",
+    "reading": "おいわい",
+    "meanings": [
+      "celebration",
+      "gift"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-引っ越す",
+    "text": "引っ越す",
+    "reading": "ひっこす",
+    "meanings": [
+      "to move (house)"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-うまくいく",
+    "text": "うまくいく",
+    "reading": "うまくいく",
+    "meanings": [
+      "to go well"
+    ],
+    "partOfSpeech": "expression",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-故障",
+    "text": "故障",
+    "reading": "こしょう",
+    "meanings": [
+      "breakdown",
+      "malfunction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-速い",
+    "text": "速い",
+    "reading": "はやい",
+    "meanings": [
+      "fast",
+      "quick"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-厳しい",
+    "text": "厳しい",
+    "reading": "きびしい",
+    "meanings": [
+      "strict",
+      "severe"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-優しい",
+    "text": "優しい",
+    "reading": "やさしい",
+    "meanings": [
+      "kind",
+      "gentle"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-楽",
+    "text": "楽",
+    "reading": "らく",
+    "meanings": [
+      "easy",
+      "comfortable"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-不便",
+    "text": "不便",
+    "reading": "ふべん",
+    "meanings": [
+      "inconvenient"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-危険",
+    "text": "危険",
+    "reading": "きけん",
+    "meanings": [
+      "danger",
+      "dangerous"
+    ],
+    "partOfSpeech": "な-adjective / noun",
+    "jlpt": "N4"
   }
 ]

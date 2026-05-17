@@ -789,5 +789,671 @@
     ],
     "partOfSpeech": "ichidan verb",
     "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-兄",
+    "text": "兄",
+    "reading": "あに",
+    "meanings": [
+      "older brother (own)"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-姉",
+    "text": "姉",
+    "reading": "あね",
+    "meanings": [
+      "older sister (own)"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-弟",
+    "text": "弟",
+    "reading": "おとうと",
+    "meanings": [
+      "younger brother"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-妹",
+    "text": "妹",
+    "reading": "いもうと",
+    "meanings": [
+      "younger sister"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-郵便局",
+    "text": "郵便局",
+    "reading": "ゆうびんきょく",
+    "meanings": [
+      "post office"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-公園",
+    "text": "公園",
+    "reading": "こうえん",
+    "meanings": [
+      "park"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-デパート",
+    "text": "デパート",
+    "reading": "デパート",
+    "meanings": [
+      "department store"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-レストラン",
+    "text": "レストラン",
+    "reading": "レストラン",
+    "meanings": [
+      "restaurant"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-肉",
+    "text": "肉",
+    "reading": "にく",
+    "meanings": [
+      "meat"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-魚",
+    "text": "魚",
+    "reading": "さかな",
+    "meanings": [
+      "fish"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-野菜",
+    "text": "野菜",
+    "reading": "やさい",
+    "meanings": [
+      "vegetables"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-卵",
+    "text": "卵",
+    "reading": "たまご",
+    "meanings": [
+      "egg"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-パン",
+    "text": "パン",
+    "reading": "パン",
+    "meanings": [
+      "bread"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-牛乳",
+    "text": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "meanings": [
+      "milk"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-昨日",
+    "text": "昨日",
+    "reading": "きのう",
+    "meanings": [
+      "yesterday"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-明日",
+    "text": "明日",
+    "reading": "あした",
+    "meanings": [
+      "tomorrow"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-来週",
+    "text": "来週",
+    "reading": "らいしゅう",
+    "meanings": [
+      "next week"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-先週",
+    "text": "先週",
+    "reading": "せんしゅう",
+    "meanings": [
+      "last week"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-来月",
+    "text": "来月",
+    "reading": "らいげつ",
+    "meanings": [
+      "next month"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-今年",
+    "text": "今年",
+    "reading": "ことし",
+    "meanings": [
+      "this year"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-住む",
+    "text": "住む",
+    "reading": "すむ",
+    "meanings": [
+      "to live",
+      "to reside"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-働く",
+    "text": "働く",
+    "reading": "はたらく",
+    "meanings": [
+      "to work"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-休む",
+    "text": "休む",
+    "reading": "やすむ",
+    "meanings": [
+      "to rest",
+      "to take a day off"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-帰る",
+    "text": "帰る",
+    "reading": "かえる",
+    "meanings": [
+      "to return",
+      "to go home"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-入る",
+    "text": "入る",
+    "reading": "はいる",
+    "meanings": [
+      "to enter"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-出る",
+    "text": "出る",
+    "reading": "でる",
+    "meanings": [
+      "to exit",
+      "to leave"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-乗る",
+    "text": "乗る",
+    "reading": "のる",
+    "meanings": [
+      "to ride",
+      "to get on"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-降りる",
+    "text": "降りる",
+    "reading": "おりる",
+    "meanings": [
+      "to get off"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-開ける",
+    "text": "開ける",
+    "reading": "あける",
+    "meanings": [
+      "to open"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-閉める",
+    "text": "閉める",
+    "reading": "しめる",
+    "meanings": [
+      "to close"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-座る",
+    "text": "座る",
+    "reading": "すわる",
+    "meanings": [
+      "to sit"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-立つ",
+    "text": "立つ",
+    "reading": "たつ",
+    "meanings": [
+      "to stand"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-消す",
+    "text": "消す",
+    "reading": "けす",
+    "meanings": [
+      "to turn off",
+      "to erase"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-つける",
+    "text": "つける",
+    "reading": "つける",
+    "meanings": [
+      "to turn on",
+      "to attach"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-広い",
+    "text": "広い",
+    "reading": "ひろい",
+    "meanings": [
+      "wide",
+      "spacious"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-狭い",
+    "text": "狭い",
+    "reading": "せまい",
+    "meanings": [
+      "narrow",
+      "cramped"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-長い",
+    "text": "長い",
+    "reading": "ながい",
+    "meanings": [
+      "long"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-短い",
+    "text": "短い",
+    "reading": "みじかい",
+    "meanings": [
+      "short"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-多い",
+    "text": "多い",
+    "reading": "おおい",
+    "meanings": [
+      "many",
+      "much"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-少ない",
+    "text": "少ない",
+    "reading": "すくない",
+    "meanings": [
+      "few",
+      "little"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-近い",
+    "text": "近い",
+    "reading": "ちかい",
+    "meanings": [
+      "near",
+      "close"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-遠い",
+    "text": "遠い",
+    "reading": "とおい",
+    "meanings": [
+      "far"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-早い",
+    "text": "早い",
+    "reading": "はやい",
+    "meanings": [
+      "early",
+      "fast"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-遅い",
+    "text": "遅い",
+    "reading": "おそい",
+    "meanings": [
+      "late",
+      "slow"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-甘い",
+    "text": "甘い",
+    "reading": "あまい",
+    "meanings": [
+      "sweet"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-辛い",
+    "text": "辛い",
+    "reading": "からい",
+    "meanings": [
+      "spicy",
+      "hot"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-何",
+    "text": "何",
+    "reading": "なに",
+    "meanings": [
+      "what"
+    ],
+    "partOfSpeech": "pronoun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-どこ",
+    "text": "どこ",
+    "reading": "どこ",
+    "meanings": [
+      "where"
+    ],
+    "partOfSpeech": "pronoun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-いつ",
+    "text": "いつ",
+    "reading": "いつ",
+    "meanings": [
+      "when"
+    ],
+    "partOfSpeech": "pronoun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-誰",
+    "text": "誰",
+    "reading": "だれ",
+    "meanings": [
+      "who"
+    ],
+    "partOfSpeech": "pronoun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-どうして",
+    "text": "どうして",
+    "reading": "どうして",
+    "meanings": [
+      "why"
+    ],
+    "partOfSpeech": "adverb",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-青い",
+    "text": "青い",
+    "reading": "あおい",
+    "meanings": [
+      "blue"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-黒い",
+    "text": "黒い",
+    "reading": "くろい",
+    "meanings": [
+      "black"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-机",
+    "text": "机",
+    "reading": "つくえ",
+    "meanings": [
+      "desk"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-椅子",
+    "text": "椅子",
+    "reading": "いす",
+    "meanings": [
+      "chair"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-窓",
+    "text": "窓",
+    "reading": "まど",
+    "meanings": [
+      "window"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-ドア",
+    "text": "ドア",
+    "reading": "ドア",
+    "meanings": [
+      "door"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-傘",
+    "text": "傘",
+    "reading": "かさ",
+    "meanings": [
+      "umbrella"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-電話",
+    "text": "電話",
+    "reading": "でんわ",
+    "meanings": [
+      "telephone"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-写真",
+    "text": "写真",
+    "reading": "しゃしん",
+    "meanings": [
+      "photograph"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-お金",
+    "text": "お金",
+    "reading": "おかね",
+    "meanings": [
+      "money"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-切手",
+    "text": "切手",
+    "reading": "きって",
+    "meanings": [
+      "stamp"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-手紙",
+    "text": "手紙",
+    "reading": "てがみ",
+    "meanings": [
+      "letter"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-授業",
+    "text": "授業",
+    "reading": "じゅぎょう",
+    "meanings": [
+      "class",
+      "lesson"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
+  },
+  {
+    "id": "lex-n5-宿題",
+    "text": "宿題",
+    "reading": "しゅくだい",
+    "meanings": [
+      "homework"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N5"
   }
 ]

@@ -931,5 +931,694 @@
       "abstract"
     ],
     "unit": "Unit 5 — Thoughts"
+  },
+  {
+    "id": "k-n4-031",
+    "character": "文",
+    "meanings": [
+      "sentence",
+      "writing"
+    ],
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "ふみ"
+    ],
+    "beginner_hint": "文化 = culture. 文法 = grammar.",
+    "common_words": [
+      {
+        "word": "文化",
+        "reading": "ぶんか",
+        "meaning": "culture"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 6 — Ability",
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "k-n4-032",
+    "character": "世",
+    "meanings": [
+      "world",
+      "generation"
+    ],
+    "onyomi": [
+      "セイ",
+      "セ"
+    ],
+    "kunyomi": [
+      "よ"
+    ],
+    "beginner_hint": "世界 = world. 世話 = care.",
+    "common_words": [
+      {
+        "word": "世界",
+        "reading": "せかい",
+        "meaning": "world"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 6 — Ability",
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "k-n4-033",
+    "character": "界",
+    "meanings": [
+      "world",
+      "boundary"
+    ],
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "世界 = world.",
+    "common_words": [
+      {
+        "word": "世界",
+        "reading": "せかい",
+        "meaning": "world"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 6 — Ability",
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "k-n4-034",
+    "character": "発",
+    "meanings": [
+      "depart",
+      "emit"
+    ],
+    "onyomi": [
+      "ハツ",
+      "ホツ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "出発 = departure. 発見 = discovery.",
+    "common_words": [
+      {
+        "word": "出発",
+        "reading": "しゅっぱつ",
+        "meaning": "departure"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 9 — Time",
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "id": "k-n4-035",
+    "character": "着",
+    "meanings": [
+      "arrive",
+      "wear"
+    ],
+    "onyomi": [
+      "チャク"
+    ],
+    "kunyomi": [
+      "き.る",
+      "つ.く"
+    ],
+    "beginner_hint": "到着 = arrival. 着る = to wear.",
+    "common_words": [
+      {
+        "word": "到着",
+        "reading": "とうちゃく",
+        "meaning": "arrival"
+      },
+      {
+        "word": "着る",
+        "reading": "きる",
+        "meaning": "to wear"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 9 — Time",
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "id": "k-n4-036",
+    "character": "注",
+    "meanings": [
+      "pour",
+      "note"
+    ],
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "そそ.ぐ"
+    ],
+    "beginner_hint": "注文 = order. 注意 = caution.",
+    "common_words": [
+      {
+        "word": "注文",
+        "reading": "ちゅうもん",
+        "meaning": "order"
+      },
+      {
+        "word": "注意",
+        "reading": "ちゅうい",
+        "meaning": "caution"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 2 — Permission",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n4-037",
+    "character": "案",
+    "meanings": [
+      "plan",
+      "idea"
+    ],
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "案内 = guidance. 提案 = proposal.",
+    "common_words": [
+      {
+        "word": "案内",
+        "reading": "あんない",
+        "meaning": "guidance"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 2 — Permission",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n4-038",
+    "character": "業",
+    "meanings": [
+      "business",
+      "industry"
+    ],
+    "onyomi": [
+      "ギョウ",
+      "ゴウ"
+    ],
+    "kunyomi": [
+      "わざ"
+    ],
+    "beginner_hint": "授業 = class. 卒業 = graduation.",
+    "common_words": [
+      {
+        "word": "授業",
+        "reading": "じゅぎょう",
+        "meaning": "class"
+      },
+      {
+        "word": "卒業",
+        "reading": "そつぎょう",
+        "meaning": "graduation"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 9 — Time",
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "k-n4-039",
+    "character": "卒",
+    "meanings": [
+      "graduate"
+    ],
+    "onyomi": [
+      "ソツ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "卒業 = graduation.",
+    "common_words": [
+      {
+        "word": "卒業",
+        "reading": "そつぎょう",
+        "meaning": "graduation"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 9 — Time",
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "k-n4-040",
+    "character": "留",
+    "meanings": [
+      "stay",
+      "keep"
+    ],
+    "onyomi": [
+      "リュウ"
+    ],
+    "kunyomi": [
+      "と.める"
+    ],
+    "beginner_hint": "留学 = study abroad.",
+    "common_words": [
+      {
+        "word": "留学",
+        "reading": "りゅうがく",
+        "meaning": "study abroad"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 6 — Ability",
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "k-n4-041",
+    "character": "験",
+    "meanings": [
+      "test",
+      "experience"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "経験 = experience. 試験 = exam.",
+    "common_words": [
+      {
+        "word": "経験",
+        "reading": "けいけん",
+        "meaning": "experience"
+      },
+      {
+        "word": "試験",
+        "reading": "しけん",
+        "meaning": "exam"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 6 — Ability",
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "k-n4-042",
+    "character": "試",
+    "meanings": [
+      "test",
+      "try"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "こころ.みる",
+      "ため.す"
+    ],
+    "beginner_hint": "試験 = exam. 試合 = match/game.",
+    "common_words": [
+      {
+        "word": "試験",
+        "reading": "しけん",
+        "meaning": "exam"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 6 — Ability",
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "k-n4-043",
+    "character": "式",
+    "meanings": [
+      "ceremony",
+      "formula"
+    ],
+    "onyomi": [
+      "シキ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "卒業式 = graduation ceremony.",
+    "common_words": [
+      {
+        "word": "卒業式",
+        "reading": "そつぎょうしき",
+        "meaning": "graduation ceremony"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 9 — Time",
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "id": "k-n4-044",
+    "character": "祝",
+    "meanings": [
+      "celebrate"
+    ],
+    "onyomi": [
+      "シュク"
+    ],
+    "kunyomi": [
+      "いわ.う"
+    ],
+    "beginner_hint": "お祝い = celebration.",
+    "common_words": [
+      {
+        "word": "お祝い",
+        "reading": "おいわい",
+        "meaning": "celebration"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 8 — Contrast",
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "id": "k-n4-045",
+    "character": "転",
+    "meanings": [
+      "roll",
+      "turn"
+    ],
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "ころ.がる"
+    ],
+    "beginner_hint": "運転 = driving. 転職 = job change.",
+    "common_words": [
+      {
+        "word": "運転",
+        "reading": "うんてん",
+        "meaning": "driving"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 10 — Degree",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n4-046",
+    "character": "引",
+    "meanings": [
+      "pull",
+      "draw"
+    ],
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "ひ.く"
+    ],
+    "beginner_hint": "引っ越す = move house. 割引 = discount.",
+    "common_words": [
+      {
+        "word": "引っ越す",
+        "reading": "ひっこす",
+        "meaning": "to move"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 9 — Time",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n4-047",
+    "character": "越",
+    "meanings": [
+      "cross over"
+    ],
+    "onyomi": [
+      "エツ"
+    ],
+    "kunyomi": [
+      "こ.す"
+    ],
+    "beginner_hint": "引っ越す = move house.",
+    "common_words": [
+      {
+        "word": "引っ越す",
+        "reading": "ひっこす",
+        "meaning": "to move"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 9 — Time",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n4-048",
+    "character": "優",
+    "meanings": [
+      "gentle",
+      "superior"
+    ],
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "やさ.しい"
+    ],
+    "beginner_hint": "優しい = kind. 優勝 = championship.",
+    "common_words": [
+      {
+        "word": "優しい",
+        "reading": "やさしい",
+        "meaning": "kind"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 10 — Degree",
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "k-n4-049",
+    "character": "厳",
+    "meanings": [
+      "strict",
+      "stern"
+    ],
+    "onyomi": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "きび.しい"
+    ],
+    "beginner_hint": "厳しい = strict.",
+    "common_words": [
+      {
+        "word": "厳しい",
+        "reading": "きびしい",
+        "meaning": "strict"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 10 — Degree",
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "k-n4-050",
+    "character": "危",
+    "meanings": [
+      "danger"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "あぶ.ない"
+    ],
+    "beginner_hint": "危険 = danger. 危ない = dangerous.",
+    "common_words": [
+      {
+        "word": "危険",
+        "reading": "きけん",
+        "meaning": "danger"
+      },
+      {
+        "word": "危ない",
+        "reading": "あぶない",
+        "meaning": "dangerous"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 3 — Obligation",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n4-051",
+    "character": "険",
+    "meanings": [
+      "precipitous",
+      "dangerous"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "危険 = danger. 保険 = insurance.",
+    "common_words": [
+      {
+        "word": "危険",
+        "reading": "きけん",
+        "meaning": "danger"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 3 — Obligation",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n4-052",
+    "character": "連",
+    "meanings": [
+      "connect"
+    ],
+    "onyomi": [
+      "レン"
+    ],
+    "kunyomi": [
+      "つら.なる"
+    ],
+    "beginner_hint": "連絡 = contact. 連休 = holidays.",
+    "common_words": [
+      {
+        "word": "連絡",
+        "reading": "れんらく",
+        "meaning": "contact"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 5 — Thoughts",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "k-n4-053",
+    "character": "返",
+    "meanings": [
+      "return"
+    ],
+    "onyomi": [
+      "ヘン"
+    ],
+    "kunyomi": [
+      "かえ.す"
+    ],
+    "beginner_hint": "返事 = reply. 返す = to return.",
+    "common_words": [
+      {
+        "word": "返事",
+        "reading": "へんじ",
+        "meaning": "reply"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 5 — Thoughts",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "k-n4-054",
+    "character": "選",
+    "meanings": [
+      "choose"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "えら.ぶ"
+    ],
+    "beginner_hint": "選ぶ = choose. 選手 = player.",
+    "common_words": [
+      {
+        "word": "選ぶ",
+        "reading": "えらぶ",
+        "meaning": "to choose"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 5 — Thoughts",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n4-055",
+    "character": "故",
+    "meanings": [
+      "cause",
+      "old"
+    ],
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "故障 = breakdown. 事故 = accident.",
+    "common_words": [
+      {
+        "word": "故障",
+        "reading": "こしょう",
+        "meaning": "breakdown"
+      },
+      {
+        "word": "事故",
+        "reading": "じこ",
+        "meaning": "accident"
+      }
+    ],
+    "jlpt": "N4",
+    "unit": "Unit 1 — て-Form",
+    "tags": [
+      "daily"
+    ]
   }
 ]

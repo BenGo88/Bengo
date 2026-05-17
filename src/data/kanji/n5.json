@@ -1069,5 +1069,734 @@
       "body"
     ],
     "unit": "Unit 3 — Polite Verbs"
+  },
+  {
+    "id": "k-n5-036",
+    "character": "女",
+    "meanings": [
+      "woman"
+    ],
+    "onyomi": [
+      "ジョ"
+    ],
+    "kunyomi": [
+      "おんな"
+    ],
+    "beginner_hint": "女の人 = woman.",
+    "common_words": [
+      {
+        "word": "女の人",
+        "reading": "おんなのひと",
+        "meaning": "woman"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 1 — First Sentences",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "id": "k-n5-037",
+    "character": "男",
+    "meanings": [
+      "man"
+    ],
+    "onyomi": [
+      "ダン"
+    ],
+    "kunyomi": [
+      "おとこ"
+    ],
+    "beginner_hint": "男の人 = man.",
+    "common_words": [
+      {
+        "word": "男の人",
+        "reading": "おとこのひと",
+        "meaning": "man"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 1 — First Sentences",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "id": "k-n5-038",
+    "character": "子",
+    "meanings": [
+      "child"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "beginner_hint": "子供 = child. 男の子 = boy.",
+    "common_words": [
+      {
+        "word": "子供",
+        "reading": "こども",
+        "meaning": "child"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 1 — First Sentences",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "id": "k-n5-039",
+    "character": "友",
+    "meanings": [
+      "friend"
+    ],
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "beginner_hint": "友達 = friend.",
+    "common_words": [
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "friend"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 2 — Basic Particles",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "id": "k-n5-040",
+    "character": "先",
+    "meanings": [
+      "previous",
+      "ahead"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
+    "beginner_hint": "先生 = teacher. 先週 = last week.",
+    "common_words": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "teacher"
+      },
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "meaning": "last week"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 1 — First Sentences",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "k-n5-041",
+    "character": "語",
+    "meanings": [
+      "language",
+      "word"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた.る"
+    ],
+    "beginner_hint": "日本語 = Japanese. 英語 = English.",
+    "common_words": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": "Japanese"
+      },
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "meaning": "English"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 1 — First Sentences",
+    "tags": [
+      "language"
+    ]
+  },
+  {
+    "id": "k-n5-042",
+    "character": "名",
+    "meanings": [
+      "name"
+    ],
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "な"
+    ],
+    "beginner_hint": "名前 = name. 有名 = famous.",
+    "common_words": [
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "name"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 1 — First Sentences",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "k-n5-043",
+    "character": "何",
+    "meanings": [
+      "what"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん"
+    ],
+    "beginner_hint": "何 = what. 何時 = what time.",
+    "common_words": [
+      {
+        "word": "何",
+        "reading": "なに",
+        "meaning": "what"
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "meaning": "what time"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 1 — First Sentences",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "k-n5-044",
+    "character": "出",
+    "meanings": [
+      "exit",
+      "put out"
+    ],
+    "onyomi": [
+      "シュツ"
+    ],
+    "kunyomi": [
+      "で.る",
+      "だ.す"
+    ],
+    "beginner_hint": "出る = exit. 出す = put out.",
+    "common_words": [
+      {
+        "word": "出る",
+        "reading": "でる",
+        "meaning": "to exit"
+      },
+      {
+        "word": "出かける",
+        "reading": "でかける",
+        "meaning": "to go out"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "k-n5-045",
+    "character": "入",
+    "meanings": [
+      "enter"
+    ],
+    "onyomi": [
+      "ニュウ"
+    ],
+    "kunyomi": [
+      "い.る",
+      "はい.る"
+    ],
+    "beginner_hint": "入る = enter. 入口 = entrance.",
+    "common_words": [
+      {
+        "word": "入る",
+        "reading": "はいる",
+        "meaning": "to enter"
+      },
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "meaning": "entrance"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "k-n5-046",
+    "character": "見",
+    "meanings": [
+      "see"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み.る"
+    ],
+    "beginner_hint": "見る = see/watch.",
+    "common_words": [
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "to see"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n5-047",
+    "character": "行",
+    "meanings": [
+      "go"
+    ],
+    "onyomi": [
+      "コウ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "い.く",
+      "おこな.う"
+    ],
+    "beginner_hint": "行く = to go. 銀行 = bank.",
+    "common_words": [
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "to go"
+      },
+      {
+        "word": "銀行",
+        "reading": "ぎんこう",
+        "meaning": "bank"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "k-n5-048",
+    "character": "来",
+    "meanings": [
+      "come"
+    ],
+    "onyomi": [
+      "ライ"
+    ],
+    "kunyomi": [
+      "く.る"
+    ],
+    "beginner_hint": "来る = come. 来週 = next week.",
+    "common_words": [
+      {
+        "word": "来る",
+        "reading": "くる",
+        "meaning": "to come"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "next week"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "k-n5-049",
+    "character": "聞",
+    "meanings": [
+      "hear",
+      "ask"
+    ],
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "き.く"
+    ],
+    "beginner_hint": "聞く = listen/ask. 新聞 = newspaper.",
+    "common_words": [
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning": "to listen"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "newspaper"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n5-050",
+    "character": "食",
+    "meanings": [
+      "eat",
+      "food"
+    ],
+    "onyomi": [
+      "ショク"
+    ],
+    "kunyomi": [
+      "た.べる"
+    ],
+    "beginner_hint": "食べる = eat. 食べ物 = food.",
+    "common_words": [
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning": "to eat"
+      },
+      {
+        "word": "食べ物",
+        "reading": "たべもの",
+        "meaning": "food"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "k-n5-051",
+    "character": "飲",
+    "meanings": [
+      "drink"
+    ],
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "の.む"
+    ],
+    "beginner_hint": "飲む = to drink. 飲み物 = drink.",
+    "common_words": [
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "meaning": "to drink"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "k-n5-052",
+    "character": "電",
+    "meanings": [
+      "electricity"
+    ],
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "電車 = train. 電話 = phone.",
+    "common_words": [
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "train"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning": "phone"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 2 — Basic Particles",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n5-053",
+    "character": "気",
+    "meanings": [
+      "spirit",
+      "air"
+    ],
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "天気 = weather. 元気 = energy.",
+    "common_words": [
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "meaning": "weather"
+      },
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "meaning": "energetic"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 7 — Connecting Ideas",
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "k-n5-054",
+    "character": "休",
+    "meanings": [
+      "rest"
+    ],
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす.む"
+    ],
+    "beginner_hint": "休む = rest. 休み = holiday.",
+    "common_words": [
+      {
+        "word": "休む",
+        "reading": "やすむ",
+        "meaning": "to rest"
+      },
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaning": "holiday"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 3 — Polite Verbs",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n5-055",
+    "character": "長",
+    "meanings": [
+      "long",
+      "leader"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "なが.い"
+    ],
+    "beginner_hint": "長い = long. 社長 = company president.",
+    "common_words": [
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "meaning": "long"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 7 — Connecting Ideas",
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "k-n5-056",
+    "character": "高",
+    "meanings": [
+      "tall",
+      "expensive"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たか.い"
+    ],
+    "beginner_hint": "高い = tall/expensive.",
+    "common_words": [
+      {
+        "word": "高い",
+        "reading": "たかい",
+        "meaning": "tall/expensive"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 7 — Connecting Ideas",
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "k-n5-057",
+    "character": "安",
+    "meanings": [
+      "cheap",
+      "peace"
+    ],
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "やす.い"
+    ],
+    "beginner_hint": "安い = cheap. 安心 = relief.",
+    "common_words": [
+      {
+        "word": "安い",
+        "reading": "やすい",
+        "meaning": "cheap"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 7 — Connecting Ideas",
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "k-n5-058",
+    "character": "東",
+    "meanings": [
+      "east"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "beginner_hint": "東京 = Tokyo (eastern capital).",
+    "common_words": [
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": "Tokyo"
+      },
+      {
+        "word": "東",
+        "reading": "ひがし",
+        "meaning": "east"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 2 — Basic Particles",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "id": "k-n5-059",
+    "character": "西",
+    "meanings": [
+      "west"
+    ],
+    "onyomi": [
+      "セイ",
+      "サイ"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "beginner_hint": "西 = west.",
+    "common_words": [
+      {
+        "word": "西",
+        "reading": "にし",
+        "meaning": "west"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 2 — Basic Particles",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "id": "k-n5-060",
+    "character": "北",
+    "meanings": [
+      "north"
+    ],
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "beginner_hint": "北 = north. 北海道 = Hokkaido.",
+    "common_words": [
+      {
+        "word": "北",
+        "reading": "きた",
+        "meaning": "north"
+      }
+    ],
+    "jlpt": "N5",
+    "unit": "Unit 2 — Basic Particles",
+    "tags": [
+      "direction"
+    ]
   }
 ]

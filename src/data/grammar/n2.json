@@ -1,0 +1,148 @@
+[
+  {
+    "id": "g001", "title": "〜わけではない", "meaning_short": "It doesn't mean that… / Not necessarily…",
+    "simple_explanation": "You're saying 'it's not that...' to gently correct a misunderstanding.",
+    "explanation": "Use this when you want to partially deny something — correcting a possible misunderstanding with a soft, nuanced denial.",
+    "prerequisites": ["plain form verbs", "い-adjective plain form", "な-adjective + な", "ではない"],
+    "beginner_warning": "Don't confuse わけではない (soft denial) with わけがない (strong denial: 'no way!').",
+    "formation": ["Verb (plain) + わけではない", "い-adj + わけではない", "な-adj + なわけではない", "Noun + というわけではない"],
+    "examples": [
+      { "ja": "日本語が嫌いなわけではない。", "en": "It's not that I dislike Japanese.", "reading": "にほんご が きらい な わけ では ない。",
+        "structure": "日本語が嫌いな (what's being denied) + わけではない (soft denial)",
+        "tokens": [
+          { "text": "日本語", "reading": "にほんご", "meaning": "Japanese language", "partOfSpeech": "noun", "role": "topic" },
+          { "text": "が", "reading": "が", "meaning": "subject marker", "partOfSpeech": "particle" },
+          { "text": "嫌いな", "reading": "きらいな", "meaning": "disliked", "partOfSpeech": "な-adjective" },
+          { "text": "わけではない", "reading": "わけではない", "meaning": "it's not that…", "partOfSpeech": "grammar pattern", "role": "target grammar" }
+        ] },
+      { "ja": "忙しくないわけではないが、手伝えます。", "en": "It's not that I'm not busy, but I can help.", "reading": "いそがしくない わけ では ない が、てつだえます。",
+        "structure": "忙しくない (not busy) + わけではない (denying that) + が (but) + 手伝えます (can help)",
+        "tokens": [
+          { "text": "忙しくない", "reading": "いそがしくない", "meaning": "not busy", "partOfSpeech": "い-adj negative" },
+          { "text": "わけではない", "reading": "わけではない", "meaning": "it's not that…", "partOfSpeech": "grammar pattern", "role": "target grammar" },
+          { "text": "が", "reading": "が", "meaning": "but", "partOfSpeech": "conjunction" },
+          { "text": "手伝えます", "reading": "てつだえます", "meaning": "can help", "partOfSpeech": "potential verb" }
+        ] },
+      { "ja": "全員が賛成したわけではない。", "en": "It doesn't mean everyone agreed.", "reading": "ぜんいん が さんせい した わけ では ない。",
+        "tokens": [
+          { "text": "全員", "reading": "ぜんいん", "meaning": "everyone", "partOfSpeech": "noun" },
+          { "text": "が", "reading": "が", "meaning": "subject marker", "partOfSpeech": "particle" },
+          { "text": "賛成した", "reading": "さんせいした", "meaning": "agreed", "partOfSpeech": "suru-verb past" },
+          { "text": "わけではない", "reading": "わけではない", "meaning": "doesn't mean that", "partOfSpeech": "grammar pattern", "role": "target grammar" }
+        ] }
+    ],
+    "similar": [{ "title": "〜とは限らない", "diff": "とは限らない = 'not always true'. わけではない = partial denial of a specific idea." }, { "title": "〜わけがない", "diff": "わけがない = 'no way!' (strong). わけではない = 'not necessarily' (soft)." }],
+    "common_mistakes": [{ "wrong": "行くわけない。", "correct": "行くわけではない。", "why": "Without では it sounds like わけがない. Add では for softer meaning." }],
+    "jlpt": "N2", "tags": ["negation", "nuance"]
+  },
+  {
+    "id": "g002", "title": "〜ようにする", "meaning_short": "To try to / to make it a habit to",
+    "simple_explanation": "This means 'I try to do X regularly.' It's about building habits — not a one-time attempt.",
+    "explanation": "Use this when you make a conscious ongoing effort to do something habitually.",
+    "prerequisites": ["dictionary form verbs", "ない form verbs"],
+    "beginner_warning": "Don't confuse with ようとする (single attempt right now).",
+    "formation": ["Verb (dict) + ようにする", "Verb (ない) + ようにする"],
+    "examples": [
+      { "ja": "毎日運動するようにしている。", "en": "I try to exercise every day.", "reading": "まいにち うんどう する ように している。",
+        "structure": "毎日 (time) + 運動する (action) + ようにしている (habitual effort)",
+        "tokens": [
+          { "text": "毎日", "reading": "まいにち", "meaning": "every day", "partOfSpeech": "adverb", "role": "when" },
+          { "text": "運動する", "reading": "うんどうする", "meaning": "to exercise", "partOfSpeech": "suru-verb", "role": "action" },
+          { "text": "ようにしている", "reading": "ようにしている", "meaning": "make a habit of", "partOfSpeech": "grammar pattern", "role": "target grammar" }
+        ] },
+      { "ja": "遅刻しないようにしてください。", "en": "Please try not to be late.", "reading": "ちこく しない ように して ください。",
+        "tokens": [
+          { "text": "遅刻しない", "reading": "ちこくしない", "meaning": "not be late", "partOfSpeech": "suru-verb negative", "role": "what to avoid" },
+          { "text": "ようにしてください", "reading": "ようにしてください", "meaning": "please try to", "partOfSpeech": "grammar + request", "role": "target grammar" }
+        ] },
+      { "ja": "野菜をたくさん食べるようにしています。", "en": "I make a point of eating lots of vegetables.", "reading": "やさい を たくさん たべる ように しています。",
+        "tokens": [
+          { "text": "野菜", "reading": "やさい", "meaning": "vegetables", "partOfSpeech": "noun" },
+          { "text": "を", "reading": "を", "meaning": "object marker", "partOfSpeech": "particle" },
+          { "text": "たくさん", "reading": "たくさん", "meaning": "a lot", "partOfSpeech": "adverb" },
+          { "text": "食べる", "reading": "たべる", "meaning": "to eat", "partOfSpeech": "ichidan verb" },
+          { "text": "ようにしています", "reading": "ようにしています", "meaning": "make a point of", "partOfSpeech": "grammar pattern", "role": "target grammar" }
+        ] }
+    ],
+    "similar": [{ "title": "〜ようとする", "diff": "ようとする = single attempt. ようにする = ongoing habit." }],
+    "common_mistakes": [{ "wrong": "食べるようにしようとした。", "correct": "食べるようにした。", "why": "Don't combine both — redundant." }],
+    "jlpt": "N2", "tags": ["effort", "habit"]
+  },
+  {
+    "id": "g003", "title": "〜に対して", "meaning_short": "Toward / in contrast to",
+    "simple_explanation": "Two uses: (1) 'toward someone' — directing action/feeling, (2) 'in contrast to' — comparing.",
+    "explanation": "Indicates who/what an action is directed toward, or makes a contrast.",
+    "prerequisites": ["noun + に", "plain form verbs"],
+    "formation": ["Noun + に対して", "Verb (plain) + のに対して", "Noun + に対する + Noun"],
+    "examples": [
+      { "ja": "彼は誰に対しても礼儀正しい。", "en": "He is polite toward everyone.", "reading": "かれ は だれ に たいしても れいぎただしい。",
+        "tokens": [
+          { "text": "彼は", "reading": "かれは", "meaning": "he (topic)", "partOfSpeech": "pronoun + は" },
+          { "text": "誰に対しても", "reading": "だれにたいしても", "meaning": "toward anyone", "partOfSpeech": "grammar pattern", "role": "target grammar — direction" },
+          { "text": "礼儀正しい", "reading": "れいぎただしい", "meaning": "polite", "partOfSpeech": "い-adjective" }
+        ], "note": "に対して = 'toward' here." },
+      { "ja": "兄が理系なのに対して、弟は文系だ。", "en": "While the older brother is in sciences, the younger is in humanities.", "reading": "あに が りけい な のに たいして、おとうと は ぶんけい だ。",
+        "tokens": [
+          { "text": "兄が理系な", "reading": "あにがりけいな", "meaning": "brother is sciences", "partOfSpeech": "clause" },
+          { "text": "のに対して", "reading": "のにたいして", "meaning": "in contrast to", "partOfSpeech": "grammar pattern", "role": "target grammar — contrast" },
+          { "text": "弟は文系だ", "reading": "おとうとはぶんけいだ", "meaning": "younger is humanities", "partOfSpeech": "clause" }
+        ], "note": "に対して = 'in contrast to' here." }
+    ],
+    "similar": [{ "title": "〜について", "diff": "について = 'about' (topic). に対して = 'toward' or 'in contrast'." }],
+    "common_mistakes": [{ "wrong": "日本語に対して勉強する。", "correct": "日本語について勉強する。", "why": "Use について for 'studying about.'" }],
+    "jlpt": "N2", "tags": ["contrast", "direction"]
+  },
+  {
+    "id": "g004", "title": "〜ことになっている", "meaning_short": "It is the rule that / It is decided that",
+    "simple_explanation": "Means 'it's the rule' or 'it's been decided' — NOT by you. An external rule or arrangement.",
+    "explanation": "For rules, arrangements, or customs established externally.",
+    "prerequisites": ["dictionary form verbs", "ない form", "ことになる"],
+    "beginner_warning": "ことにする = YOU decide. ことになっている = external rule.",
+    "formation": ["Verb (dict) + ことになっている", "Verb (ない) + ことになっている"],
+    "examples": [
+      { "ja": "この部屋では飲食しないことになっている。", "en": "It's the rule not to eat or drink in this room.", "reading": "この へや では いんしょく しない こと に なっている。",
+        "tokens": [
+          { "text": "この部屋では", "reading": "このへやでは", "meaning": "in this room", "partOfSpeech": "noun + particle" },
+          { "text": "飲食しない", "reading": "いんしょくしない", "meaning": "not eat or drink", "partOfSpeech": "suru-verb negative" },
+          { "text": "ことになっている", "reading": "ことになっている", "meaning": "it's the rule that", "partOfSpeech": "grammar pattern", "role": "target grammar" }
+        ] },
+      { "ja": "日本では靴を脱ぐことになっている。", "en": "In Japan, it's the custom to take off your shoes.", "reading": "にほん では くつ を ぬぐ こと に なっている。",
+        "tokens": [
+          { "text": "日本では", "reading": "にほんでは", "meaning": "in Japan", "partOfSpeech": "noun + particle" },
+          { "text": "靴を脱ぐ", "reading": "くつをぬぐ", "meaning": "take off shoes", "partOfSpeech": "verb phrase" },
+          { "text": "ことになっている", "reading": "ことになっている", "meaning": "it's the custom", "partOfSpeech": "grammar pattern", "role": "target grammar" }
+        ] }
+    ],
+    "similar": [{ "title": "〜ことにする", "diff": "YOU decide." }, { "title": "〜ことにしている", "diff": "Personal rule." }],
+    "common_mistakes": [{ "wrong": "毎日走ることになっている。(I decided)", "correct": "毎日走ることにしている。", "why": "If YOU decided, use ことにしている." }],
+    "jlpt": "N2", "tags": ["rules"]
+  },
+  {
+    "id": "g005", "title": "〜たびに", "meaning_short": "Every time / whenever",
+    "simple_explanation": "Means 'every time X happens, Y also happens.' A consistent repeating pattern.",
+    "explanation": "Expresses that something happens repeatedly every time a certain event occurs.",
+    "prerequisites": ["dictionary form verbs", "noun + の"],
+    "formation": ["Verb (dict) + たびに", "Noun + のたびに"],
+    "examples": [
+      { "ja": "この曲を聞くたびに、学生時代を思い出す。", "en": "Every time I hear this song, I remember my school days.", "reading": "この きょく を きく たびに、がくせい じだい を おもいだす。",
+        "structure": "この曲を聞く (trigger event) + たびに (every time) + 学生時代を思い出す (result)",
+        "tokens": [
+          { "text": "この曲を", "reading": "このきょくを", "meaning": "this song (obj)", "partOfSpeech": "noun + particle" },
+          { "text": "聞く", "reading": "きく", "meaning": "to listen", "partOfSpeech": "godan verb" },
+          { "text": "たびに", "reading": "たびに", "meaning": "every time", "partOfSpeech": "grammar pattern", "role": "target grammar" },
+          { "text": "学生時代を", "reading": "がくせいじだいを", "meaning": "school days (obj)", "partOfSpeech": "noun + particle" },
+          { "text": "思い出す", "reading": "おもいだす", "meaning": "to remember", "partOfSpeech": "godan verb", "role": "result" }
+        ] },
+      { "ja": "旅行のたびにお土産を買う。", "en": "I buy souvenirs every time I travel.", "reading": "りょこう の たびに おみやげ を かう。",
+        "tokens": [
+          { "text": "旅行", "reading": "りょこう", "meaning": "travel", "partOfSpeech": "noun" },
+          { "text": "のたびに", "reading": "のたびに", "meaning": "every time", "partOfSpeech": "grammar pattern", "role": "target grammar" },
+          { "text": "お土産を", "reading": "おみやげを", "meaning": "souvenirs (obj)", "partOfSpeech": "noun + particle" },
+          { "text": "買う", "reading": "かう", "meaning": "to buy", "partOfSpeech": "godan verb" }
+        ] }
+    ],
+    "similar": [{ "title": "〜ごとに", "diff": "ごとに = regular intervals (3日ごとに). たびに = every time an event happens." }],
+    "common_mistakes": [{ "wrong": "3日たびに", "correct": "3日ごとに", "why": "Numeric intervals use ごとに." }],
+    "jlpt": "N2", "tags": ["frequency"]
+  }
+]

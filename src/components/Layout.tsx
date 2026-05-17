@@ -56,7 +56,7 @@ export default function Layout() {
         ))}
 
         <div className="mt-auto px-3 py-2">
-          <p className="label">v0.5.0</p>
+          <p className="label">v0.6.0</p>
         </div>
       </aside>
 

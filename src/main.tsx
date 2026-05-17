@@ -18,6 +18,11 @@ import WeakPoints from "./pages/WeakPoints";
 import StudyPath from "./pages/StudyPath";
 import "./index.css";
 
+// Dev-only content validation
+if (import.meta.env.DEV) {
+  import("./lib/contentValidation").then((m) => m.logContentIssues());
+}
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <HashRouter>

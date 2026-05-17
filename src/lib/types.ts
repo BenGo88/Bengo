@@ -9,12 +9,13 @@ export interface WordBreakdown {
   note?: string;
 }
 
-/** Sentence with optional furigana, breakdown, and notes. */
+/** Sentence with optional furigana, interactive tokens, and notes. */
 export interface RichSentence {
   ja: string;
   en: string;
   reading?: string;
-  breakdown?: WordBreakdown[];
+  tokens?: WordBreakdown[];    // canonical field (v0.6+)
+  breakdown?: WordBreakdown[]; // legacy field (v0.3–v0.5) — still supported
   structure?: string;
   note?: string;
 }
@@ -36,7 +37,6 @@ export interface Kanji {
   usage_note?: string;
   jlpt: JLPTLevel;
   tags?: string[];
-  // v0.3.1 beginner support
   beginner_hint?: string;
   component_explanation?: string;
 }
@@ -54,7 +54,6 @@ export interface Vocab {
   similar?: { word: string; note: string }[];
   formality?: "formal" | "informal" | "neutral";
   tags?: string[];
-  // v0.3.1 beginner support
   simple_usage?: string;
   beginner_warning?: string;
   related_basic_words?: string[];
@@ -71,7 +70,6 @@ export interface GrammarPoint {
   common_mistakes?: { wrong: string; correct: string; why: string }[];
   jlpt: JLPTLevel;
   tags?: string[];
-  // v0.3.1 beginner support
   simple_explanation?: string;
   prerequisites?: string[];
   beginner_warning?: string;
@@ -80,18 +78,10 @@ export interface GrammarPoint {
 /* ── User progress (stored in localStorage) ──────────────────────────────── */
 
 export type SRSStage =
-  | "lesson"
-  | "apprentice1"
-  | "apprentice2"
-  | "apprentice3"
-  | "guru1"
-  | "guru2"
-  | "master"
-  | "enlightened"
-  | "burned";
+  | "lesson" | "apprentice1" | "apprentice2" | "apprentice3"
+  | "guru1" | "guru2" | "master" | "enlightened" | "burned";
 
 export type ItemType = "kanji" | "vocab" | "grammar";
-
 export type FuriganaMode = "always" | "hover" | "hide";
 
 export interface UserItem {
@@ -116,7 +106,6 @@ export interface UserProfile {
   longestStreak: number;
   totalXp: number;
   lastStudyDate: string | null;
-  // v0.3.1 display settings
   furiganaMode?: FuriganaMode;
   beginnerAssist?: boolean;
 }

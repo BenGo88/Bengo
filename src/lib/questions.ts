@@ -166,3 +166,35 @@ export function buildQuizQueue(
 
   return buildQuestionQueue(selected);
 }
+
+/** Build quiz questions from a specific curriculum unit. */
+export function buildUnitQuizQueue(
+  level: string,
+  unitName: string,
+  size: number,
+): Question[] {
+  const candidates: { type: ItemType; id: string }[] = [];
+
+  // Grammar items in this unit
+  for (const g of allGrammar) {
+    if (g.jlpt === level && (g as any).unit === unitName) {
+      candidates.push({ type: "grammar", id: g.id });
+    }
+  }
+
+  // Vocab/kanji linked to this unit
+  for (const v of allVocab) {
+    if (v.jlpt === level && (v as any).unit === unitName) {
+      candidates.push({ type: "vocab", id: v.id });
+    }
+  }
+  for (const k of allKanji) {
+    if (k.jlpt === level && (k as any).unit === unitName) {
+      candidates.push({ type: "kanji", id: k.id });
+    }
+  }
+
+  const shuffled = candidates.sort(() => Math.random() - 0.5);
+  const selected = shuffled.slice(0, size);
+  return buildQuestionQueue(selected);
+}

@@ -1,1 +1,17 @@
-[]
+[
+  {"id":"lex-n1-概念","text":"概念","reading":"がいねん","meanings":["concept"],"partOfSpeech":"noun","jlpt":"N1"},
+  {"id":"lex-n1-抽象","text":"抽象","reading":"ちゅうしょう","meanings":["abstract"],"partOfSpeech":"noun","jlpt":"N1"},
+  {"id":"lex-n1-妥協","text":"妥協","reading":"だきょう","meanings":["compromise"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
+  {"id":"lex-n1-矛盾","text":"矛盾","reading":"むじゅん","meanings":["contradiction"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
+  {"id":"lex-n1-促進","text":"促進","reading":"そくしん","meanings":["promotion"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
+  {"id":"lex-n1-措置","text":"措置","reading":"そち","meanings":["measure"],"partOfSpeech":"noun","jlpt":"N1"},
+  {"id":"lex-n1-是正","text":"是正","reading":"ぜせい","meanings":["correction"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
+  {"id":"lex-n1-遂行","text":"遂行","reading":"すいこう","meanings":["execution"],"partOfSpeech":"noun / suru-verb","jlpt":"N1"},
+  {"id":"lex-n1-怠る","text":"怠る","reading":"おこたる","meanings":["to neglect"],"partOfSpeech":"godan verb","jlpt":"N1"},
+  {"id":"lex-n1-覆す","text":"覆す","reading":"くつがえす","meanings":["to overturn"],"partOfSpeech":"godan verb","jlpt":"N1"},
+  {"id":"lex-n1-顕著","text":"顕著","reading":"けんちょ","meanings":["remarkable"],"partOfSpeech":"な-adjective","jlpt":"N1"},
+  {"id":"lex-n1-著しい","text":"著しい","reading":"いちじるしい","meanings":["remarkable"],"partOfSpeech":"い-adjective","jlpt":"N1"},
+  {"id":"lex-n1-一概に","text":"一概に","reading":"いちがいに","meanings":["unconditionally"],"partOfSpeech":"adverb","jlpt":"N1"},
+  {"id":"lex-n1-辛うじて","text":"辛うじて","reading":"かろうじて","meanings":["barely"],"partOfSpeech":"adverb","jlpt":"N1"},
+  {"id":"lex-n1-余儀ない","text":"余儀ない","reading":"よぎない","meanings":["unavoidable"],"partOfSpeech":"い-adjective","jlpt":"N1"}
+]

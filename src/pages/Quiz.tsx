@@ -1,12 +1,12 @@
-import { useState, useMemo } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState, useMemo, useEffect } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   getProfile,
   startLearning,
   getUserItem,
   recordStudySession,
 } from "../lib/storage";
-import { buildQuizQueue, type Question } from "../lib/questions";
+import { buildQuizQueue, buildUnitQuizQueue, type Question } from "../lib/questions";
 import { getContentCounts } from "../lib/content";
 import QuestionCard, { TypeBadge } from "../components/QuestionCard";
 import SessionSummary, { type ResultItem } from "../components/SessionSummary";
@@ -14,7 +14,7 @@ import type { ItemType, JLPTLevel } from "../lib/types";
 
 type Phase = "setup" | "session" | "summary";
 type Category = ItemType | "mixed";
-type Source = "all" | "learned" | "unlearned" | "weak";
+type Source = "all" | "learned" | "unlearned" | "weak" | "unit";
 
 const LEVELS: JLPTLevel[] = ["N5", "N4", "N3", "N2", "N1"];
 const SIZES = [
@@ -30,6 +30,7 @@ const CATEGORIES: { label: string; value: Category }[] = [
 ];
 const SOURCES: { label: string; value: Source; desc: string }[] = [
   { label: "All", value: "all", desc: "All available content" },
+  { label: "Unit", value: "unit", desc: "From a specific curriculum unit" },
   { label: "Learned", value: "learned", desc: "Items you've studied" },
   { label: "Unlearned", value: "unlearned", desc: "New challenge" },
   { label: "Weak", value: "weak", desc: "Items you struggle with" },
@@ -37,13 +38,19 @@ const SOURCES: { label: string; value: Source; desc: string }[] = [
 
 export default function Quiz() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const profile = getProfile();
 
+  // Read URL params
+  const urlLevel = searchParams.get("level") as JLPTLevel | null;
+  const urlUnit = searchParams.get("unit");
+
   // Setup state
-  const [level, setLevel] = useState<JLPTLevel>(profile.targetLevel);
+  const [level, setLevel] = useState<JLPTLevel>(urlLevel || profile.targetLevel);
   const [category, setCategory] = useState<Category>("mixed");
   const [size, setSize] = useState(10);
-  const [source, setSource] = useState<Source>("all");
+  const [source, setSource] = useState<Source>(urlUnit ? "unit" : "all");
+  const [unitName, setUnitName] = useState(urlUnit || "");
   const [testMode, setTestMode] = useState(false);
 
   // Session state
@@ -58,7 +65,12 @@ export default function Quiz() {
   const totalAvailable = counts.kanji + counts.vocab + counts.grammar;
 
   function startQuiz() {
-    const q = buildQuizQueue(category, level, source, size);
+    let q: Question[];
+    if (source === "unit" && unitName) {
+      q = buildUnitQuizQueue(level, unitName, size);
+    } else {
+      q = buildQuizQueue(category, level, source === "unit" ? "all" : source, size);
+    }
     if (q.length === 0) return;
     setQuestions(q);
     setQIndex(0);
@@ -130,6 +142,12 @@ export default function Quiz() {
               </Chip>
             ))}
           </div>
+          {source === "unit" && unitName && (
+            <p className="text-xs text-vermillion-400 mt-1 font-medium">Unit: {unitName}</p>
+          )}
+          {source === "unit" && !unitName && (
+            <p className="text-xs text-ink-500 mt-1">Select a unit from the Curriculum page to use unit filtering.</p>
+          )}
         </OptionGroup>
 
         {/* Content count notice */}

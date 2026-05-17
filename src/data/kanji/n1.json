@@ -1,1 +1,12 @@
-[]
+[
+  {"id":"k-n1-001","character":"概","meanings":["approximate","outline"],"onyomi":["ガイ"],"kunyomi":[],"beginner_hint":"概念 = concept. 概要 = summary.","common_words":[{"word":"概念","reading":"がいねん","meaning":"concept"},{"word":"概要","reading":"がいよう","meaning":"summary"}],"jlpt":"N1","tags":["academic"]},
+  {"id":"k-n1-002","character":"抽","meanings":["extract","draw out"],"onyomi":["チュウ"],"kunyomi":[],"beginner_hint":"抽象 = abstract. 抽選 = lottery.","common_words":[{"word":"抽象","reading":"ちゅうしょう","meaning":"abstract"}],"jlpt":"N1","tags":["academic"]},
+  {"id":"k-n1-003","character":"矛","meanings":["spear","contradiction"],"onyomi":["ム","ボウ"],"kunyomi":["ほこ"],"beginner_hint":"矛盾 = contradiction (spear + shield).","common_words":[{"word":"矛盾","reading":"むじゅん","meaning":"contradiction"}],"jlpt":"N1","tags":["abstract"]},
+  {"id":"k-n1-004","character":"盾","meanings":["shield"],"onyomi":["ジュン"],"kunyomi":["たて"],"beginner_hint":"矛盾 = contradiction. 盾 = shield.","common_words":[{"word":"矛盾","reading":"むじゅん","meaning":"contradiction"}],"jlpt":"N1","tags":["abstract"]},
+  {"id":"k-n1-005","character":"促","meanings":["urge","promote"],"onyomi":["ソク"],"kunyomi":["うなが.す"],"beginner_hint":"促進 = promotion/acceleration.","common_words":[{"word":"促進","reading":"そくしん","meaning":"promotion"},{"word":"促す","reading":"うながす","meaning":"to urge"}],"jlpt":"N1","tags":["formal"]},
+  {"id":"k-n1-006","character":"措","meanings":["measure","dispose"],"onyomi":["ソ"],"kunyomi":[],"beginner_hint":"措置 = measure/step.","common_words":[{"word":"措置","reading":"そち","meaning":"measure"}],"jlpt":"N1","tags":["formal"]},
+  {"id":"k-n1-007","character":"遂","meanings":["accomplish","carry out"],"onyomi":["スイ"],"kunyomi":["と.げる"],"beginner_hint":"遂行 = execution/carrying out.","common_words":[{"word":"遂行","reading":"すいこう","meaning":"execution"}],"jlpt":"N1","tags":["formal"]},
+  {"id":"k-n1-008","character":"覆","meanings":["cover","overturn"],"onyomi":["フク"],"kunyomi":["おお.う","くつがえ.す"],"beginner_hint":"覆す = overturn. 覆う = to cover.","common_words":[{"word":"覆す","reading":"くつがえす","meaning":"to overturn"}],"jlpt":"N1","tags":["abstract"]},
+  {"id":"k-n1-009","character":"顕","meanings":["manifest","remarkable"],"onyomi":["ケン"],"kunyomi":[],"beginner_hint":"顕著 = remarkable.","common_words":[{"word":"顕著","reading":"けんちょ","meaning":"remarkable"}],"jlpt":"N1","tags":["academic"]},
+  {"id":"k-n1-010","character":"著","meanings":["remarkable","write"],"onyomi":["チョ"],"kunyomi":["いちじる.しい","あらわ.す"],"beginner_hint":"著しい = remarkable. 著者 = author.","common_words":[{"word":"著しい","reading":"いちじるしい","meaning":"remarkable"},{"word":"著者","reading":"ちょしゃ","meaning":"author"}],"jlpt":"N1","tags":["academic"]}
+]

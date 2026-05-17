@@ -251,19 +251,41 @@ export default function Quiz() {
     const answered = selectedAnswer !== null;
     const showFeedback = answered && !testMode;
 
+    // Timer logic
+    const timeLimits = { short: 15 * 60, medium: 30 * 60, long: 60 * 60 };
+    const timeLimitSec = timed ? timeLimits[testLength] : 0;
+    const elapsed = timed && timerStart ? Math.floor((Date.now() - timerStart) / 1000) : 0;
+    const remaining = timed ? Math.max(0, timeLimitSec - elapsed) : 0;
+    const timerMin = Math.floor(remaining / 60);
+    const timerSecStr = String(remaining % 60).padStart(2, "0");
+    const timerWarn = timed && remaining <= 300;
+    const timerCrit = timed && remaining <= 60;
+
+    // Auto-submit on timeout
+    if (timed && remaining <= 0 && timerStart > 0) {
+      setTimeout(() => { recordStudySession(); setPhase("summary"); }, 100);
+    }
+
     return (
       <div className="max-w-2xl mx-auto animate-fade-in" key={qIndex}>
         <div className="flex items-center justify-between mb-4">
-          <span className="label">{testMode ? "Practice Test" : "Quiz"}</span>
+          <span className="label">{testType === "jlpt" ? "JLPT-style Test" : testMode ? "Practice Test" : "Quiz"}</span>
           <span className="text-xs text-ink-500">{qIndex + 1} / {questions.length}</span>
+          {timed && (
+            <span className={`text-sm font-mono font-bold ${timerCrit ? "text-vermillion-400 animate-pulse" : timerWarn ? "text-yellow-500" : "text-ink-400"}`}>
+              {timerMin}:{timerSecStr}
+            </span>
+          )}
           <TypeBadge type={q.itemType} />
         </div>
 
+        {/* Section label for JLPT-style */}
+        {q.section && (
+          <div className="mb-2"><span className="text-[10px] px-2 py-0.5 rounded bg-ink-800 text-ink-500">{q.section}</span></div>
+        )}
+
         <div className="h-1.5 rounded-full bg-ink-800 mb-8 overflow-hidden">
-          <div
-            className="h-full rounded-full bg-jade-500 transition-all duration-300"
-            style={{ width: `${((qIndex + 1) / questions.length) * 100}%` }}
-          />
+          <div className="h-full rounded-full bg-jade-500 transition-all duration-300" style={{ width: `${((qIndex + 1) / questions.length) * 100}%` }} />
         </div>
 
         {/* In test mode, show question without feedback on select */}
@@ -318,41 +340,67 @@ export default function Quiz() {
   // ── Summary ──
   if (phase === "summary") {
     const missed = results.filter((r) => !r.correct);
+    const totalCorrect = results.filter((r) => r.correct).length;
+    const accuracy = results.length > 0 ? Math.round((totalCorrect / results.length) * 100) : 0;
+    const durationSec = timerStart ? Math.floor((Date.now() - timerStart) / 1000) : 0;
+
+    // Section breakdown
+    const sections: { name: string; correct: number; total: number }[] = [];
+    const sectionNames = [...new Set(results.map((r) => r.question.section).filter(Boolean))];
+    for (const name of sectionNames) {
+      const sectionResults = results.filter((r) => r.question.section === name);
+      sections.push({ name: name!, correct: sectionResults.filter((r) => r.correct).length, total: sectionResults.length });
+    }
+
+    // Save test result for JLPT-style tests
+    if (testType === "jlpt" && results.length > 0 && !addedMissed) {
+      const testResult = {
+        id: `test-${Date.now()}`, date: new Date().toISOString(), level, mode: testType,
+        timed, durationSeconds: durationSec, totalQuestions: results.length,
+        correct: totalCorrect, accuracy,
+        sections: sections.map((s) => ({ name: s.name, total: s.total, correct: s.correct })),
+      };
+      saveTestResult(testResult);
+    }
 
     return (
-      <SessionSummary title="Quiz Complete!" results={results} xpEarned={0}>
-        {missed.length > 0 && !addedMissed && (
-          <button className="btn-primary" onClick={handleAddMissedToQueue}>
-            Add {missed.length} Missed to Study Queue
-          </button>
-        )}
-        {addedMissed && (
-          <span className="text-sm text-jade-400 font-semibold">✓ Added to queue</span>
-        )}
-        {missed.length > 0 && (
-          <button
-            className="btn-secondary"
-            onClick={() => {
-              // Retake missed only
+      <div className="max-w-2xl mx-auto space-y-6 animate-fade-in">
+        <SessionSummary title={testType === "jlpt" ? "JLPT-style Test Complete!" : "Quiz Complete!"} results={results} xpEarned={0}>
+          {/* Section breakdown */}
+          {sections.length > 0 && (
+            <div className="card p-4 space-y-2 w-full">
+              <p className="label">Section Breakdown</p>
+              {sections.map((s) => {
+                const pct = s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0;
+                return (
+                  <div key={s.name} className="flex items-center justify-between text-sm">
+                    <span className="text-ink-300">{s.name}</span>
+                    <span className={`font-bold ${pct >= 80 ? "text-jade-400" : pct >= 50 ? "text-yellow-500" : "text-vermillion-400"}`}>
+                      {s.correct}/{s.total} ({pct}%)
+                    </span>
+                  </div>
+                );
+              })}
+              {timed && durationSec > 0 && (
+                <p className="text-xs text-ink-500 pt-1 border-t border-ink-800">Time: {Math.floor(durationSec / 60)}m {durationSec % 60}s</p>
+              )}
+            </div>
+          )}
+
+          {missed.length > 0 && !addedMissed && (
+            <button className="btn-primary" onClick={handleAddMissedToQueue}>Add {missed.length} Missed to Study Queue</button>
+          )}
+          {addedMissed && <span className="text-sm text-jade-400 font-semibold">✓ Added to queue</span>}
+          {missed.length > 0 && (
+            <button className="btn-secondary" onClick={() => {
               const missedQs = missed.map((r) => r.question);
-              setQuestions(missedQs);
-              setQIndex(0);
-              setSelectedAnswer(null);
-              setResults([]);
-              setAddedMissed(false);
-              setPhase("session");
-            }}
-          >
-            Retake Missed ({missed.length})
-          </button>
-        )}
-        <button className="btn-secondary" onClick={() => { setPhase("setup"); }}>
-          New Quiz
-        </button>
-        <button className="btn-secondary" onClick={() => navigate("/")}>
-          Dashboard
-        </button>
-      </SessionSummary>
+              setQuestions(missedQs); setQIndex(0); setSelectedAnswer(null); setResults([]); setAddedMissed(false); setPhase("session");
+            }}>Retake Missed ({missed.length})</button>
+          )}
+          <button className="btn-secondary" onClick={() => setPhase("setup")}>New Quiz</button>
+          <button className="btn-secondary" onClick={() => navigate("/")}>Dashboard</button>
+        </SessionSummary>
+      </div>
     );
   }
 

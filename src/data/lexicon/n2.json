@@ -730,5 +730,99 @@
     ],
     "partOfSpeech": "noun / suru-verb",
     "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-意思決定",
+    "text": "意思決定",
+    "reading": "いしけってい",
+    "meanings": [
+      "decision-making"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-客観的",
+    "text": "客観的",
+    "reading": "きゃっかんてき",
+    "meanings": [
+      "objective"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-従来",
+    "text": "従来",
+    "reading": "じゅうらい",
+    "meanings": [
+      "conventional",
+      "traditional"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-整備",
+    "text": "整備",
+    "reading": "せいび",
+    "meanings": [
+      "maintenance",
+      "development"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-多角的",
+    "text": "多角的",
+    "reading": "たかくてき",
+    "meanings": [
+      "multifaceted"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-不可欠",
+    "text": "不可欠",
+    "reading": "ふかけつ",
+    "meanings": [
+      "indispensable"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-受け入れ",
+    "text": "受け入れ",
+    "reading": "うけいれ",
+    "meanings": [
+      "acceptance",
+      "reception"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-活躍",
+    "text": "活躍",
+    "reading": "かつやく",
+    "meanings": [
+      "active role",
+      "success"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-最大化",
+    "text": "最大化",
+    "reading": "さいだいか",
+    "meanings": [
+      "maximization"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
   }
 ]

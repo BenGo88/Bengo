@@ -199,24 +199,22 @@ function WordTools({ passage, unknownWords, onToggle, addedToQueue, onAddToQueue
   // Collect all unique words from passage sentences
   const words = useMemo(() => {
     const seen = new Set<string>();
-    const result: { text: string; hasVocab: boolean }[] = [];
+    const result: { text: string; hasVocab: boolean; alreadyStudying: boolean }[] = [];
     for (const s of passage.sentences) {
-      // From tokens
       if (s.tokens) {
         for (const t of s.tokens) {
           if (!seen.has(t.text) && t.text.length > 1) {
             const match = allVocab.find((v) => v.word === t.text);
-            result.push({ text: t.text, hasVocab: !!match });
+            result.push({ text: t.text, hasVocab: !!match, alreadyStudying: match ? !!getUserItem("vocab", match.id) : false });
             seen.add(t.text);
           }
         }
       }
-      // From auto-detect
       const detected = autoDetectLexicon(s.japanese);
       for (const d of detected) {
         if (!seen.has(d.text)) {
           const match = allVocab.find((v) => v.word === d.text);
-          result.push({ text: d.text, hasVocab: !!match });
+          result.push({ text: d.text, hasVocab: !!match, alreadyStudying: match ? !!getUserItem("vocab", match.id) : false });
           seen.add(d.text);
         }
       }
@@ -252,11 +250,12 @@ function WordTools({ passage, unknownWords, onToggle, addedToQueue, onAddToQueue
                     isQueued ? "bg-jade-500/15 text-jade-400" :
                     "bg-ink-800/50 text-ink-400 hover:bg-ink-800"
                   }`}>{w.text}</button>
-                {isUnknown && w.hasVocab && !isQueued && (
+                {isUnknown && w.hasVocab && !isQueued && !w.alreadyStudying && (
                   <button onClick={() => onAddToQueue(w.text)}
                     className="text-[9px] px-1 py-0.5 rounded bg-jade-500/20 text-jade-400 hover:bg-jade-500/30">+Queue</button>
                 )}
-                {isQueued && <span className="text-[9px] text-jade-500">✓</span>}
+                {isUnknown && w.alreadyStudying && <span className="text-[9px] text-ink-500">studying</span>}
+                {isQueued && <span className="text-[9px] text-jade-500">✓ queued</span>}
               </div>
             );
           })}

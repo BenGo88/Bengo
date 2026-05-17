@@ -22,6 +22,7 @@ import Curriculum from "./pages/Curriculum";
 import Sources from "./pages/Sources";
 import ReadingLibrary from "./pages/ReadingLibrary";
 import ReadingDetail from "./pages/ReadingDetail";
+import TestHistory from "./pages/TestHistory";
 import "./index.css";
 
 if (import.meta.env.DEV) {
@@ -51,6 +52,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/curriculum/:level" element={<Curriculum />} />
           <Route path="/reading" element={<ReadingLibrary />} />
           <Route path="/reading/:id" element={<ReadingDetail />} />
+          <Route path="/test-history" element={<TestHistory />} />
           <Route path="/sources" element={<Sources />} />
           <Route path="/settings" element={<Settings />} />
         </Route>

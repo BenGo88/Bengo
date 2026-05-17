@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { getContentCounts, getUnitsForLevel, type CurriculumUnit } from "../lib/content";
 import { getLearnedCount, getProfile, getUserItem } from "../lib/storage";
+import { getReadingsByLevel, getAllReadingProgress } from "../lib/reading";
 import type { JLPTLevel, ItemType } from "../lib/types";
 
 const LEVEL_META: Record<string, { name: string; desc: string }> = {
@@ -59,6 +60,43 @@ export default function Curriculum() {
       ) : (
         <div className="card p-5 text-center"><p className="text-sm text-ink-500">Content for this level coming soon.</p></div>
       )}
+
+      {/* Reading Practice */}
+      {(() => {
+        const passages = getReadingsByLevel(jlpt);
+        if (passages.length === 0) return null;
+        const progress = getAllReadingProgress();
+        const completed = passages.filter((p) => progress[p.id]?.completed).length;
+        return (
+          <div className="space-y-2">
+            <div className="flex items-center justify-between">
+              <h2 className="label">Reading Practice</h2>
+              <span className="text-xs text-ink-500">{completed}/{passages.length} completed</span>
+            </div>
+            <div className="space-y-2">
+              {passages.slice(0, 4).map((p) => {
+                const pr = progress[p.id];
+                return (
+                  <div key={p.id} className="card-hover p-3 flex items-center justify-between" onClick={() => navigate(`/reading/${p.id}`)}>
+                    <div>
+                      <p className="text-sm text-ink-200">{p.title}</p>
+                      <p className="text-[10px] text-ink-600">~{p.estimatedMinutes} min · {p.questions.length} questions</p>
+                    </div>
+                    {pr?.completed ? (
+                      <span className="text-xs font-bold text-jade-400">{pr.bestScore}%</span>
+                    ) : (
+                      <span className="text-[10px] text-ink-600">New</span>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+            {passages.length > 4 && (
+              <button className="btn-secondary text-xs w-full" onClick={() => navigate("/reading")}>View All {passages.length} Passages</button>
+            )}
+          </div>
+        );
+      })()}
 
       {/* Level-wide actions */}
       {total > 0 && (

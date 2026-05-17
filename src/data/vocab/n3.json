@@ -1799,5 +1799,330 @@
     "tags": [
       "society"
     ]
+  },
+  {
+    "id": "v-n3-081",
+    "word": "制度",
+    "reading": "せいど",
+    "meanings": [
+      "system",
+      "institution"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "A system or institution.",
+    "sentences": [
+      {
+        "ja": "新しい制度が始まった。",
+        "en": "A new system started.",
+        "reading": "あたらしい せいど が はじまった。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n3-082",
+    "word": "対策",
+    "reading": "たいさく",
+    "meanings": [
+      "countermeasure",
+      "solution"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "A countermeasure.",
+    "sentences": [
+      {
+        "ja": "対策を考える。",
+        "en": "Think of a countermeasure.",
+        "reading": "たいさく を かんがえる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-083",
+    "word": "議論",
+    "reading": "ぎろん",
+    "meanings": [
+      "argument",
+      "debate"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Debate or discuss.",
+    "sentences": [
+      {
+        "ja": "議論が続いている。",
+        "en": "The debate continues.",
+        "reading": "ぎろん が つづいている。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n3-084",
+    "word": "投稿",
+    "reading": "とうこう",
+    "meanings": [
+      "post",
+      "submission"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Post on social media.",
+    "sentences": [
+      {
+        "ja": "SNSに投稿する。",
+        "en": "Post on social media.",
+        "reading": "SNS に とうこう する。"
+      }
+    ],
+    "tags": [
+      "technology"
+    ]
+  },
+  {
+    "id": "v-n3-085",
+    "word": "個人",
+    "reading": "こじん",
+    "meanings": [
+      "individual",
+      "personal"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Individual or personal.",
+    "sentences": [
+      {
+        "ja": "個人情報を守る。",
+        "en": "Protect personal information.",
+        "reading": "こじん じょうほう を まもる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-086",
+    "word": "公開",
+    "reading": "こうかい",
+    "meanings": [
+      "opening to public",
+      "disclosure"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Make public.",
+    "sentences": [
+      {
+        "ja": "情報を公開する。",
+        "en": "Disclose information.",
+        "reading": "じょうほう を こうかい する。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-087",
+    "word": "祝日",
+    "reading": "しゅくじつ",
+    "meanings": [
+      "national holiday"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "National holiday.",
+    "sentences": [
+      {
+        "ja": "明日は祝日です。",
+        "en": "Tomorrow is a national holiday.",
+        "reading": "あした は しゅくじつ です。"
+      }
+    ],
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "id": "v-n3-088",
+    "word": "連休",
+    "reading": "れんきゅう",
+    "meanings": [
+      "consecutive holidays"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Consecutive days off.",
+    "sentences": [
+      {
+        "ja": "ゴールデンウィークは大型連休だ。",
+        "en": "Golden Week is a long holiday.",
+        "reading": "ゴールデンウィーク は おおがた れんきゅう だ。"
+      }
+    ],
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "id": "v-n3-089",
+    "word": "廃棄",
+    "reading": "はいき",
+    "meanings": [
+      "disposal",
+      "discard"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Dispose/discard.",
+    "sentences": [
+      {
+        "ja": "食品を廃棄する。",
+        "en": "Discard food.",
+        "reading": "しょくひん を はいき する。"
+      }
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "v-n3-090",
+    "word": "値引き",
+    "reading": "ねびき",
+    "meanings": [
+      "discount"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Discount.",
+    "sentences": [
+      {
+        "ja": "値引きされている。",
+        "en": "It's discounted.",
+        "reading": "ねびき されている。"
+      }
+    ],
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "id": "v-n3-091",
+    "word": "給料",
+    "reading": "きゅうりょう",
+    "meanings": [
+      "salary"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Monthly salary.",
+    "sentences": [
+      {
+        "ja": "給料が上がった。",
+        "en": "My salary went up.",
+        "reading": "きゅうりょう が あがった。"
+      }
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "v-n3-092",
+    "word": "勤務",
+    "reading": "きんむ",
+    "meanings": [
+      "work",
+      "duty"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Work duty.",
+    "sentences": [
+      {
+        "ja": "リモート勤務をしている。",
+        "en": "I'm doing remote work.",
+        "reading": "リモート きんむ を している。"
+      }
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "v-n3-093",
+    "word": "適度",
+    "reading": "てきど",
+    "meanings": [
+      "moderate",
+      "appropriate"
+    ],
+    "part_of_speech": "な-adjective / noun",
+    "jlpt": "N3",
+    "simple_usage": "Moderate amount.",
+    "sentences": [
+      {
+        "ja": "適度に運動する。",
+        "en": "Exercise moderately.",
+        "reading": "てきど に うんどう する。"
+      }
+    ],
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "v-n3-094",
+    "word": "距離",
+    "reading": "きょり",
+    "meanings": [
+      "distance"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Physical or social distance.",
+    "sentences": [
+      {
+        "ja": "適度な距離を保つ。",
+        "en": "Keep an appropriate distance.",
+        "reading": "てきど な きょり を たもつ。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-095",
+    "word": "仕組み",
+    "reading": "しくみ",
+    "meanings": [
+      "mechanism",
+      "structure"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "How something works.",
+    "sentences": [
+      {
+        "ja": "社会の仕組みを学ぶ。",
+        "en": "Learn how society works.",
+        "reading": "しゃかい の しくみ を まなぶ。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
   }
 ]

@@ -2,6 +2,7 @@ import { useEffect, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { getProfile, getDueItems, getWeakItems, getLearnedCount, getStats, getAllItems } from "../lib/storage";
 import { getContentCounts, getNextIncompleteUnit } from "../lib/content";
+import { getRecommendedReading, getReadingsByLevel, getAllReadingProgress, getRecentTests } from "../lib/reading";
 import type { UserProfile, JLPTLevel } from "../lib/types";
 
 export default function Dashboard() {
@@ -78,6 +79,64 @@ export default function Dashboard() {
           <button className="btn-secondary text-xs" onClick={() => navigate("/placement")}>Retake</button>
         </div>
       )}
+
+      {/* Study actions */}
+      <div className="grid gap-3 md:grid-cols-2">
+        {/* Reading Recommendation */}
+        {(() => {
+          const lvl = (profile.targetLevel || "N5") as JLPTLevel;
+          const rec = getRecommendedReading(lvl);
+          const progress = getAllReadingProgress();
+          const levelPassages = getReadingsByLevel(lvl);
+          const completed = levelPassages.filter((p) => progress[p.id]?.completed).length;
+          if (!rec) return null;
+          return (
+            <div className="card-hover p-4" onClick={() => navigate(`/reading/${rec.id}`)}>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-lg">📄</span>
+                <div>
+                  <h3 className="text-sm font-semibold text-ink-100">Reading Practice</h3>
+                  <p className="text-[10px] text-ink-600">{completed}/{levelPassages.length} completed at {lvl}</p>
+                </div>
+              </div>
+              <p className="text-xs text-ink-300">{rec.title}</p>
+              <p className="text-[10px] text-ink-500">{rec.jlpt} · ~{rec.estimatedMinutes} min</p>
+              <button className="btn-secondary text-xs mt-2 w-full">Start Reading</button>
+            </div>
+          );
+        })()}
+
+        {/* Test Summary */}
+        {(() => {
+          const recent = getRecentTests(1);
+          const latest = recent[0];
+          return (
+            <div className="card-hover p-4" onClick={() => navigate(latest ? "/test-history" : "/quiz")}>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-lg">⚡</span>
+                <h3 className="text-sm font-semibold text-ink-100">JLPT Practice</h3>
+              </div>
+              {latest ? (
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className={`text-xl font-bold ${latest.accuracy >= 80 ? "text-jade-400" : latest.accuracy >= 50 ? "text-yellow-500" : "text-vermillion-400"}`}>{latest.accuracy}%</span>
+                    <span className="text-[10px] text-ink-600">{latest.level} · {new Date(latest.date).toLocaleDateString()}</span>
+                  </div>
+                  <div className="flex gap-2 mt-2">
+                    <button className="btn-primary text-xs flex-1" onClick={(e) => { e.stopPropagation(); navigate("/quiz"); }}>New Test</button>
+                    <button className="btn-secondary text-xs flex-1" onClick={(e) => { e.stopPropagation(); navigate("/test-history"); }}>History</button>
+                  </div>
+                </div>
+              ) : (
+                <div>
+                  <p className="text-xs text-ink-500">Take your first JLPT-style test.</p>
+                  <button className="btn-primary text-xs mt-2 w-full">Start Test</button>
+                </div>
+              )}
+            </div>
+          );
+        })()}
+      </div>
 
       {/* Study actions */}
       <section className="space-y-3">

@@ -1720,5 +1720,220 @@
     "tags": [
       "society"
     ]
+  },
+  {
+    "id": "v-n2-076",
+    "word": "意思決定",
+    "reading": "いしけってい",
+    "meanings": [
+      "decision-making"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Making decisions.",
+    "sentences": [
+      {
+        "ja": "迅速な意思決定が求められる。",
+        "en": "Prompt decision-making is required.",
+        "reading": "じんそく な いしけってい が もとめられる。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-077",
+    "word": "客観的",
+    "reading": "きゃっかんてき",
+    "meanings": [
+      "objective"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N2",
+    "simple_usage": "Objective (not subjective).",
+    "sentences": [
+      {
+        "ja": "客観的に判断する。",
+        "en": "Judge objectively.",
+        "reading": "きゃっかんてき に はんだん する。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n2-078",
+    "word": "従来",
+    "reading": "じゅうらい",
+    "meanings": [
+      "conventional",
+      "traditional"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Conventional/traditional.",
+    "sentences": [
+      {
+        "ja": "従来の方法を見直す。",
+        "en": "Review traditional methods.",
+        "reading": "じゅうらい の ほうほう を みなおす。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-079",
+    "word": "導入",
+    "reading": "どうにゅう",
+    "meanings": [
+      "introduction",
+      "implementation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Introduce a system.",
+    "sentences": [
+      {
+        "ja": "新しいシステムを導入する。",
+        "en": "Introduce a new system.",
+        "reading": "あたらしい システム を どうにゅう する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-080",
+    "word": "整備",
+    "reading": "せいび",
+    "meanings": [
+      "maintenance",
+      "development"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Develop infrastructure.",
+    "sentences": [
+      {
+        "ja": "環境を整備する。",
+        "en": "Develop the environment.",
+        "reading": "かんきょう を せいび する。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-081",
+    "word": "多角的",
+    "reading": "たかくてき",
+    "meanings": [
+      "multifaceted"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N2",
+    "simple_usage": "From multiple angles.",
+    "sentences": [
+      {
+        "ja": "多角的に分析する。",
+        "en": "Analyze from multiple angles.",
+        "reading": "たかくてき に ぶんせき する。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n2-082",
+    "word": "不可欠",
+    "reading": "ふかけつ",
+    "meanings": [
+      "indispensable"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N2",
+    "simple_usage": "Essential/indispensable.",
+    "sentences": [
+      {
+        "ja": "努力が不可欠だ。",
+        "en": "Effort is indispensable.",
+        "reading": "どりょく が ふかけつ だ。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-083",
+    "word": "受け入れ",
+    "reading": "うけいれ",
+    "meanings": [
+      "acceptance",
+      "reception"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Accepting something.",
+    "sentences": [
+      {
+        "ja": "外国人の受け入れを拡大する。",
+        "en": "Expand acceptance of foreigners.",
+        "reading": "がいこくじん の うけいれ を かくだい する。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n2-084",
+    "word": "活躍",
+    "reading": "かつやく",
+    "meanings": [
+      "active role",
+      "success"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Play an active role.",
+    "sentences": [
+      {
+        "ja": "世界で活躍する。",
+        "en": "Be active on the world stage.",
+        "reading": "せかい で かつやく する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-085",
+    "word": "最大化",
+    "reading": "さいだいか",
+    "meanings": [
+      "maximization"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Maximize.",
+    "sentences": [
+      {
+        "ja": "利益を最大化する。",
+        "en": "Maximize profits.",
+        "reading": "りえき を さいだいか する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
   }
 ]

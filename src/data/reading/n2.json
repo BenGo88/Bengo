@@ -360,5 +360,244 @@
         "explanation": "相手の文化的背景を尊重しつつ、自分の文化も適切に伝えていくことが求められる。"
       }
     ]
+  },
+  {
+    "id": "r-n2-007",
+    "title": "データドリブン経営",
+    "jlpt": "N2",
+    "difficulty": 5,
+    "category": "business",
+    "estimatedMinutes": 5,
+    "summary": "Data-driven management.",
+    "sentences": [
+      {
+        "japanese": "データに基づいた意思決定を行う「データドリブン経営」が注目されている。",
+        "reading": "データ に もとづいた いしけってい を おこなう データドリブン けいえい が ちゅうもく されている。",
+        "english": "'Data-driven management', making decisions based on data, is gaining attention."
+      },
+      {
+        "japanese": "従来の経験や勘に頼る手法に比べ、客観性が高いとされる。",
+        "reading": "じゅうらい の けいけん や かん に たよる しゅほう に くらべ、きゃっかんせい が たかい と される。",
+        "english": "Compared to traditional methods relying on experience and intuition, it is considered more objective."
+      },
+      {
+        "japanese": "ただし、データの解釈を誤ると逆効果になりかねない。",
+        "reading": "ただし、データ の かいしゃく を あやまる と ぎゃくこうか に なりかねない。",
+        "english": "However, misinterpreting data could be counterproductive."
+      },
+      {
+        "japanese": "データと人間の判断力を組み合わせることが重要である。",
+        "reading": "データ と にんげん の はんだんりょく を くみあわせる こと が じゅうよう で ある。",
+        "english": "Combining data with human judgment is important."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-007-1",
+        "type": "grammar_in_context",
+        "question": "「なりかねない」はどういう意味ですか。",
+        "choices": [
+          "cannot become",
+          "might possibly become (negative)",
+          "will definitely become",
+          "won't become"
+        ],
+        "answer": "might possibly become (negative)",
+        "explanation": "〜かねない = might (undesirable outcome)."
+      },
+      {
+        "id": "rq-n2-007-2",
+        "type": "main_idea",
+        "question": "筆者は何が重要だと言っていますか。",
+        "choices": [
+          "データだけに頼ること",
+          "経験だけに頼ること",
+          "データと人間の判断力の組み合わせ",
+          "新しい技術の導入"
+        ],
+        "answer": "データと人間の判断力の組み合わせ",
+        "explanation": "データと人間の判断力を組み合わせることが重要。"
+      }
+    ]
+  },
+  {
+    "id": "r-n2-008",
+    "title": "少子高齢化の影響",
+    "jlpt": "N2",
+    "difficulty": 5,
+    "category": "society",
+    "estimatedMinutes": 5,
+    "summary": "Impact of declining birthrate and aging population.",
+    "sentences": [
+      {
+        "japanese": "日本の少子高齢化は、経済や社会保障に大きな影響を及ぼしている。",
+        "reading": "にほん の しょうし こうれいか は、けいざい や しゃかい ほしょう に おおきな えいきょう を およぼしている。",
+        "english": "Japan's declining birthrate and aging population greatly impact the economy and social security."
+      },
+      {
+        "japanese": "労働力不足が深刻化するにつれ、外国人労働者の受け入れ拡大が議論されている。",
+        "reading": "ろうどうりょく ぶそく が しんこくか する に つれ、がいこくじん ろうどうしゃ の うけいれ かくだい が ぎろん されている。",
+        "english": "As labor shortages worsen, expanding acceptance of foreign workers is being discussed."
+      },
+      {
+        "japanese": "同時に、高齢者が活躍できる社会づくりも求められている。",
+        "reading": "どうじ に、こうれいしゃ が かつやく できる しゃかいづくり も もとめられている。",
+        "english": "At the same time, creating a society where elderly people can be active is also needed."
+      },
+      {
+        "japanese": "この問題の解決には、多角的なアプローチが不可欠である。",
+        "reading": "この もんだい の かいけつ に は、たかくてき な アプローチ が ふかけつ で ある。",
+        "english": "A multifaceted approach is essential to solve this problem."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-008-1",
+        "type": "grammar_in_context",
+        "question": "「深刻化するにつれ」はどういう意味ですか。",
+        "choices": [
+          "despite becoming serious",
+          "as it becomes more serious",
+          "before it becomes serious",
+          "without becoming serious"
+        ],
+        "answer": "as it becomes more serious",
+        "explanation": "〜につれ = as / along with change."
+      },
+      {
+        "id": "rq-n2-008-2",
+        "type": "detail",
+        "question": "少子高齢化で何が議論されていますか。",
+        "choices": [
+          "学校を増やすこと",
+          "外国人労働者の受け入れ",
+          "給料を上げること",
+          "休日を増やすこと"
+        ],
+        "answer": "外国人労働者の受け入れ",
+        "explanation": "外国人労働者の受け入れ拡大が議論されている。"
+      },
+      {
+        "id": "rq-n2-008-3",
+        "type": "main_idea",
+        "question": "筆者は解決に何が必要だと言っていますか。",
+        "choices": [
+          "一つの方法",
+          "多角的なアプローチ",
+          "外国の真似",
+          "何もしない"
+        ],
+        "answer": "多角的なアプローチ",
+        "explanation": "多角的なアプローチが不可欠である。"
+      }
+    ]
+  },
+  {
+    "id": "r-n2-009",
+    "title": "リーダーシップ論",
+    "jlpt": "N2",
+    "difficulty": 5,
+    "category": "business",
+    "estimatedMinutes": 5,
+    "summary": "Modern leadership theories.",
+    "sentences": [
+      {
+        "japanese": "従来のリーダーシップは、トップダウン型の指示命令が中心であった。",
+        "reading": "じゅうらい の リーダーシップ は、トップダウンがた の しじ めいれい が ちゅうしん で あった。",
+        "english": "Traditional leadership was centered on top-down directives."
+      },
+      {
+        "japanese": "しかし近年は、メンバーの自主性を引き出すサーバントリーダーシップが注目されている。",
+        "reading": "しかし きんねん は、メンバー の じしゅせい を ひきだす サーバント リーダーシップ が ちゅうもく されている。",
+        "english": "However, in recent years, servant leadership that draws out members' independence has gained attention."
+      },
+      {
+        "japanese": "部下の成長を支援し、チーム全体の力を最大化することが求められる。",
+        "reading": "ぶか の せいちょう を しえん し、チーム ぜんたい の ちから を さいだいか する こと が もとめられる。",
+        "english": "Supporting subordinates' growth and maximizing the team's overall power is required."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-009-1",
+        "type": "detail",
+        "question": "サーバントリーダーシップとは何ですか。",
+        "choices": [
+          "トップダウン型",
+          "メンバーの自主性を引き出すもの",
+          "命令中心",
+          "個人で行うもの"
+        ],
+        "answer": "メンバーの自主性を引き出すもの",
+        "explanation": "メンバーの自主性を引き出すサーバントリーダーシップ。"
+      },
+      {
+        "id": "rq-n2-009-2",
+        "type": "main_idea",
+        "question": "現代のリーダーに何が求められていますか。",
+        "choices": [
+          "厳しい命令",
+          "部下の成長支援とチーム力の最大化",
+          "一人で全部やること",
+          "経験だけに頼ること"
+        ],
+        "answer": "部下の成長支援とチーム力の最大化",
+        "explanation": "部下の成長を支援し、チーム全体の力を最大化する。"
+      }
+    ]
+  },
+  {
+    "id": "r-n2-010",
+    "title": "メンタルヘルスと職場",
+    "jlpt": "N2",
+    "difficulty": 4,
+    "category": "health",
+    "estimatedMinutes": 5,
+    "summary": "Mental health in the workplace.",
+    "sentences": [
+      {
+        "japanese": "近年、職場におけるメンタルヘルスへの関心が高まっている。",
+        "reading": "きんねん、しょくば に おける メンタルヘルス へ の かんしん が たかまっている。",
+        "english": "In recent years, interest in mental health at the workplace has been rising."
+      },
+      {
+        "japanese": "ストレスチェック制度の導入により、従業員の心の健康を定期的に確認する企業が増えた。",
+        "reading": "ストレスチェック せいど の どうにゅう に より、じゅうぎょういん の こころ の けんこう を ていきてき に かくにん する きぎょう が ふえた。",
+        "english": "With the introduction of stress check systems, more companies regularly check employees' mental health."
+      },
+      {
+        "japanese": "しかし、制度があるだけでは不十分であり、相談しやすい職場環境の整備が欠かせない。",
+        "reading": "しかし、せいど が ある だけ では ふじゅうぶん で あり、そうだん しやすい しょくば かんきょう の せいび が かかせない。",
+        "english": "However, having systems alone is insufficient; creating a workplace environment where people can easily seek help is essential."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-010-1",
+        "type": "grammar_in_context",
+        "question": "「導入により」はどういう意味ですか。",
+        "choices": [
+          "despite introducing",
+          "by means of introducing",
+          "before introducing",
+          "without introducing"
+        ],
+        "answer": "by means of introducing",
+        "explanation": "〜により = by means of / through / due to."
+      },
+      {
+        "id": "rq-n2-010-2",
+        "type": "main_idea",
+        "question": "筆者は何が欠かせないと言っていますか。",
+        "choices": [
+          "ストレスチェックだけ",
+          "相談しやすい職場環境",
+          "休日を増やすこと",
+          "給料を上げること"
+        ],
+        "answer": "相談しやすい職場環境",
+        "explanation": "相談しやすい職場環境の整備が欠かせない。"
+      }
+    ]
   }
 ]

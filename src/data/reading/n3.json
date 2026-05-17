@@ -573,5 +573,241 @@
         "explanation": "やってよかったと思いました。"
       }
     ]
+  },
+  {
+    "id": "r-n3-009",
+    "title": "年功序列と成果主義",
+    "jlpt": "N3",
+    "difficulty": 4,
+    "category": "work",
+    "estimatedMinutes": 4,
+    "summary": "Seniority vs merit-based systems.",
+    "sentences": [
+      {
+        "japanese": "日本の企業には年功序列という制度があります。",
+        "reading": "にほん の きぎょう に は ねんこう じょれつ という せいど が あります。",
+        "english": "Japanese companies have a system called seniority-based promotion."
+      },
+      {
+        "japanese": "これは年齢や勤続年数に応じて給料が上がる仕組みです。",
+        "reading": "これ は ねんれい や きんぞく ねんすう に おうじて きゅうりょう が あがる しくみ です。",
+        "english": "This is a system where salary increases based on age and years of service."
+      },
+      {
+        "japanese": "しかし最近は成果主義を取り入れる会社も増えています。",
+        "reading": "しかし さいきん は せいか しゅぎ を とりいれる かいしゃ も ふえています。",
+        "english": "However, recently more companies are adopting merit-based systems."
+      },
+      {
+        "japanese": "どちらにもメリットとデメリットがあり、議論が続いています。",
+        "reading": "どちら に も メリット と デメリット が あり、ぎろん が つづいています。",
+        "english": "Both have advantages and disadvantages, and the debate continues."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-009-1",
+        "type": "detail",
+        "question": "年功序列とは何ですか。",
+        "choices": [
+          "若い人が出世する制度",
+          "年齢に応じて給料が上がる制度",
+          "試験で評価する制度",
+          "外国の制度"
+        ],
+        "answer": "年齢に応じて給料が上がる制度",
+        "explanation": "年齢や勤続年数に応じて給料が上がる仕組みです。"
+      },
+      {
+        "id": "rq-n3-009-2",
+        "type": "main_idea",
+        "question": "この文の結論は何ですか。",
+        "choices": [
+          "年功序列が良い",
+          "成果主義が良い",
+          "どちらにもメリットとデメリットがある",
+          "どちらも悪い"
+        ],
+        "answer": "どちらにもメリットとデメリットがある",
+        "explanation": "どちらにもメリットとデメリットがあり、議論が続いています。"
+      }
+    ]
+  },
+  {
+    "id": "r-n3-010",
+    "title": "食品ロス問題",
+    "jlpt": "N3",
+    "difficulty": 4,
+    "category": "society",
+    "estimatedMinutes": 4,
+    "summary": "Food waste issues.",
+    "sentences": [
+      {
+        "japanese": "日本では毎年大量の食品が捨てられています。",
+        "reading": "にほん では まいとし たいりょう の しょくひん が すてられています。",
+        "english": "In Japan, a large amount of food is thrown away every year."
+      },
+      {
+        "japanese": "まだ食べられるのに廃棄される食品を「食品ロス」と言います。",
+        "reading": "まだ たべられる の に はいき される しょくひん を しょくひん ロス と いいます。",
+        "english": "Food that can still be eaten but is discarded is called 'food loss'."
+      },
+      {
+        "japanese": "フードバンクや値引き販売など、さまざまな対策が進められています。",
+        "reading": "フードバンク や ねびき はんばい など、さまざまな たいさく が すすめられています。",
+        "english": "Various measures like food banks and discounted sales are being promoted."
+      },
+      {
+        "japanese": "一人一人が買いすぎに注意することも大切です。",
+        "reading": "ひとりひとり が かいすぎ に ちゅうい する こと も たいせつ です。",
+        "english": "It's also important for each person to be careful not to buy too much."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-010-1",
+        "type": "vocabulary_in_context",
+        "question": "「食品ロス」とは何ですか。",
+        "choices": [
+          "おいしい食べ物",
+          "まだ食べられるのに捨てられる食品",
+          "外国の料理",
+          "新しい食品"
+        ],
+        "answer": "まだ食べられるのに捨てられる食品",
+        "explanation": "まだ食べられるのに廃棄される食品を食品ロスと言います。"
+      },
+      {
+        "id": "rq-n3-010-2",
+        "type": "detail",
+        "question": "どんな対策がありますか。",
+        "choices": [
+          "食品を全部食べる",
+          "フードバンクや値引き販売",
+          "料理教室",
+          "レストランを増やす"
+        ],
+        "answer": "フードバンクや値引き販売",
+        "explanation": "フードバンクや値引き販売など。"
+      }
+    ]
+  },
+  {
+    "id": "r-n3-011",
+    "title": "SNSとの付き合い方",
+    "jlpt": "N3",
+    "difficulty": 3,
+    "category": "technology",
+    "estimatedMinutes": 4,
+    "summary": "How to use social media wisely.",
+    "sentences": [
+      {
+        "japanese": "SNSは便利なコミュニケーションツールですが、使い方に注意が必要です。",
+        "reading": "SNS は べんり な コミュニケーション ツール です が、つかいかた に ちゅうい が ひつよう です。",
+        "english": "Social media is a convenient communication tool, but you need to be careful how you use it."
+      },
+      {
+        "japanese": "個人情報を公開しすぎないことが大切です。",
+        "reading": "こじん じょうほう を こうかい しすぎない こと が たいせつ です。",
+        "english": "It's important not to share too much personal information."
+      },
+      {
+        "japanese": "他人の投稿と自分を比べすぎると、ストレスの原因になることもあります。",
+        "reading": "たにん の とうこう と じぶん を くらべすぎる と、ストレス の げんいん に なる こと も あります。",
+        "english": "Comparing yourself too much with others' posts can also cause stress."
+      },
+      {
+        "japanese": "適度な距離感を持って使うことをおすすめします。",
+        "reading": "てきど な きょりかん を もって つかう こと を おすすめ します。",
+        "english": "I recommend using it with appropriate distance."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-011-1",
+        "type": "detail",
+        "question": "SNSで何に注意すべきですか。",
+        "choices": [
+          "写真を撮ること",
+          "個人情報を公開しすぎないこと",
+          "毎日投稿すること",
+          "友達を増やすこと"
+        ],
+        "answer": "個人情報を公開しすぎないこと",
+        "explanation": "個人情報を公開しすぎないことが大切です。"
+      },
+      {
+        "id": "rq-n3-011-2",
+        "type": "grammar_in_context",
+        "question": "「比べすぎると」はどういう意味ですか。",
+        "choices": [
+          "if you compare a little",
+          "if you compare too much",
+          "if you stop comparing",
+          "if you start comparing"
+        ],
+        "answer": "if you compare too much",
+        "explanation": "〜すぎる = too much. 比べすぎると = if you compare too much."
+      }
+    ]
+  },
+  {
+    "id": "r-n3-012",
+    "title": "日本の祝日",
+    "jlpt": "N3",
+    "difficulty": 3,
+    "category": "culture",
+    "estimatedMinutes": 4,
+    "summary": "Japanese national holidays.",
+    "sentences": [
+      {
+        "japanese": "日本にはたくさんの祝日があります。",
+        "reading": "にほん に は たくさん の しゅくじつ が あります。",
+        "english": "Japan has many national holidays."
+      },
+      {
+        "japanese": "特にゴールデンウィークは4月末から5月初めの大型連休です。",
+        "reading": "とくに ゴールデンウィーク は しがつすえ から ごがつはじめ の おおがた れんきゅう です。",
+        "english": "In particular, Golden Week is a long holiday period from late April to early May."
+      },
+      {
+        "japanese": "この時期は旅行する人が多く、電車や飛行機が混みます。",
+        "reading": "この じき は りょこう する ひと が おおく、でんしゃ や ひこうき が こみます。",
+        "english": "During this period many people travel, so trains and planes are crowded."
+      },
+      {
+        "japanese": "祝日の意味を知ることで、日本の文化をもっと理解できます。",
+        "reading": "しゅくじつ の いみ を しる こと で、にほん の ぶんか を もっと りかい できます。",
+        "english": "By knowing the meaning of holidays, you can better understand Japanese culture."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-012-1",
+        "type": "detail",
+        "question": "ゴールデンウィークはいつですか。",
+        "choices": [
+          "1月",
+          "3月",
+          "4月末〜5月初め",
+          "8月"
+        ],
+        "answer": "4月末〜5月初め",
+        "explanation": "4月末から5月初めの大型連休です。"
+      },
+      {
+        "id": "rq-n3-012-2",
+        "type": "main_idea",
+        "question": "筆者は何を勧めていますか。",
+        "choices": [
+          "旅行すること",
+          "祝日の意味を知ること",
+          "家にいること",
+          "仕事を休むこと"
+        ],
+        "answer": "祝日の意味を知ること",
+        "explanation": "祝日の意味を知ることで文化を理解できます。"
+      }
+    ]
   }
 ]

@@ -749,5 +749,165 @@
     ],
     "partOfSpeech": "godan verb",
     "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-制度",
+    "text": "制度",
+    "reading": "せいど",
+    "meanings": [
+      "system",
+      "institution"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-対策",
+    "text": "対策",
+    "reading": "たいさく",
+    "meanings": [
+      "countermeasure",
+      "solution"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-議論",
+    "text": "議論",
+    "reading": "ぎろん",
+    "meanings": [
+      "argument",
+      "debate"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-投稿",
+    "text": "投稿",
+    "reading": "とうこう",
+    "meanings": [
+      "post",
+      "submission"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-個人",
+    "text": "個人",
+    "reading": "こじん",
+    "meanings": [
+      "individual",
+      "personal"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-公開",
+    "text": "公開",
+    "reading": "こうかい",
+    "meanings": [
+      "opening to public",
+      "disclosure"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-祝日",
+    "text": "祝日",
+    "reading": "しゅくじつ",
+    "meanings": [
+      "national holiday"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-連休",
+    "text": "連休",
+    "reading": "れんきゅう",
+    "meanings": [
+      "consecutive holidays"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-廃棄",
+    "text": "廃棄",
+    "reading": "はいき",
+    "meanings": [
+      "disposal",
+      "discard"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-値引き",
+    "text": "値引き",
+    "reading": "ねびき",
+    "meanings": [
+      "discount"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-給料",
+    "text": "給料",
+    "reading": "きゅうりょう",
+    "meanings": [
+      "salary"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-勤務",
+    "text": "勤務",
+    "reading": "きんむ",
+    "meanings": [
+      "work",
+      "duty"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-適度",
+    "text": "適度",
+    "reading": "てきど",
+    "meanings": [
+      "moderate",
+      "appropriate"
+    ],
+    "partOfSpeech": "な-adjective / noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-距離",
+    "text": "距離",
+    "reading": "きょり",
+    "meanings": [
+      "distance"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-仕組み",
+    "text": "仕組み",
+    "reading": "しくみ",
+    "meanings": [
+      "mechanism",
+      "structure"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
   }
 ]

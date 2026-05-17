@@ -8,9 +8,7 @@ export default function Dashboard() {
   const navigate = useNavigate();
   const [profile, setProfile] = useState<UserProfile | null>(null);
 
-  useEffect(() => {
-    setProfile(getProfile());
-  }, []);
+  useEffect(() => { setProfile(getProfile()); }, []);
 
   if (!profile) return null;
 
@@ -38,9 +36,10 @@ export default function Dashboard() {
         <StatCard label="Streak" value={`${profile.currentStreak}日`} accent="vermillion" />
         <StatCard label="XP" value={profile.totalXp.toLocaleString()} accent="jade" />
         <StatCard label="Accuracy" value={stats.totalReviews > 0 ? `${stats.accuracy}%` : "—"} />
-        <StatCard label="Target" value={profile.targetLevel} accent="vermillion" />
+        <StatCard label="Reviews Due" value={String(dueItems.length)} accent={dueItems.length > 0 ? "vermillion" : undefined} />
       </div>
 
+      {/* Study actions */}
       <section className="space-y-3">
         <h2 className="label">Today&apos;s Study</h2>
         <div className="grid gap-3 md:grid-cols-2">
@@ -48,8 +47,8 @@ export default function Dashboard() {
             title="Reviews Due"
             count={dueItems.length}
             subtitle={dueItems.length === 0 ? "You're all caught up" : `${dueItems.length} item${dueItems.length === 1 ? "" : "s"} waiting`}
-            action="Start Reviews"
-            onClick={() => navigate("/reviews")}
+            action={dueItems.length > 0 ? "Start Reviews" : "Practice Quiz"}
+            onClick={() => navigate(dueItems.length > 0 ? "/reviews" : "/quiz")}
           />
           <ActionCard
             title="New Lessons"
@@ -61,13 +60,12 @@ export default function Dashboard() {
         </div>
       </section>
 
+      {/* Quick actions */}
       <section className="space-y-3">
         <h2 className="label">Quick Actions</h2>
         <div className="flex flex-wrap gap-2">
           <QuickButton label="Mixed Lesson" onClick={() => navigate("/lessons/session?type=mixed")} />
-          <QuickButton label="Kanji Lesson" onClick={() => navigate("/lessons/session?type=kanji")} />
-          <QuickButton label="Grammar Lesson" onClick={() => navigate("/lessons/session?type=grammar")} />
-          <QuickButton label={`Random ${profile.targetLevel} Quiz`} onClick={() => navigate("/quiz")} />
+          <QuickButton label={`${profile.targetLevel} Quiz`} onClick={() => navigate("/quiz")} />
           <QuickButton label="Browse Kanji" onClick={() => navigate("/kanji")} />
           <QuickButton label="Browse Grammar" onClick={() => navigate("/grammar")} />
           {weakItems.length > 0 && (
@@ -76,6 +74,7 @@ export default function Dashboard() {
         </div>
       </section>
 
+      {/* Progress */}
       <section className="space-y-3">
         <h2 className="label">{profile.targetLevel} Progress</h2>
         <div className="card p-5 space-y-4">
@@ -85,6 +84,7 @@ export default function Dashboard() {
         </div>
       </section>
 
+      {/* Weak points */}
       {weakItems.length > 0 && (
         <section
           className="card border-vermillion-500/20 p-5 cursor-pointer hover:border-vermillion-500/40 transition-colors"
@@ -97,6 +97,7 @@ export default function Dashboard() {
         </section>
       )}
 
+      {/* Stats */}
       <section className="space-y-3">
         <h2 className="label">Lifetime Stats</h2>
         <div className="card p-5">

@@ -12,6 +12,8 @@ import VocabList from "./pages/VocabList";
 import VocabDetail from "./pages/VocabDetail";
 import GrammarList from "./pages/GrammarList";
 import GrammarDetail from "./pages/GrammarDetail";
+import Reviews from "./pages/Reviews";
+import Quiz from "./pages/Quiz";
 import ComingSoon from "./pages/ComingSoon";
 import "./index.css";
 
@@ -29,9 +31,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/vocab/:id" element={<VocabDetail />} />
           <Route path="/grammar" element={<GrammarList />} />
           <Route path="/grammar/:id" element={<GrammarDetail />} />
-          <Route path="/reviews" element={<ComingSoon title="Reviews" description="SRS review sessions using your study queue. Answer questions on kanji, vocabulary, and grammar you've learned — spaced repetition keeps items fresh." version="v0.4" />} />
-          <Route path="/quiz" element={<ComingSoon title="Random Quiz" description="Generate random N2/N1 quizzes by category — kanji, vocabulary, grammar, or mixed. Choose quick (10), normal (25), or long (50) question sets." version="v0.5" />} />
-          <Route path="/weak-points" element={<ComingSoon title="Weak Points" description="Items you repeatedly get wrong will appear here. Practice targeted drills on your weakest kanji, vocabulary, and grammar." version="v0.6" />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/weak-points" element={<ComingSoon title="Weak Points" description="Items you repeatedly get wrong will appear here. Practice targeted drills on your weakest kanji, vocabulary, and grammar." version="v0.5" />} />
           <Route path="/settings" element={<Settings />} />
         </Route>
       </Routes>

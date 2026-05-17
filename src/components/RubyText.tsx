@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { getFuriganaMode } from "../lib/storage";
-import type { FuriganaMode } from "../lib/types";
 
 interface Props {
   text: string;
@@ -8,13 +7,9 @@ interface Props {
   className?: string;
 }
 
-/**
- * Renders Japanese text with optional furigana (ruby annotation).
- * Respects the user's furigana display setting: always / hover / hide.
- */
 export default function RubyText({ text, reading, className = "" }: Props) {
   const mode = getFuriganaMode();
-  const [tapped, setTapped] = useState(false);
+  const [revealed, setRevealed] = useState(false);
 
   if (!reading || mode === "hide") {
     return <span className={className}>{text}</span>;
@@ -23,26 +18,27 @@ export default function RubyText({ text, reading, className = "" }: Props) {
   if (mode === "always") {
     return (
       <ruby className={className}>
-        {text}
-        <rt className="text-[0.55em] text-ink-400 font-normal">{reading}</rt>
+        {text}<rt className="text-[0.55em] text-ink-400 font-normal">{reading}</rt>
       </ruby>
     );
   }
 
-  // hover/tap mode
+  // Tap/Hover: show on click (mobile) or hover (desktop)
   return (
-    <ruby
-      className={`${className} cursor-pointer group`}
-      onClick={() => setTapped(!tapped)}
+    <span
+      className={`${className} cursor-pointer inline-block relative group`}
+      onClick={(e) => { e.stopPropagation(); setRevealed(!revealed); }}
     >
-      {text}
-      <rt
-        className={`text-[0.55em] text-ink-400 font-normal transition-opacity duration-200 ${
-          tapped ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+      <span className={`${!revealed ? "border-b border-dotted border-ink-600" : ""}`}>
+        {text}
+      </span>
+      <span
+        className={`absolute -top-5 left-1/2 -translate-x-1/2 text-[0.65em] text-ink-400 font-mono whitespace-nowrap transition-all duration-150 pointer-events-none ${
+          revealed ? "opacity-100" : "opacity-0 group-hover:opacity-100"
         }`}
       >
         {reading}
-      </rt>
-    </ruby>
+      </span>
+    </span>
   );
 }

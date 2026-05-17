@@ -7,29 +7,36 @@ interface Props {
   compact?: boolean;
 }
 
-/**
- * Displays a Japanese example sentence with:
- * - Japanese text (with optional reading line)
- * - English translation
- * - Collapsible word-by-word breakdown
- * - Optional note
- */
 export default function SentenceBlock({ sentence, compact = false }: Props) {
   const furigana = getFuriganaMode();
   const assist = getBeginnerAssist();
+  const [showReading, setShowReading] = useState(false);
   const [showBreakdown, setShowBreakdown] = useState(false);
   const hasBreakdown = sentence.breakdown && sentence.breakdown.length > 0;
+  const hasReading = !!sentence.reading;
+  const isHoverMode = furigana === "hover";
 
   return (
     <div className={compact ? "space-y-1" : "space-y-2"}>
-      {/* Japanese sentence */}
-      <p className={`text-ink-100 font-display leading-relaxed ${compact ? "text-base" : "text-lg"}`}>
+      {/* Japanese sentence — tappable in hover mode */}
+      <p
+        className={`text-ink-100 font-display leading-relaxed ${compact ? "text-base" : "text-lg"} ${
+          isHoverMode && hasReading ? "cursor-pointer border-b border-dotted border-ink-700 inline-block group" : ""
+        }`}
+        onClick={isHoverMode && hasReading ? () => setShowReading(!showReading) : undefined}
+      >
         {sentence.ja}
+        {isHoverMode && hasReading && !showReading && (
+          <span className="text-xs text-ink-600 ml-2 font-body">(tap for reading)</span>
+        )}
       </p>
 
-      {/* Full reading line (furigana mode: always or hover/tapped) */}
-      {sentence.reading && furigana !== "hide" && (
+      {/* Reading line */}
+      {hasReading && furigana === "always" && (
         <p className="text-sm text-ink-500 font-mono">{sentence.reading}</p>
+      )}
+      {hasReading && isHoverMode && showReading && (
+        <p className="text-sm text-ink-500 font-mono animate-fade-in">{sentence.reading}</p>
       )}
 
       {/* English */}

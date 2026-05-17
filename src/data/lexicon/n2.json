@@ -1,37 +1,734 @@
 [
-  {"id":"lex-n2-承認","text":"承認","reading":"しょうにん","meanings":["approval"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-上司","text":"上司","reading":"じょうし","meanings":["boss","manager"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-届ける","text":"届ける","reading":"とどける","meanings":["to deliver"],"partOfSpeech":"ichidan verb","jlpt":"N2"},
-  {"id":"lex-n2-割合","text":"割合","reading":"わりあい","meanings":["proportion"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-否定","text":"否定","reading":"ひてい","meanings":["denial"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-価値","text":"価値","reading":"かち","meanings":["value","worth"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-許可","text":"許可","reading":"きょか","meanings":["permission"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-感動","text":"感動","reading":"かんどう","meanings":["being moved"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-預金","text":"預金","reading":"よきん","meanings":["savings"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-犯罪","text":"犯罪","reading":"はんざい","meanings":["crime"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-荷物","text":"荷物","reading":"にもつ","meanings":["package"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-全員","text":"全員","reading":"ぜんいん","meanings":["everyone"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-賛成","text":"賛成","reading":"さんせい","meanings":["agreement"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-遅刻","text":"遅刻","reading":"ちこく","meanings":["being late"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-野菜","text":"野菜","reading":"やさい","meanings":["vegetables"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-運動","text":"運動","reading":"うんどう","meanings":["exercise"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-環境","text":"環境","reading":"かんきょう","meanings":["environment"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-経済","text":"経済","reading":"けいざい","meanings":["economy"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-制度","text":"制度","reading":"せいど","meanings":["system"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-判断","text":"判断","reading":"はんだん","meanings":["judgment"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-責任","text":"責任","reading":"せきにん","meanings":["responsibility"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-効果","text":"効果","reading":"こうか","meanings":["effect"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-原因","text":"原因","reading":"げんいん","meanings":["cause"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-結果","text":"結果","reading":"けっか","meanings":["result"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-状況","text":"状況","reading":"じょうきょう","meanings":["situation"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-対策","text":"対策","reading":"たいさく","meanings":["countermeasure"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-方針","text":"方針","reading":"ほうしん","meanings":["policy"],"partOfSpeech":"noun","jlpt":"N2"},
-  {"id":"lex-n2-成長","text":"成長","reading":"せいちょう","meanings":["growth"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-改善","text":"改善","reading":"かいぜん","meanings":["improvement"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-努力","text":"努力","reading":"どりょく","meanings":["effort"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-失敗","text":"失敗","reading":"しっぱい","meanings":["failure"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-成功","text":"成功","reading":"せいこう","meanings":["success"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-発展","text":"発展","reading":"はってん","meanings":["development"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-維持","text":"維持","reading":"いじ","meanings":["maintenance"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"},
-  {"id":"lex-n2-導入","text":"導入","reading":"どうにゅう","meanings":["introduction"],"partOfSpeech":"noun / suru-verb","jlpt":"N2"}
+  {
+    "id": "lex-n2-承認",
+    "text": "承認",
+    "reading": "しょうにん",
+    "meanings": [
+      "approval"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-上司",
+    "text": "上司",
+    "reading": "じょうし",
+    "meanings": [
+      "boss",
+      "manager"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-届ける",
+    "text": "届ける",
+    "reading": "とどける",
+    "meanings": [
+      "to deliver"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-割合",
+    "text": "割合",
+    "reading": "わりあい",
+    "meanings": [
+      "proportion"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-否定",
+    "text": "否定",
+    "reading": "ひてい",
+    "meanings": [
+      "denial"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-価値",
+    "text": "価値",
+    "reading": "かち",
+    "meanings": [
+      "value",
+      "worth"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-許可",
+    "text": "許可",
+    "reading": "きょか",
+    "meanings": [
+      "permission"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-感動",
+    "text": "感動",
+    "reading": "かんどう",
+    "meanings": [
+      "being moved"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-預金",
+    "text": "預金",
+    "reading": "よきん",
+    "meanings": [
+      "savings"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-犯罪",
+    "text": "犯罪",
+    "reading": "はんざい",
+    "meanings": [
+      "crime"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-荷物",
+    "text": "荷物",
+    "reading": "にもつ",
+    "meanings": [
+      "package"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-全員",
+    "text": "全員",
+    "reading": "ぜんいん",
+    "meanings": [
+      "everyone"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-賛成",
+    "text": "賛成",
+    "reading": "さんせい",
+    "meanings": [
+      "agreement"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-遅刻",
+    "text": "遅刻",
+    "reading": "ちこく",
+    "meanings": [
+      "being late"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-野菜",
+    "text": "野菜",
+    "reading": "やさい",
+    "meanings": [
+      "vegetables"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-運動",
+    "text": "運動",
+    "reading": "うんどう",
+    "meanings": [
+      "exercise"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-環境",
+    "text": "環境",
+    "reading": "かんきょう",
+    "meanings": [
+      "environment"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-経済",
+    "text": "経済",
+    "reading": "けいざい",
+    "meanings": [
+      "economy"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-制度",
+    "text": "制度",
+    "reading": "せいど",
+    "meanings": [
+      "system"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-判断",
+    "text": "判断",
+    "reading": "はんだん",
+    "meanings": [
+      "judgment"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-責任",
+    "text": "責任",
+    "reading": "せきにん",
+    "meanings": [
+      "responsibility"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-効果",
+    "text": "効果",
+    "reading": "こうか",
+    "meanings": [
+      "effect"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-原因",
+    "text": "原因",
+    "reading": "げんいん",
+    "meanings": [
+      "cause"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-結果",
+    "text": "結果",
+    "reading": "けっか",
+    "meanings": [
+      "result"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-状況",
+    "text": "状況",
+    "reading": "じょうきょう",
+    "meanings": [
+      "situation"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-対策",
+    "text": "対策",
+    "reading": "たいさく",
+    "meanings": [
+      "countermeasure"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-方針",
+    "text": "方針",
+    "reading": "ほうしん",
+    "meanings": [
+      "policy"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-成長",
+    "text": "成長",
+    "reading": "せいちょう",
+    "meanings": [
+      "growth"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-改善",
+    "text": "改善",
+    "reading": "かいぜん",
+    "meanings": [
+      "improvement"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-努力",
+    "text": "努力",
+    "reading": "どりょく",
+    "meanings": [
+      "effort"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-失敗",
+    "text": "失敗",
+    "reading": "しっぱい",
+    "meanings": [
+      "failure"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-成功",
+    "text": "成功",
+    "reading": "せいこう",
+    "meanings": [
+      "success"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-発展",
+    "text": "発展",
+    "reading": "はってん",
+    "meanings": [
+      "development"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-維持",
+    "text": "維持",
+    "reading": "いじ",
+    "meanings": [
+      "maintenance"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-導入",
+    "text": "導入",
+    "reading": "どうにゅう",
+    "meanings": [
+      "introduction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-傾向",
+    "text": "傾向",
+    "reading": "けいこう",
+    "meanings": [
+      "tendency"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-一般",
+    "text": "一般",
+    "reading": "いっぱん",
+    "meanings": [
+      "general"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-基本",
+    "text": "基本",
+    "reading": "きほん",
+    "meanings": [
+      "basics"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-過程",
+    "text": "過程",
+    "reading": "かてい",
+    "meanings": [
+      "process"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-範囲",
+    "text": "範囲",
+    "reading": "はんい",
+    "meanings": [
+      "range"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-解決",
+    "text": "解決",
+    "reading": "かいけつ",
+    "meanings": [
+      "solution"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-達成",
+    "text": "達成",
+    "reading": "たっせい",
+    "meanings": [
+      "achievement"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-方法",
+    "text": "方法",
+    "reading": "ほうほう",
+    "meanings": [
+      "method"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-実施",
+    "text": "実施",
+    "reading": "じっし",
+    "meanings": [
+      "implementation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-確保",
+    "text": "確保",
+    "reading": "かくほ",
+    "meanings": [
+      "securing"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-拡大",
+    "text": "拡大",
+    "reading": "かくだい",
+    "meanings": [
+      "expansion"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-縮小",
+    "text": "縮小",
+    "reading": "しゅくしょう",
+    "meanings": [
+      "reduction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-適用",
+    "text": "適用",
+    "reading": "てきよう",
+    "meanings": [
+      "application"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-指摘",
+    "text": "指摘",
+    "reading": "してき",
+    "meanings": [
+      "pointing out"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-主張",
+    "text": "主張",
+    "reading": "しゅちょう",
+    "meanings": [
+      "assertion"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-評価",
+    "text": "評価",
+    "reading": "ひょうか",
+    "meanings": [
+      "evaluation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-段階",
+    "text": "段階",
+    "reading": "だんかい",
+    "meanings": [
+      "stage"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-促す",
+    "text": "促す",
+    "reading": "うながす",
+    "meanings": [
+      "to urge"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-傾く",
+    "text": "傾く",
+    "reading": "かたむく",
+    "meanings": [
+      "to lean"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-妥当",
+    "text": "妥当",
+    "reading": "だとう",
+    "meanings": [
+      "valid"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-顕著",
+    "text": "顕著",
+    "reading": "けんちょ",
+    "meanings": [
+      "remarkable"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-深刻",
+    "text": "深刻",
+    "reading": "しんこく",
+    "meanings": [
+      "serious"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-明確",
+    "text": "明確",
+    "reading": "めいかく",
+    "meanings": [
+      "clear"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-推進",
+    "text": "推進",
+    "reading": "すいしん",
+    "meanings": [
+      "promotion"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-把握",
+    "text": "把握",
+    "reading": "はあく",
+    "meanings": [
+      "grasp"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-見直す",
+    "text": "見直す",
+    "reading": "みなおす",
+    "meanings": [
+      "to review"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-踏まえる",
+    "text": "踏まえる",
+    "reading": "ふまえる",
+    "meanings": [
+      "to take into account"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-活用",
+    "text": "活用",
+    "reading": "かつよう",
+    "meanings": [
+      "utilization"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-前提",
+    "text": "前提",
+    "reading": "ぜんてい",
+    "meanings": [
+      "premise"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-矛盾",
+    "text": "矛盾",
+    "reading": "むじゅん",
+    "meanings": [
+      "contradiction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-根拠",
+    "text": "根拠",
+    "reading": "こんきょ",
+    "meanings": [
+      "basis"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-妨げる",
+    "text": "妨げる",
+    "reading": "さまたげる",
+    "meanings": [
+      "to hinder"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-補う",
+    "text": "補う",
+    "reading": "おぎなう",
+    "meanings": [
+      "to supplement"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-占める",
+    "text": "占める",
+    "reading": "しめる",
+    "meanings": [
+      "to account for"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-伴う",
+    "text": "伴う",
+    "reading": "ともなう",
+    "meanings": [
+      "to accompany"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-要因",
+    "text": "要因",
+    "reading": "よういん",
+    "meanings": [
+      "factor"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-分析",
+    "text": "分析",
+    "reading": "ぶんせき",
+    "meanings": [
+      "analysis"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  },
+  {
+    "id": "lex-n2-普及",
+    "text": "普及",
+    "reading": "ふきゅう",
+    "meanings": [
+      "spread"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N2"
+  }
 ]

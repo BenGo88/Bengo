@@ -1,27 +1,753 @@
 [
-  {"id":"lex-n3-確認","text":"確認","reading":"かくにん","meanings":["confirmation"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"},
-  {"id":"lex-n3-説明","text":"説明","reading":"せつめい","meanings":["explanation"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"},
-  {"id":"lex-n3-比べる","text":"比べる","reading":"くらべる","meanings":["to compare"],"partOfSpeech":"ichidan verb","jlpt":"N3"},
-  {"id":"lex-n3-増える","text":"増える","reading":"ふえる","meanings":["to increase"],"partOfSpeech":"ichidan verb","jlpt":"N3"},
-  {"id":"lex-n3-減る","text":"減る","reading":"へる","meanings":["to decrease"],"partOfSpeech":"godan verb","jlpt":"N3"},
-  {"id":"lex-n3-伝える","text":"伝える","reading":"つたえる","meanings":["to convey"],"partOfSpeech":"ichidan verb","jlpt":"N3"},
-  {"id":"lex-n3-関係","text":"関係","reading":"かんけい","meanings":["relationship"],"partOfSpeech":"noun","jlpt":"N3"},
-  {"id":"lex-n3-残念","text":"残念","reading":"ざんねん","meanings":["regrettable"],"partOfSpeech":"な-adjective","jlpt":"N3"},
-  {"id":"lex-n3-受ける","text":"受ける","reading":"うける","meanings":["to receive"],"partOfSpeech":"ichidan verb","jlpt":"N3"},
-  {"id":"lex-n3-文化","text":"文化","reading":"ぶんか","meanings":["culture"],"partOfSpeech":"noun","jlpt":"N3"},
-  {"id":"lex-n3-紹介","text":"紹介","reading":"しょうかい","meanings":["introduction"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"},
-  {"id":"lex-n3-相談","text":"相談","reading":"そうだん","meanings":["consultation"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"},
-  {"id":"lex-n3-参加","text":"参加","reading":"さんか","meanings":["participation"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"},
-  {"id":"lex-n3-連絡","text":"連絡","reading":"れんらく","meanings":["contact"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"},
-  {"id":"lex-n3-影響","text":"影響","reading":"えいきょう","meanings":["influence"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"},
-  {"id":"lex-n3-反対","text":"反対","reading":"はんたい","meanings":["opposite"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"},
-  {"id":"lex-n3-合う","text":"合う","reading":"あう","meanings":["to match","to fit"],"partOfSpeech":"godan verb","jlpt":"N3"},
-  {"id":"lex-n3-届く","text":"届く","reading":"とどく","meanings":["to arrive"],"partOfSpeech":"godan verb","jlpt":"N3"},
-  {"id":"lex-n3-集まる","text":"集まる","reading":"あつまる","meanings":["to gather"],"partOfSpeech":"godan verb","jlpt":"N3"},
-  {"id":"lex-n3-慣れる","text":"慣れる","reading":"なれる","meanings":["to get used to"],"partOfSpeech":"ichidan verb","jlpt":"N3"},
-  {"id":"lex-n3-似る","text":"似る","reading":"にる","meanings":["to resemble"],"partOfSpeech":"ichidan verb","jlpt":"N3"},
-  {"id":"lex-n3-壊れる","text":"壊れる","reading":"こわれる","meanings":["to break"],"partOfSpeech":"ichidan verb","jlpt":"N3"},
-  {"id":"lex-n3-直す","text":"直す","reading":"なおす","meanings":["to fix"],"partOfSpeech":"godan verb","jlpt":"N3"},
-  {"id":"lex-n3-将来","text":"将来","reading":"しょうらい","meanings":["future"],"partOfSpeech":"noun","jlpt":"N3"},
-  {"id":"lex-n3-経験","text":"経験","reading":"けいけん","meanings":["experience"],"partOfSpeech":"noun / suru-verb","jlpt":"N3"}
+  {
+    "id": "lex-n3-確認",
+    "text": "確認",
+    "reading": "かくにん",
+    "meanings": [
+      "confirmation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-説明",
+    "text": "説明",
+    "reading": "せつめい",
+    "meanings": [
+      "explanation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-比べる",
+    "text": "比べる",
+    "reading": "くらべる",
+    "meanings": [
+      "to compare"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-増える",
+    "text": "増える",
+    "reading": "ふえる",
+    "meanings": [
+      "to increase"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-減る",
+    "text": "減る",
+    "reading": "へる",
+    "meanings": [
+      "to decrease"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-伝える",
+    "text": "伝える",
+    "reading": "つたえる",
+    "meanings": [
+      "to convey"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-関係",
+    "text": "関係",
+    "reading": "かんけい",
+    "meanings": [
+      "relationship"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-残念",
+    "text": "残念",
+    "reading": "ざんねん",
+    "meanings": [
+      "regrettable"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-受ける",
+    "text": "受ける",
+    "reading": "うける",
+    "meanings": [
+      "to receive"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-文化",
+    "text": "文化",
+    "reading": "ぶんか",
+    "meanings": [
+      "culture"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-紹介",
+    "text": "紹介",
+    "reading": "しょうかい",
+    "meanings": [
+      "introduction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-相談",
+    "text": "相談",
+    "reading": "そうだん",
+    "meanings": [
+      "consultation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-参加",
+    "text": "参加",
+    "reading": "さんか",
+    "meanings": [
+      "participation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-連絡",
+    "text": "連絡",
+    "reading": "れんらく",
+    "meanings": [
+      "contact"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-影響",
+    "text": "影響",
+    "reading": "えいきょう",
+    "meanings": [
+      "influence"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-反対",
+    "text": "反対",
+    "reading": "はんたい",
+    "meanings": [
+      "opposite"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-合う",
+    "text": "合う",
+    "reading": "あう",
+    "meanings": [
+      "to match",
+      "to fit"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-届く",
+    "text": "届く",
+    "reading": "とどく",
+    "meanings": [
+      "to arrive"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-集まる",
+    "text": "集まる",
+    "reading": "あつまる",
+    "meanings": [
+      "to gather"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-慣れる",
+    "text": "慣れる",
+    "reading": "なれる",
+    "meanings": [
+      "to get used to"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-似る",
+    "text": "似る",
+    "reading": "にる",
+    "meanings": [
+      "to resemble"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-壊れる",
+    "text": "壊れる",
+    "reading": "こわれる",
+    "meanings": [
+      "to break"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-直す",
+    "text": "直す",
+    "reading": "なおす",
+    "meanings": [
+      "to fix"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-将来",
+    "text": "将来",
+    "reading": "しょうらい",
+    "meanings": [
+      "future"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-経験",
+    "text": "経験",
+    "reading": "けいけん",
+    "meanings": [
+      "experience"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-意見",
+    "text": "意見",
+    "reading": "いけん",
+    "meanings": [
+      "opinion"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-原因",
+    "text": "原因",
+    "reading": "げんいん",
+    "meanings": [
+      "cause"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-結果",
+    "text": "結果",
+    "reading": "けっか",
+    "meanings": [
+      "result"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-理解",
+    "text": "理解",
+    "reading": "りかい",
+    "meanings": [
+      "understanding"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-賛成",
+    "text": "賛成",
+    "reading": "さんせい",
+    "meanings": [
+      "agreement"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-注意",
+    "text": "注意",
+    "reading": "ちゅうい",
+    "meanings": [
+      "caution"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-予想",
+    "text": "予想",
+    "reading": "よそう",
+    "meanings": [
+      "expectation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-努力",
+    "text": "努力",
+    "reading": "どりょく",
+    "meanings": [
+      "effort"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-失敗",
+    "text": "失敗",
+    "reading": "しっぱい",
+    "meanings": [
+      "failure"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-成功",
+    "text": "成功",
+    "reading": "せいこう",
+    "meanings": [
+      "success"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-状態",
+    "text": "状態",
+    "reading": "じょうたい",
+    "meanings": [
+      "condition"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-環境",
+    "text": "環境",
+    "reading": "かんきょう",
+    "meanings": [
+      "environment"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-調査",
+    "text": "調査",
+    "reading": "ちょうさ",
+    "meanings": [
+      "investigation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-発見",
+    "text": "発見",
+    "reading": "はっけん",
+    "meanings": [
+      "discovery"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-許す",
+    "text": "許す",
+    "reading": "ゆるす",
+    "meanings": [
+      "to forgive"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-断る",
+    "text": "断る",
+    "reading": "ことわる",
+    "meanings": [
+      "to refuse"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-選ぶ",
+    "text": "選ぶ",
+    "reading": "えらぶ",
+    "meanings": [
+      "to choose"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-育てる",
+    "text": "育てる",
+    "reading": "そだてる",
+    "meanings": [
+      "to raise"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-守る",
+    "text": "守る",
+    "reading": "まもる",
+    "meanings": [
+      "to protect"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-真面目",
+    "text": "真面目",
+    "reading": "まじめ",
+    "meanings": [
+      "serious"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-具体的",
+    "text": "具体的",
+    "reading": "ぐたいてき",
+    "meanings": [
+      "concrete"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-正確",
+    "text": "正確",
+    "reading": "せいかく",
+    "meanings": [
+      "accurate"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-自然",
+    "text": "自然",
+    "reading": "しぜん",
+    "meanings": [
+      "nature"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-迷う",
+    "text": "迷う",
+    "reading": "まよう",
+    "meanings": [
+      "to get lost"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-逃げる",
+    "text": "逃げる",
+    "reading": "にげる",
+    "meanings": [
+      "to escape"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-戻る",
+    "text": "戻る",
+    "reading": "もどる",
+    "meanings": [
+      "to return"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-経済",
+    "text": "経済",
+    "reading": "けいざい",
+    "meanings": [
+      "economy"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-技術",
+    "text": "技術",
+    "reading": "ぎじゅつ",
+    "meanings": [
+      "technology"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-国際",
+    "text": "国際",
+    "reading": "こくさい",
+    "meanings": [
+      "international"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-政治",
+    "text": "政治",
+    "reading": "せいじ",
+    "meanings": [
+      "politics"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-印象",
+    "text": "印象",
+    "reading": "いんしょう",
+    "meanings": [
+      "impression"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-表現",
+    "text": "表現",
+    "reading": "ひょうげん",
+    "meanings": [
+      "expression"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-情報",
+    "text": "情報",
+    "reading": "じょうほう",
+    "meanings": [
+      "information"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-目標",
+    "text": "目標",
+    "reading": "もくひょう",
+    "meanings": [
+      "goal"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-効果",
+    "text": "効果",
+    "reading": "こうか",
+    "meanings": [
+      "effect"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-活動",
+    "text": "活動",
+    "reading": "かつどう",
+    "meanings": [
+      "activity"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-怒る",
+    "text": "怒る",
+    "reading": "おこる",
+    "meanings": [
+      "to get angry"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-悩む",
+    "text": "悩む",
+    "reading": "なやむ",
+    "meanings": [
+      "to worry"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-諦める",
+    "text": "諦める",
+    "reading": "あきらめる",
+    "meanings": [
+      "to give up"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-達成",
+    "text": "達成",
+    "reading": "たっせい",
+    "meanings": [
+      "achievement"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-異なる",
+    "text": "異なる",
+    "reading": "ことなる",
+    "meanings": [
+      "to differ"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-共通",
+    "text": "共通",
+    "reading": "きょうつう",
+    "meanings": [
+      "common"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-経営",
+    "text": "経営",
+    "reading": "けいえい",
+    "meanings": [
+      "management"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-対象",
+    "text": "対象",
+    "reading": "たいしょう",
+    "meanings": [
+      "target"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-基準",
+    "text": "基準",
+    "reading": "きじゅん",
+    "meanings": [
+      "standard"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-交流",
+    "text": "交流",
+    "reading": "こうりゅう",
+    "meanings": [
+      "exchange"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-記事",
+    "text": "記事",
+    "reading": "きじ",
+    "meanings": [
+      "article"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-制限",
+    "text": "制限",
+    "reading": "せいげん",
+    "meanings": [
+      "restriction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-解決",
+    "text": "解決",
+    "reading": "かいけつ",
+    "meanings": [
+      "solution"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N3"
+  },
+  {
+    "id": "lex-n3-傷つく",
+    "text": "傷つく",
+    "reading": "きずつく",
+    "meanings": [
+      "to be hurt"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N3"
+  }
 ]

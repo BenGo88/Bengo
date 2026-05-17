@@ -1,27 +1,1803 @@
 [
-  {"id":"v-n3-001","word":"確認","reading":"かくにん","meanings":["confirmation","checking"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"To check or confirm.","sentences":[{"ja":"予約を確認してください。","en":"Please confirm the reservation.","reading":"よやく を かくにん して ください。"}],"tags":["business"]},
-  {"id":"v-n3-002","word":"説明","reading":"せつめい","meanings":["explanation"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"To explain.","sentences":[{"ja":"もう一度説明してください。","en":"Please explain once more.","reading":"もう いちど せつめい して ください。"}],"tags":["daily"]},
-  {"id":"v-n3-003","word":"比べる","reading":"くらべる","meanings":["to compare"],"part_of_speech":"ichidan verb","jlpt":"N3","simple_usage":"Compare two things.","sentences":[{"ja":"値段を比べてから買います。","en":"I'll buy after comparing prices.","reading":"ねだん を くらべてから かいます。"}],"tags":["daily"]},
-  {"id":"v-n3-004","word":"増える","reading":"ふえる","meanings":["to increase"],"part_of_speech":"ichidan verb","jlpt":"N3","simple_usage":"Something increases. Opposite: 減る.","sentences":[{"ja":"人口が増えている。","en":"The population is increasing.","reading":"じんこう が ふえている。"}],"tags":["change"]},
-  {"id":"v-n3-005","word":"減る","reading":"へる","meanings":["to decrease"],"part_of_speech":"godan verb","jlpt":"N3","simple_usage":"Opposite: 増える.","sentences":[{"ja":"お金が減ってきた。","en":"Money has been decreasing.","reading":"おかね が へってきた。"}],"tags":["change"]},
-  {"id":"v-n3-006","word":"伝える","reading":"つたえる","meanings":["to convey","to tell"],"part_of_speech":"ichidan verb","jlpt":"N3","simple_usage":"Pass on a message.","sentences":[{"ja":"彼に伝えてください。","en":"Please tell him.","reading":"かれ に つたえて ください。"}],"tags":["communication"]},
-  {"id":"v-n3-007","word":"関係","reading":"かんけい","meanings":["relationship","connection"],"part_of_speech":"noun","jlpt":"N3","simple_usage":"Relationship between things.","sentences":[{"ja":"仕事と関係がない。","en":"It has no connection to work.","reading":"しごと と かんけい が ない。"}],"tags":["abstract"]},
-  {"id":"v-n3-008","word":"受ける","reading":"うける","meanings":["to receive","to take (exam)"],"part_of_speech":"ichidan verb","jlpt":"N3","simple_usage":"Receive or take an exam.","sentences":[{"ja":"来月JLPTを受けます。","en":"I'll take the JLPT next month.","reading":"らいげつ JLPT を うけます。"}],"tags":["school"]},
-  {"id":"v-n3-009","word":"経験","reading":"けいけん","meanings":["experience"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"Life experience.","sentences":[{"ja":"海外生活を経験したい。","en":"I want to experience living abroad.","reading":"かいがい せいかつ を けいけん したい。"}],"tags":["abstract"]},
-  {"id":"v-n3-010","word":"残念","reading":"ざんねん","meanings":["regrettable"],"part_of_speech":"な-adjective","jlpt":"N3","simple_usage":"Too bad / disappointing.","sentences":[{"ja":"残念ですが、参加できません。","en":"I'm sorry, but I can't attend.","reading":"ざんねん です が、さんか できません。"}],"tags":["emotions"]},
-  {"id":"v-n3-011","word":"文化","reading":"ぶんか","meanings":["culture"],"part_of_speech":"noun","jlpt":"N3","simple_usage":"Japanese culture etc.","sentences":[{"ja":"日本の文化に興味があります。","en":"I'm interested in Japanese culture.","reading":"にほん の ぶんか に きょうみ が あります。"}],"tags":["abstract"]},
-  {"id":"v-n3-012","word":"紹介","reading":"しょうかい","meanings":["introduction"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"Introducing someone/something.","sentences":[{"ja":"友達を紹介します。","en":"I'll introduce my friend.","reading":"ともだち を しょうかい します。"}],"tags":["polite"]},
-  {"id":"v-n3-013","word":"相談","reading":"そうだん","meanings":["consultation","discussion"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"Discuss or consult.","sentences":[{"ja":"先生に相談しました。","en":"I consulted with the teacher.","reading":"せんせい に そうだん しました。"}],"tags":["communication"]},
-  {"id":"v-n3-014","word":"参加","reading":"さんか","meanings":["participation"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"To participate.","sentences":[{"ja":"パーティーに参加します。","en":"I'll participate in the party.","reading":"パーティー に さんか します。"}],"tags":["daily"]},
-  {"id":"v-n3-015","word":"連絡","reading":"れんらく","meanings":["contact","communication"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"Get in touch.","sentences":[{"ja":"後で連絡します。","en":"I'll contact you later.","reading":"あとで れんらく します。"}],"tags":["communication"]},
-  {"id":"v-n3-016","word":"影響","reading":"えいきょう","meanings":["influence","effect"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"Effect on something.","sentences":[{"ja":"天気が仕事に影響する。","en":"Weather affects work.","reading":"てんき が しごと に えいきょう する。"}],"tags":["abstract"]},
-  {"id":"v-n3-017","word":"反対","reading":"はんたい","meanings":["opposite","opposition"],"part_of_speech":"noun / suru-verb","jlpt":"N3","simple_usage":"Opposite or to oppose.","sentences":[{"ja":"反対意見もあります。","en":"There are opposing opinions too.","reading":"はんたい いけん も あります。"}],"tags":["abstract"]},
-  {"id":"v-n3-018","word":"合う","reading":"あう","meanings":["to match","to fit"],"part_of_speech":"godan verb","jlpt":"N3","simple_usage":"To match or suit.","sentences":[{"ja":"この服は私に合います。","en":"These clothes suit me.","reading":"この ふく は わたし に あいます。"}],"tags":["daily"]},
-  {"id":"v-n3-019","word":"届く","reading":"とどく","meanings":["to reach","to arrive"],"part_of_speech":"godan verb","jlpt":"N3","simple_usage":"Something arrives.","sentences":[{"ja":"手紙が届いた。","en":"The letter arrived.","reading":"てがみ が とどいた。"}],"tags":["daily"]},
-  {"id":"v-n3-020","word":"集まる","reading":"あつまる","meanings":["to gather"],"part_of_speech":"godan verb","jlpt":"N3","simple_usage":"People gather.","sentences":[{"ja":"みんなが公園に集まった。","en":"Everyone gathered at the park.","reading":"みんな が こうえん に あつまった。"}],"tags":["daily"]},
-  {"id":"v-n3-021","word":"慣れる","reading":"なれる","meanings":["to get used to"],"part_of_speech":"ichidan verb","jlpt":"N3","simple_usage":"Become accustomed.","sentences":[{"ja":"日本の生活に慣れました。","en":"I got used to life in Japan.","reading":"にほん の せいかつ に なれました。"}],"tags":["daily"]},
-  {"id":"v-n3-022","word":"似る","reading":"にる","meanings":["to resemble"],"part_of_speech":"ichidan verb","jlpt":"N3","simple_usage":"Look alike. Uses に: AはBに似ている.","sentences":[{"ja":"弟は父に似ています。","en":"My brother resembles my father.","reading":"おとうと は ちち に にています。"}],"tags":["description"]},
-  {"id":"v-n3-023","word":"壊れる","reading":"こわれる","meanings":["to break"],"part_of_speech":"ichidan verb","jlpt":"N3","simple_usage":"Something breaks (intransitive).","sentences":[{"ja":"パソコンが壊れた。","en":"My computer broke.","reading":"パソコン が こわれた。"}],"tags":["daily"]},
-  {"id":"v-n3-024","word":"直す","reading":"なおす","meanings":["to fix","to correct"],"part_of_speech":"godan verb","jlpt":"N3","simple_usage":"Repair or correct.","sentences":[{"ja":"間違いを直してください。","en":"Please correct the mistakes.","reading":"まちがい を なおして ください。"}],"tags":["daily"]},
-  {"id":"v-n3-025","word":"将来","reading":"しょうらい","meanings":["future"],"part_of_speech":"noun","jlpt":"N3","simple_usage":"Future plans.","sentences":[{"ja":"将来の夢は何ですか。","en":"What are your future dreams?","reading":"しょうらい の ゆめ は なん です か。"}],"tags":["abstract"]}
+  {
+    "id": "v-n3-001",
+    "word": "確認",
+    "reading": "かくにん",
+    "meanings": [
+      "confirmation",
+      "checking"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "To check or confirm.",
+    "sentences": [
+      {
+        "ja": "予約を確認してください。",
+        "en": "Please confirm the reservation.",
+        "reading": "よやく を かくにん して ください。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "v-n3-002",
+    "word": "説明",
+    "reading": "せつめい",
+    "meanings": [
+      "explanation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "To explain.",
+    "sentences": [
+      {
+        "ja": "もう一度説明してください。",
+        "en": "Please explain once more.",
+        "reading": "もう いちど せつめい して ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "v-n3-003",
+    "word": "比べる",
+    "reading": "くらべる",
+    "meanings": [
+      "to compare"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Compare two things.",
+    "sentences": [
+      {
+        "ja": "値段を比べてから買います。",
+        "en": "I'll buy after comparing prices.",
+        "reading": "ねだん を くらべてから かいます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "v-n3-004",
+    "word": "増える",
+    "reading": "ふえる",
+    "meanings": [
+      "to increase"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Something increases. Opposite: 減る.",
+    "sentences": [
+      {
+        "ja": "人口が増えている。",
+        "en": "The population is increasing.",
+        "reading": "じんこう が ふえている。"
+      }
+    ],
+    "tags": [
+      "change"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "v-n3-005",
+    "word": "減る",
+    "reading": "へる",
+    "meanings": [
+      "to decrease"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Opposite: 増える.",
+    "sentences": [
+      {
+        "ja": "お金が減ってきた。",
+        "en": "Money has been decreasing.",
+        "reading": "おかね が へってきた。"
+      }
+    ],
+    "tags": [
+      "change"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "v-n3-006",
+    "word": "伝える",
+    "reading": "つたえる",
+    "meanings": [
+      "to convey",
+      "to tell"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Pass on a message.",
+    "sentences": [
+      {
+        "ja": "彼に伝えてください。",
+        "en": "Please tell him.",
+        "reading": "かれ に つたえて ください。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "v-n3-007",
+    "word": "関係",
+    "reading": "かんけい",
+    "meanings": [
+      "relationship",
+      "connection"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Relationship between things.",
+    "sentences": [
+      {
+        "ja": "仕事と関係がない。",
+        "en": "It has no connection to work.",
+        "reading": "しごと と かんけい が ない。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "v-n3-008",
+    "word": "受ける",
+    "reading": "うける",
+    "meanings": [
+      "to receive",
+      "to take (exam)"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Receive or take an exam.",
+    "sentences": [
+      {
+        "ja": "来月JLPTを受けます。",
+        "en": "I'll take the JLPT next month.",
+        "reading": "らいげつ JLPT を うけます。"
+      }
+    ],
+    "tags": [
+      "school"
+    ],
+    "unit": "Unit 9 — Expectation"
+  },
+  {
+    "id": "v-n3-009",
+    "word": "経験",
+    "reading": "けいけん",
+    "meanings": [
+      "experience"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Life experience.",
+    "sentences": [
+      {
+        "ja": "海外生活を経験したい。",
+        "en": "I want to experience living abroad.",
+        "reading": "かいがい せいかつ を けいけん したい。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "v-n3-010",
+    "word": "残念",
+    "reading": "ざんねん",
+    "meanings": [
+      "regrettable"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N3",
+    "simple_usage": "Too bad / disappointing.",
+    "sentences": [
+      {
+        "ja": "残念ですが、参加できません。",
+        "en": "I'm sorry, but I can't attend.",
+        "reading": "ざんねん です が、さんか できません。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "v-n3-011",
+    "word": "文化",
+    "reading": "ぶんか",
+    "meanings": [
+      "culture"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Japanese culture etc.",
+    "sentences": [
+      {
+        "ja": "日本の文化に興味があります。",
+        "en": "I'm interested in Japanese culture.",
+        "reading": "にほん の ぶんか に きょうみ が あります。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "v-n3-012",
+    "word": "紹介",
+    "reading": "しょうかい",
+    "meanings": [
+      "introduction"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Introducing someone/something.",
+    "sentences": [
+      {
+        "ja": "友達を紹介します。",
+        "en": "I'll introduce my friend.",
+        "reading": "ともだち を しょうかい します。"
+      }
+    ],
+    "tags": [
+      "polite"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "v-n3-013",
+    "word": "相談",
+    "reading": "そうだん",
+    "meanings": [
+      "consultation",
+      "discussion"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Discuss or consult.",
+    "sentences": [
+      {
+        "ja": "先生に相談しました。",
+        "en": "I consulted with the teacher.",
+        "reading": "せんせい に そうだん しました。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "v-n3-014",
+    "word": "参加",
+    "reading": "さんか",
+    "meanings": [
+      "participation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "To participate.",
+    "sentences": [
+      {
+        "ja": "パーティーに参加します。",
+        "en": "I'll participate in the party.",
+        "reading": "パーティー に さんか します。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "v-n3-015",
+    "word": "連絡",
+    "reading": "れんらく",
+    "meanings": [
+      "contact",
+      "communication"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Get in touch.",
+    "sentences": [
+      {
+        "ja": "後で連絡します。",
+        "en": "I'll contact you later.",
+        "reading": "あとで れんらく します。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ],
+    "unit": "Unit 5 — Time"
+  },
+  {
+    "id": "v-n3-016",
+    "word": "影響",
+    "reading": "えいきょう",
+    "meanings": [
+      "influence",
+      "effect"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Effect on something.",
+    "sentences": [
+      {
+        "ja": "天気が仕事に影響する。",
+        "en": "Weather affects work.",
+        "reading": "てんき が しごと に えいきょう する。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "v-n3-017",
+    "word": "反対",
+    "reading": "はんたい",
+    "meanings": [
+      "opposite",
+      "opposition"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Opposite or to oppose.",
+    "sentences": [
+      {
+        "ja": "反対意見もあります。",
+        "en": "There are opposing opinions too.",
+        "reading": "はんたい いけん も あります。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "v-n3-018",
+    "word": "合う",
+    "reading": "あう",
+    "meanings": [
+      "to match",
+      "to fit"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "To match or suit.",
+    "sentences": [
+      {
+        "ja": "この服は私に合います。",
+        "en": "These clothes suit me.",
+        "reading": "この ふく は わたし に あいます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "v-n3-019",
+    "word": "届く",
+    "reading": "とどく",
+    "meanings": [
+      "to reach",
+      "to arrive"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Something arrives.",
+    "sentences": [
+      {
+        "ja": "手紙が届いた。",
+        "en": "The letter arrived.",
+        "reading": "てがみ が とどいた。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "v-n3-020",
+    "word": "集まる",
+    "reading": "あつまる",
+    "meanings": [
+      "to gather"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "People gather.",
+    "sentences": [
+      {
+        "ja": "みんなが公園に集まった。",
+        "en": "Everyone gathered at the park.",
+        "reading": "みんな が こうえん に あつまった。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 5 — Time"
+  },
+  {
+    "id": "v-n3-021",
+    "word": "慣れる",
+    "reading": "なれる",
+    "meanings": [
+      "to get used to"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Become accustomed.",
+    "sentences": [
+      {
+        "ja": "日本の生活に慣れました。",
+        "en": "I got used to life in Japan.",
+        "reading": "にほん の せいかつ に なれました。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "v-n3-022",
+    "word": "似る",
+    "reading": "にる",
+    "meanings": [
+      "to resemble"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Look alike. Uses に: AはBに似ている.",
+    "sentences": [
+      {
+        "ja": "弟は父に似ています。",
+        "en": "My brother resembles my father.",
+        "reading": "おとうと は ちち に にています。"
+      }
+    ],
+    "tags": [
+      "description"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "v-n3-023",
+    "word": "壊れる",
+    "reading": "こわれる",
+    "meanings": [
+      "to break"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Something breaks (intransitive).",
+    "sentences": [
+      {
+        "ja": "パソコンが壊れた。",
+        "en": "My computer broke.",
+        "reading": "パソコン が こわれた。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "v-n3-024",
+    "word": "直す",
+    "reading": "なおす",
+    "meanings": [
+      "to fix",
+      "to correct"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Repair or correct.",
+    "sentences": [
+      {
+        "ja": "間違いを直してください。",
+        "en": "Please correct the mistakes.",
+        "reading": "まちがい を なおして ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "v-n3-025",
+    "word": "将来",
+    "reading": "しょうらい",
+    "meanings": [
+      "future"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Future plans.",
+    "sentences": [
+      {
+        "ja": "将来の夢は何ですか。",
+        "en": "What are your future dreams?",
+        "reading": "しょうらい の ゆめ は なん です か。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "v-n3-026",
+    "word": "意見",
+    "reading": "いけん",
+    "meanings": [
+      "opinion"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Give your opinion.",
+    "unit": "Unit 1 — Connections",
+    "sentences": [
+      {
+        "ja": "意見を聞かせてください。",
+        "en": "Please let me hear your opinion.",
+        "reading": "いけん を きかせて ください。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n3-027",
+    "word": "原因",
+    "reading": "げんいん",
+    "meanings": [
+      "cause"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Cause of a problem.",
+    "unit": "Unit 1 — Connections",
+    "sentences": [
+      {
+        "ja": "事故の原因を調べる。",
+        "en": "Investigate the cause of the accident.",
+        "reading": "じこ の げんいん を しらべる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-028",
+    "word": "結果",
+    "reading": "けっか",
+    "meanings": [
+      "result"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "The result/outcome.",
+    "unit": "Unit 1 — Connections",
+    "sentences": [
+      {
+        "ja": "努力した結果、合格した。",
+        "en": "As a result of effort, I passed.",
+        "reading": "どりょく した けっか、ごうかく した。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-029",
+    "word": "理解",
+    "reading": "りかい",
+    "meanings": [
+      "understanding"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "To understand.",
+    "unit": "Unit 6 — Explanation",
+    "sentences": [
+      {
+        "ja": "彼の気持ちを理解する。",
+        "en": "Understand his feelings.",
+        "reading": "かれ の きもち を りかい する。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n3-030",
+    "word": "賛成",
+    "reading": "さんせい",
+    "meanings": [
+      "agreement",
+      "approval"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "To agree.",
+    "unit": "Unit 6 — Explanation",
+    "sentences": [
+      {
+        "ja": "その提案に賛成です。",
+        "en": "I agree with that proposal.",
+        "reading": "その ていあん に さんせい です。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n3-031",
+    "word": "注意",
+    "reading": "ちゅうい",
+    "meanings": [
+      "attention",
+      "caution"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Pay attention / be careful.",
+    "unit": "Unit 9 — Expectation",
+    "sentences": [
+      {
+        "ja": "車に注意してください。",
+        "en": "Please watch out for cars.",
+        "reading": "くるま に ちゅうい して ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-032",
+    "word": "予想",
+    "reading": "よそう",
+    "meanings": [
+      "expectation",
+      "prediction"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Predict or expect.",
+    "unit": "Unit 9 — Expectation",
+    "sentences": [
+      {
+        "ja": "予想以上に難しかった。",
+        "en": "It was harder than expected.",
+        "reading": "よそう いじょう に むずかしかった。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-033",
+    "word": "成績",
+    "reading": "せいせき",
+    "meanings": [
+      "grades",
+      "results"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "School grades or performance.",
+    "sentences": [
+      {
+        "ja": "成績が上がった。",
+        "en": "My grades improved.",
+        "reading": "せいせき が あがった。"
+      }
+    ],
+    "tags": [
+      "school"
+    ],
+    "unit": "Unit 9 — Expectation"
+  },
+  {
+    "id": "v-n3-034",
+    "word": "努力",
+    "reading": "どりょく",
+    "meanings": [
+      "effort"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Making an effort.",
+    "unit": "Unit 2 — Change",
+    "sentences": [
+      {
+        "ja": "努力すれば、できる。",
+        "en": "If you try, you can do it.",
+        "reading": "どりょく すれば、できる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-035",
+    "word": "失敗",
+    "reading": "しっぱい",
+    "meanings": [
+      "failure"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Failure. Opposite: 成功.",
+    "unit": "Unit 2 — Change",
+    "sentences": [
+      {
+        "ja": "失敗を恐れないで。",
+        "en": "Don't be afraid of failure.",
+        "reading": "しっぱい を おそれないで。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-036",
+    "word": "成功",
+    "reading": "せいこう",
+    "meanings": [
+      "success"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Success. Opposite: 失敗.",
+    "sentences": [
+      {
+        "ja": "プロジェクトは成功した。",
+        "en": "The project succeeded.",
+        "reading": "プロジェクト は せいこう した。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "v-n3-037",
+    "word": "状態",
+    "reading": "じょうたい",
+    "meanings": [
+      "condition",
+      "state"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Current condition.",
+    "unit": "Unit 4 — Appearance",
+    "sentences": [
+      {
+        "ja": "健康な状態を維持する。",
+        "en": "Maintain a healthy condition.",
+        "reading": "けんこう な じょうたい を いじ する。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-038",
+    "word": "環境",
+    "reading": "かんきょう",
+    "meanings": [
+      "environment"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Natural or work environment.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "環境を守ることが大切だ。",
+        "en": "Protecting the environment is important.",
+        "reading": "かんきょう を まもる こと が たいせつ だ。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n3-039",
+    "word": "調査",
+    "reading": "ちょうさ",
+    "meanings": [
+      "investigation",
+      "survey"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Research/investigate.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "原因を調査している。",
+        "en": "We're investigating the cause.",
+        "reading": "げんいん を ちょうさ している。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n3-040",
+    "word": "発見",
+    "reading": "はっけん",
+    "meanings": [
+      "discovery"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "To discover.",
+    "sentences": [
+      {
+        "ja": "新しい事実を発見した。",
+        "en": "I discovered a new fact.",
+        "reading": "あたらしい じじつ を はっけん した。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "v-n3-041",
+    "word": "許す",
+    "reading": "ゆるす",
+    "meanings": [
+      "to forgive",
+      "to permit"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Forgive or allow.",
+    "sentences": [
+      {
+        "ja": "彼を許すことにした。",
+        "en": "I decided to forgive him.",
+        "reading": "かれ を ゆるす こと に した。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ],
+    "unit": "Unit 9 — Expectation"
+  },
+  {
+    "id": "v-n3-042",
+    "word": "断る",
+    "reading": "ことわる",
+    "meanings": [
+      "to refuse",
+      "to decline"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Politely refuse.",
+    "sentences": [
+      {
+        "ja": "招待を断った。",
+        "en": "I declined the invitation.",
+        "reading": "しょうたい を ことわった。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "v-n3-043",
+    "word": "選ぶ",
+    "reading": "えらぶ",
+    "meanings": [
+      "to choose",
+      "to select"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "To choose/pick.",
+    "unit": "Unit 2 — Change",
+    "sentences": [
+      {
+        "ja": "好きな色を選んでください。",
+        "en": "Please choose your favorite color.",
+        "reading": "すき な いろ を えらんで ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-044",
+    "word": "育てる",
+    "reading": "そだてる",
+    "meanings": [
+      "to raise",
+      "to grow"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Raise a child or grow plants.",
+    "sentences": [
+      {
+        "ja": "子供を育てるのは大変だ。",
+        "en": "Raising children is tough.",
+        "reading": "こども を そだてる の は たいへん だ。"
+      }
+    ],
+    "tags": [
+      "family"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "v-n3-045",
+    "word": "守る",
+    "reading": "まもる",
+    "meanings": [
+      "to protect",
+      "to obey"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Protect or follow rules.",
+    "unit": "Unit 9 — Expectation",
+    "sentences": [
+      {
+        "ja": "約束を守ってください。",
+        "en": "Please keep your promise.",
+        "reading": "やくそく を まもって ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-046",
+    "word": "真面目",
+    "reading": "まじめ",
+    "meanings": [
+      "serious",
+      "diligent"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N3",
+    "simple_usage": "Serious/hardworking person.",
+    "sentences": [
+      {
+        "ja": "彼は真面目な学生です。",
+        "en": "He is a serious student.",
+        "reading": "かれ は まじめ な がくせい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "v-n3-047",
+    "word": "適当",
+    "reading": "てきとう",
+    "meanings": [
+      "appropriate",
+      "careless"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N3",
+    "simple_usage": "Can mean 'appropriate' or 'halfhearted'.",
+    "sentences": [
+      {
+        "ja": "適当に選んだ。",
+        "en": "I chose carelessly.",
+        "reading": "てきとう に えらんだ。"
+      }
+    ],
+    "tags": [
+      "description"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "v-n3-048",
+    "word": "複雑",
+    "reading": "ふくざつ",
+    "meanings": [
+      "complicated"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N3",
+    "simple_usage": "Complex/complicated.",
+    "unit": "Unit 7 — Comparison",
+    "sentences": [
+      {
+        "ja": "この問題は複雑です。",
+        "en": "This problem is complicated.",
+        "reading": "この もんだい は ふくざつ です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n3-049",
+    "word": "具体的",
+    "reading": "ぐたいてき",
+    "meanings": [
+      "concrete",
+      "specific"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N3",
+    "simple_usage": "Specific/concrete. Opposite: 抽象的.",
+    "unit": "Unit 6 — Explanation",
+    "sentences": [
+      {
+        "ja": "具体的な例を挙げてください。",
+        "en": "Please give a specific example.",
+        "reading": "ぐたいてき な れい を あげて ください。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-050",
+    "word": "正確",
+    "reading": "せいかく",
+    "meanings": [
+      "accurate",
+      "precise"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N3",
+    "simple_usage": "Accurate/precise.",
+    "sentences": [
+      {
+        "ja": "正確な情報が必要です。",
+        "en": "Accurate information is needed.",
+        "reading": "せいかく な じょうほう が ひつよう です。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "v-n3-051",
+    "word": "自然",
+    "reading": "しぜん",
+    "meanings": [
+      "nature",
+      "natural"
+    ],
+    "part_of_speech": "noun / な-adjective",
+    "jlpt": "N3",
+    "simple_usage": "Nature or natural.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "自然を大切にしましょう。",
+        "en": "Let's value nature.",
+        "reading": "しぜん を たいせつ に しましょう。"
+      }
+    ],
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "v-n3-052",
+    "word": "割る",
+    "reading": "わる",
+    "meanings": [
+      "to break",
+      "to divide"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Break or divide.",
+    "sentences": [
+      {
+        "ja": "卵を割る。",
+        "en": "Crack an egg.",
+        "reading": "たまご を わる。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "v-n3-053",
+    "word": "迷う",
+    "reading": "まよう",
+    "meanings": [
+      "to get lost",
+      "to hesitate"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Get lost or can't decide.",
+    "unit": "Unit 4 — Appearance",
+    "sentences": [
+      {
+        "ja": "道に迷ってしまった。",
+        "en": "I got lost.",
+        "reading": "みち に まよって しまった。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-054",
+    "word": "逃げる",
+    "reading": "にげる",
+    "meanings": [
+      "to escape",
+      "to run away"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Run away/escape.",
+    "sentences": [
+      {
+        "ja": "問題から逃げてはいけない。",
+        "en": "You must not run from problems.",
+        "reading": "もんだい から にげては いけない。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "v-n3-055",
+    "word": "戻る",
+    "reading": "もどる",
+    "meanings": [
+      "to return"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Go back/return.",
+    "unit": "Unit 5 — Time",
+    "sentences": [
+      {
+        "ja": "5時までに戻ります。",
+        "en": "I'll be back by 5 o'clock.",
+        "reading": "ごじ まで に もどります。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "v-n3-056",
+    "word": "済む",
+    "reading": "すむ",
+    "meanings": [
+      "to finish",
+      "to be settled"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Something is done/settled.",
+    "unit": "Unit 3 — Actions",
+    "sentences": [
+      {
+        "ja": "仕事が済んだ。",
+        "en": "The work is done.",
+        "reading": "しごと が すんだ。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n3-057",
+    "word": "経済",
+    "reading": "けいざい",
+    "meanings": [
+      "economy"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Economy.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "経済が成長している。",
+        "en": "The economy is growing.",
+        "reading": "けいざい が せいちょう している。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n3-058",
+    "word": "政治",
+    "reading": "せいじ",
+    "meanings": [
+      "politics"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Politics/government.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "政治に関心がある。",
+        "en": "I'm interested in politics.",
+        "reading": "せいじ に かんしん が ある。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n3-059",
+    "word": "国際",
+    "reading": "こくさい",
+    "meanings": [
+      "international"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "International.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "国際交流が大切だ。",
+        "en": "International exchange is important.",
+        "reading": "こくさい こうりゅう が たいせつ だ。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n3-060",
+    "word": "技術",
+    "reading": "ぎじゅつ",
+    "meanings": [
+      "technology",
+      "skill"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Technology or technical skill.",
+    "sentences": [
+      {
+        "ja": "技術が進歩している。",
+        "en": "Technology is advancing.",
+        "reading": "ぎじゅつ が しんぽ している。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n3-061",
+    "word": "印象",
+    "reading": "いんしょう",
+    "meanings": [
+      "impression"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "First impression.",
+    "unit": "Unit 4 — Appearance",
+    "sentences": [
+      {
+        "ja": "第一印象が大切です。",
+        "en": "First impressions are important.",
+        "reading": "だいいち いんしょう が たいせつ です。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-062",
+    "word": "表現",
+    "reading": "ひょうげん",
+    "meanings": [
+      "expression"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Express in words.",
+    "unit": "Unit 6 — Explanation",
+    "sentences": [
+      {
+        "ja": "気持ちを表現する。",
+        "en": "Express feelings.",
+        "reading": "きもち を ひょうげん する。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n3-063",
+    "word": "解決",
+    "reading": "かいけつ",
+    "meanings": [
+      "solution"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Solve a problem.",
+    "unit": "Unit 2 — Change",
+    "sentences": [
+      {
+        "ja": "問題を解決したい。",
+        "en": "I want to solve the problem.",
+        "reading": "もんだい を かいけつ したい。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-064",
+    "word": "記事",
+    "reading": "きじ",
+    "meanings": [
+      "article",
+      "news story"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Newspaper/web article.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "面白い記事を読んだ。",
+        "en": "I read an interesting article.",
+        "reading": "おもしろい きじ を よんだ。"
+      }
+    ],
+    "tags": [
+      "media"
+    ]
+  },
+  {
+    "id": "v-n3-065",
+    "word": "情報",
+    "reading": "じょうほう",
+    "meanings": [
+      "information"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "Information/data.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "正確な情報が必要です。",
+        "en": "Accurate information is needed.",
+        "reading": "せいかく な じょうほう が ひつよう です。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-066",
+    "word": "目標",
+    "reading": "もくひょう",
+    "meanings": [
+      "goal",
+      "target"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "A goal to aim for.",
+    "unit": "Unit 2 — Change",
+    "sentences": [
+      {
+        "ja": "目標を達成する。",
+        "en": "Achieve the goal.",
+        "reading": "もくひょう を たっせい する。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-067",
+    "word": "効果",
+    "reading": "こうか",
+    "meanings": [
+      "effect"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "The effect of something.",
+    "unit": "Unit 7 — Comparison",
+    "sentences": [
+      {
+        "ja": "この薬は効果がある。",
+        "en": "This medicine is effective.",
+        "reading": "この くすり は こうか が ある。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-068",
+    "word": "活動",
+    "reading": "かつどう",
+    "meanings": [
+      "activity"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Activity or to be active.",
+    "sentences": [
+      {
+        "ja": "ボランティア活動に参加する。",
+        "en": "Participate in volunteer activities.",
+        "reading": "ボランティア かつどう に さんか する。"
+      }
+    ],
+    "tags": [
+      "society"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "v-n3-069",
+    "word": "傷つく",
+    "reading": "きずつく",
+    "meanings": [
+      "to be hurt",
+      "to be wounded"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Be hurt physically or emotionally.",
+    "sentences": [
+      {
+        "ja": "彼女の言葉に傷ついた。",
+        "en": "I was hurt by her words.",
+        "reading": "かのじょ の ことば に きずついた。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "v-n3-070",
+    "word": "怒る",
+    "reading": "おこる",
+    "meanings": [
+      "to get angry"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "To get angry.",
+    "sentences": [
+      {
+        "ja": "先生に怒られた。",
+        "en": "I was scolded by the teacher.",
+        "reading": "せんせい に おこられた。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "v-n3-071",
+    "word": "悩む",
+    "reading": "なやむ",
+    "meanings": [
+      "to worry",
+      "to be troubled"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "Worry/agonize over something.",
+    "sentences": [
+      {
+        "ja": "将来のことで悩んでいる。",
+        "en": "I'm worried about the future.",
+        "reading": "しょうらい の こと で なやんでいる。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ],
+    "unit": "Unit 9 — Expectation"
+  },
+  {
+    "id": "v-n3-072",
+    "word": "諦める",
+    "reading": "あきらめる",
+    "meanings": [
+      "to give up"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N3",
+    "simple_usage": "Give up/abandon.",
+    "unit": "Unit 9 — Expectation",
+    "sentences": [
+      {
+        "ja": "まだ諦めたくない。",
+        "en": "I don't want to give up yet.",
+        "reading": "まだ あきらめたくない。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "v-n3-073",
+    "word": "達成",
+    "reading": "たっせい",
+    "meanings": [
+      "achievement"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Achieve something.",
+    "unit": "Unit 2 — Change",
+    "sentences": [
+      {
+        "ja": "夢を達成した。",
+        "en": "I achieved my dream.",
+        "reading": "ゆめ を たっせい した。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-074",
+    "word": "制限",
+    "reading": "せいげん",
+    "meanings": [
+      "restriction",
+      "limit"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "A limit or restriction.",
+    "unit": "Unit 9 — Expectation",
+    "sentences": [
+      {
+        "ja": "時間制限がある。",
+        "en": "There's a time limit.",
+        "reading": "じかん せいげん が ある。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-075",
+    "word": "異なる",
+    "reading": "ことなる",
+    "meanings": [
+      "to differ"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N3",
+    "simple_usage": "To be different from.",
+    "unit": "Unit 7 — Comparison",
+    "sentences": [
+      {
+        "ja": "意見が異なる。",
+        "en": "Opinions differ.",
+        "reading": "いけん が ことなる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-076",
+    "word": "共通",
+    "reading": "きょうつう",
+    "meanings": [
+      "common",
+      "shared"
+    ],
+    "part_of_speech": "noun / な-adjective",
+    "jlpt": "N3",
+    "simple_usage": "Something in common.",
+    "unit": "Unit 7 — Comparison",
+    "sentences": [
+      {
+        "ja": "共通点が多い。",
+        "en": "There are many things in common.",
+        "reading": "きょうつうてん が おおい。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-077",
+    "word": "経営",
+    "reading": "けいえい",
+    "meanings": [
+      "management",
+      "running a business"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Business management.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "会社を経営している。",
+        "en": "I'm running a company.",
+        "reading": "かいしゃ を けいえい している。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n3-078",
+    "word": "対象",
+    "reading": "たいしょう",
+    "meanings": [
+      "target",
+      "object"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "The target/subject of.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "調査の対象は学生です。",
+        "en": "The survey targets students.",
+        "reading": "ちょうさ の たいしょう は がくせい です。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-079",
+    "word": "基準",
+    "reading": "きじゅん",
+    "meanings": [
+      "standard",
+      "criteria"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N3",
+    "simple_usage": "A standard or criteria.",
+    "unit": "Unit 9 — Expectation",
+    "sentences": [
+      {
+        "ja": "基準を満たす。",
+        "en": "Meet the criteria.",
+        "reading": "きじゅん を みたす。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n3-080",
+    "word": "交流",
+    "reading": "こうりゅう",
+    "meanings": [
+      "exchange",
+      "interaction"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N3",
+    "simple_usage": "Cultural or personal exchange.",
+    "unit": "Unit 8 — Viewpoint",
+    "sentences": [
+      {
+        "ja": "国際交流イベントに参加した。",
+        "en": "I attended an international exchange event.",
+        "reading": "こくさい こうりゅう イベント に さんか した。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  }
 ]

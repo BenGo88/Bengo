@@ -1,22 +1,1203 @@
 [
-  {"id":"k-n3-001","character":"実","meanings":["truth","reality","fruit"],"onyomi":["ジツ"],"kunyomi":["み","みの.る"],"beginner_hint":"実は = actually. 事実 = fact.","common_words":[{"word":"実は","reading":"じつは","meaning":"actually"},{"word":"事実","reading":"じじつ","meaning":"fact"}],"jlpt":"N3","tags":["abstract"]},
-  {"id":"k-n3-002","character":"関","meanings":["barrier","relate"],"onyomi":["カン"],"kunyomi":["せき"],"beginner_hint":"関係 = relationship. 関心 = interest.","common_words":[{"word":"関係","reading":"かんけい","meaning":"relationship"},{"word":"関心","reading":"かんしん","meaning":"interest"}],"jlpt":"N3","tags":["abstract"]},
-  {"id":"k-n3-003","character":"比","meanings":["compare"],"onyomi":["ヒ"],"kunyomi":["くら.べる"],"beginner_hint":"比べる = to compare.","common_words":[{"word":"比べる","reading":"くらべる","meaning":"to compare"},{"word":"比較","reading":"ひかく","meaning":"comparison"}],"jlpt":"N3","tags":["abstract"]},
-  {"id":"k-n3-004","character":"伝","meanings":["transmit","convey"],"onyomi":["デン"],"kunyomi":["つた.える"],"beginner_hint":"伝える = to convey. 伝統 = tradition.","common_words":[{"word":"伝える","reading":"つたえる","meaning":"to convey"},{"word":"伝統","reading":"でんとう","meaning":"tradition"}],"jlpt":"N3","tags":["communication"]},
-  {"id":"k-n3-005","character":"増","meanings":["increase"],"onyomi":["ゾウ"],"kunyomi":["ふ.える"],"beginner_hint":"増える = increase (intrans).","common_words":[{"word":"増える","reading":"ふえる","meaning":"to increase"},{"word":"増加","reading":"ぞうか","meaning":"increase"}],"jlpt":"N3","tags":["change"]},
-  {"id":"k-n3-006","character":"減","meanings":["decrease"],"onyomi":["ゲン"],"kunyomi":["へ.る"],"beginner_hint":"減る = decrease. Opposite of 増える.","common_words":[{"word":"減る","reading":"へる","meaning":"to decrease"},{"word":"減少","reading":"げんしょう","meaning":"decrease"}],"jlpt":"N3","tags":["change"]},
-  {"id":"k-n3-007","character":"経","meanings":["pass through"],"onyomi":["ケイ"],"kunyomi":[],"beginner_hint":"経験 = experience. 経済 = economy.","common_words":[{"word":"経験","reading":"けいけん","meaning":"experience"},{"word":"経済","reading":"けいざい","meaning":"economy"}],"jlpt":"N3","tags":["abstract"]},
-  {"id":"k-n3-008","character":"受","meanings":["receive"],"onyomi":["ジュ"],"kunyomi":["う.ける"],"beginner_hint":"受ける = receive/take exam.","common_words":[{"word":"受ける","reading":"うける","meaning":"to receive"},{"word":"受付","reading":"うけつけ","meaning":"reception"}],"jlpt":"N3","tags":["daily"]},
-  {"id":"k-n3-009","character":"残","meanings":["remain"],"onyomi":["ザン"],"kunyomi":["のこ.る"],"beginner_hint":"残る = remain. 残念 = regrettable.","common_words":[{"word":"残る","reading":"のこる","meaning":"to remain"},{"word":"残念","reading":"ざんねん","meaning":"regrettable"}],"jlpt":"N3","tags":["daily"]},
-  {"id":"k-n3-010","character":"連","meanings":["connect","join"],"onyomi":["レン"],"kunyomi":["つら.なる"],"beginner_hint":"連絡 = contact. 連休 = consecutive holidays.","common_words":[{"word":"連絡","reading":"れんらく","meaning":"contact"},{"word":"連休","reading":"れんきゅう","meaning":"consecutive holidays"}],"jlpt":"N3","tags":["communication"]},
-  {"id":"k-n3-011","character":"相","meanings":["mutual","together"],"onyomi":["ソウ"],"kunyomi":["あい"],"beginner_hint":"相談 = consultation. 相手 = partner.","common_words":[{"word":"相談","reading":"そうだん","meaning":"consultation"},{"word":"相手","reading":"あいて","meaning":"partner"}],"jlpt":"N3","tags":["relationship"]},
-  {"id":"k-n3-012","character":"参","meanings":["participate"],"onyomi":["サン"],"kunyomi":["まい.る"],"beginner_hint":"参加 = participation. 参考 = reference.","common_words":[{"word":"参加","reading":"さんか","meaning":"participation"},{"word":"参考","reading":"さんこう","meaning":"reference"}],"jlpt":"N3","tags":["daily"]},
-  {"id":"k-n3-013","character":"影","meanings":["shadow","influence"],"onyomi":["エイ"],"kunyomi":["かげ"],"beginner_hint":"影響 = influence/effect.","common_words":[{"word":"影響","reading":"えいきょう","meaning":"influence"},{"word":"影","reading":"かげ","meaning":"shadow"}],"jlpt":"N3","tags":["abstract"]},
-  {"id":"k-n3-014","character":"反","meanings":["opposite","anti"],"onyomi":["ハン"],"kunyomi":["そ.る"],"beginner_hint":"反対 = opposite. 反省 = reflection.","common_words":[{"word":"反対","reading":"はんたい","meaning":"opposite"},{"word":"反省","reading":"はんせい","meaning":"reflection"}],"jlpt":"N3","tags":["abstract"]},
-  {"id":"k-n3-015","character":"慣","meanings":["accustomed"],"onyomi":["カン"],"kunyomi":["な.れる"],"beginner_hint":"慣れる = to get used to. 習慣 = habit.","common_words":[{"word":"慣れる","reading":"なれる","meaning":"get used to"},{"word":"習慣","reading":"しゅうかん","meaning":"habit"}],"jlpt":"N3","tags":["daily"]},
-  {"id":"k-n3-016","character":"届","meanings":["deliver","reach"],"onyomi":[],"kunyomi":["とど.ける","とど.く"],"beginner_hint":"届ける = deliver. 届く = arrive.","common_words":[{"word":"届ける","reading":"とどける","meaning":"to deliver"},{"word":"届く","reading":"とどく","meaning":"to arrive"}],"jlpt":"N3","tags":["daily"]},
-  {"id":"k-n3-017","character":"似","meanings":["resemble"],"onyomi":["ジ"],"kunyomi":["に.る"],"beginner_hint":"似る = resemble. 似ている = looks like.","common_words":[{"word":"似る","reading":"にる","meaning":"to resemble"}],"jlpt":"N3","tags":["description"]},
-  {"id":"k-n3-018","character":"壊","meanings":["break","destroy"],"onyomi":["カイ"],"kunyomi":["こわ.れる","こわ.す"],"beginner_hint":"壊れる = break (intrans). 壊す = break (trans).","common_words":[{"word":"壊れる","reading":"こわれる","meaning":"to break"},{"word":"壊す","reading":"こわす","meaning":"to destroy"}],"jlpt":"N3","tags":["daily"]},
-  {"id":"k-n3-019","character":"直","meanings":["straight","fix"],"onyomi":["チョク","ジキ"],"kunyomi":["なお.す","なお.る"],"beginner_hint":"直す = to fix. 直接 = directly.","common_words":[{"word":"直す","reading":"なおす","meaning":"to fix"},{"word":"直接","reading":"ちょくせつ","meaning":"directly"}],"jlpt":"N3","tags":["daily"]},
-  {"id":"k-n3-020","character":"将","meanings":["general","future"],"onyomi":["ショウ"],"kunyomi":[],"beginner_hint":"将来 = future.","common_words":[{"word":"将来","reading":"しょうらい","meaning":"future"}],"jlpt":"N3","tags":["abstract"]}
+  {
+    "id": "k-n3-001",
+    "character": "実",
+    "meanings": [
+      "truth",
+      "reality",
+      "fruit"
+    ],
+    "onyomi": [
+      "ジツ"
+    ],
+    "kunyomi": [
+      "み",
+      "みの.る"
+    ],
+    "beginner_hint": "実は = actually. 事実 = fact.",
+    "common_words": [
+      {
+        "word": "実は",
+        "reading": "じつは",
+        "meaning": "actually"
+      },
+      {
+        "word": "事実",
+        "reading": "じじつ",
+        "meaning": "fact"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "k-n3-002",
+    "character": "関",
+    "meanings": [
+      "barrier",
+      "relate"
+    ],
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "せき"
+    ],
+    "beginner_hint": "関係 = relationship. 関心 = interest.",
+    "common_words": [
+      {
+        "word": "関係",
+        "reading": "かんけい",
+        "meaning": "relationship"
+      },
+      {
+        "word": "関心",
+        "reading": "かんしん",
+        "meaning": "interest"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-003",
+    "character": "比",
+    "meanings": [
+      "compare"
+    ],
+    "onyomi": [
+      "ヒ"
+    ],
+    "kunyomi": [
+      "くら.べる"
+    ],
+    "beginner_hint": "比べる = to compare.",
+    "common_words": [
+      {
+        "word": "比べる",
+        "reading": "くらべる",
+        "meaning": "to compare"
+      },
+      {
+        "word": "比較",
+        "reading": "ひかく",
+        "meaning": "comparison"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "k-n3-004",
+    "character": "伝",
+    "meanings": [
+      "transmit",
+      "convey"
+    ],
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "つた.える"
+    ],
+    "beginner_hint": "伝える = to convey. 伝統 = tradition.",
+    "common_words": [
+      {
+        "word": "伝える",
+        "reading": "つたえる",
+        "meaning": "to convey"
+      },
+      {
+        "word": "伝統",
+        "reading": "でんとう",
+        "meaning": "tradition"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "communication"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "k-n3-005",
+    "character": "増",
+    "meanings": [
+      "increase"
+    ],
+    "onyomi": [
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "ふ.える"
+    ],
+    "beginner_hint": "増える = increase (intrans).",
+    "common_words": [
+      {
+        "word": "増える",
+        "reading": "ふえる",
+        "meaning": "to increase"
+      },
+      {
+        "word": "増加",
+        "reading": "ぞうか",
+        "meaning": "increase"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "change"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "k-n3-006",
+    "character": "減",
+    "meanings": [
+      "decrease"
+    ],
+    "onyomi": [
+      "ゲン"
+    ],
+    "kunyomi": [
+      "へ.る"
+    ],
+    "beginner_hint": "減る = decrease. Opposite of 増える.",
+    "common_words": [
+      {
+        "word": "減る",
+        "reading": "へる",
+        "meaning": "to decrease"
+      },
+      {
+        "word": "減少",
+        "reading": "げんしょう",
+        "meaning": "decrease"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "change"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "k-n3-007",
+    "character": "経",
+    "meanings": [
+      "pass through"
+    ],
+    "onyomi": [
+      "ケイ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "経験 = experience. 経済 = economy.",
+    "common_words": [
+      {
+        "word": "経験",
+        "reading": "けいけん",
+        "meaning": "experience"
+      },
+      {
+        "word": "経済",
+        "reading": "けいざい",
+        "meaning": "economy"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "k-n3-008",
+    "character": "受",
+    "meanings": [
+      "receive"
+    ],
+    "onyomi": [
+      "ジュ"
+    ],
+    "kunyomi": [
+      "う.ける"
+    ],
+    "beginner_hint": "受ける = receive/take exam.",
+    "common_words": [
+      {
+        "word": "受ける",
+        "reading": "うける",
+        "meaning": "to receive"
+      },
+      {
+        "word": "受付",
+        "reading": "うけつけ",
+        "meaning": "reception"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 9 — Expectation"
+  },
+  {
+    "id": "k-n3-009",
+    "character": "残",
+    "meanings": [
+      "remain"
+    ],
+    "onyomi": [
+      "ザン"
+    ],
+    "kunyomi": [
+      "のこ.る"
+    ],
+    "beginner_hint": "残る = remain. 残念 = regrettable.",
+    "common_words": [
+      {
+        "word": "残る",
+        "reading": "のこる",
+        "meaning": "to remain"
+      },
+      {
+        "word": "残念",
+        "reading": "ざんねん",
+        "meaning": "regrettable"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "k-n3-010",
+    "character": "連",
+    "meanings": [
+      "connect",
+      "join"
+    ],
+    "onyomi": [
+      "レン"
+    ],
+    "kunyomi": [
+      "つら.なる"
+    ],
+    "beginner_hint": "連絡 = contact. 連休 = consecutive holidays.",
+    "common_words": [
+      {
+        "word": "連絡",
+        "reading": "れんらく",
+        "meaning": "contact"
+      },
+      {
+        "word": "連休",
+        "reading": "れんきゅう",
+        "meaning": "consecutive holidays"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "communication"
+    ],
+    "unit": "Unit 5 — Time"
+  },
+  {
+    "id": "k-n3-011",
+    "character": "相",
+    "meanings": [
+      "mutual",
+      "together"
+    ],
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "あい"
+    ],
+    "beginner_hint": "相談 = consultation. 相手 = partner.",
+    "common_words": [
+      {
+        "word": "相談",
+        "reading": "そうだん",
+        "meaning": "consultation"
+      },
+      {
+        "word": "相手",
+        "reading": "あいて",
+        "meaning": "partner"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "relationship"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "k-n3-012",
+    "character": "参",
+    "meanings": [
+      "participate"
+    ],
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "まい.る"
+    ],
+    "beginner_hint": "参加 = participation. 参考 = reference.",
+    "common_words": [
+      {
+        "word": "参加",
+        "reading": "さんか",
+        "meaning": "participation"
+      },
+      {
+        "word": "参考",
+        "reading": "さんこう",
+        "meaning": "reference"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-013",
+    "character": "影",
+    "meanings": [
+      "shadow",
+      "influence"
+    ],
+    "onyomi": [
+      "エイ"
+    ],
+    "kunyomi": [
+      "かげ"
+    ],
+    "beginner_hint": "影響 = influence/effect.",
+    "common_words": [
+      {
+        "word": "影響",
+        "reading": "えいきょう",
+        "meaning": "influence"
+      },
+      {
+        "word": "影",
+        "reading": "かげ",
+        "meaning": "shadow"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-014",
+    "character": "反",
+    "meanings": [
+      "opposite",
+      "anti"
+    ],
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "そ.る"
+    ],
+    "beginner_hint": "反対 = opposite. 反省 = reflection.",
+    "common_words": [
+      {
+        "word": "反対",
+        "reading": "はんたい",
+        "meaning": "opposite"
+      },
+      {
+        "word": "反省",
+        "reading": "はんせい",
+        "meaning": "reflection"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 7 — Comparison"
+  },
+  {
+    "id": "k-n3-015",
+    "character": "慣",
+    "meanings": [
+      "accustomed"
+    ],
+    "onyomi": [
+      "カン"
+    ],
+    "kunyomi": [
+      "な.れる"
+    ],
+    "beginner_hint": "慣れる = to get used to. 習慣 = habit.",
+    "common_words": [
+      {
+        "word": "慣れる",
+        "reading": "なれる",
+        "meaning": "get used to"
+      },
+      {
+        "word": "習慣",
+        "reading": "しゅうかん",
+        "meaning": "habit"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "k-n3-016",
+    "character": "届",
+    "meanings": [
+      "deliver",
+      "reach"
+    ],
+    "onyomi": [],
+    "kunyomi": [
+      "とど.ける",
+      "とど.く"
+    ],
+    "beginner_hint": "届ける = deliver. 届く = arrive.",
+    "common_words": [
+      {
+        "word": "届ける",
+        "reading": "とどける",
+        "meaning": "to deliver"
+      },
+      {
+        "word": "届く",
+        "reading": "とどく",
+        "meaning": "to arrive"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "k-n3-017",
+    "character": "似",
+    "meanings": [
+      "resemble"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "に.る"
+    ],
+    "beginner_hint": "似る = resemble. 似ている = looks like.",
+    "common_words": [
+      {
+        "word": "似る",
+        "reading": "にる",
+        "meaning": "to resemble"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "description"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "k-n3-018",
+    "character": "壊",
+    "meanings": [
+      "break",
+      "destroy"
+    ],
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [
+      "こわ.れる",
+      "こわ.す"
+    ],
+    "beginner_hint": "壊れる = break (intrans). 壊す = break (trans).",
+    "common_words": [
+      {
+        "word": "壊れる",
+        "reading": "こわれる",
+        "meaning": "to break"
+      },
+      {
+        "word": "壊す",
+        "reading": "こわす",
+        "meaning": "to destroy"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "k-n3-019",
+    "character": "直",
+    "meanings": [
+      "straight",
+      "fix"
+    ],
+    "onyomi": [
+      "チョク",
+      "ジキ"
+    ],
+    "kunyomi": [
+      "なお.す",
+      "なお.る"
+    ],
+    "beginner_hint": "直す = to fix. 直接 = directly.",
+    "common_words": [
+      {
+        "word": "直す",
+        "reading": "なおす",
+        "meaning": "to fix"
+      },
+      {
+        "word": "直接",
+        "reading": "ちょくせつ",
+        "meaning": "directly"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "k-n3-020",
+    "character": "将",
+    "meanings": [
+      "general",
+      "future"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "将来 = future.",
+    "common_words": [
+      {
+        "word": "将来",
+        "reading": "しょうらい",
+        "meaning": "future"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "k-n3-021",
+    "character": "意",
+    "meanings": [
+      "idea",
+      "meaning"
+    ],
+    "onyomi": [
+      "イ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "意見 = opinion. 意味 = meaning.",
+    "common_words": [
+      {
+        "word": "意見",
+        "reading": "いけん",
+        "meaning": "opinion"
+      },
+      {
+        "word": "意味",
+        "reading": "いみ",
+        "meaning": "meaning"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "k-n3-022",
+    "character": "選",
+    "meanings": [
+      "choose",
+      "elect"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "えら.ぶ"
+    ],
+    "beginner_hint": "選ぶ = choose. 選挙 = election.",
+    "common_words": [
+      {
+        "word": "選ぶ",
+        "reading": "えらぶ",
+        "meaning": "to choose"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "k-n3-023",
+    "character": "育",
+    "meanings": [
+      "raise",
+      "grow"
+    ],
+    "onyomi": [
+      "イク"
+    ],
+    "kunyomi": [
+      "そだ.てる"
+    ],
+    "beginner_hint": "育てる = raise. 教育 = education.",
+    "common_words": [
+      {
+        "word": "育てる",
+        "reading": "そだてる",
+        "meaning": "to raise"
+      },
+      {
+        "word": "教育",
+        "reading": "きょういく",
+        "meaning": "education"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "family"
+    ],
+    "unit": "Unit 2 — Change"
+  },
+  {
+    "id": "k-n3-024",
+    "character": "守",
+    "meanings": [
+      "protect",
+      "obey"
+    ],
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "まも.る"
+    ],
+    "beginner_hint": "守る = protect. お守り = charm.",
+    "common_words": [
+      {
+        "word": "守る",
+        "reading": "まもる",
+        "meaning": "to protect"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 9 — Expectation"
+  },
+  {
+    "id": "k-n3-025",
+    "character": "断",
+    "meanings": [
+      "refuse",
+      "cut off"
+    ],
+    "onyomi": [
+      "ダン"
+    ],
+    "kunyomi": [
+      "ことわ.る",
+      "た.つ"
+    ],
+    "beginner_hint": "断る = refuse. 判断 = judgment.",
+    "common_words": [
+      {
+        "word": "断る",
+        "reading": "ことわる",
+        "meaning": "to refuse"
+      },
+      {
+        "word": "判断",
+        "reading": "はんだん",
+        "meaning": "judgment"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "communication"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "k-n3-026",
+    "character": "査",
+    "meanings": [
+      "inspect",
+      "investigate"
+    ],
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "調査 = investigation. 検査 = inspection.",
+    "common_words": [
+      {
+        "word": "調査",
+        "reading": "ちょうさ",
+        "meaning": "investigation"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-027",
+    "character": "際",
+    "meanings": [
+      "occasion",
+      "edge"
+    ],
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [
+      "きわ"
+    ],
+    "beginner_hint": "国際 = international. 実際 = actually.",
+    "common_words": [
+      {
+        "word": "国際",
+        "reading": "こくさい",
+        "meaning": "international"
+      },
+      {
+        "word": "実際",
+        "reading": "じっさい",
+        "meaning": "actually"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-028",
+    "character": "術",
+    "meanings": [
+      "art",
+      "technique"
+    ],
+    "onyomi": [
+      "ジュツ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "技術 = technology. 美術 = fine arts.",
+    "common_words": [
+      {
+        "word": "技術",
+        "reading": "ぎじゅつ",
+        "meaning": "technology"
+      },
+      {
+        "word": "美術",
+        "reading": "びじゅつ",
+        "meaning": "fine arts"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-029",
+    "character": "然",
+    "meanings": [
+      "natural",
+      "but"
+    ],
+    "onyomi": [
+      "ゼン",
+      "ネン"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "自然 = nature. 当然 = naturally.",
+    "common_words": [
+      {
+        "word": "自然",
+        "reading": "しぜん",
+        "meaning": "nature"
+      },
+      {
+        "word": "当然",
+        "reading": "とうぜん",
+        "meaning": "naturally"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-030",
+    "character": "迷",
+    "meanings": [
+      "stray",
+      "hesitate"
+    ],
+    "onyomi": [
+      "メイ"
+    ],
+    "kunyomi": [
+      "まよ.う"
+    ],
+    "beginner_hint": "迷う = get lost/hesitate.",
+    "common_words": [
+      {
+        "word": "迷う",
+        "reading": "まよう",
+        "meaning": "to get lost"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 4 — Appearance"
+  },
+  {
+    "id": "k-n3-031",
+    "character": "逃",
+    "meanings": [
+      "escape"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "に.げる"
+    ],
+    "beginner_hint": "逃げる = to escape.",
+    "common_words": [
+      {
+        "word": "逃げる",
+        "reading": "にげる",
+        "meaning": "to escape"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Actions"
+  },
+  {
+    "id": "k-n3-032",
+    "character": "戻",
+    "meanings": [
+      "return"
+    ],
+    "onyomi": [],
+    "kunyomi": [
+      "もど.る",
+      "もど.す"
+    ],
+    "beginner_hint": "戻る = to return.",
+    "common_words": [
+      {
+        "word": "戻る",
+        "reading": "もどる",
+        "meaning": "to return"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "movement"
+    ],
+    "unit": "Unit 5 — Time"
+  },
+  {
+    "id": "k-n3-033",
+    "character": "済",
+    "meanings": [
+      "settle",
+      "finish"
+    ],
+    "onyomi": [
+      "サイ"
+    ],
+    "kunyomi": [
+      "す.む"
+    ],
+    "beginner_hint": "経済 = economy. 済む = to finish.",
+    "common_words": [
+      {
+        "word": "経済",
+        "reading": "けいざい",
+        "meaning": "economy"
+      },
+      {
+        "word": "済む",
+        "reading": "すむ",
+        "meaning": "to finish"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-034",
+    "character": "確",
+    "meanings": [
+      "certain",
+      "confirm"
+    ],
+    "onyomi": [
+      "カク"
+    ],
+    "kunyomi": [
+      "たし.か"
+    ],
+    "beginner_hint": "確認 = confirmation. 正確 = accurate.",
+    "common_words": [
+      {
+        "word": "確認",
+        "reading": "かくにん",
+        "meaning": "confirmation"
+      },
+      {
+        "word": "正確",
+        "reading": "せいかく",
+        "meaning": "accurate"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "k-n3-035",
+    "character": "具",
+    "meanings": [
+      "tool",
+      "ingredient"
+    ],
+    "onyomi": [
+      "グ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "具体的 = concrete/specific. 道具 = tool.",
+    "common_words": [
+      {
+        "word": "具体的",
+        "reading": "ぐたいてき",
+        "meaning": "concrete"
+      },
+      {
+        "word": "道具",
+        "reading": "どうぐ",
+        "meaning": "tool"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 6 — Explanation"
+  },
+  {
+    "id": "k-n3-036",
+    "character": "技",
+    "meanings": [
+      "skill"
+    ],
+    "onyomi": [
+      "ギ"
+    ],
+    "kunyomi": [
+      "わざ"
+    ],
+    "beginner_hint": "技術 = technology/skill.",
+    "common_words": [
+      {
+        "word": "技術",
+        "reading": "ぎじゅつ",
+        "meaning": "technology"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-037",
+    "character": "治",
+    "meanings": [
+      "govern",
+      "cure"
+    ],
+    "onyomi": [
+      "チ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "おさ.める",
+      "なお.る"
+    ],
+    "beginner_hint": "政治 = politics. 治る = to be cured.",
+    "common_words": [
+      {
+        "word": "政治",
+        "reading": "せいじ",
+        "meaning": "politics"
+      },
+      {
+        "word": "治る",
+        "reading": "なおる",
+        "meaning": "to be cured"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "society"
+    ],
+    "unit": "Unit 8 — Viewpoint"
+  },
+  {
+    "id": "k-n3-038",
+    "character": "想",
+    "meanings": [
+      "idea",
+      "thought"
+    ],
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "予想 = expectation. 感想 = impression.",
+    "common_words": [
+      {
+        "word": "予想",
+        "reading": "よそう",
+        "meaning": "expectation"
+      },
+      {
+        "word": "感想",
+        "reading": "かんそう",
+        "meaning": "impression"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 9 — Expectation"
+  },
+  {
+    "id": "k-n3-039",
+    "character": "績",
+    "meanings": [
+      "achievements"
+    ],
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [],
+    "beginner_hint": "成績 = grades/results.",
+    "common_words": [
+      {
+        "word": "成績",
+        "reading": "せいせき",
+        "meaning": "grades"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "school"
+    ],
+    "unit": "Unit 9 — Expectation"
+  },
+  {
+    "id": "k-n3-040",
+    "character": "許",
+    "meanings": [
+      "permit",
+      "forgive"
+    ],
+    "onyomi": [
+      "キョ"
+    ],
+    "kunyomi": [
+      "ゆる.す"
+    ],
+    "beginner_hint": "許す = forgive/permit.",
+    "common_words": [
+      {
+        "word": "許す",
+        "reading": "ゆるす",
+        "meaning": "to forgive"
+      }
+    ],
+    "jlpt": "N3",
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 9 — Expectation"
+  }
 ]

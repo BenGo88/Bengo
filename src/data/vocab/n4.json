@@ -19,7 +19,8 @@
     ],
     "tags": [
       "polite"
-    ]
+    ],
+    "unit": "Unit 2 — Permission"
   },
   {
     "id": "v-n4-002",
@@ -62,7 +63,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 1 — て-Form"
   },
   {
     "id": "v-n4-004",
@@ -127,7 +129,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 10 — Degree"
   },
   {
     "id": "v-n4-007",
@@ -237,7 +240,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 6 — Ability"
   },
   {
     "id": "v-n4-012",
@@ -259,7 +263,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 5 — Thoughts"
   },
   {
     "id": "v-n4-013",
@@ -280,7 +285,8 @@
     ],
     "tags": [
       "polite"
-    ]
+    ],
+    "unit": "Unit 5 — Thoughts"
   },
   {
     "id": "v-n4-014",
@@ -325,7 +331,8 @@
     ],
     "tags": [
       "manner"
-    ]
+    ],
+    "unit": "Unit 10 — Degree"
   },
   {
     "id": "v-n4-016",
@@ -347,7 +354,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 4 — Conditionals"
   },
   {
     "id": "v-n4-017",
@@ -413,7 +421,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 1 — て-Form"
   },
   {
     "id": "v-n4-020",
@@ -480,7 +489,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 9 — Time"
   },
   {
     "id": "v-n4-023",
@@ -501,7 +511,8 @@
     ],
     "tags": [
       "transport"
-    ]
+    ],
+    "unit": "Unit 9 — Time"
   },
   {
     "id": "v-n4-024",
@@ -613,7 +624,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 5 — Thoughts"
   },
   {
     "id": "v-n4-029",
@@ -634,7 +646,8 @@
     ],
     "tags": [
       "abstract"
-    ]
+    ],
+    "unit": "Unit 5 — Thoughts"
   },
   {
     "id": "v-n4-030",
@@ -655,7 +668,8 @@
     ],
     "tags": [
       "language"
-    ]
+    ],
+    "unit": "Unit 6 — Ability"
   },
   {
     "id": "v-n4-031",
@@ -677,7 +691,8 @@
     ],
     "tags": [
       "transport"
-    ]
+    ],
+    "unit": "Unit 9 — Time"
   },
   {
     "id": "v-n4-032",
@@ -699,7 +714,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 6 — Ability"
   },
   {
     "id": "v-n4-033",
@@ -720,7 +736,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 8 — Contrast"
   },
   {
     "id": "v-n4-034",
@@ -742,7 +759,8 @@
     ],
     "tags": [
       "nature"
-    ]
+    ],
+    "unit": "Unit 7 — Conjecture"
   },
   {
     "id": "v-n4-035",
@@ -763,7 +781,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 9 — Time"
   },
   {
     "id": "v-n4-036",
@@ -785,7 +804,8 @@
     ],
     "tags": [
       "people"
-    ]
+    ],
+    "unit": "Unit 5 — Thoughts"
   },
   {
     "id": "v-n4-037",
@@ -807,7 +827,8 @@
     ],
     "tags": [
       "abstract"
-    ]
+    ],
+    "unit": "Unit 3 — Obligation"
   },
   {
     "id": "v-n4-038",
@@ -829,7 +850,8 @@
     ],
     "tags": [
       "daily"
-    ]
+    ],
+    "unit": "Unit 3 — Obligation"
   },
   {
     "id": "v-n4-039",
@@ -851,7 +873,8 @@
     ],
     "tags": [
       "basic"
-    ]
+    ],
+    "unit": "Unit 4 — Conditionals"
   },
   {
     "id": "v-n4-040",
@@ -873,7 +896,8 @@
     ],
     "tags": [
       "description"
-    ]
+    ],
+    "unit": "Unit 7 — Conjecture"
   },
   {
     "id": "v-n4-041",
@@ -894,7 +918,8 @@
     ],
     "tags": [
       "change"
-    ]
+    ],
+    "unit": "Unit 10 — Degree"
   },
   {
     "id": "v-n4-042",
@@ -915,7 +940,8 @@
     ],
     "tags": [
       "change"
-    ]
+    ],
+    "unit": "Unit 10 — Degree"
   },
   {
     "id": "v-n4-043",
@@ -1070,7 +1096,8 @@
     ],
     "tags": [
       "society"
-    ]
+    ],
+    "unit": "Unit 8 — Contrast"
   },
   {
     "id": "v-n4-050",
@@ -1091,6 +1118,7 @@
     ],
     "tags": [
       "society"
-    ]
+    ],
+    "unit": "Unit 8 — Contrast"
   }
 ]

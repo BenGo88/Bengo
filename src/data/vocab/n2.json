@@ -1,37 +1,1724 @@
 [
-  {"id":"v001","word":"承認","reading":"しょうにん","meanings":["approval"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Official approval.","sentences":[{"ja":"上司の承認が必要です。","en":"Manager approval is required.","reading":"じょうし の しょうにん が ひつよう です。","tokens":[{"text":"上司","lexemeId":"lex-n2-上司"},{"text":"の","lexemeId":"lex-f-の"},{"text":"承認","lexemeId":"lex-n2-承認"},{"text":"が","lexemeId":"lex-f-が"},{"text":"必要です","reading":"ひつようです","meaning":"is necessary","partOfSpeech":"な-adj+copula"}]}],"tags":["business"]},
-  {"id":"v002","word":"届ける","reading":"とどける","meanings":["to deliver","to report"],"part_of_speech":"ichidan verb","jlpt":"N2","simple_usage":"Physical delivery or official reporting.","sentences":[{"ja":"荷物を届けてもらえますか。","en":"Could you deliver the package?","reading":"にもつ を とどけて もらえますか。"}],"tags":["daily"]},
-  {"id":"v003","word":"割合","reading":"わりあい","meanings":["proportion","relatively"],"part_of_speech":"noun / adverb","jlpt":"N2","simple_usage":"Noun: ratio. Adverb: relatively.","sentences":[{"ja":"女性の割合が増えている。","en":"The proportion of women is increasing.","reading":"じょせい の わりあい が ふえている。"}],"tags":["news"]},
-  {"id":"v004","word":"否定","reading":"ひてい","meanings":["denial"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Saying 'no, that's not true.'","sentences":[{"ja":"彼は関与を否定した。","en":"He denied his involvement.","reading":"かれ は かんよ を ひてい した。"}],"tags":["abstract"]},
-  {"id":"v005","word":"価値","reading":"かち","meanings":["value","worth"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"Abstract worth. Not price.","sentences":[{"ja":"この経験には大きな価値がある。","en":"This experience has great value.","reading":"この けいけん には おおきな かち が ある。"}],"tags":["abstract"]},
-  {"id":"v006","word":"許可","reading":"きょか","meanings":["permission"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Official permission.","sentences":[{"ja":"撮影の許可を取ってください。","en":"Please get permission to film.","reading":"さつえい の きょか を とって ください。"}],"tags":["business"]},
-  {"id":"v007","word":"感動","reading":"かんどう","meanings":["being moved"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Deeply moved emotionally.","sentences":[{"ja":"映画に感動して泣いてしまった。","en":"I was so moved I cried.","reading":"えいが に かんどう して ないて しまった。"}],"tags":["emotions"]},
-  {"id":"v008","word":"預金","reading":"よきん","meanings":["deposit","savings"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Money in the bank.","sentences":[{"ja":"預金の残高を確認した。","en":"I checked my savings balance.","reading":"よきん の ざんだか を かくにん した。"}],"tags":["finance"]},
-  {"id":"v009","word":"犯罪","reading":"はんざい","meanings":["crime"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"Crime. Common in news.","sentences":[{"ja":"犯罪率が下がっている。","en":"The crime rate is decreasing.","reading":"はんざいりつ が さがっている。"}],"tags":["news"]},
-  {"id":"v010","word":"使い捨て","reading":"つかいすて","meanings":["disposable"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"Single-use product.","sentences":[{"ja":"使い捨てのマスクを買った。","en":"I bought disposable masks.","reading":"つかいすて の マスク を かった。"}],"tags":["daily"]},
-  {"id":"v-n2-011","word":"環境","reading":"かんきょう","meanings":["environment"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"Natural environment or work environment.","sentences":[{"ja":"環境問題について話し合った。","en":"We discussed environmental issues.","reading":"かんきょう もんだい について はなしあった。"}],"tags":["society"]},
-  {"id":"v-n2-012","word":"経済","reading":"けいざい","meanings":["economy"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"The economy.","sentences":[{"ja":"経済が成長している。","en":"The economy is growing.","reading":"けいざい が せいちょう している。"}],"tags":["society"]},
-  {"id":"v-n2-013","word":"制度","reading":"せいど","meanings":["system","institution"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"A social/organizational system.","sentences":[{"ja":"新しい制度が始まった。","en":"A new system started.","reading":"あたらしい せいど が はじまった。"}],"tags":["society"]},
-  {"id":"v-n2-014","word":"判断","reading":"はんだん","meanings":["judgment","decision"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Making a judgment.","sentences":[{"ja":"自分で判断してください。","en":"Please judge for yourself.","reading":"じぶん で はんだん して ください。"}],"tags":["abstract"]},
-  {"id":"v-n2-015","word":"責任","reading":"せきにん","meanings":["responsibility"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"Taking responsibility.","sentences":[{"ja":"責任を取る。","en":"To take responsibility.","reading":"せきにん を とる。"}],"tags":["business"]},
-  {"id":"v-n2-016","word":"効果","reading":"こうか","meanings":["effect","effectiveness"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"The effect of something.","sentences":[{"ja":"この薬は効果がある。","en":"This medicine is effective.","reading":"この くすり は こうか が ある。"}],"tags":["abstract"]},
-  {"id":"v-n2-017","word":"原因","reading":"げんいん","meanings":["cause","origin"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"The cause of a problem.","sentences":[{"ja":"事故の原因を調べている。","en":"They're investigating the cause of the accident.","reading":"じこ の げんいん を しらべている。"}],"tags":["abstract"]},
-  {"id":"v-n2-018","word":"結果","reading":"けっか","meanings":["result","outcome"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"The result.","sentences":[{"ja":"テストの結果が出た。","en":"The test results came out.","reading":"テスト の けっか が でた。"}],"tags":["abstract"]},
-  {"id":"v-n2-019","word":"状況","reading":"じょうきょう","meanings":["situation","circumstances"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"Current situation.","sentences":[{"ja":"状況を説明してください。","en":"Please explain the situation.","reading":"じょうきょう を せつめい して ください。"}],"tags":["abstract"]},
-  {"id":"v-n2-020","word":"対策","reading":"たいさく","meanings":["countermeasure","measure"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"Measures to deal with a problem.","sentences":[{"ja":"地震の対策を考える。","en":"Think about earthquake countermeasures.","reading":"じしん の たいさく を かんがえる。"}],"tags":["society"]},
-  {"id":"v-n2-021","word":"方針","reading":"ほうしん","meanings":["policy","course of action"],"part_of_speech":"noun","jlpt":"N2","simple_usage":"Company/government policy.","sentences":[{"ja":"会社の方針が変わった。","en":"The company's policy changed.","reading":"かいしゃ の ほうしん が かわった。"}],"tags":["business"]},
-  {"id":"v-n2-022","word":"成長","reading":"せいちょう","meanings":["growth"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Growth of person/economy.","sentences":[{"ja":"子供は早く成長する。","en":"Children grow quickly.","reading":"こども は はやく せいちょう する。"}],"tags":["change"]},
-  {"id":"v-n2-023","word":"改善","reading":"かいぜん","meanings":["improvement"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"To improve/make better.","sentences":[{"ja":"サービスを改善する必要がある。","en":"We need to improve the service.","reading":"サービス を かいぜん する ひつよう が ある。"}],"tags":["business"]},
-  {"id":"v-n2-024","word":"実現","reading":"じつげん","meanings":["realization","achievement"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Making something real.","sentences":[{"ja":"夢を実現したい。","en":"I want to realize my dreams.","reading":"ゆめ を じつげん したい。"}],"tags":["abstract"]},
-  {"id":"v-n2-025","word":"影響","reading":"えいきょう","meanings":["influence","effect"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Impact on something.","sentences":[{"ja":"気候変動が農業に影響している。","en":"Climate change is affecting agriculture.","reading":"きこう へんどう が のうぎょう に えいきょう している。"}],"tags":["society"]},
-  {"id":"v-n2-026","word":"努力","reading":"どりょく","meanings":["effort"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Making an effort.","sentences":[{"ja":"努力すれば、できる。","en":"If you make an effort, you can do it.","reading":"どりょく すれば、できる。"}],"tags":["abstract"]},
-  {"id":"v-n2-027","word":"失敗","reading":"しっぱい","meanings":["failure"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Failure. Opposite: 成功.","sentences":[{"ja":"失敗から学ぶことが大切だ。","en":"Learning from failure is important.","reading":"しっぱい から まなぶ こと が たいせつ だ。"}],"tags":["abstract"]},
-  {"id":"v-n2-028","word":"成功","reading":"せいこう","meanings":["success"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Success. Opposite: 失敗.","sentences":[{"ja":"プロジェクトは成功した。","en":"The project succeeded.","reading":"プロジェクト は せいこう した。"}],"tags":["abstract"]},
-  {"id":"v-n2-029","word":"発展","reading":"はってん","meanings":["development","progress"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Development of technology/society.","sentences":[{"ja":"技術が急速に発展している。","en":"Technology is developing rapidly.","reading":"ぎじゅつ が きゅうそく に はってん している。"}],"tags":["society"]},
-  {"id":"v-n2-030","word":"維持","reading":"いじ","meanings":["maintenance","preservation"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Maintaining something.","sentences":[{"ja":"健康を維持することが大切だ。","en":"Maintaining health is important.","reading":"けんこう を いじ する こと が たいせつ だ。"}],"tags":["health"]},
-  {"id":"v-n2-031","word":"対応","reading":"たいおう","meanings":["response","correspondence"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Dealing with/responding to something.","sentences":[{"ja":"問題に対応する。","en":"Respond to the problem.","reading":"もんだい に たいおう する。"}],"tags":["business"]},
-  {"id":"v-n2-032","word":"把握","reading":"はあく","meanings":["grasp","understanding"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Grasping a situation. Formal.","sentences":[{"ja":"状況を把握する。","en":"Grasp the situation.","reading":"じょうきょう を はあく する。"}],"tags":["business"]},
-  {"id":"v-n2-033","word":"削減","reading":"さくげん","meanings":["reduction","cutback"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Cutting costs/budget.","sentences":[{"ja":"コストを削減する。","en":"Reduce costs.","reading":"コスト を さくげん する。"}],"tags":["business"]},
-  {"id":"v-n2-034","word":"検討","reading":"けんとう","meanings":["examination","consideration"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Considering/examining a matter. Formal.","sentences":[{"ja":"提案を検討しています。","en":"We are considering the proposal.","reading":"ていあん を けんとう しています。"}],"tags":["business"]},
-  {"id":"v-n2-035","word":"導入","reading":"どうにゅう","meanings":["introduction","adoption"],"part_of_speech":"noun / suru-verb","jlpt":"N2","simple_usage":"Introducing a new system/technology.","sentences":[{"ja":"新しいシステムを導入する。","en":"Introduce a new system.","reading":"あたらしい システム を どうにゅう する。"}],"tags":["business"]}
+  {
+    "id": "v001",
+    "word": "承認",
+    "reading": "しょうにん",
+    "meanings": [
+      "approval"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Official approval.",
+    "sentences": [
+      {
+        "ja": "上司の承認が必要です。",
+        "en": "Manager approval is required.",
+        "reading": "じょうし の しょうにん が ひつよう です。",
+        "tokens": [
+          {
+            "text": "上司",
+            "lexemeId": "lex-n2-上司"
+          },
+          {
+            "text": "の",
+            "lexemeId": "lex-f-の"
+          },
+          {
+            "text": "承認",
+            "lexemeId": "lex-n2-承認"
+          },
+          {
+            "text": "が",
+            "lexemeId": "lex-f-が"
+          },
+          {
+            "text": "必要です",
+            "reading": "ひつようです",
+            "meaning": "is necessary",
+            "partOfSpeech": "な-adj+copula"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 7 — Rules"
+  },
+  {
+    "id": "v002",
+    "word": "届ける",
+    "reading": "とどける",
+    "meanings": [
+      "to deliver",
+      "to report"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N2",
+    "simple_usage": "Physical delivery or official reporting.",
+    "sentences": [
+      {
+        "ja": "荷物を届けてもらえますか。",
+        "en": "Could you deliver the package?",
+        "reading": "にもつ を とどけて もらえますか。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 7 — Rules"
+  },
+  {
+    "id": "v003",
+    "word": "割合",
+    "reading": "わりあい",
+    "meanings": [
+      "proportion",
+      "relatively"
+    ],
+    "part_of_speech": "noun / adverb",
+    "jlpt": "N2",
+    "simple_usage": "Noun: ratio. Adverb: relatively.",
+    "sentences": [
+      {
+        "ja": "女性の割合が増えている。",
+        "en": "The proportion of women is increasing.",
+        "reading": "じょせい の わりあい が ふえている。"
+      }
+    ],
+    "tags": [
+      "news"
+    ],
+    "unit": "Unit 6 — Change"
+  },
+  {
+    "id": "v004",
+    "word": "否定",
+    "reading": "ひてい",
+    "meanings": [
+      "denial"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Saying 'no, that's not true.'",
+    "sentences": [
+      {
+        "ja": "彼は関与を否定した。",
+        "en": "He denied his involvement.",
+        "reading": "かれ は かんよ を ひてい した。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 1 — Denial & Certainty"
+  },
+  {
+    "id": "v005",
+    "word": "価値",
+    "reading": "かち",
+    "meanings": [
+      "value",
+      "worth"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Abstract worth. Not price.",
+    "sentences": [
+      {
+        "ja": "この経験には大きな価値がある。",
+        "en": "This experience has great value.",
+        "reading": "この けいけん には おおきな かち が ある。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 3 — Emphasis"
+  },
+  {
+    "id": "v006",
+    "word": "許可",
+    "reading": "きょか",
+    "meanings": [
+      "permission"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Official permission.",
+    "sentences": [
+      {
+        "ja": "撮影の許可を取ってください。",
+        "en": "Please get permission to film.",
+        "reading": "さつえい の きょか を とって ください。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 7 — Rules"
+  },
+  {
+    "id": "v007",
+    "word": "感動",
+    "reading": "かんどう",
+    "meanings": [
+      "being moved"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Deeply moved emotionally.",
+    "sentences": [
+      {
+        "ja": "映画に感動して泣いてしまった。",
+        "en": "I was so moved I cried.",
+        "reading": "えいが に かんどう して ないて しまった。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ],
+    "unit": "Unit 4 — Contrast"
+  },
+  {
+    "id": "v008",
+    "word": "預金",
+    "reading": "よきん",
+    "meanings": [
+      "deposit",
+      "savings"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Money in the bank.",
+    "sentences": [
+      {
+        "ja": "預金の残高を確認した。",
+        "en": "I checked my savings balance.",
+        "reading": "よきん の ざんだか を かくにん した。"
+      }
+    ],
+    "tags": [
+      "finance"
+    ],
+    "unit": "Unit 7 — Rules"
+  },
+  {
+    "id": "v009",
+    "word": "犯罪",
+    "reading": "はんざい",
+    "meanings": [
+      "crime"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Crime. Common in news.",
+    "sentences": [
+      {
+        "ja": "犯罪率が下がっている。",
+        "en": "The crime rate is decreasing.",
+        "reading": "はんざいりつ が さがっている。"
+      }
+    ],
+    "tags": [
+      "news"
+    ],
+    "unit": "Unit 4 — Contrast"
+  },
+  {
+    "id": "v010",
+    "word": "使い捨て",
+    "reading": "つかいすて",
+    "meanings": [
+      "disposable"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Single-use product.",
+    "sentences": [
+      {
+        "ja": "使い捨てのマスクを買った。",
+        "en": "I bought disposable masks.",
+        "reading": "つかいすて の マスク を かった。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 4 — Contrast"
+  },
+  {
+    "id": "v-n2-011",
+    "word": "環境",
+    "reading": "かんきょう",
+    "meanings": [
+      "environment"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Natural environment or work environment.",
+    "sentences": [
+      {
+        "ja": "環境問題について話し合った。",
+        "en": "We discussed environmental issues.",
+        "reading": "かんきょう もんだい について はなしあった。"
+      }
+    ],
+    "tags": [
+      "society"
+    ],
+    "unit": "Unit 4 — Contrast"
+  },
+  {
+    "id": "v-n2-012",
+    "word": "経済",
+    "reading": "けいざい",
+    "meanings": [
+      "economy"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "The economy.",
+    "sentences": [
+      {
+        "ja": "経済が成長している。",
+        "en": "The economy is growing.",
+        "reading": "けいざい が せいちょう している。"
+      }
+    ],
+    "tags": [
+      "society"
+    ],
+    "unit": "Unit 6 — Change"
+  },
+  {
+    "id": "v-n2-013",
+    "word": "制度",
+    "reading": "せいど",
+    "meanings": [
+      "system",
+      "institution"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "A social/organizational system.",
+    "sentences": [
+      {
+        "ja": "新しい制度が始まった。",
+        "en": "A new system started.",
+        "reading": "あたらしい せいど が はじまった。"
+      }
+    ],
+    "tags": [
+      "society"
+    ],
+    "unit": "Unit 7 — Rules"
+  },
+  {
+    "id": "v-n2-014",
+    "word": "判断",
+    "reading": "はんだん",
+    "meanings": [
+      "judgment",
+      "decision"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Making a judgment.",
+    "sentences": [
+      {
+        "ja": "自分で判断してください。",
+        "en": "Please judge for yourself.",
+        "reading": "じぶん で はんだん して ください。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 1 — Denial & Certainty"
+  },
+  {
+    "id": "v-n2-015",
+    "word": "責任",
+    "reading": "せきにん",
+    "meanings": [
+      "responsibility"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Taking responsibility.",
+    "sentences": [
+      {
+        "ja": "責任を取る。",
+        "en": "To take responsibility.",
+        "reading": "せきにん を とる。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 2 — Obligation"
+  },
+  {
+    "id": "v-n2-016",
+    "word": "効果",
+    "reading": "こうか",
+    "meanings": [
+      "effect",
+      "effectiveness"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "The effect of something.",
+    "sentences": [
+      {
+        "ja": "この薬は効果がある。",
+        "en": "This medicine is effective.",
+        "reading": "この くすり は こうか が ある。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 3 — Emphasis"
+  },
+  {
+    "id": "v-n2-017",
+    "word": "原因",
+    "reading": "げんいん",
+    "meanings": [
+      "cause",
+      "origin"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "The cause of a problem.",
+    "sentences": [
+      {
+        "ja": "事故の原因を調べている。",
+        "en": "They're investigating the cause of the accident.",
+        "reading": "じこ の げんいん を しらべている。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 4 — Contrast"
+  },
+  {
+    "id": "v-n2-018",
+    "word": "結果",
+    "reading": "けっか",
+    "meanings": [
+      "result",
+      "outcome"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "The result.",
+    "sentences": [
+      {
+        "ja": "テストの結果が出た。",
+        "en": "The test results came out.",
+        "reading": "テスト の けっか が でた。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 6 — Change"
+  },
+  {
+    "id": "v-n2-019",
+    "word": "状況",
+    "reading": "じょうきょう",
+    "meanings": [
+      "situation",
+      "circumstances"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Current situation.",
+    "sentences": [
+      {
+        "ja": "状況を説明してください。",
+        "en": "Please explain the situation.",
+        "reading": "じょうきょう を せつめい して ください。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 5 — Relations"
+  },
+  {
+    "id": "v-n2-020",
+    "word": "対策",
+    "reading": "たいさく",
+    "meanings": [
+      "countermeasure",
+      "measure"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Measures to deal with a problem.",
+    "sentences": [
+      {
+        "ja": "地震の対策を考える。",
+        "en": "Think about earthquake countermeasures.",
+        "reading": "じしん の たいさく を かんがえる。"
+      }
+    ],
+    "tags": [
+      "society"
+    ],
+    "unit": "Unit 4 — Contrast"
+  },
+  {
+    "id": "v-n2-021",
+    "word": "方針",
+    "reading": "ほうしん",
+    "meanings": [
+      "policy",
+      "course of action"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Company/government policy.",
+    "sentences": [
+      {
+        "ja": "会社の方針が変わった。",
+        "en": "The company's policy changed.",
+        "reading": "かいしゃ の ほうしん が かわった。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 7 — Rules"
+  },
+  {
+    "id": "v-n2-022",
+    "word": "成長",
+    "reading": "せいちょう",
+    "meanings": [
+      "growth"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Growth of person/economy.",
+    "sentences": [
+      {
+        "ja": "子供は早く成長する。",
+        "en": "Children grow quickly.",
+        "reading": "こども は はやく せいちょう する。"
+      }
+    ],
+    "tags": [
+      "change"
+    ],
+    "unit": "Unit 6 — Change"
+  },
+  {
+    "id": "v-n2-023",
+    "word": "改善",
+    "reading": "かいぜん",
+    "meanings": [
+      "improvement"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "To improve/make better.",
+    "sentences": [
+      {
+        "ja": "サービスを改善する必要がある。",
+        "en": "We need to improve the service.",
+        "reading": "サービス を かいぜん する ひつよう が ある。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 6 — Change"
+  },
+  {
+    "id": "v-n2-024",
+    "word": "実現",
+    "reading": "じつげん",
+    "meanings": [
+      "realization",
+      "achievement"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Making something real.",
+    "sentences": [
+      {
+        "ja": "夢を実現したい。",
+        "en": "I want to realize my dreams.",
+        "reading": "ゆめ を じつげん したい。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Obligation"
+  },
+  {
+    "id": "v-n2-025",
+    "word": "影響",
+    "reading": "えいきょう",
+    "meanings": [
+      "influence",
+      "effect"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Impact on something.",
+    "sentences": [
+      {
+        "ja": "気候変動が農業に影響している。",
+        "en": "Climate change is affecting agriculture.",
+        "reading": "きこう へんどう が のうぎょう に えいきょう している。"
+      }
+    ],
+    "tags": [
+      "society"
+    ],
+    "unit": "Unit 4 — Contrast"
+  },
+  {
+    "id": "v-n2-026",
+    "word": "努力",
+    "reading": "どりょく",
+    "meanings": [
+      "effort"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Making an effort.",
+    "sentences": [
+      {
+        "ja": "努力すれば、できる。",
+        "en": "If you make an effort, you can do it.",
+        "reading": "どりょく すれば、できる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Obligation"
+  },
+  {
+    "id": "v-n2-027",
+    "word": "失敗",
+    "reading": "しっぱい",
+    "meanings": [
+      "failure"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Failure. Opposite: 成功.",
+    "sentences": [
+      {
+        "ja": "失敗から学ぶことが大切だ。",
+        "en": "Learning from failure is important.",
+        "reading": "しっぱい から まなぶ こと が たいせつ だ。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Obligation"
+  },
+  {
+    "id": "v-n2-028",
+    "word": "成功",
+    "reading": "せいこう",
+    "meanings": [
+      "success"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Success. Opposite: 失敗.",
+    "sentences": [
+      {
+        "ja": "プロジェクトは成功した。",
+        "en": "The project succeeded.",
+        "reading": "プロジェクト は せいこう した。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ],
+    "unit": "Unit 2 — Obligation"
+  },
+  {
+    "id": "v-n2-029",
+    "word": "発展",
+    "reading": "はってん",
+    "meanings": [
+      "development",
+      "progress"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Development of technology/society.",
+    "sentences": [
+      {
+        "ja": "技術が急速に発展している。",
+        "en": "Technology is developing rapidly.",
+        "reading": "ぎじゅつ が きゅうそく に はってん している。"
+      }
+    ],
+    "tags": [
+      "society"
+    ],
+    "unit": "Unit 6 — Change"
+  },
+  {
+    "id": "v-n2-030",
+    "word": "維持",
+    "reading": "いじ",
+    "meanings": [
+      "maintenance",
+      "preservation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Maintaining something.",
+    "sentences": [
+      {
+        "ja": "健康を維持することが大切だ。",
+        "en": "Maintaining health is important.",
+        "reading": "けんこう を いじ する こと が たいせつ だ。"
+      }
+    ],
+    "tags": [
+      "health"
+    ],
+    "unit": "Unit 7 — Rules"
+  },
+  {
+    "id": "v-n2-031",
+    "word": "対応",
+    "reading": "たいおう",
+    "meanings": [
+      "response",
+      "correspondence"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Dealing with/responding to something.",
+    "sentences": [
+      {
+        "ja": "問題に対応する。",
+        "en": "Respond to the problem.",
+        "reading": "もんだい に たいおう する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 5 — Relations"
+  },
+  {
+    "id": "v-n2-032",
+    "word": "把握",
+    "reading": "はあく",
+    "meanings": [
+      "grasp",
+      "understanding"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Grasping a situation. Formal.",
+    "sentences": [
+      {
+        "ja": "状況を把握する。",
+        "en": "Grasp the situation.",
+        "reading": "じょうきょう を はあく する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 5 — Relations"
+  },
+  {
+    "id": "v-n2-033",
+    "word": "削減",
+    "reading": "さくげん",
+    "meanings": [
+      "reduction",
+      "cutback"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Cutting costs/budget.",
+    "sentences": [
+      {
+        "ja": "コストを削減する。",
+        "en": "Reduce costs.",
+        "reading": "コスト を さくげん する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 7 — Rules"
+  },
+  {
+    "id": "v-n2-034",
+    "word": "検討",
+    "reading": "けんとう",
+    "meanings": [
+      "examination",
+      "consideration"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Considering/examining a matter. Formal.",
+    "sentences": [
+      {
+        "ja": "提案を検討しています。",
+        "en": "We are considering the proposal.",
+        "reading": "ていあん を けんとう しています。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 5 — Relations"
+  },
+  {
+    "id": "v-n2-035",
+    "word": "導入",
+    "reading": "どうにゅう",
+    "meanings": [
+      "introduction",
+      "adoption"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Introducing a new system/technology.",
+    "sentences": [
+      {
+        "ja": "新しいシステムを導入する。",
+        "en": "Introduce a new system.",
+        "reading": "あたらしい システム を どうにゅう する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ],
+    "unit": "Unit 6 — Change"
+  },
+  {
+    "id": "v-n2-036",
+    "word": "傾向",
+    "reading": "けいこう",
+    "meanings": [
+      "tendency",
+      "trend"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "A tendency/trend.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "最近の傾向を分析する。",
+        "en": "Analyze recent trends.",
+        "reading": "さいきん の けいこう を ぶんせき する。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-037",
+    "word": "具体",
+    "reading": "ぐたい",
+    "meanings": [
+      "concrete",
+      "specific"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Specific/concrete (often 具体的).",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "具体的な計画を立てる。",
+        "en": "Make a specific plan.",
+        "reading": "ぐたいてき な けいかく を たてる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-038",
+    "word": "一般",
+    "reading": "いっぱん",
+    "meanings": [
+      "general",
+      "ordinary"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "In general / the general public.",
+    "unit": "Unit 4 — Contrast",
+    "sentences": [
+      {
+        "ja": "一般的な意見を聞きたい。",
+        "en": "I want to hear general opinions.",
+        "reading": "いっぱんてき な いけん を ききたい。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-039",
+    "word": "基本",
+    "reading": "きほん",
+    "meanings": [
+      "basics",
+      "foundation"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "The basics/fundamentals.",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "基本を大切にする。",
+        "en": "Value the basics.",
+        "reading": "きほん を たいせつ に する。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-040",
+    "word": "過程",
+    "reading": "かてい",
+    "meanings": [
+      "process",
+      "course"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "The process of something.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "成長の過程を見守る。",
+        "en": "Watch over the growth process.",
+        "reading": "せいちょう の かてい を みまもる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-041",
+    "word": "範囲",
+    "reading": "はんい",
+    "meanings": [
+      "range",
+      "scope"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "The range/scope.",
+    "unit": "Unit 7 — Rules",
+    "sentences": [
+      {
+        "ja": "試験の範囲を確認する。",
+        "en": "Confirm the exam scope.",
+        "reading": "しけん の はんい を かくにん する。"
+      }
+    ],
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "v-n2-042",
+    "word": "解決",
+    "reading": "かいけつ",
+    "meanings": [
+      "solution",
+      "resolution"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Solve a problem.",
+    "unit": "Unit 2 — Obligation",
+    "sentences": [
+      {
+        "ja": "問題を解決する方法を考える。",
+        "en": "Think of ways to solve the problem.",
+        "reading": "もんだい を かいけつ する ほうほう を かんがえる。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-043",
+    "word": "達成",
+    "reading": "たっせい",
+    "meanings": [
+      "achievement"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Achieve a goal.",
+    "unit": "Unit 2 — Obligation",
+    "sentences": [
+      {
+        "ja": "目標を達成した。",
+        "en": "I achieved the goal.",
+        "reading": "もくひょう を たっせい した。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-044",
+    "word": "方法",
+    "reading": "ほうほう",
+    "meanings": [
+      "method",
+      "way"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Method/way of doing something.",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "いい方法を見つけた。",
+        "en": "I found a good method.",
+        "reading": "いい ほうほう を みつけた。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-045",
+    "word": "傾く",
+    "reading": "かたむく",
+    "meanings": [
+      "to lean",
+      "to incline"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N2",
+    "simple_usage": "To lean/tilt.",
+    "sentences": [
+      {
+        "ja": "経営が傾いている。",
+        "en": "The business is declining.",
+        "reading": "けいえい が かたむいている。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-046",
+    "word": "実施",
+    "reading": "じっし",
+    "meanings": [
+      "implementation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "To implement/carry out.",
+    "unit": "Unit 7 — Rules",
+    "sentences": [
+      {
+        "ja": "新しい制度を実施する。",
+        "en": "Implement a new system.",
+        "reading": "あたらしい せいど を じっし する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-047",
+    "word": "確保",
+    "reading": "かくほ",
+    "meanings": [
+      "securing",
+      "ensuring"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Secure/ensure something.",
+    "sentences": [
+      {
+        "ja": "安全を確保する。",
+        "en": "Ensure safety.",
+        "reading": "あんぜん を かくほ する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-048",
+    "word": "促す",
+    "reading": "うながす",
+    "meanings": [
+      "to urge",
+      "to promote"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N2",
+    "simple_usage": "Urge someone to act.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "参加を促す。",
+        "en": "Urge participation.",
+        "reading": "さんか を うながす。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-049",
+    "word": "拡大",
+    "reading": "かくだい",
+    "meanings": [
+      "expansion",
+      "enlargement"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Expand/enlarge.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "事業を拡大する。",
+        "en": "Expand the business.",
+        "reading": "じぎょう を かくだい する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-050",
+    "word": "縮小",
+    "reading": "しゅくしょう",
+    "meanings": [
+      "reduction",
+      "shrinkage"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Shrink/reduce. Opposite: 拡大.",
+    "sentences": [
+      {
+        "ja": "規模を縮小する。",
+        "en": "Reduce the scale.",
+        "reading": "きぼ を しゅくしょう する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-051",
+    "word": "適用",
+    "reading": "てきよう",
+    "meanings": [
+      "application",
+      "enforcement"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Apply (a rule/law).",
+    "unit": "Unit 7 — Rules",
+    "sentences": [
+      {
+        "ja": "新しいルールが適用される。",
+        "en": "New rules will be applied.",
+        "reading": "あたらしい ルール が てきよう される。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-052",
+    "word": "指摘",
+    "reading": "してき",
+    "meanings": [
+      "pointing out"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Point out (a problem/issue).",
+    "sentences": [
+      {
+        "ja": "問題点を指摘する。",
+        "en": "Point out the problems.",
+        "reading": "もんだいてん を してき する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-053",
+    "word": "主張",
+    "reading": "しゅちょう",
+    "meanings": [
+      "assertion",
+      "claim"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Assert/claim.",
+    "unit": "Unit 1 — Denial & Certainty",
+    "sentences": [
+      {
+        "ja": "自分の意見を主張する。",
+        "en": "Assert your opinion.",
+        "reading": "じぶん の いけん を しゅちょう する。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n2-054",
+    "word": "評価",
+    "reading": "ひょうか",
+    "meanings": [
+      "evaluation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Evaluate/assess.",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "仕事の評価が高い。",
+        "en": "The work evaluation is high.",
+        "reading": "しごと の ひょうか が たかい。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-055",
+    "word": "段階",
+    "reading": "だんかい",
+    "meanings": [
+      "stage",
+      "phase"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "Stage/phase of something.",
+    "unit": "Unit 8 — Patterns",
+    "sentences": [
+      {
+        "ja": "次の段階に進む。",
+        "en": "Move to the next stage.",
+        "reading": "つぎ の だんかい に すすむ。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-056",
+    "word": "妥当",
+    "reading": "だとう",
+    "meanings": [
+      "valid",
+      "appropriate"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N2",
+    "simple_usage": "Reasonable/valid.",
+    "unit": "Unit 1 — Denial & Certainty",
+    "sentences": [
+      {
+        "ja": "妥当な判断だと思う。",
+        "en": "I think it's a valid judgment.",
+        "reading": "だとう な はんだん だ と おもう。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-057",
+    "word": "顕著",
+    "reading": "けんちょ",
+    "meanings": [
+      "remarkable"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N2",
+    "simple_usage": "Remarkably visible.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "顕著な変化が見られた。",
+        "en": "Remarkable changes were observed.",
+        "reading": "けんちょ な へんか が みられた。"
+      }
+    ],
+    "tags": [
+      "academic"
+    ]
+  },
+  {
+    "id": "v-n2-058",
+    "word": "深刻",
+    "reading": "しんこく",
+    "meanings": [
+      "serious",
+      "grave"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N2",
+    "simple_usage": "A serious/grave matter.",
+    "unit": "Unit 4 — Contrast",
+    "sentences": [
+      {
+        "ja": "環境問題が深刻になっている。",
+        "en": "Environmental issues are becoming serious.",
+        "reading": "かんきょう もんだい が しんこく に なっている。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n2-059",
+    "word": "明確",
+    "reading": "めいかく",
+    "meanings": [
+      "clear",
+      "explicit"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N2",
+    "simple_usage": "Clear and explicit.",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "明確な基準が必要だ。",
+        "en": "Clear criteria are needed.",
+        "reading": "めいかく な きじゅん が ひつよう だ。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-060",
+    "word": "柔軟",
+    "reading": "じゅうなん",
+    "meanings": [
+      "flexible"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N2",
+    "simple_usage": "Flexible in thinking/approach.",
+    "sentences": [
+      {
+        "ja": "柔軟な対応が求められる。",
+        "en": "A flexible response is required.",
+        "reading": "じゅうなん な たいおう が もとめられる。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-061",
+    "word": "推進",
+    "reading": "すいしん",
+    "meanings": [
+      "promotion",
+      "propulsion"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Promote/push forward.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "政策を推進する。",
+        "en": "Promote the policy.",
+        "reading": "せいさく を すいしん する。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-062",
+    "word": "把握",
+    "reading": "はあく",
+    "meanings": [
+      "grasp",
+      "understanding"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Grasp a situation.",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "現状を把握する。",
+        "en": "Grasp the current situation.",
+        "reading": "げんじょう を はあく する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-063",
+    "word": "見直す",
+    "reading": "みなおす",
+    "meanings": [
+      "to review",
+      "to reconsider"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N2",
+    "simple_usage": "Review or reconsider.",
+    "unit": "Unit 7 — Rules",
+    "sentences": [
+      {
+        "ja": "計画を見直す必要がある。",
+        "en": "We need to review the plan.",
+        "reading": "けいかく を みなおす ひつよう が ある。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-064",
+    "word": "踏まえる",
+    "reading": "ふまえる",
+    "meanings": [
+      "to be based on",
+      "to take into account"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N2",
+    "simple_usage": "Take something into account.",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "結果を踏まえて判断する。",
+        "en": "Judge based on the results.",
+        "reading": "けっか を ふまえて はんだん する。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-065",
+    "word": "活用",
+    "reading": "かつよう",
+    "meanings": [
+      "utilization",
+      "conjugation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Put to use / utilize.",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "資源を有効に活用する。",
+        "en": "Effectively utilize resources.",
+        "reading": "しげん を ゆうこう に かつよう する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-066",
+    "word": "前提",
+    "reading": "ぜんてい",
+    "meanings": [
+      "premise",
+      "precondition"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "A premise or assumption.",
+    "unit": "Unit 1 — Denial & Certainty",
+    "sentences": [
+      {
+        "ja": "その前提は正しいですか。",
+        "en": "Is that premise correct?",
+        "reading": "その ぜんてい は ただしい です か。"
+      }
+    ],
+    "tags": [
+      "logic"
+    ]
+  },
+  {
+    "id": "v-n2-067",
+    "word": "矛盾",
+    "reading": "むじゅん",
+    "meanings": [
+      "contradiction"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "A contradiction.",
+    "unit": "Unit 1 — Denial & Certainty",
+    "sentences": [
+      {
+        "ja": "説明に矛盾がある。",
+        "en": "There's a contradiction in the explanation.",
+        "reading": "せつめい に むじゅん が ある。"
+      }
+    ],
+    "tags": [
+      "logic"
+    ]
+  },
+  {
+    "id": "v-n2-068",
+    "word": "根拠",
+    "reading": "こんきょ",
+    "meanings": [
+      "basis",
+      "evidence"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "The basis/grounds for something.",
+    "unit": "Unit 1 — Denial & Certainty",
+    "sentences": [
+      {
+        "ja": "根拠を示してください。",
+        "en": "Please show the evidence.",
+        "reading": "こんきょ を しめして ください。"
+      }
+    ],
+    "tags": [
+      "logic"
+    ]
+  },
+  {
+    "id": "v-n2-069",
+    "word": "妨げる",
+    "reading": "さまたげる",
+    "meanings": [
+      "to hinder",
+      "to obstruct"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N2",
+    "simple_usage": "Hinder/obstruct something.",
+    "unit": "Unit 2 — Obligation",
+    "sentences": [
+      {
+        "ja": "成長を妨げる要因がある。",
+        "en": "There are factors hindering growth.",
+        "reading": "せいちょう を さまたげる よういん が ある。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-070",
+    "word": "補う",
+    "reading": "おぎなう",
+    "meanings": [
+      "to supplement",
+      "to make up for"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N2",
+    "simple_usage": "Supplement/compensate.",
+    "unit": "Unit 3 — Emphasis",
+    "sentences": [
+      {
+        "ja": "不足を補う。",
+        "en": "Make up for the shortage.",
+        "reading": "ふそく を おぎなう。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-071",
+    "word": "占める",
+    "reading": "しめる",
+    "meanings": [
+      "to occupy",
+      "to account for"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N2",
+    "simple_usage": "Account for a percentage.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "女性が半数を占める。",
+        "en": "Women account for half.",
+        "reading": "じょせい が はんすう を しめる。"
+      }
+    ],
+    "tags": [
+      "statistics"
+    ]
+  },
+  {
+    "id": "v-n2-072",
+    "word": "伴う",
+    "reading": "ともなう",
+    "meanings": [
+      "to accompany",
+      "to entail"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N2",
+    "simple_usage": "Accompany/come with.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "変化に伴う問題がある。",
+        "en": "There are problems accompanying the change.",
+        "reading": "へんか に ともなう もんだい が ある。"
+      }
+    ],
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "v-n2-073",
+    "word": "要因",
+    "reading": "よういん",
+    "meanings": [
+      "factor",
+      "cause"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N2",
+    "simple_usage": "A contributing factor.",
+    "unit": "Unit 4 — Contrast",
+    "sentences": [
+      {
+        "ja": "成功の要因を分析する。",
+        "en": "Analyze the factors of success.",
+        "reading": "せいこう の よういん を ぶんせき する。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n2-074",
+    "word": "分析",
+    "reading": "ぶんせき",
+    "meanings": [
+      "analysis"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Analyze data/situations.",
+    "unit": "Unit 5 — Relations",
+    "sentences": [
+      {
+        "ja": "データを分析する。",
+        "en": "Analyze the data.",
+        "reading": "データ を ぶんせき する。"
+      }
+    ],
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "v-n2-075",
+    "word": "普及",
+    "reading": "ふきゅう",
+    "meanings": [
+      "spread",
+      "diffusion"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N2",
+    "simple_usage": "Spread/become widespread.",
+    "unit": "Unit 6 — Change",
+    "sentences": [
+      {
+        "ja": "インターネットが普及した。",
+        "en": "The internet spread widely.",
+        "reading": "インターネット が ふきゅう した。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  }
 ]

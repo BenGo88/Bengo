@@ -1,42 +1,1423 @@
 [
-  {"id":"v-n5-001","word":"食べる","reading":"たべる","meanings":["to eat"],"part_of_speech":"ichidan verb","jlpt":"N5","simple_usage":"Group 2 verb.","sentences":[{"ja":"朝ごはんを食べます。","en":"I eat breakfast.","reading":"あさごはん を たべます。","tokens":[{"text":"朝ごはん","lexemeId":"lex-n5-朝ごはん"},{"text":"を","lexemeId":"lex-f-を"},{"text":"食べます","lexemeId":"lex-n5-食べます"}]}],"tags":["food"]},
-  {"id":"v-n5-002","word":"飲む","reading":"のむ","meanings":["to drink"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"Group 1 verb.","sentences":[{"ja":"水を飲みます。","en":"I drink water.","reading":"みず を のみます。"}],"tags":["food"]},
-  {"id":"v-n5-003","word":"行く","reading":"いく","meanings":["to go"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"て-form exception: 行って.","sentences":[{"ja":"学校に行きます。","en":"I go to school.","reading":"がっこう に いきます。"}],"tags":["movement"]},
-  {"id":"v-n5-004","word":"見る","reading":"みる","meanings":["to see","to watch"],"part_of_speech":"ichidan verb","jlpt":"N5","simple_usage":"テレビを見る = watch TV.","sentences":[{"ja":"テレビを見ます。","en":"I watch TV.","reading":"テレビ を みます。"}],"tags":["daily"]},
-  {"id":"v-n5-005","word":"分かる","reading":"わかる","meanings":["to understand"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"Uses が not を.","sentences":[{"ja":"日本語が分かります。","en":"I understand Japanese.","reading":"にほんご が わかります。"}],"tags":["daily"]},
-  {"id":"v-n5-006","word":"来る","reading":"くる","meanings":["to come"],"part_of_speech":"irregular verb","jlpt":"N5","simple_usage":"Irregular. 来ます/来た/来ない.","sentences":[{"ja":"友達が来ます。","en":"My friend is coming.","reading":"ともだち が きます。"}],"tags":["movement"]},
-  {"id":"v-n5-007","word":"する","reading":"する","meanings":["to do"],"part_of_speech":"irregular verb","jlpt":"N5","simple_usage":"Attaches to nouns: 勉強する.","sentences":[{"ja":"勉強をします。","en":"I study.","reading":"べんきょう を します。"}],"tags":["daily"]},
-  {"id":"v-n5-008","word":"大きい","reading":"おおきい","meanings":["big","large"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"Negative: 大きくない.","sentences":[{"ja":"この犬は大きいです。","en":"This dog is big.","reading":"この いぬ は おおきい です。"}],"tags":["basic"]},
-  {"id":"v-n5-009","word":"小さい","reading":"ちいさい","meanings":["small"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"Opposite of 大きい.","sentences":[{"ja":"小さい猫がいます。","en":"There is a small cat.","reading":"ちいさい ねこ が います。"}],"tags":["basic"]},
-  {"id":"v-n5-010","word":"いい","reading":"いい","meanings":["good"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"Irregular! Negative: よくない.","sentences":[{"ja":"今日はいい天気です。","en":"Nice weather today.","reading":"きょう は いい てんき です。"}],"tags":["basic"]},
-  {"id":"v-n5-011","word":"友達","reading":"ともだち","meanings":["friend"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"No singular/plural.","sentences":[{"ja":"友達と映画を見ます。","en":"I watch a movie with a friend.","reading":"ともだち と えいが を みます。"}],"tags":["people"]},
-  {"id":"v-n5-012","word":"先生","reading":"せんせい","meanings":["teacher","doctor"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"Any respected professional.","sentences":[{"ja":"先生はやさしいです。","en":"The teacher is kind.","reading":"せんせい は やさしい です。"}],"tags":["people"]},
-  {"id":"v-n5-013","word":"新しい","reading":"あたらしい","meanings":["new"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"Opposite: 古い.","sentences":[{"ja":"新しい本を買いました。","en":"I bought a new book.","reading":"あたらしい ほん を かいました。"}],"tags":["basic"]},
-  {"id":"v-n5-014","word":"時間","reading":"じかん","meanings":["time","hour"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"一時間 = 1 hour.","sentences":[{"ja":"時間がありません。","en":"I don't have time.","reading":"じかん が ありません。"}],"tags":["time"]},
-  {"id":"v-n5-015","word":"電車","reading":"でんしゃ","meanings":["train"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"Japan's main transport.","sentences":[{"ja":"電車で会社に行きます。","en":"I go to the office by train.","reading":"でんしゃ で かいしゃ に いきます。"}],"tags":["transport"]},
-  {"id":"v-n5-016","word":"買う","reading":"かう","meanings":["to buy"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"て-form: 買って.","sentences":[{"ja":"本を買います。","en":"I buy a book.","reading":"ほん を かいます。"}],"tags":["shopping"]},
-  {"id":"v-n5-017","word":"書く","reading":"かく","meanings":["to write"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"て-form: 書いて.","sentences":[{"ja":"手紙を書きます。","en":"I write a letter.","reading":"てがみ を かきます。"}],"tags":["daily"]},
-  {"id":"v-n5-018","word":"読む","reading":"よむ","meanings":["to read"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"て-form: 読んで.","sentences":[{"ja":"本を読みます。","en":"I read a book.","reading":"ほん を よみます。"}],"tags":["daily"]},
-  {"id":"v-n5-019","word":"聞く","reading":"きく","meanings":["to listen","to ask"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"Two meanings: listen and ask.","sentences":[{"ja":"音楽を聞きます。","en":"I listen to music.","reading":"おんがく を ききます。"}],"tags":["daily"]},
-  {"id":"v-n5-020","word":"話す","reading":"はなす","meanings":["to speak","to talk"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"て-form: 話して.","sentences":[{"ja":"日本語を話します。","en":"I speak Japanese.","reading":"にほんご を はなします。"}],"tags":["communication"]},
-  {"id":"v-n5-021","word":"会う","reading":"あう","meanings":["to meet"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"〜に会う = meet someone.","sentences":[{"ja":"友達に会います。","en":"I meet my friend.","reading":"ともだち に あいます。"}],"tags":["daily"]},
-  {"id":"v-n5-022","word":"待つ","reading":"まつ","meanings":["to wait"],"part_of_speech":"godan verb","jlpt":"N5","simple_usage":"て-form: 待って.","sentences":[{"ja":"ここで待ってください。","en":"Please wait here.","reading":"ここ で まって ください。"}],"tags":["daily"]},
-  {"id":"v-n5-023","word":"好き","reading":"すき","meanings":["like","fond of"],"part_of_speech":"な-adjective","jlpt":"N5","simple_usage":"Uses が: 猫が好き.","sentences":[{"ja":"猫が好きです。","en":"I like cats.","reading":"ねこ が すき です。"}],"tags":["emotions"]},
-  {"id":"v-n5-024","word":"嫌い","reading":"きらい","meanings":["dislike","hate"],"part_of_speech":"な-adjective","jlpt":"N5","simple_usage":"Opposite of 好き.","sentences":[{"ja":"野菜が嫌いです。","en":"I dislike vegetables.","reading":"やさい が きらい です。"}],"tags":["emotions"]},
-  {"id":"v-n5-025","word":"元気","reading":"げんき","meanings":["healthy","energetic"],"part_of_speech":"な-adjective","jlpt":"N5","simple_usage":"お元気ですか = How are you?","sentences":[{"ja":"お元気ですか。","en":"How are you?","reading":"おげんき です か。"}],"tags":["greetings"]},
-  {"id":"v-n5-026","word":"高い","reading":"たかい","meanings":["expensive","tall"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"Two meanings: expensive and tall/high.","sentences":[{"ja":"この本は高いです。","en":"This book is expensive.","reading":"この ほん は たかい です。"}],"tags":["basic"]},
-  {"id":"v-n5-027","word":"安い","reading":"やすい","meanings":["cheap","inexpensive"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"Opposite of 高い (expensive).","sentences":[{"ja":"この店は安いです。","en":"This shop is cheap.","reading":"この みせ は やすい です。"}],"tags":["shopping"]},
-  {"id":"v-n5-028","word":"お母さん","reading":"おかあさん","meanings":["mother"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"Polite. Your own mother: 母 (はは).","sentences":[{"ja":"お母さんは料理が上手です。","en":"Mom is good at cooking.","reading":"おかあさん は りょうり が じょうず です。"}],"tags":["family"]},
-  {"id":"v-n5-029","word":"お父さん","reading":"おとうさん","meanings":["father"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"Polite. Your own father: 父 (ちち).","sentences":[{"ja":"お父さんは会社員です。","en":"Father is an office worker.","reading":"おとうさん は かいしゃいん です。"}],"tags":["family"]},
-  {"id":"v-n5-030","word":"天気","reading":"てんき","meanings":["weather"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"いい天気 = nice weather.","sentences":[{"ja":"明日の天気はどうですか。","en":"How's the weather tomorrow?","reading":"あした の てんき は どう です か。"}],"tags":["weather"]},
-  {"id":"v-n5-031","word":"仕事","reading":"しごと","meanings":["work","job"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"仕事をする = to work.","sentences":[{"ja":"仕事は忙しいです。","en":"Work is busy.","reading":"しごと は いそがしい です。"}],"tags":["work"]},
-  {"id":"v-n5-032","word":"映画","reading":"えいが","meanings":["movie"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"映画を見る = watch a movie.","sentences":[{"ja":"映画が好きです。","en":"I like movies.","reading":"えいが が すき です。"}],"tags":["entertainment"]},
-  {"id":"v-n5-033","word":"音楽","reading":"おんがく","meanings":["music"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"音楽を聞く = listen to music.","sentences":[{"ja":"音楽を聞きます。","en":"I listen to music.","reading":"おんがく を ききます。"}],"tags":["entertainment"]},
-  {"id":"v-n5-034","word":"朝","reading":"あさ","meanings":["morning"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"朝ごはん = breakfast.","sentences":[{"ja":"朝6時に起きます。","en":"I wake up at 6 AM.","reading":"あさ ろくじ に おきます。"}],"tags":["time"]},
-  {"id":"v-n5-035","word":"昼","reading":"ひる","meanings":["noon","daytime"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"昼ごはん = lunch.","sentences":[{"ja":"昼ごはんを食べましょう。","en":"Let's eat lunch.","reading":"ひるごはん を たべましょう。"}],"tags":["time"]},
-  {"id":"v-n5-036","word":"夜","reading":"よる","meanings":["night","evening"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"今夜 = tonight.","sentences":[{"ja":"夜は寒いです。","en":"Nights are cold.","reading":"よる は さむい です。"}],"tags":["time"]},
-  {"id":"v-n5-037","word":"今","reading":"いま","meanings":["now"],"part_of_speech":"noun","jlpt":"N5","simple_usage":"今何時? = What time is it now?","sentences":[{"ja":"今、何時ですか。","en":"What time is it now?","reading":"いま、なんじ です か。"}],"tags":["time"]},
-  {"id":"v-n5-038","word":"寒い","reading":"さむい","meanings":["cold (weather)"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"For weather/air. 冷たい = cold to touch.","sentences":[{"ja":"今日は寒いです。","en":"It's cold today.","reading":"きょう は さむい です。"}],"tags":["weather"]},
-  {"id":"v-n5-039","word":"暑い","reading":"あつい","meanings":["hot (weather)"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"For weather. 熱い = hot to touch.","sentences":[{"ja":"夏は暑いです。","en":"Summer is hot.","reading":"なつ は あつい です。"}],"tags":["weather"]},
-  {"id":"v-n5-040","word":"忙しい","reading":"いそがしい","meanings":["busy"],"part_of_speech":"い-adjective","jlpt":"N5","simple_usage":"Common daily word.","sentences":[{"ja":"今週は忙しいです。","en":"I'm busy this week.","reading":"こんしゅう は いそがしい です。"}],"tags":["daily"]}
+  {
+    "id": "v-n5-001",
+    "word": "食べる",
+    "reading": "たべる",
+    "meanings": [
+      "to eat"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "Group 2 verb.",
+    "sentences": [
+      {
+        "ja": "朝ごはんを食べます。",
+        "en": "I eat breakfast.",
+        "reading": "あさごはん を たべます。",
+        "tokens": [
+          {
+            "text": "朝ごはん",
+            "lexemeId": "lex-n5-朝ごはん"
+          },
+          {
+            "text": "を",
+            "lexemeId": "lex-f-を"
+          },
+          {
+            "text": "食べます",
+            "lexemeId": "lex-n5-食べます"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "food"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-002",
+    "word": "飲む",
+    "reading": "のむ",
+    "meanings": [
+      "to drink"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Group 1 verb.",
+    "sentences": [
+      {
+        "ja": "水を飲みます。",
+        "en": "I drink water.",
+        "reading": "みず を のみます。"
+      }
+    ],
+    "tags": [
+      "food"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-003",
+    "word": "行く",
+    "reading": "いく",
+    "meanings": [
+      "to go"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "て-form exception: 行って.",
+    "sentences": [
+      {
+        "ja": "学校に行きます。",
+        "en": "I go to school.",
+        "reading": "がっこう に いきます。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ],
+    "unit": "Unit 2 — Basic Particles"
+  },
+  {
+    "id": "v-n5-004",
+    "word": "見る",
+    "reading": "みる",
+    "meanings": [
+      "to see",
+      "to watch"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "テレビを見る = watch TV.",
+    "sentences": [
+      {
+        "ja": "テレビを見ます。",
+        "en": "I watch TV.",
+        "reading": "テレビ を みます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 2 — Basic Particles"
+  },
+  {
+    "id": "v-n5-005",
+    "word": "分かる",
+    "reading": "わかる",
+    "meanings": [
+      "to understand"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Uses が not を.",
+    "sentences": [
+      {
+        "ja": "日本語が分かります。",
+        "en": "I understand Japanese.",
+        "reading": "にほんご が わかります。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 2 — Basic Particles"
+  },
+  {
+    "id": "v-n5-006",
+    "word": "来る",
+    "reading": "くる",
+    "meanings": [
+      "to come"
+    ],
+    "part_of_speech": "irregular verb",
+    "jlpt": "N5",
+    "simple_usage": "Irregular. 来ます/来た/来ない.",
+    "sentences": [
+      {
+        "ja": "友達が来ます。",
+        "en": "My friend is coming.",
+        "reading": "ともだち が きます。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ],
+    "unit": "Unit 3 — Polite Verbs"
+  },
+  {
+    "id": "v-n5-007",
+    "word": "する",
+    "reading": "する",
+    "meanings": [
+      "to do"
+    ],
+    "part_of_speech": "irregular verb",
+    "jlpt": "N5",
+    "simple_usage": "Attaches to nouns: 勉強する.",
+    "sentences": [
+      {
+        "ja": "勉強をします。",
+        "en": "I study.",
+        "reading": "べんきょう を します。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ],
+    "unit": "Unit 3 — Polite Verbs"
+  },
+  {
+    "id": "v-n5-008",
+    "word": "大きい",
+    "reading": "おおきい",
+    "meanings": [
+      "big",
+      "large"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Negative: 大きくない.",
+    "sentences": [
+      {
+        "ja": "この犬は大きいです。",
+        "en": "This dog is big.",
+        "reading": "この いぬ は おおきい です。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-009",
+    "word": "小さい",
+    "reading": "ちいさい",
+    "meanings": [
+      "small"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Opposite of 大きい.",
+    "sentences": [
+      {
+        "ja": "小さい猫がいます。",
+        "en": "There is a small cat.",
+        "reading": "ちいさい ねこ が います。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-010",
+    "word": "いい",
+    "reading": "いい",
+    "meanings": [
+      "good"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Irregular! Negative: よくない.",
+    "sentences": [
+      {
+        "ja": "今日はいい天気です。",
+        "en": "Nice weather today.",
+        "reading": "きょう は いい てんき です。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-011",
+    "word": "友達",
+    "reading": "ともだち",
+    "meanings": [
+      "friend"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "No singular/plural.",
+    "sentences": [
+      {
+        "ja": "友達と映画を見ます。",
+        "en": "I watch a movie with a friend.",
+        "reading": "ともだち と えいが を みます。"
+      }
+    ],
+    "tags": [
+      "people"
+    ],
+    "unit": "Unit 2 — Basic Particles"
+  },
+  {
+    "id": "v-n5-012",
+    "word": "先生",
+    "reading": "せんせい",
+    "meanings": [
+      "teacher",
+      "doctor"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Any respected professional.",
+    "sentences": [
+      {
+        "ja": "先生はやさしいです。",
+        "en": "The teacher is kind.",
+        "reading": "せんせい は やさしい です。"
+      }
+    ],
+    "tags": [
+      "people"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-013",
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meanings": [
+      "new"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Opposite: 古い.",
+    "sentences": [
+      {
+        "ja": "新しい本を買いました。",
+        "en": "I bought a new book.",
+        "reading": "あたらしい ほん を かいました。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "v-n5-014",
+    "word": "時間",
+    "reading": "じかん",
+    "meanings": [
+      "time",
+      "hour"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "一時間 = 1 hour.",
+    "sentences": [
+      {
+        "ja": "時間がありません。",
+        "en": "I don't have time.",
+        "reading": "じかん が ありません。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-015",
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meanings": [
+      "train"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Japan's main transport.",
+    "sentences": [
+      {
+        "ja": "電車で会社に行きます。",
+        "en": "I go to the office by train.",
+        "reading": "でんしゃ で かいしゃ に いきます。"
+      }
+    ],
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "v-n5-016",
+    "word": "買う",
+    "reading": "かう",
+    "meanings": [
+      "to buy"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "て-form: 買って.",
+    "sentences": [
+      {
+        "ja": "本を買います。",
+        "en": "I buy a book.",
+        "reading": "ほん を かいます。"
+      }
+    ],
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "id": "v-n5-017",
+    "word": "書く",
+    "reading": "かく",
+    "meanings": [
+      "to write"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "て-form: 書いて.",
+    "sentences": [
+      {
+        "ja": "手紙を書きます。",
+        "en": "I write a letter.",
+        "reading": "てがみ を かきます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-018",
+    "word": "読む",
+    "reading": "よむ",
+    "meanings": [
+      "to read"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "て-form: 読んで.",
+    "sentences": [
+      {
+        "ja": "本を読みます。",
+        "en": "I read a book.",
+        "reading": "ほん を よみます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-019",
+    "word": "聞く",
+    "reading": "きく",
+    "meanings": [
+      "to listen",
+      "to ask"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Two meanings: listen and ask.",
+    "sentences": [
+      {
+        "ja": "音楽を聞きます。",
+        "en": "I listen to music.",
+        "reading": "おんがく を ききます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-020",
+    "word": "話す",
+    "reading": "はなす",
+    "meanings": [
+      "to speak",
+      "to talk"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "て-form: 話して.",
+    "sentences": [
+      {
+        "ja": "日本語を話します。",
+        "en": "I speak Japanese.",
+        "reading": "にほんご を はなします。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n5-021",
+    "word": "会う",
+    "reading": "あう",
+    "meanings": [
+      "to meet"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "〜に会う = meet someone.",
+    "sentences": [
+      {
+        "ja": "友達に会います。",
+        "en": "I meet my friend.",
+        "reading": "ともだち に あいます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-022",
+    "word": "待つ",
+    "reading": "まつ",
+    "meanings": [
+      "to wait"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "て-form: 待って.",
+    "sentences": [
+      {
+        "ja": "ここで待ってください。",
+        "en": "Please wait here.",
+        "reading": "ここ で まって ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-023",
+    "word": "好き",
+    "reading": "すき",
+    "meanings": [
+      "like",
+      "fond of"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Uses が: 猫が好き.",
+    "sentences": [
+      {
+        "ja": "猫が好きです。",
+        "en": "I like cats.",
+        "reading": "ねこ が すき です。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-024",
+    "word": "嫌い",
+    "reading": "きらい",
+    "meanings": [
+      "dislike",
+      "hate"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Opposite of 好き.",
+    "sentences": [
+      {
+        "ja": "野菜が嫌いです。",
+        "en": "I dislike vegetables.",
+        "reading": "やさい が きらい です。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-025",
+    "word": "元気",
+    "reading": "げんき",
+    "meanings": [
+      "healthy",
+      "energetic"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N5",
+    "simple_usage": "お元気ですか = How are you?",
+    "sentences": [
+      {
+        "ja": "お元気ですか。",
+        "en": "How are you?",
+        "reading": "おげんき です か。"
+      }
+    ],
+    "tags": [
+      "greetings"
+    ],
+    "unit": "Unit 1 — First Sentences"
+  },
+  {
+    "id": "v-n5-026",
+    "word": "高い",
+    "reading": "たかい",
+    "meanings": [
+      "expensive",
+      "tall"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Two meanings: expensive and tall/high.",
+    "sentences": [
+      {
+        "ja": "この本は高いです。",
+        "en": "This book is expensive.",
+        "reading": "この ほん は たかい です。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "v-n5-027",
+    "word": "安い",
+    "reading": "やすい",
+    "meanings": [
+      "cheap",
+      "inexpensive"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Opposite of 高い (expensive).",
+    "sentences": [
+      {
+        "ja": "この店は安いです。",
+        "en": "This shop is cheap.",
+        "reading": "この みせ は やすい です。"
+      }
+    ],
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "id": "v-n5-028",
+    "word": "お母さん",
+    "reading": "おかあさん",
+    "meanings": [
+      "mother"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Polite. Your own mother: 母 (はは).",
+    "sentences": [
+      {
+        "ja": "お母さんは料理が上手です。",
+        "en": "Mom is good at cooking.",
+        "reading": "おかあさん は りょうり が じょうず です。"
+      }
+    ],
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "id": "v-n5-029",
+    "word": "お父さん",
+    "reading": "おとうさん",
+    "meanings": [
+      "father"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Polite. Your own father: 父 (ちち).",
+    "sentences": [
+      {
+        "ja": "お父さんは会社員です。",
+        "en": "Father is an office worker.",
+        "reading": "おとうさん は かいしゃいん です。"
+      }
+    ],
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "id": "v-n5-030",
+    "word": "天気",
+    "reading": "てんき",
+    "meanings": [
+      "weather"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "いい天気 = nice weather.",
+    "sentences": [
+      {
+        "ja": "明日の天気はどうですか。",
+        "en": "How's the weather tomorrow?",
+        "reading": "あした の てんき は どう です か。"
+      }
+    ],
+    "tags": [
+      "weather"
+    ]
+  },
+  {
+    "id": "v-n5-031",
+    "word": "仕事",
+    "reading": "しごと",
+    "meanings": [
+      "work",
+      "job"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "仕事をする = to work.",
+    "sentences": [
+      {
+        "ja": "仕事は忙しいです。",
+        "en": "Work is busy.",
+        "reading": "しごと は いそがしい です。"
+      }
+    ],
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "id": "v-n5-032",
+    "word": "映画",
+    "reading": "えいが",
+    "meanings": [
+      "movie"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "映画を見る = watch a movie.",
+    "sentences": [
+      {
+        "ja": "映画が好きです。",
+        "en": "I like movies.",
+        "reading": "えいが が すき です。"
+      }
+    ],
+    "tags": [
+      "entertainment"
+    ]
+  },
+  {
+    "id": "v-n5-033",
+    "word": "音楽",
+    "reading": "おんがく",
+    "meanings": [
+      "music"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "音楽を聞く = listen to music.",
+    "sentences": [
+      {
+        "ja": "音楽を聞きます。",
+        "en": "I listen to music.",
+        "reading": "おんがく を ききます。"
+      }
+    ],
+    "tags": [
+      "entertainment"
+    ]
+  },
+  {
+    "id": "v-n5-034",
+    "word": "朝",
+    "reading": "あさ",
+    "meanings": [
+      "morning"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "朝ごはん = breakfast.",
+    "sentences": [
+      {
+        "ja": "朝6時に起きます。",
+        "en": "I wake up at 6 AM.",
+        "reading": "あさ ろくじ に おきます。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-035",
+    "word": "昼",
+    "reading": "ひる",
+    "meanings": [
+      "noon",
+      "daytime"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "昼ごはん = lunch.",
+    "sentences": [
+      {
+        "ja": "昼ごはんを食べましょう。",
+        "en": "Let's eat lunch.",
+        "reading": "ひるごはん を たべましょう。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-036",
+    "word": "夜",
+    "reading": "よる",
+    "meanings": [
+      "night",
+      "evening"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "今夜 = tonight.",
+    "sentences": [
+      {
+        "ja": "夜は寒いです。",
+        "en": "Nights are cold.",
+        "reading": "よる は さむい です。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-037",
+    "word": "今",
+    "reading": "いま",
+    "meanings": [
+      "now"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "今何時? = What time is it now?",
+    "sentences": [
+      {
+        "ja": "今、何時ですか。",
+        "en": "What time is it now?",
+        "reading": "いま、なんじ です か。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n5-038",
+    "word": "寒い",
+    "reading": "さむい",
+    "meanings": [
+      "cold (weather)"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "For weather/air. 冷たい = cold to touch.",
+    "sentences": [
+      {
+        "ja": "今日は寒いです。",
+        "en": "It's cold today.",
+        "reading": "きょう は さむい です。"
+      }
+    ],
+    "tags": [
+      "weather"
+    ]
+  },
+  {
+    "id": "v-n5-039",
+    "word": "暑い",
+    "reading": "あつい",
+    "meanings": [
+      "hot (weather)"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "For weather. 熱い = hot to touch.",
+    "sentences": [
+      {
+        "ja": "夏は暑いです。",
+        "en": "Summer is hot.",
+        "reading": "なつ は あつい です。"
+      }
+    ],
+    "tags": [
+      "weather"
+    ]
+  },
+  {
+    "id": "v-n5-040",
+    "word": "忙しい",
+    "reading": "いそがしい",
+    "meanings": [
+      "busy"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Common daily word.",
+    "sentences": [
+      {
+        "ja": "今週は忙しいです。",
+        "en": "I'm busy this week.",
+        "reading": "こんしゅう は いそがしい です。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-041",
+    "word": "名前",
+    "reading": "なまえ",
+    "meanings": [
+      "name"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Your name.",
+    "unit": "Unit 1 — First Sentences",
+    "sentences": [
+      {
+        "ja": "名前は何ですか。",
+        "en": "What is your name?",
+        "reading": "なまえ は なん です か。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "v-n5-042",
+    "word": "お茶",
+    "reading": "おちゃ",
+    "meanings": [
+      "tea",
+      "green tea"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Japanese green tea.",
+    "sentences": [
+      {
+        "ja": "お茶を飲みませんか。",
+        "en": "Would you like some tea?",
+        "reading": "おちゃ を のみませんか。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-043",
+    "word": "ご飯",
+    "reading": "ごはん",
+    "meanings": [
+      "rice",
+      "meal"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Rice or meal in general.",
+    "sentences": [
+      {
+        "ja": "ご飯を食べましょう。",
+        "en": "Let's eat.",
+        "reading": "ごはん を たべましょう。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-044",
+    "word": "部屋",
+    "reading": "へや",
+    "meanings": [
+      "room"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "A room.",
+    "sentences": [
+      {
+        "ja": "部屋はきれいです。",
+        "en": "The room is clean.",
+        "reading": "へや は きれい です。"
+      }
+    ],
+    "tags": [
+      "house"
+    ]
+  },
+  {
+    "id": "v-n5-045",
+    "word": "病院",
+    "reading": "びょういん",
+    "meanings": [
+      "hospital"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Hospital.",
+    "sentences": [
+      {
+        "ja": "病院に行きます。",
+        "en": "I go to the hospital.",
+        "reading": "びょういん に いきます。"
+      }
+    ],
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "id": "v-n5-046",
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "meanings": [
+      "bank"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Bank (financial).",
+    "sentences": [
+      {
+        "ja": "銀行は何時までですか。",
+        "en": "Until what time is the bank open?",
+        "reading": "ぎんこう は なんじ まで です か。"
+      }
+    ],
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "v-n5-047",
+    "word": "駅",
+    "reading": "えき",
+    "meanings": [
+      "station"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Train station.",
+    "sentences": [
+      {
+        "ja": "駅まで歩きます。",
+        "en": "I walk to the station.",
+        "reading": "えき まで あるきます。"
+      }
+    ],
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "v-n5-048",
+    "word": "店",
+    "reading": "みせ",
+    "meanings": [
+      "shop",
+      "store"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "A shop.",
+    "sentences": [
+      {
+        "ja": "あの店は安いです。",
+        "en": "That shop is cheap.",
+        "reading": "あの みせ は やすい です。"
+      }
+    ],
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "id": "v-n5-049",
+    "word": "歩く",
+    "reading": "あるく",
+    "meanings": [
+      "to walk"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To walk.",
+    "sentences": [
+      {
+        "ja": "毎日歩きます。",
+        "en": "I walk every day.",
+        "reading": "まいにち あるきます。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "v-n5-050",
+    "word": "走る",
+    "reading": "はしる",
+    "meanings": [
+      "to run"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To run.",
+    "sentences": [
+      {
+        "ja": "公園で走ります。",
+        "en": "I run in the park.",
+        "reading": "こうえん で はしります。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "v-n5-051",
+    "word": "泳ぐ",
+    "reading": "およぐ",
+    "meanings": [
+      "to swim"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To swim.",
+    "sentences": [
+      {
+        "ja": "プールで泳ぎます。",
+        "en": "I swim at the pool.",
+        "reading": "プール で およぎます。"
+      }
+    ],
+    "tags": [
+      "sports"
+    ]
+  },
+  {
+    "id": "v-n5-052",
+    "word": "遊ぶ",
+    "reading": "あそぶ",
+    "meanings": [
+      "to play",
+      "to hang out"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "Play or hang out.",
+    "sentences": [
+      {
+        "ja": "友達と遊びます。",
+        "en": "I hang out with friends.",
+        "reading": "ともだち と あそびます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-053",
+    "word": "作る",
+    "reading": "つくる",
+    "meanings": [
+      "to make",
+      "to create"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To make/create.",
+    "sentences": [
+      {
+        "ja": "料理を作ります。",
+        "en": "I cook (make a dish).",
+        "reading": "りょうり を つくります。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-054",
+    "word": "使う",
+    "reading": "つかう",
+    "meanings": [
+      "to use"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N5",
+    "simple_usage": "To use something.",
+    "sentences": [
+      {
+        "ja": "パソコンを使います。",
+        "en": "I use a computer.",
+        "reading": "パソコン を つかいます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n5-055",
+    "word": "難しい",
+    "reading": "むずかしい",
+    "meanings": [
+      "difficult"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Difficult/hard.",
+    "sentences": [
+      {
+        "ja": "日本語は難しいです。",
+        "en": "Japanese is difficult.",
+        "reading": "にほんご は むずかしい です。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "v-n5-056",
+    "word": "易しい",
+    "reading": "やさしい",
+    "meanings": [
+      "easy",
+      "simple"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Easy. Also means kind (優しい).",
+    "sentences": [
+      {
+        "ja": "この本は易しいです。",
+        "en": "This book is easy.",
+        "reading": "この ほん は やさしい です。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "v-n5-057",
+    "word": "楽しい",
+    "reading": "たのしい",
+    "meanings": [
+      "fun",
+      "enjoyable"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Fun/enjoyable.",
+    "sentences": [
+      {
+        "ja": "旅行は楽しかったです。",
+        "en": "The trip was fun.",
+        "reading": "りょこう は たのしかった です。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "v-n5-058",
+    "word": "古い",
+    "reading": "ふるい",
+    "meanings": [
+      "old (things)"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Old (for objects). Not for people.",
+    "sentences": [
+      {
+        "ja": "この建物は古いです。",
+        "en": "This building is old.",
+        "reading": "この たてもの は ふるい です。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "v-n5-059",
+    "word": "料理",
+    "reading": "りょうり",
+    "meanings": [
+      "cooking",
+      "cuisine"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N5",
+    "simple_usage": "Cooking or a dish.",
+    "sentences": [
+      {
+        "ja": "日本料理が好きです。",
+        "en": "I like Japanese cuisine.",
+        "reading": "にほん りょうり が すき です。"
+      }
+    ],
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "v-n5-060",
+    "word": "誕生日",
+    "reading": "たんじょうび",
+    "meanings": [
+      "birthday"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N5",
+    "simple_usage": "Birthday.",
+    "sentences": [
+      {
+        "ja": "明日は誕生日です。",
+        "en": "Tomorrow is my birthday.",
+        "reading": "あした は たんじょうび です。"
+      }
+    ],
+    "tags": [
+      "events"
+    ]
+  },
+  {
+    "id": "v-n5-061",
+    "word": "教える",
+    "reading": "おしえる",
+    "meanings": [
+      "to teach",
+      "to tell"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "Teach or inform.",
+    "sentences": [
+      {
+        "ja": "道を教えてください。",
+        "en": "Please tell me the way.",
+        "reading": "みち を おしえて ください。"
+      }
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "id": "v-n5-062",
+    "word": "出かける",
+    "reading": "でかける",
+    "meanings": [
+      "to go out"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N5",
+    "simple_usage": "To go out/leave.",
+    "sentences": [
+      {
+        "ja": "今から出かけます。",
+        "en": "I'm going out now.",
+        "reading": "いまから でかけます。"
+      }
+    ],
+    "tags": [
+      "movement"
+    ]
+  },
+  {
+    "id": "v-n5-063",
+    "word": "上手",
+    "reading": "じょうず",
+    "meanings": [
+      "skilled",
+      "good at"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Good at something. Opposite: 下手.",
+    "sentences": [
+      {
+        "ja": "歌が上手ですね。",
+        "en": "You're good at singing.",
+        "reading": "うた が じょうず です ね。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-064",
+    "word": "下手",
+    "reading": "へた",
+    "meanings": [
+      "unskilled",
+      "bad at"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Bad at something. Opposite: 上手.",
+    "sentences": [
+      {
+        "ja": "料理が下手です。",
+        "en": "I'm bad at cooking.",
+        "reading": "りょうり が へた です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n5-065",
+    "word": "きれい",
+    "reading": "きれい",
+    "meanings": [
+      "clean",
+      "beautiful"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N5",
+    "simple_usage": "Clean or beautiful.",
+    "sentences": [
+      {
+        "ja": "この花はきれいです。",
+        "en": "This flower is beautiful.",
+        "reading": "この はな は きれい です。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  }
 ]

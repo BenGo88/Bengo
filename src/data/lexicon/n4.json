@@ -1,28 +1,467 @@
 [
-  {"id":"lex-n4-心配","text":"心配","reading":"しんぱい","meanings":["worry"],"partOfSpeech":"noun / suru-verb","jlpt":"N4"},
-  {"id":"lex-n4-準備","text":"準備","reading":"じゅんび","meanings":["preparation"],"partOfSpeech":"noun / suru-verb","jlpt":"N4"},
-  {"id":"lex-n4-必要","text":"必要","reading":"ひつよう","meanings":["necessary"],"partOfSpeech":"な-adjective","jlpt":"N4"},
-  {"id":"lex-n4-予定","text":"予定","reading":"よてい","meanings":["plan","schedule"],"partOfSpeech":"noun","jlpt":"N4"},
-  {"id":"lex-n4-最近","text":"最近","reading":"さいきん","meanings":["recently"],"partOfSpeech":"adverb","jlpt":"N4"},
-  {"id":"lex-n4-特に","text":"特に","reading":"とくに","meanings":["especially"],"partOfSpeech":"adverb","jlpt":"N4"},
-  {"id":"lex-n4-経験","text":"経験","reading":"けいけん","meanings":["experience"],"partOfSpeech":"noun / suru-verb","jlpt":"N4"},
-  {"id":"lex-n4-決める","text":"決める","reading":"きめる","meanings":["to decide"],"partOfSpeech":"ichidan verb","jlpt":"N4"},
-  {"id":"lex-n4-変わる","text":"変わる","reading":"かわる","meanings":["to change"],"partOfSpeech":"godan verb","jlpt":"N4"},
-  {"id":"lex-n4-宿題","text":"宿題","reading":"しゅくだい","meanings":["homework"],"partOfSpeech":"noun","jlpt":"N4"},
-  {"id":"lex-n4-趣味","text":"趣味","reading":"しゅみ","meanings":["hobby"],"partOfSpeech":"noun","jlpt":"N4"},
-  {"id":"lex-n4-約束","text":"約束","reading":"やくそく","meanings":["promise","appointment"],"partOfSpeech":"noun","jlpt":"N4"},
-  {"id":"lex-n4-紹介","text":"紹介","reading":"しょうかい","meanings":["introduction"],"partOfSpeech":"noun / suru-verb","jlpt":"N4"},
-  {"id":"lex-n4-残念","text":"残念","reading":"ざんねん","meanings":["regrettable"],"partOfSpeech":"な-adjective","jlpt":"N4"},
-  {"id":"lex-n4-丁寧","text":"丁寧","reading":"ていねい","meanings":["polite","careful"],"partOfSpeech":"な-adjective","jlpt":"N4"},
-  {"id":"lex-n4-安全","text":"安全","reading":"あんぜん","meanings":["safe"],"partOfSpeech":"な-adjective","jlpt":"N4"},
-  {"id":"lex-n4-便利","text":"便利","reading":"べんり","meanings":["convenient"],"partOfSpeech":"な-adjective","jlpt":"N4"},
-  {"id":"lex-n4-教える","text":"教える","reading":"おしえる","meanings":["to teach"],"partOfSpeech":"ichidan verb","jlpt":"N4"},
-  {"id":"lex-n4-届ける","text":"届ける","reading":"とどける","meanings":["to deliver"],"partOfSpeech":"ichidan verb","jlpt":"N4"},
-  {"id":"lex-n4-調べる","text":"調べる","reading":"しらべる","meanings":["to investigate"],"partOfSpeech":"ichidan verb","jlpt":"N4"},
-  {"id":"lex-n4-集める","text":"集める","reading":"あつめる","meanings":["to collect"],"partOfSpeech":"ichidan verb","jlpt":"N4"},
-  {"id":"lex-n4-嬉しい","text":"嬉しい","reading":"うれしい","meanings":["happy"],"partOfSpeech":"い-adjective","jlpt":"N4"},
-  {"id":"lex-n4-悲しい","text":"悲しい","reading":"かなしい","meanings":["sad"],"partOfSpeech":"い-adjective","jlpt":"N4"},
-  {"id":"lex-n4-簡単","text":"簡単","reading":"かんたん","meanings":["easy","simple"],"partOfSpeech":"な-adjective","jlpt":"N4"},
-  {"id":"lex-n4-場所","text":"場所","reading":"ばしょ","meanings":["place"],"partOfSpeech":"noun","jlpt":"N4"},
-  {"id":"lex-n4-意味","text":"意味","reading":"いみ","meanings":["meaning"],"partOfSpeech":"noun","jlpt":"N4"}
+  {
+    "id": "lex-n4-心配",
+    "text": "心配",
+    "reading": "しんぱい",
+    "meanings": [
+      "worry"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-準備",
+    "text": "準備",
+    "reading": "じゅんび",
+    "meanings": [
+      "preparation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-必要",
+    "text": "必要",
+    "reading": "ひつよう",
+    "meanings": [
+      "necessary"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-予定",
+    "text": "予定",
+    "reading": "よてい",
+    "meanings": [
+      "plan",
+      "schedule"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-最近",
+    "text": "最近",
+    "reading": "さいきん",
+    "meanings": [
+      "recently"
+    ],
+    "partOfSpeech": "adverb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-特に",
+    "text": "特に",
+    "reading": "とくに",
+    "meanings": [
+      "especially"
+    ],
+    "partOfSpeech": "adverb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-経験",
+    "text": "経験",
+    "reading": "けいけん",
+    "meanings": [
+      "experience"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-決める",
+    "text": "決める",
+    "reading": "きめる",
+    "meanings": [
+      "to decide"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-変わる",
+    "text": "変わる",
+    "reading": "かわる",
+    "meanings": [
+      "to change"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-宿題",
+    "text": "宿題",
+    "reading": "しゅくだい",
+    "meanings": [
+      "homework"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-趣味",
+    "text": "趣味",
+    "reading": "しゅみ",
+    "meanings": [
+      "hobby"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-約束",
+    "text": "約束",
+    "reading": "やくそく",
+    "meanings": [
+      "promise",
+      "appointment"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-紹介",
+    "text": "紹介",
+    "reading": "しょうかい",
+    "meanings": [
+      "introduction"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-残念",
+    "text": "残念",
+    "reading": "ざんねん",
+    "meanings": [
+      "regrettable"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-丁寧",
+    "text": "丁寧",
+    "reading": "ていねい",
+    "meanings": [
+      "polite",
+      "careful"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-安全",
+    "text": "安全",
+    "reading": "あんぜん",
+    "meanings": [
+      "safe"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-便利",
+    "text": "便利",
+    "reading": "べんり",
+    "meanings": [
+      "convenient"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-教える",
+    "text": "教える",
+    "reading": "おしえる",
+    "meanings": [
+      "to teach"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-届ける",
+    "text": "届ける",
+    "reading": "とどける",
+    "meanings": [
+      "to deliver"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-調べる",
+    "text": "調べる",
+    "reading": "しらべる",
+    "meanings": [
+      "to investigate"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-集める",
+    "text": "集める",
+    "reading": "あつめる",
+    "meanings": [
+      "to collect"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-嬉しい",
+    "text": "嬉しい",
+    "reading": "うれしい",
+    "meanings": [
+      "happy"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-悲しい",
+    "text": "悲しい",
+    "reading": "かなしい",
+    "meanings": [
+      "sad"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-簡単",
+    "text": "簡単",
+    "reading": "かんたん",
+    "meanings": [
+      "easy",
+      "simple"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-場所",
+    "text": "場所",
+    "reading": "ばしょ",
+    "meanings": [
+      "place"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-意味",
+    "text": "意味",
+    "reading": "いみ",
+    "meanings": [
+      "meaning"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-交通",
+    "text": "交通",
+    "reading": "こうつう",
+    "meanings": [
+      "traffic"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-習慣",
+    "text": "習慣",
+    "reading": "しゅうかん",
+    "meanings": [
+      "habit"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-事故",
+    "text": "事故",
+    "reading": "じこ",
+    "meanings": [
+      "accident"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-景色",
+    "text": "景色",
+    "reading": "けしき",
+    "meanings": [
+      "scenery"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-予約",
+    "text": "予約",
+    "reading": "よやく",
+    "meanings": [
+      "reservation"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-相手",
+    "text": "相手",
+    "reading": "あいて",
+    "meanings": [
+      "partner",
+      "opponent"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-自由",
+    "text": "自由",
+    "reading": "じゆう",
+    "meanings": [
+      "freedom"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-無理",
+    "text": "無理",
+    "reading": "むり",
+    "meanings": [
+      "impossible"
+    ],
+    "partOfSpeech": "な-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-正しい",
+    "text": "正しい",
+    "reading": "ただしい",
+    "meanings": [
+      "correct"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-珍しい",
+    "text": "珍しい",
+    "reading": "めずらしい",
+    "meanings": [
+      "rare"
+    ],
+    "partOfSpeech": "い-adjective",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-増やす",
+    "text": "増やす",
+    "reading": "ふやす",
+    "meanings": [
+      "to increase"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-減らす",
+    "text": "減らす",
+    "reading": "へらす",
+    "meanings": [
+      "to reduce"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-急ぐ",
+    "text": "急ぐ",
+    "reading": "いそぐ",
+    "meanings": [
+      "to hurry"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-慣れる",
+    "text": "慣れる",
+    "reading": "なれる",
+    "meanings": [
+      "to get used to"
+    ],
+    "partOfSpeech": "ichidan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-壊す",
+    "text": "壊す",
+    "reading": "こわす",
+    "meanings": [
+      "to break"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-直す",
+    "text": "直す",
+    "reading": "なおす",
+    "meanings": [
+      "to fix"
+    ],
+    "partOfSpeech": "godan verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-計画",
+    "text": "計画",
+    "reading": "けいかく",
+    "meanings": [
+      "plan"
+    ],
+    "partOfSpeech": "noun / suru-verb",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-目的",
+    "text": "目的",
+    "reading": "もくてき",
+    "meanings": [
+      "purpose"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-社会",
+    "text": "社会",
+    "reading": "しゃかい",
+    "meanings": [
+      "society"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  },
+  {
+    "id": "lex-n4-政治",
+    "text": "政治",
+    "reading": "せいじ",
+    "meanings": [
+      "politics"
+    ],
+    "partOfSpeech": "noun",
+    "jlpt": "N4"
+  }
 ]

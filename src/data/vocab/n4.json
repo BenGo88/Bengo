@@ -1,32 +1,1074 @@
 [
-  {"id":"v-n4-001","word":"お願いする","reading":"おねがいする","meanings":["to request","please"],"part_of_speech":"suru-verb","jlpt":"N4","simple_usage":"Polite request.","sentences":[{"ja":"お願いします。","en":"Please.","reading":"おねがい します。"}],"tags":["polite"]},
-  {"id":"v-n4-002","word":"決める","reading":"きめる","meanings":["to decide"],"part_of_speech":"ichidan verb","jlpt":"N4","simple_usage":"Make a decision.","sentences":[{"ja":"旅行の日程を決めました。","en":"I decided the travel schedule.","reading":"りょこう の にってい を きめました。"}],"tags":["daily"]},
-  {"id":"v-n4-003","word":"変わる","reading":"かわる","meanings":["to change"],"part_of_speech":"godan verb","jlpt":"N4","simple_usage":"Intransitive. 変える = you change it.","sentences":[{"ja":"季節が変わりました。","en":"The season changed.","reading":"きせつ が かわりました。"}],"tags":["daily"]},
-  {"id":"v-n4-004","word":"心配","reading":"しんぱい","meanings":["worry"],"part_of_speech":"noun / suru-verb","jlpt":"N4","simple_usage":"心配する = to worry.","sentences":[{"ja":"心配しないでください。","en":"Please don't worry.","reading":"しんぱい しないで ください。"}],"tags":["emotions"]},
-  {"id":"v-n4-005","word":"準備","reading":"じゅんび","meanings":["preparation"],"part_of_speech":"noun / suru-verb","jlpt":"N4","simple_usage":"Getting ready.","sentences":[{"ja":"旅行の準備をしています。","en":"I'm preparing for the trip.","reading":"りょこう の じゅんび を しています。"}],"tags":["daily"]},
-  {"id":"v-n4-006","word":"特に","reading":"とくに","meanings":["especially"],"part_of_speech":"adverb","jlpt":"N4","simple_usage":"Emphasizes.","sentences":[{"ja":"特に問題はありません。","en":"No problems in particular.","reading":"とくに もんだい は ありません。"}],"tags":["daily"]},
-  {"id":"v-n4-007","word":"必要","reading":"ひつよう","meanings":["necessary"],"part_of_speech":"な-adjective","jlpt":"N4","simple_usage":"Required.","sentences":[{"ja":"パスポートが必要です。","en":"A passport is necessary.","reading":"パスポート が ひつよう です。"}],"tags":["daily"]},
-  {"id":"v-n4-008","word":"予定","reading":"よてい","meanings":["plan","schedule"],"part_of_speech":"noun","jlpt":"N4","simple_usage":"Future plan.","sentences":[{"ja":"明日の予定は何ですか。","en":"What are your plans for tomorrow?","reading":"あした の よてい は なん です か。"}],"tags":["daily"]},
-  {"id":"v-n4-009","word":"最近","reading":"さいきん","meanings":["recently"],"part_of_speech":"adverb","jlpt":"N4","simple_usage":"Lately.","sentences":[{"ja":"最近忙しいです。","en":"I've been busy lately.","reading":"さいきん いそがしい です。"}],"tags":["time"]},
-  {"id":"v-n4-010","word":"経験","reading":"けいけん","meanings":["experience"],"part_of_speech":"noun / suru-verb","jlpt":"N4","simple_usage":"Life experience.","sentences":[{"ja":"いい経験になりました。","en":"It became a good experience.","reading":"いい けいけん に なりました。"}],"tags":["abstract"]},
-  {"id":"v-n4-011","word":"趣味","reading":"しゅみ","meanings":["hobby"],"part_of_speech":"noun","jlpt":"N4","simple_usage":"趣味は何ですか = What's your hobby?","sentences":[{"ja":"趣味は料理です。","en":"My hobby is cooking.","reading":"しゅみ は りょうり です。"}],"tags":["daily"]},
-  {"id":"v-n4-012","word":"約束","reading":"やくそく","meanings":["promise","appointment"],"part_of_speech":"noun / suru-verb","jlpt":"N4","simple_usage":"Both 'promise' and 'appointment'.","sentences":[{"ja":"友達と約束があります。","en":"I have plans with a friend.","reading":"ともだち と やくそく が あります。"}],"tags":["daily"]},
-  {"id":"v-n4-013","word":"紹介","reading":"しょうかい","meanings":["introduction"],"part_of_speech":"noun / suru-verb","jlpt":"N4","simple_usage":"Introducing someone.","sentences":[{"ja":"自己紹介をしてください。","en":"Please introduce yourself.","reading":"じこしょうかい を して ください。"}],"tags":["polite"]},
-  {"id":"v-n4-014","word":"残念","reading":"ざんねん","meanings":["regrettable","too bad"],"part_of_speech":"な-adjective","jlpt":"N4","simple_usage":"Used for disappointing news.","sentences":[{"ja":"残念ですが、行けません。","en":"Unfortunately, I can't go.","reading":"ざんねん です が、いけません。"}],"tags":["emotions"]},
-  {"id":"v-n4-015","word":"丁寧","reading":"ていねい","meanings":["polite","careful"],"part_of_speech":"な-adjective","jlpt":"N4","simple_usage":"Polite or careful work.","sentences":[{"ja":"もっと丁寧に書いてください。","en":"Please write more carefully.","reading":"もっと ていねい に かいて ください。"}],"tags":["manner"]},
-  {"id":"v-n4-016","word":"安全","reading":"あんぜん","meanings":["safe","safety"],"part_of_speech":"な-adjective / noun","jlpt":"N4","simple_usage":"Safety.","sentences":[{"ja":"この道は安全です。","en":"This road is safe.","reading":"この みち は あんぜん です。"}],"tags":["daily"]},
-  {"id":"v-n4-017","word":"便利","reading":"べんり","meanings":["convenient"],"part_of_speech":"な-adjective","jlpt":"N4","simple_usage":"Handy/useful.","sentences":[{"ja":"この店は便利です。","en":"This shop is convenient.","reading":"この みせ は べんり です。"}],"tags":["daily"]},
-  {"id":"v-n4-018","word":"教える","reading":"おしえる","meanings":["to teach","to tell"],"part_of_speech":"ichidan verb","jlpt":"N4","simple_usage":"Teach or tell/inform.","sentences":[{"ja":"日本語を教えています。","en":"I'm teaching Japanese.","reading":"にほんご を おしえています。"}],"tags":["school"]},
-  {"id":"v-n4-019","word":"届ける","reading":"とどける","meanings":["to deliver"],"part_of_speech":"ichidan verb","jlpt":"N4","simple_usage":"Physical delivery.","sentences":[{"ja":"荷物を届けます。","en":"I'll deliver the package.","reading":"にもつ を とどけます。"}],"tags":["daily"]},
-  {"id":"v-n4-020","word":"調べる","reading":"しらべる","meanings":["to investigate","to look up"],"part_of_speech":"ichidan verb","jlpt":"N4","simple_usage":"Research or check.","sentences":[{"ja":"インターネットで調べます。","en":"I'll look it up on the internet.","reading":"インターネット で しらべます。"}],"tags":["daily"]},
-  {"id":"v-n4-021","word":"集める","reading":"あつめる","meanings":["to collect"],"part_of_speech":"ichidan verb","jlpt":"N4","simple_usage":"Gather items.","sentences":[{"ja":"情報を集めています。","en":"I'm gathering information.","reading":"じょうほう を あつめています。"}],"tags":["daily"]},
-  {"id":"v-n4-022","word":"届く","reading":"とどく","meanings":["to arrive","to reach"],"part_of_speech":"godan verb","jlpt":"N4","simple_usage":"Something arrives.","sentences":[{"ja":"荷物が届きました。","en":"The package arrived.","reading":"にもつ が とどきました。"}],"tags":["daily"]},
-  {"id":"v-n4-023","word":"間に合う","reading":"まにあう","meanings":["to be in time"],"part_of_speech":"godan verb","jlpt":"N4","simple_usage":"Make it on time.","sentences":[{"ja":"電車に間に合いました。","en":"I made it in time for the train.","reading":"でんしゃ に まにあいました。"}],"tags":["transport"]},
-  {"id":"v-n4-024","word":"嬉しい","reading":"うれしい","meanings":["happy","glad"],"part_of_speech":"い-adjective","jlpt":"N4","simple_usage":"Happy about something.","sentences":[{"ja":"合格して嬉しいです。","en":"I'm happy I passed.","reading":"ごうかく して うれしい です。"}],"tags":["emotions"]},
-  {"id":"v-n4-025","word":"悲しい","reading":"かなしい","meanings":["sad"],"part_of_speech":"い-adjective","jlpt":"N4","simple_usage":"Feeling sad.","sentences":[{"ja":"映画が悲しかったです。","en":"The movie was sad.","reading":"えいが が かなしかった です。"}],"tags":["emotions"]},
-  {"id":"v-n4-026","word":"簡単","reading":"かんたん","meanings":["simple","easy"],"part_of_speech":"な-adjective","jlpt":"N4","simple_usage":"Easy to do.","sentences":[{"ja":"この問題は簡単です。","en":"This question is easy.","reading":"この もんだい は かんたん です。"}],"tags":["basic"]},
-  {"id":"v-n4-027","word":"複雑","reading":"ふくざつ","meanings":["complicated"],"part_of_speech":"な-adjective","jlpt":"N4","simple_usage":"Opposite of 簡単.","sentences":[{"ja":"この文法は複雑です。","en":"This grammar is complicated.","reading":"この ぶんぽう は ふくざつ です。"}],"tags":["abstract"]},
-  {"id":"v-n4-028","word":"場所","reading":"ばしょ","meanings":["place","location"],"part_of_speech":"noun","jlpt":"N4","simple_usage":"A physical place.","sentences":[{"ja":"会議の場所はどこですか。","en":"Where is the meeting location?","reading":"かいぎ の ばしょ は どこ です か。"}],"tags":["daily"]},
-  {"id":"v-n4-029","word":"理由","reading":"りゆう","meanings":["reason"],"part_of_speech":"noun","jlpt":"N4","simple_usage":"The reason for something.","sentences":[{"ja":"理由を教えてください。","en":"Please tell me the reason.","reading":"りゆう を おしえて ください。"}],"tags":["abstract"]},
-  {"id":"v-n4-030","word":"意味","reading":"いみ","meanings":["meaning"],"part_of_speech":"noun","jlpt":"N4","simple_usage":"この言葉の意味 = meaning of this word.","sentences":[{"ja":"この言葉の意味は何ですか。","en":"What does this word mean?","reading":"この ことば の いみ は なん です か。"}],"tags":["language"]}
+  {
+    "id": "v-n4-001",
+    "word": "お願いする",
+    "reading": "おねがいする",
+    "meanings": [
+      "to request",
+      "please"
+    ],
+    "part_of_speech": "suru-verb",
+    "jlpt": "N4",
+    "simple_usage": "Polite request.",
+    "sentences": [
+      {
+        "ja": "お願いします。",
+        "en": "Please.",
+        "reading": "おねがい します。"
+      }
+    ],
+    "tags": [
+      "polite"
+    ]
+  },
+  {
+    "id": "v-n4-002",
+    "word": "決める",
+    "reading": "きめる",
+    "meanings": [
+      "to decide"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N4",
+    "simple_usage": "Make a decision.",
+    "sentences": [
+      {
+        "ja": "旅行の日程を決めました。",
+        "en": "I decided the travel schedule.",
+        "reading": "りょこう の にってい を きめました。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-003",
+    "word": "変わる",
+    "reading": "かわる",
+    "meanings": [
+      "to change"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N4",
+    "simple_usage": "Intransitive. 変える = you change it.",
+    "sentences": [
+      {
+        "ja": "季節が変わりました。",
+        "en": "The season changed.",
+        "reading": "きせつ が かわりました。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-004",
+    "word": "心配",
+    "reading": "しんぱい",
+    "meanings": [
+      "worry"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N4",
+    "simple_usage": "心配する = to worry.",
+    "sentences": [
+      {
+        "ja": "心配しないでください。",
+        "en": "Please don't worry.",
+        "reading": "しんぱい しないで ください。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "v-n4-005",
+    "word": "準備",
+    "reading": "じゅんび",
+    "meanings": [
+      "preparation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N4",
+    "simple_usage": "Getting ready.",
+    "sentences": [
+      {
+        "ja": "旅行の準備をしています。",
+        "en": "I'm preparing for the trip.",
+        "reading": "りょこう の じゅんび を しています。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-006",
+    "word": "特に",
+    "reading": "とくに",
+    "meanings": [
+      "especially"
+    ],
+    "part_of_speech": "adverb",
+    "jlpt": "N4",
+    "simple_usage": "Emphasizes.",
+    "sentences": [
+      {
+        "ja": "特に問題はありません。",
+        "en": "No problems in particular.",
+        "reading": "とくに もんだい は ありません。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-007",
+    "word": "必要",
+    "reading": "ひつよう",
+    "meanings": [
+      "necessary"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Required.",
+    "sentences": [
+      {
+        "ja": "パスポートが必要です。",
+        "en": "A passport is necessary.",
+        "reading": "パスポート が ひつよう です。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-008",
+    "word": "予定",
+    "reading": "よてい",
+    "meanings": [
+      "plan",
+      "schedule"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "Future plan.",
+    "sentences": [
+      {
+        "ja": "明日の予定は何ですか。",
+        "en": "What are your plans for tomorrow?",
+        "reading": "あした の よてい は なん です か。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-009",
+    "word": "最近",
+    "reading": "さいきん",
+    "meanings": [
+      "recently"
+    ],
+    "part_of_speech": "adverb",
+    "jlpt": "N4",
+    "simple_usage": "Lately.",
+    "sentences": [
+      {
+        "ja": "最近忙しいです。",
+        "en": "I've been busy lately.",
+        "reading": "さいきん いそがしい です。"
+      }
+    ],
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "v-n4-010",
+    "word": "経験",
+    "reading": "けいけん",
+    "meanings": [
+      "experience"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N4",
+    "simple_usage": "Life experience.",
+    "sentences": [
+      {
+        "ja": "いい経験になりました。",
+        "en": "It became a good experience.",
+        "reading": "いい けいけん に なりました。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n4-011",
+    "word": "趣味",
+    "reading": "しゅみ",
+    "meanings": [
+      "hobby"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "趣味は何ですか = What's your hobby?",
+    "sentences": [
+      {
+        "ja": "趣味は料理です。",
+        "en": "My hobby is cooking.",
+        "reading": "しゅみ は りょうり です。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-012",
+    "word": "約束",
+    "reading": "やくそく",
+    "meanings": [
+      "promise",
+      "appointment"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N4",
+    "simple_usage": "Both 'promise' and 'appointment'.",
+    "sentences": [
+      {
+        "ja": "友達と約束があります。",
+        "en": "I have plans with a friend.",
+        "reading": "ともだち と やくそく が あります。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-013",
+    "word": "紹介",
+    "reading": "しょうかい",
+    "meanings": [
+      "introduction"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N4",
+    "simple_usage": "Introducing someone.",
+    "sentences": [
+      {
+        "ja": "自己紹介をしてください。",
+        "en": "Please introduce yourself.",
+        "reading": "じこしょうかい を して ください。"
+      }
+    ],
+    "tags": [
+      "polite"
+    ]
+  },
+  {
+    "id": "v-n4-014",
+    "word": "残念",
+    "reading": "ざんねん",
+    "meanings": [
+      "regrettable",
+      "too bad"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Used for disappointing news.",
+    "sentences": [
+      {
+        "ja": "残念ですが、行けません。",
+        "en": "Unfortunately, I can't go.",
+        "reading": "ざんねん です が、いけません。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "v-n4-015",
+    "word": "丁寧",
+    "reading": "ていねい",
+    "meanings": [
+      "polite",
+      "careful"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Polite or careful work.",
+    "sentences": [
+      {
+        "ja": "もっと丁寧に書いてください。",
+        "en": "Please write more carefully.",
+        "reading": "もっと ていねい に かいて ください。"
+      }
+    ],
+    "tags": [
+      "manner"
+    ]
+  },
+  {
+    "id": "v-n4-016",
+    "word": "安全",
+    "reading": "あんぜん",
+    "meanings": [
+      "safe",
+      "safety"
+    ],
+    "part_of_speech": "な-adjective / noun",
+    "jlpt": "N4",
+    "simple_usage": "Safety.",
+    "sentences": [
+      {
+        "ja": "この道は安全です。",
+        "en": "This road is safe.",
+        "reading": "この みち は あんぜん です。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-017",
+    "word": "便利",
+    "reading": "べんり",
+    "meanings": [
+      "convenient"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Handy/useful.",
+    "sentences": [
+      {
+        "ja": "この店は便利です。",
+        "en": "This shop is convenient.",
+        "reading": "この みせ は べんり です。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-018",
+    "word": "教える",
+    "reading": "おしえる",
+    "meanings": [
+      "to teach",
+      "to tell"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N4",
+    "simple_usage": "Teach or tell/inform.",
+    "sentences": [
+      {
+        "ja": "日本語を教えています。",
+        "en": "I'm teaching Japanese.",
+        "reading": "にほんご を おしえています。"
+      }
+    ],
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "v-n4-019",
+    "word": "届ける",
+    "reading": "とどける",
+    "meanings": [
+      "to deliver"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N4",
+    "simple_usage": "Physical delivery.",
+    "sentences": [
+      {
+        "ja": "荷物を届けます。",
+        "en": "I'll deliver the package.",
+        "reading": "にもつ を とどけます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-020",
+    "word": "調べる",
+    "reading": "しらべる",
+    "meanings": [
+      "to investigate",
+      "to look up"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N4",
+    "simple_usage": "Research or check.",
+    "sentences": [
+      {
+        "ja": "インターネットで調べます。",
+        "en": "I'll look it up on the internet.",
+        "reading": "インターネット で しらべます。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-021",
+    "word": "集める",
+    "reading": "あつめる",
+    "meanings": [
+      "to collect"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N4",
+    "simple_usage": "Gather items.",
+    "sentences": [
+      {
+        "ja": "情報を集めています。",
+        "en": "I'm gathering information.",
+        "reading": "じょうほう を あつめています。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-022",
+    "word": "届く",
+    "reading": "とどく",
+    "meanings": [
+      "to arrive",
+      "to reach"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N4",
+    "simple_usage": "Something arrives.",
+    "sentences": [
+      {
+        "ja": "荷物が届きました。",
+        "en": "The package arrived.",
+        "reading": "にもつ が とどきました。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-023",
+    "word": "間に合う",
+    "reading": "まにあう",
+    "meanings": [
+      "to be in time"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N4",
+    "simple_usage": "Make it on time.",
+    "sentences": [
+      {
+        "ja": "電車に間に合いました。",
+        "en": "I made it in time for the train.",
+        "reading": "でんしゃ に まにあいました。"
+      }
+    ],
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "v-n4-024",
+    "word": "嬉しい",
+    "reading": "うれしい",
+    "meanings": [
+      "happy",
+      "glad"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Happy about something.",
+    "sentences": [
+      {
+        "ja": "合格して嬉しいです。",
+        "en": "I'm happy I passed.",
+        "reading": "ごうかく して うれしい です。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "v-n4-025",
+    "word": "悲しい",
+    "reading": "かなしい",
+    "meanings": [
+      "sad"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Feeling sad.",
+    "sentences": [
+      {
+        "ja": "映画が悲しかったです。",
+        "en": "The movie was sad.",
+        "reading": "えいが が かなしかった です。"
+      }
+    ],
+    "tags": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "v-n4-026",
+    "word": "簡単",
+    "reading": "かんたん",
+    "meanings": [
+      "simple",
+      "easy"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Easy to do.",
+    "sentences": [
+      {
+        "ja": "この問題は簡単です。",
+        "en": "This question is easy.",
+        "reading": "この もんだい は かんたん です。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "v-n4-027",
+    "word": "複雑",
+    "reading": "ふくざつ",
+    "meanings": [
+      "complicated"
+    ],
+    "part_of_speech": "な-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Opposite of 簡単.",
+    "sentences": [
+      {
+        "ja": "この文法は複雑です。",
+        "en": "This grammar is complicated.",
+        "reading": "この ぶんぽう は ふくざつ です。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n4-028",
+    "word": "場所",
+    "reading": "ばしょ",
+    "meanings": [
+      "place",
+      "location"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "A physical place.",
+    "sentences": [
+      {
+        "ja": "会議の場所はどこですか。",
+        "en": "Where is the meeting location?",
+        "reading": "かいぎ の ばしょ は どこ です か。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-029",
+    "word": "理由",
+    "reading": "りゆう",
+    "meanings": [
+      "reason"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "The reason for something.",
+    "sentences": [
+      {
+        "ja": "理由を教えてください。",
+        "en": "Please tell me the reason.",
+        "reading": "りゆう を おしえて ください。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n4-030",
+    "word": "意味",
+    "reading": "いみ",
+    "meanings": [
+      "meaning"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "この言葉の意味 = meaning of this word.",
+    "sentences": [
+      {
+        "ja": "この言葉の意味は何ですか。",
+        "en": "What does this word mean?",
+        "reading": "この ことば の いみ は なん です か。"
+      }
+    ],
+    "tags": [
+      "language"
+    ]
+  },
+  {
+    "id": "v-n4-031",
+    "word": "交通",
+    "reading": "こうつう",
+    "meanings": [
+      "traffic",
+      "transportation"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "Traffic or transportation.",
+    "sentences": [
+      {
+        "ja": "交通が便利です。",
+        "en": "The transportation is convenient.",
+        "reading": "こうつう が べんり です。"
+      }
+    ],
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "v-n4-032",
+    "word": "習慣",
+    "reading": "しゅうかん",
+    "meanings": [
+      "habit",
+      "custom"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "A habit or custom.",
+    "sentences": [
+      {
+        "ja": "早起きの習慣がある。",
+        "en": "I have a habit of waking up early.",
+        "reading": "はやおき の しゅうかん が ある。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-033",
+    "word": "事故",
+    "reading": "じこ",
+    "meanings": [
+      "accident"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "An accident.",
+    "sentences": [
+      {
+        "ja": "交通事故があった。",
+        "en": "There was a traffic accident.",
+        "reading": "こうつう じこ が あった。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-034",
+    "word": "景色",
+    "reading": "けしき",
+    "meanings": [
+      "scenery",
+      "view"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "A view or scenery.",
+    "sentences": [
+      {
+        "ja": "景色がきれいです。",
+        "en": "The scenery is beautiful.",
+        "reading": "けしき が きれい です。"
+      }
+    ],
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "v-n4-035",
+    "word": "予約",
+    "reading": "よやく",
+    "meanings": [
+      "reservation"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N4",
+    "simple_usage": "Booking/reservation.",
+    "sentences": [
+      {
+        "ja": "レストランを予約しました。",
+        "en": "I made a restaurant reservation.",
+        "reading": "レストラン を よやく しました。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-036",
+    "word": "相手",
+    "reading": "あいて",
+    "meanings": [
+      "partner",
+      "opponent"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "The other person.",
+    "sentences": [
+      {
+        "ja": "相手の気持ちを考える。",
+        "en": "Consider the other person's feelings.",
+        "reading": "あいて の きもち を かんがえる。"
+      }
+    ],
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "id": "v-n4-037",
+    "word": "自由",
+    "reading": "じゆう",
+    "meanings": [
+      "freedom",
+      "free"
+    ],
+    "part_of_speech": "な-adjective / noun",
+    "jlpt": "N4",
+    "simple_usage": "Freedom or being free.",
+    "sentences": [
+      {
+        "ja": "自由に使ってください。",
+        "en": "Please use it freely.",
+        "reading": "じゆう に つかって ください。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n4-038",
+    "word": "無理",
+    "reading": "むり",
+    "meanings": [
+      "impossible",
+      "unreasonable"
+    ],
+    "part_of_speech": "な-adjective / noun",
+    "jlpt": "N4",
+    "simple_usage": "Impossible or pushing too hard.",
+    "sentences": [
+      {
+        "ja": "無理しないでください。",
+        "en": "Please don't push yourself.",
+        "reading": "むり しないで ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-039",
+    "word": "正しい",
+    "reading": "ただしい",
+    "meanings": [
+      "correct",
+      "right"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Correct/right.",
+    "sentences": [
+      {
+        "ja": "正しい答えはどれですか。",
+        "en": "Which is the correct answer?",
+        "reading": "ただしい こたえ は どれ です か。"
+      }
+    ],
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "v-n4-040",
+    "word": "珍しい",
+    "reading": "めずらしい",
+    "meanings": [
+      "rare",
+      "unusual"
+    ],
+    "part_of_speech": "い-adjective",
+    "jlpt": "N4",
+    "simple_usage": "Unusual/rare.",
+    "sentences": [
+      {
+        "ja": "珍しい動物を見ました。",
+        "en": "I saw a rare animal.",
+        "reading": "めずらしい どうぶつ を みました。"
+      }
+    ],
+    "tags": [
+      "description"
+    ]
+  },
+  {
+    "id": "v-n4-041",
+    "word": "増やす",
+    "reading": "ふやす",
+    "meanings": [
+      "to increase (trans)"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N4",
+    "simple_usage": "YOU increase something.",
+    "sentences": [
+      {
+        "ja": "収入を増やしたい。",
+        "en": "I want to increase my income.",
+        "reading": "しゅうにゅう を ふやしたい。"
+      }
+    ],
+    "tags": [
+      "change"
+    ]
+  },
+  {
+    "id": "v-n4-042",
+    "word": "減らす",
+    "reading": "へらす",
+    "meanings": [
+      "to reduce (trans)"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N4",
+    "simple_usage": "YOU reduce something.",
+    "sentences": [
+      {
+        "ja": "ゴミを減らしましょう。",
+        "en": "Let's reduce waste.",
+        "reading": "ゴミ を へらしましょう。"
+      }
+    ],
+    "tags": [
+      "change"
+    ]
+  },
+  {
+    "id": "v-n4-043",
+    "word": "急ぐ",
+    "reading": "いそぐ",
+    "meanings": [
+      "to hurry"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N4",
+    "simple_usage": "To hurry/rush.",
+    "sentences": [
+      {
+        "ja": "急いでください。",
+        "en": "Please hurry.",
+        "reading": "いそいで ください。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-044",
+    "word": "慣れる",
+    "reading": "なれる",
+    "meanings": [
+      "to get used to"
+    ],
+    "part_of_speech": "ichidan verb",
+    "jlpt": "N4",
+    "simple_usage": "Become accustomed.",
+    "sentences": [
+      {
+        "ja": "日本の生活に慣れました。",
+        "en": "I got used to life in Japan.",
+        "reading": "にほん の せいかつ に なれました。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-045",
+    "word": "壊す",
+    "reading": "こわす",
+    "meanings": [
+      "to break (trans)"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N4",
+    "simple_usage": "YOU break something.",
+    "sentences": [
+      {
+        "ja": "おもちゃを壊してしまった。",
+        "en": "I accidentally broke the toy.",
+        "reading": "おもちゃ を こわして しまった。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-046",
+    "word": "直す",
+    "reading": "なおす",
+    "meanings": [
+      "to fix",
+      "to correct"
+    ],
+    "part_of_speech": "godan verb",
+    "jlpt": "N4",
+    "simple_usage": "Repair or correct.",
+    "sentences": [
+      {
+        "ja": "パソコンを直しました。",
+        "en": "I fixed the computer.",
+        "reading": "パソコン を なおしました。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-047",
+    "word": "計画",
+    "reading": "けいかく",
+    "meanings": [
+      "plan"
+    ],
+    "part_of_speech": "noun / suru-verb",
+    "jlpt": "N4",
+    "simple_usage": "A plan or planning.",
+    "sentences": [
+      {
+        "ja": "旅行の計画を立てる。",
+        "en": "Make a travel plan.",
+        "reading": "りょこう の けいかく を たてる。"
+      }
+    ],
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "v-n4-048",
+    "word": "目的",
+    "reading": "もくてき",
+    "meanings": [
+      "purpose",
+      "goal"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "The purpose of something.",
+    "sentences": [
+      {
+        "ja": "旅行の目的は何ですか。",
+        "en": "What is the purpose of the trip?",
+        "reading": "りょこう の もくてき は なん です か。"
+      }
+    ],
+    "tags": [
+      "abstract"
+    ]
+  },
+  {
+    "id": "v-n4-049",
+    "word": "社会",
+    "reading": "しゃかい",
+    "meanings": [
+      "society"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "Society in general.",
+    "sentences": [
+      {
+        "ja": "社会に貢献したい。",
+        "en": "I want to contribute to society.",
+        "reading": "しゃかい に こうけん したい。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  },
+  {
+    "id": "v-n4-050",
+    "word": "政治",
+    "reading": "せいじ",
+    "meanings": [
+      "politics"
+    ],
+    "part_of_speech": "noun",
+    "jlpt": "N4",
+    "simple_usage": "Politics/government.",
+    "sentences": [
+      {
+        "ja": "政治に興味がある。",
+        "en": "I'm interested in politics.",
+        "reading": "せいじ に きょうみ が ある。"
+      }
+    ],
+    "tags": [
+      "society"
+    ]
+  }
 ]

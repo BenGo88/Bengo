@@ -1,27 +1,1038 @@
 [
-  {"id":"k-n5-001","character":"食","meanings":["eat","food"],"onyomi":["ショク"],"kunyomi":["た.べる"],"mnemonic":"Person eating good things.","beginner_hint":"食べる = eat. 食べ物 = food.","common_words":[{"word":"食べる","reading":"たべる","meaning":"to eat"},{"word":"食べ物","reading":"たべもの","meaning":"food"}],"jlpt":"N5","tags":["food"]},
-  {"id":"k-n5-002","character":"水","meanings":["water"],"onyomi":["スイ"],"kunyomi":["みず"],"mnemonic":"Drops flowing.","beginner_hint":"水 = water. 水曜日 = Wednesday.","common_words":[{"word":"水","reading":"みず","meaning":"water"},{"word":"水曜日","reading":"すいようび","meaning":"Wednesday"}],"jlpt":"N5","tags":["daily"]},
-  {"id":"k-n5-003","character":"人","meanings":["person"],"onyomi":["ジン","ニン"],"kunyomi":["ひと"],"mnemonic":"Two legs walking.","beginner_hint":"日本人 = Japanese person.","common_words":[{"word":"人","reading":"ひと","meaning":"person"},{"word":"日本人","reading":"にほんじん","meaning":"Japanese person"}],"jlpt":"N5","tags":["basic"]},
-  {"id":"k-n5-004","character":"日","meanings":["day","sun"],"onyomi":["ニチ","ジツ"],"kunyomi":["ひ","か"],"mnemonic":"The sun.","beginner_hint":"日本 = Japan. 今日 = today.","common_words":[{"word":"日本","reading":"にほん","meaning":"Japan"},{"word":"今日","reading":"きょう","meaning":"today"}],"jlpt":"N5","tags":["time"]},
-  {"id":"k-n5-005","character":"本","meanings":["book","origin"],"onyomi":["ホン"],"kunyomi":["もと"],"mnemonic":"Tree with roots.","beginner_hint":"本 = book. 日本 = Japan.","common_words":[{"word":"本","reading":"ほん","meaning":"book"},{"word":"本当","reading":"ほんとう","meaning":"really"}],"jlpt":"N5","tags":["basic"]},
-  {"id":"k-n5-006","character":"大","meanings":["big"],"onyomi":["ダイ","タイ"],"kunyomi":["おお.きい"],"mnemonic":"Arms spread wide.","beginner_hint":"大きい = big. 大学 = university.","common_words":[{"word":"大きい","reading":"おおきい","meaning":"big"},{"word":"大学","reading":"だいがく","meaning":"university"}],"jlpt":"N5","tags":["basic"]},
-  {"id":"k-n5-007","character":"小","meanings":["small"],"onyomi":["ショウ"],"kunyomi":["ちい.さい","こ"],"mnemonic":"Something tiny.","beginner_hint":"小さい = small.","common_words":[{"word":"小さい","reading":"ちいさい","meaning":"small"},{"word":"小学校","reading":"しょうがっこう","meaning":"elementary school"}],"jlpt":"N5","tags":["basic"]},
-  {"id":"k-n5-008","character":"中","meanings":["middle","inside"],"onyomi":["チュウ"],"kunyomi":["なか"],"mnemonic":"Line through the middle.","beginner_hint":"中 = inside. 中国 = China.","common_words":[{"word":"中","reading":"なか","meaning":"inside"},{"word":"中国","reading":"ちゅうごく","meaning":"China"}],"jlpt":"N5","tags":["basic"]},
-  {"id":"k-n5-009","character":"学","meanings":["study"],"onyomi":["ガク"],"kunyomi":["まな.ぶ"],"mnemonic":"Child learning.","beginner_hint":"学生 = student. 学校 = school.","common_words":[{"word":"学生","reading":"がくせい","meaning":"student"},{"word":"学校","reading":"がっこう","meaning":"school"}],"jlpt":"N5","tags":["school"]},
-  {"id":"k-n5-010","character":"生","meanings":["life","birth"],"onyomi":["セイ","ショウ"],"kunyomi":["い.きる","う.まれる"],"mnemonic":"Plant growing.","beginner_hint":"先生 = teacher. 学生 = student.","common_words":[{"word":"先生","reading":"せんせい","meaning":"teacher"},{"word":"学生","reading":"がくせい","meaning":"student"}],"jlpt":"N5","tags":["basic"]},
-  {"id":"k-n5-011","character":"山","meanings":["mountain"],"onyomi":["サン"],"kunyomi":["やま"],"mnemonic":"Three peaks.","beginner_hint":"山 = mountain. 富士山 = Mt. Fuji.","common_words":[{"word":"山","reading":"やま","meaning":"mountain"}],"jlpt":"N5","tags":["nature"]},
-  {"id":"k-n5-012","character":"川","meanings":["river"],"onyomi":["セン"],"kunyomi":["かわ"],"mnemonic":"Flowing water lines.","beginner_hint":"Often in place names.","common_words":[{"word":"川","reading":"かわ","meaning":"river"}],"jlpt":"N5","tags":["nature"]},
-  {"id":"k-n5-013","character":"上","meanings":["up","above"],"onyomi":["ジョウ"],"kunyomi":["うえ","あ.がる"],"mnemonic":"Mark above the line.","beginner_hint":"上 = up. 上手 = skilled.","common_words":[{"word":"上","reading":"うえ","meaning":"above"},{"word":"上手","reading":"じょうず","meaning":"skilled"}],"jlpt":"N5","tags":["direction"]},
-  {"id":"k-n5-014","character":"下","meanings":["down","below"],"onyomi":["カ","ゲ"],"kunyomi":["した","さ.がる"],"mnemonic":"Mark below the line.","beginner_hint":"下 = down. 下手 = unskilled.","common_words":[{"word":"下","reading":"した","meaning":"below"},{"word":"下手","reading":"へた","meaning":"unskilled"}],"jlpt":"N5","tags":["direction"]},
-  {"id":"k-n5-015","character":"月","meanings":["month","moon"],"onyomi":["ゲツ","ガツ"],"kunyomi":["つき"],"mnemonic":"Crescent moon.","beginner_hint":"月曜日 = Monday. 一月 = January.","common_words":[{"word":"月","reading":"つき","meaning":"moon"},{"word":"月曜日","reading":"げつようび","meaning":"Monday"}],"jlpt":"N5","tags":["time"]},
-  {"id":"k-n5-016","character":"火","meanings":["fire"],"onyomi":["カ"],"kunyomi":["ひ"],"mnemonic":"Flames rising.","beginner_hint":"火曜日 = Tuesday. 花火 = fireworks.","common_words":[{"word":"火曜日","reading":"かようび","meaning":"Tuesday"}],"jlpt":"N5","tags":["nature"]},
-  {"id":"k-n5-017","character":"金","meanings":["gold","money"],"onyomi":["キン","コン"],"kunyomi":["かね"],"mnemonic":"Metal nuggets underground.","beginner_hint":"お金 = money. 金曜日 = Friday.","common_words":[{"word":"お金","reading":"おかね","meaning":"money"},{"word":"金曜日","reading":"きんようび","meaning":"Friday"}],"jlpt":"N5","tags":["daily"]},
-  {"id":"k-n5-018","character":"土","meanings":["earth","soil"],"onyomi":["ド","ト"],"kunyomi":["つち"],"mnemonic":"Cross on the ground.","beginner_hint":"土曜日 = Saturday.","common_words":[{"word":"土曜日","reading":"どようび","meaning":"Saturday"}],"jlpt":"N5","tags":["nature"]},
-  {"id":"k-n5-019","character":"一","meanings":["one"],"onyomi":["イチ"],"kunyomi":["ひと.つ"],"mnemonic":"One horizontal line.","beginner_hint":"一つ = one thing. 一人 = one person.","common_words":[{"word":"一つ","reading":"ひとつ","meaning":"one"},{"word":"一人","reading":"ひとり","meaning":"one person"}],"jlpt":"N5","tags":["number"]},
-  {"id":"k-n5-020","character":"二","meanings":["two"],"onyomi":["ニ"],"kunyomi":["ふた.つ"],"mnemonic":"Two lines.","beginner_hint":"二つ = two things. 二人 = two people.","common_words":[{"word":"二つ","reading":"ふたつ","meaning":"two"},{"word":"二人","reading":"ふたり","meaning":"two people"}],"jlpt":"N5","tags":["number"]},
-  {"id":"k-n5-021","character":"三","meanings":["three"],"onyomi":["サン"],"kunyomi":["み.つ"],"mnemonic":"Three lines.","beginner_hint":"三つ = three things.","common_words":[{"word":"三つ","reading":"みっつ","meaning":"three"}],"jlpt":"N5","tags":["number"]},
-  {"id":"k-n5-022","character":"十","meanings":["ten"],"onyomi":["ジュウ"],"kunyomi":["とお"],"mnemonic":"Cross shape.","beginner_hint":"十 = 10. Easy to remember.","common_words":[{"word":"十","reading":"じゅう","meaning":"ten"}],"jlpt":"N5","tags":["number"]},
-  {"id":"k-n5-023","character":"百","meanings":["hundred"],"onyomi":["ヒャク"],"kunyomi":[],"mnemonic":"One over white.","beginner_hint":"百 = 100. 三百 = 300.","common_words":[{"word":"百","reading":"ひゃく","meaning":"hundred"}],"jlpt":"N5","tags":["number"]},
-  {"id":"k-n5-024","character":"千","meanings":["thousand"],"onyomi":["セン"],"kunyomi":["ち"],"mnemonic":"Modified ten.","beginner_hint":"千 = 1,000. 三千 = 3,000.","common_words":[{"word":"千","reading":"せん","meaning":"thousand"}],"jlpt":"N5","tags":["number"]},
-  {"id":"k-n5-025","character":"万","meanings":["ten thousand"],"onyomi":["マン","バン"],"kunyomi":[],"mnemonic":"Swastika-like ancient symbol.","beginner_hint":"万 = 10,000. 一万円 = ¥10,000.","common_words":[{"word":"一万","reading":"いちまん","meaning":"10,000"}],"jlpt":"N5","tags":["number"]}
+  {
+    "id": "k-n5-001",
+    "character": "食",
+    "meanings": [
+      "eat",
+      "food"
+    ],
+    "onyomi": [
+      "ショク"
+    ],
+    "kunyomi": [
+      "た.べる"
+    ],
+    "mnemonic": "Person eating good things.",
+    "beginner_hint": "食べる = eat. 食べ物 = food.",
+    "common_words": [
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning": "to eat"
+      },
+      {
+        "word": "食べ物",
+        "reading": "たべもの",
+        "meaning": "food"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "id": "k-n5-002",
+    "character": "水",
+    "meanings": [
+      "water"
+    ],
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "mnemonic": "Drops flowing.",
+    "beginner_hint": "水 = water. 水曜日 = Wednesday.",
+    "common_words": [
+      {
+        "word": "水",
+        "reading": "みず",
+        "meaning": "water"
+      },
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning": "Wednesday"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n5-003",
+    "character": "人",
+    "meanings": [
+      "person"
+    ],
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "mnemonic": "Two legs walking.",
+    "beginner_hint": "日本人 = Japanese person.",
+    "common_words": [
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "person"
+      },
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "meaning": "Japanese person"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "k-n5-004",
+    "character": "日",
+    "meanings": [
+      "day",
+      "sun"
+    ],
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "か"
+    ],
+    "mnemonic": "The sun.",
+    "beginner_hint": "日本 = Japan. 今日 = today.",
+    "common_words": [
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Japan"
+      },
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "meaning": "today"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "k-n5-005",
+    "character": "本",
+    "meanings": [
+      "book",
+      "origin"
+    ],
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "mnemonic": "Tree with roots.",
+    "beginner_hint": "本 = book. 日本 = Japan.",
+    "common_words": [
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "book"
+      },
+      {
+        "word": "本当",
+        "reading": "ほんとう",
+        "meaning": "really"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "k-n5-006",
+    "character": "大",
+    "meanings": [
+      "big"
+    ],
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお.きい"
+    ],
+    "mnemonic": "Arms spread wide.",
+    "beginner_hint": "大きい = big. 大学 = university.",
+    "common_words": [
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning": "big"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "university"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "k-n5-007",
+    "character": "小",
+    "meanings": [
+      "small"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい.さい",
+      "こ"
+    ],
+    "mnemonic": "Something tiny.",
+    "beginner_hint": "小さい = small.",
+    "common_words": [
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "meaning": "small"
+      },
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "meaning": "elementary school"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "k-n5-008",
+    "character": "中",
+    "meanings": [
+      "middle",
+      "inside"
+    ],
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "mnemonic": "Line through the middle.",
+    "beginner_hint": "中 = inside. 中国 = China.",
+    "common_words": [
+      {
+        "word": "中",
+        "reading": "なか",
+        "meaning": "inside"
+      },
+      {
+        "word": "中国",
+        "reading": "ちゅうごく",
+        "meaning": "China"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "k-n5-009",
+    "character": "学",
+    "meanings": [
+      "study"
+    ],
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな.ぶ"
+    ],
+    "mnemonic": "Child learning.",
+    "beginner_hint": "学生 = student. 学校 = school.",
+    "common_words": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "student"
+      },
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "school"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "school"
+    ]
+  },
+  {
+    "id": "k-n5-010",
+    "character": "生",
+    "meanings": [
+      "life",
+      "birth"
+    ],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い.きる",
+      "う.まれる"
+    ],
+    "mnemonic": "Plant growing.",
+    "beginner_hint": "先生 = teacher. 学生 = student.",
+    "common_words": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "teacher"
+      },
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "student"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "id": "k-n5-011",
+    "character": "山",
+    "meanings": [
+      "mountain"
+    ],
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "mnemonic": "Three peaks.",
+    "beginner_hint": "山 = mountain. 富士山 = Mt. Fuji.",
+    "common_words": [
+      {
+        "word": "山",
+        "reading": "やま",
+        "meaning": "mountain"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "k-n5-012",
+    "character": "川",
+    "meanings": [
+      "river"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "mnemonic": "Flowing water lines.",
+    "beginner_hint": "Often in place names.",
+    "common_words": [
+      {
+        "word": "川",
+        "reading": "かわ",
+        "meaning": "river"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "k-n5-013",
+    "character": "上",
+    "meanings": [
+      "up",
+      "above"
+    ],
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "うえ",
+      "あ.がる"
+    ],
+    "mnemonic": "Mark above the line.",
+    "beginner_hint": "上 = up. 上手 = skilled.",
+    "common_words": [
+      {
+        "word": "上",
+        "reading": "うえ",
+        "meaning": "above"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "skilled"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "id": "k-n5-014",
+    "character": "下",
+    "meanings": [
+      "down",
+      "below"
+    ],
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "さ.がる"
+    ],
+    "mnemonic": "Mark below the line.",
+    "beginner_hint": "下 = down. 下手 = unskilled.",
+    "common_words": [
+      {
+        "word": "下",
+        "reading": "した",
+        "meaning": "below"
+      },
+      {
+        "word": "下手",
+        "reading": "へた",
+        "meaning": "unskilled"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "id": "k-n5-015",
+    "character": "月",
+    "meanings": [
+      "month",
+      "moon"
+    ],
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "mnemonic": "Crescent moon.",
+    "beginner_hint": "月曜日 = Monday. 一月 = January.",
+    "common_words": [
+      {
+        "word": "月",
+        "reading": "つき",
+        "meaning": "moon"
+      },
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": "Monday"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "k-n5-016",
+    "character": "火",
+    "meanings": [
+      "fire"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "mnemonic": "Flames rising.",
+    "beginner_hint": "火曜日 = Tuesday. 花火 = fireworks.",
+    "common_words": [
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning": "Tuesday"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "k-n5-017",
+    "character": "金",
+    "meanings": [
+      "gold",
+      "money"
+    ],
+    "onyomi": [
+      "キン",
+      "コン"
+    ],
+    "kunyomi": [
+      "かね"
+    ],
+    "mnemonic": "Metal nuggets underground.",
+    "beginner_hint": "お金 = money. 金曜日 = Friday.",
+    "common_words": [
+      {
+        "word": "お金",
+        "reading": "おかね",
+        "meaning": "money"
+      },
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning": "Friday"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "daily"
+    ]
+  },
+  {
+    "id": "k-n5-018",
+    "character": "土",
+    "meanings": [
+      "earth",
+      "soil"
+    ],
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "mnemonic": "Cross on the ground.",
+    "beginner_hint": "土曜日 = Saturday.",
+    "common_words": [
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": "Saturday"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "k-n5-019",
+    "character": "一",
+    "meanings": [
+      "one"
+    ],
+    "onyomi": [
+      "イチ"
+    ],
+    "kunyomi": [
+      "ひと.つ"
+    ],
+    "mnemonic": "One horizontal line.",
+    "beginner_hint": "一つ = one thing. 一人 = one person.",
+    "common_words": [
+      {
+        "word": "一つ",
+        "reading": "ひとつ",
+        "meaning": "one"
+      },
+      {
+        "word": "一人",
+        "reading": "ひとり",
+        "meaning": "one person"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "k-n5-020",
+    "character": "二",
+    "meanings": [
+      "two"
+    ],
+    "onyomi": [
+      "ニ"
+    ],
+    "kunyomi": [
+      "ふた.つ"
+    ],
+    "mnemonic": "Two lines.",
+    "beginner_hint": "二つ = two things. 二人 = two people.",
+    "common_words": [
+      {
+        "word": "二つ",
+        "reading": "ふたつ",
+        "meaning": "two"
+      },
+      {
+        "word": "二人",
+        "reading": "ふたり",
+        "meaning": "two people"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "k-n5-021",
+    "character": "三",
+    "meanings": [
+      "three"
+    ],
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "み.つ"
+    ],
+    "mnemonic": "Three lines.",
+    "beginner_hint": "三つ = three things.",
+    "common_words": [
+      {
+        "word": "三つ",
+        "reading": "みっつ",
+        "meaning": "three"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "k-n5-022",
+    "character": "十",
+    "meanings": [
+      "ten"
+    ],
+    "onyomi": [
+      "ジュウ"
+    ],
+    "kunyomi": [
+      "とお"
+    ],
+    "mnemonic": "Cross shape.",
+    "beginner_hint": "十 = 10. Easy to remember.",
+    "common_words": [
+      {
+        "word": "十",
+        "reading": "じゅう",
+        "meaning": "ten"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "k-n5-023",
+    "character": "百",
+    "meanings": [
+      "hundred"
+    ],
+    "onyomi": [
+      "ヒャク"
+    ],
+    "kunyomi": [],
+    "mnemonic": "One over white.",
+    "beginner_hint": "百 = 100. 三百 = 300.",
+    "common_words": [
+      {
+        "word": "百",
+        "reading": "ひゃく",
+        "meaning": "hundred"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "k-n5-024",
+    "character": "千",
+    "meanings": [
+      "thousand"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "mnemonic": "Modified ten.",
+    "beginner_hint": "千 = 1,000. 三千 = 3,000.",
+    "common_words": [
+      {
+        "word": "千",
+        "reading": "せん",
+        "meaning": "thousand"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "k-n5-025",
+    "character": "万",
+    "meanings": [
+      "ten thousand"
+    ],
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [],
+    "mnemonic": "Swastika-like ancient symbol.",
+    "beginner_hint": "万 = 10,000. 一万円 = ¥10,000.",
+    "common_words": [
+      {
+        "word": "一万",
+        "reading": "いちまん",
+        "meaning": "10,000"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "k-n5-026",
+    "character": "年",
+    "meanings": [
+      "year"
+    ],
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "beginner_hint": "年 = year. 今年 = this year. 来年 = next year.",
+    "common_words": [
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "this year"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "next year"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "k-n5-027",
+    "character": "時",
+    "meanings": [
+      "time",
+      "hour"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき"
+    ],
+    "beginner_hint": "時 = time/hour. 時間 = time period.",
+    "common_words": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "time"
+      },
+      {
+        "word": "時",
+        "reading": "とき",
+        "meaning": "when/time"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "k-n5-028",
+    "character": "白",
+    "meanings": [
+      "white"
+    ],
+    "onyomi": [
+      "ハク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しろ.い"
+    ],
+    "beginner_hint": "白い = white.",
+    "common_words": [
+      {
+        "word": "白い",
+        "reading": "しろい",
+        "meaning": "white"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "id": "k-n5-029",
+    "character": "赤",
+    "meanings": [
+      "red"
+    ],
+    "onyomi": [
+      "セキ"
+    ],
+    "kunyomi": [
+      "あか",
+      "あか.い"
+    ],
+    "beginner_hint": "赤い = red. 赤ちゃん = baby.",
+    "common_words": [
+      {
+        "word": "赤い",
+        "reading": "あかい",
+        "meaning": "red"
+      },
+      {
+        "word": "赤ちゃん",
+        "reading": "あかちゃん",
+        "meaning": "baby"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "id": "k-n5-030",
+    "character": "車",
+    "meanings": [
+      "car",
+      "vehicle"
+    ],
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "beginner_hint": "車 = car. 電車 = train.",
+    "common_words": [
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning": "car"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "train"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "id": "k-n5-031",
+    "character": "雨",
+    "meanings": [
+      "rain"
+    ],
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ"
+    ],
+    "beginner_hint": "雨 = rain. 大雨 = heavy rain.",
+    "common_words": [
+      {
+        "word": "雨",
+        "reading": "あめ",
+        "meaning": "rain"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "weather"
+    ]
+  },
+  {
+    "id": "k-n5-032",
+    "character": "花",
+    "meanings": [
+      "flower"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "beginner_hint": "花 = flower. 花見 = cherry blossom viewing.",
+    "common_words": [
+      {
+        "word": "花",
+        "reading": "はな",
+        "meaning": "flower"
+      },
+      {
+        "word": "花見",
+        "reading": "はなみ",
+        "meaning": "cherry blossom viewing"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "k-n5-033",
+    "character": "手",
+    "meanings": [
+      "hand"
+    ],
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "て"
+    ],
+    "beginner_hint": "手 = hand. 上手 = skilled. 下手 = unskilled.",
+    "common_words": [
+      {
+        "word": "手",
+        "reading": "て",
+        "meaning": "hand"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "skilled"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "id": "k-n5-034",
+    "character": "足",
+    "meanings": [
+      "foot",
+      "leg"
+    ],
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "た.りる"
+    ],
+    "beginner_hint": "足 = foot/leg. 足りる = to be enough.",
+    "common_words": [
+      {
+        "word": "足",
+        "reading": "あし",
+        "meaning": "foot/leg"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "id": "k-n5-035",
+    "character": "目",
+    "meanings": [
+      "eye"
+    ],
+    "onyomi": [
+      "モク"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "beginner_hint": "目 = eye. 目的 = purpose.",
+    "common_words": [
+      {
+        "word": "目",
+        "reading": "め",
+        "meaning": "eye"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "body"
+    ]
+  }
 ]

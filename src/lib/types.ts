@@ -134,3 +134,48 @@ export interface UserData {
   items: Record<string, UserItem>;
   version: number;
 }
+
+/* ── Reading passages (v1.2.07+) ─────────────────────────────────────────── */
+
+export interface ReadingSentence {
+  japanese: string;
+  reading?: string;
+  english: string;
+  structure?: string;
+  tokens?: WordBreakdown[];
+}
+
+export interface ReadingQuestion {
+  id: string;
+  type: "main_idea" | "detail" | "vocabulary_in_context" | "grammar_in_context";
+  question: string;
+  choices: string[];
+  answer: string;
+  explanation: string;
+}
+
+export interface ReadingPassage {
+  id: string;
+  title: string;
+  jlpt: JLPTLevel;
+  difficulty: number;
+  category: string;
+  estimatedMinutes: number;
+  summary: string;
+  targetGrammar?: string[];
+  targetVocab?: string[];
+  sentences: ReadingSentence[];
+  questions: ReadingQuestion[];
+  notes?: string;
+}
+
+export interface ReadingProgress {
+  readingId: string;
+  completed: boolean;
+  bestScore: number;
+  lastScore: number;
+  timesRead: number;
+  unknownWords: string[];
+  completedAt?: string;
+  lastReadAt?: string;
+}

@@ -1,0 +1,379 @@
+[
+  {
+    "id": "r-n4-001",
+    "title": "引っ越しの準備",
+    "jlpt": "N4",
+    "difficulty": 2,
+    "category": "daily_life",
+    "estimatedMinutes": 3,
+    "summary": "Preparing to move to a new apartment.",
+    "sentences": [
+      {
+        "japanese": "来月、新しいアパートに引っ越すことになりました。",
+        "reading": "らいげつ、あたらしい アパート に ひっこす こと に なりました。",
+        "english": "It's been decided that I'll move to a new apartment next month."
+      },
+      {
+        "japanese": "今の部屋は駅から遠くて不便です。",
+        "reading": "いま の へや は えき から とおくて ふべん です。",
+        "english": "My current room is far from the station and inconvenient."
+      },
+      {
+        "japanese": "新しいアパートは駅に近いので便利です。",
+        "reading": "あたらしい アパート は えき に ちかい ので べんり です。",
+        "english": "The new apartment is near the station, so it's convenient."
+      },
+      {
+        "japanese": "今週末、友達に手伝ってもらうつもりです。",
+        "reading": "こんしゅうまつ、ともだち に てつだって もらう つもり です。",
+        "english": "I plan to have my friends help me this weekend."
+      },
+      {
+        "japanese": "荷物が多いので、大変だと思います。",
+        "reading": "にもつ が おおい ので、たいへん だ と おもいます。",
+        "english": "I have a lot of luggage, so I think it'll be tough."
+      },
+      {
+        "japanese": "でも、新しい生活が楽しみです。",
+        "reading": "でも、あたらしい せいかつ が たのしみ です。",
+        "english": "But I'm looking forward to the new life."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-001-1",
+        "type": "detail",
+        "question": "どうして引っ越しますか。",
+        "choices": [
+          "今の部屋が高いから",
+          "駅から遠いから",
+          "部屋が小さいから",
+          "仕事が変わったから"
+        ],
+        "answer": "駅から遠いから",
+        "explanation": "今の部屋は駅から遠くて不便です。"
+      },
+      {
+        "id": "rq-n4-001-2",
+        "type": "grammar_in_context",
+        "question": "「手伝ってもらう」はどういう意味ですか。",
+        "choices": [
+          "help someone",
+          "have someone help me",
+          "help each other",
+          "be helped by the teacher"
+        ],
+        "answer": "have someone help me",
+        "explanation": "〜てもらう = have someone do something for me."
+      },
+      {
+        "id": "rq-n4-001-3",
+        "type": "detail",
+        "question": "いつ引っ越しますか。",
+        "choices": [
+          "今週",
+          "来週",
+          "来月",
+          "来年"
+        ],
+        "answer": "来月",
+        "explanation": "来月、新しいアパートに引っ越す。"
+      }
+    ]
+  },
+  {
+    "id": "r-n4-002",
+    "title": "日本語の勉強",
+    "jlpt": "N4",
+    "difficulty": 2,
+    "category": "study",
+    "estimatedMinutes": 3,
+    "summary": "How someone studies Japanese.",
+    "sentences": [
+      {
+        "japanese": "私は二年前から日本語を勉強しています。",
+        "reading": "わたし は にねんまえ から にほんご を べんきょう しています。",
+        "english": "I've been studying Japanese since two years ago."
+      },
+      {
+        "japanese": "最初はひらがなとカタカナを覚えるのが大変でした。",
+        "reading": "さいしょ は ひらがな と カタカナ を おぼえる の が たいへん でした。",
+        "english": "At first, memorizing hiragana and katakana was tough."
+      },
+      {
+        "japanese": "でも、毎日練習したら、だんだん読めるようになりました。",
+        "reading": "でも、まいにち れんしゅう したら、だんだん よめる ように なりました。",
+        "english": "But after practicing every day, I gradually became able to read."
+      },
+      {
+        "japanese": "今は漢字を勉強していますが、難しいです。",
+        "reading": "いま は かんじ を べんきょう しています が、むずかしい です。",
+        "english": "Now I'm studying kanji, but it's difficult."
+      },
+      {
+        "japanese": "来年、日本語能力試験を受けるつもりです。",
+        "reading": "らいねん、にほんご のうりょく しけん を うける つもり です。",
+        "english": "I plan to take the JLPT next year."
+      },
+      {
+        "japanese": "合格できるように頑張ります。",
+        "reading": "ごうかく できる ように がんばります。",
+        "english": "I'll do my best so I can pass."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-002-1",
+        "type": "detail",
+        "question": "いつから日本語を勉強していますか。",
+        "choices": [
+          "一年前",
+          "二年前",
+          "三年前",
+          "半年前"
+        ],
+        "answer": "二年前",
+        "explanation": "二年前から日本語を勉強しています。"
+      },
+      {
+        "id": "rq-n4-002-2",
+        "type": "grammar_in_context",
+        "question": "「読めるようになりました」はどういう意味ですか。",
+        "choices": [
+          "stopped reading",
+          "became able to read",
+          "tried to read",
+          "finished reading"
+        ],
+        "answer": "became able to read",
+        "explanation": "〜ようになる = come to be able to / become able to."
+      },
+      {
+        "id": "rq-n4-002-3",
+        "type": "detail",
+        "question": "今何を勉強していますか。",
+        "choices": [
+          "ひらがな",
+          "カタカナ",
+          "漢字",
+          "文法"
+        ],
+        "answer": "漢字",
+        "explanation": "今は漢字を勉強しています。"
+      }
+    ]
+  },
+  {
+    "id": "r-n4-003",
+    "title": "旅行の思い出",
+    "jlpt": "N4",
+    "difficulty": 2,
+    "category": "travel",
+    "estimatedMinutes": 3,
+    "summary": "A trip to Kyoto.",
+    "sentences": [
+      {
+        "japanese": "先月、友達と京都に旅行しました。",
+        "reading": "せんげつ、ともだち と きょうと に りょこう しました。",
+        "english": "Last month I traveled to Kyoto with a friend."
+      },
+      {
+        "japanese": "お寺や神社を見たり、お土産を買ったりしました。",
+        "reading": "おてら や じんじゃ を みたり、おみやげ を かったり しました。",
+        "english": "We visited temples and shrines, bought souvenirs, etc."
+      },
+      {
+        "japanese": "抹茶のアイスクリームがとてもおいしかったです。",
+        "reading": "まっちゃ の アイスクリーム が とても おいしかった です。",
+        "english": "The matcha ice cream was very delicious."
+      },
+      {
+        "japanese": "天気がよかったので、たくさん写真を撮りました。",
+        "reading": "てんき が よかった ので、たくさん しゃしん を とりました。",
+        "english": "The weather was good, so I took lots of photos."
+      },
+      {
+        "japanese": "また行きたいと思います。",
+        "reading": "また いきたい と おもいます。",
+        "english": "I think I want to go again."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-003-1",
+        "type": "detail",
+        "question": "どこに旅行しましたか。",
+        "choices": [
+          "東京",
+          "大阪",
+          "京都",
+          "北海道"
+        ],
+        "answer": "京都",
+        "explanation": "京都に旅行しました。"
+      },
+      {
+        "id": "rq-n4-003-2",
+        "type": "detail",
+        "question": "何がおいしかったですか。",
+        "choices": [
+          "抹茶のケーキ",
+          "抹茶のアイスクリーム",
+          "お寿司",
+          "ラーメン"
+        ],
+        "answer": "抹茶のアイスクリーム",
+        "explanation": "抹茶のアイスクリームがとてもおいしかったです。"
+      },
+      {
+        "id": "rq-n4-003-3",
+        "type": "main_idea",
+        "question": "この文の主な内容は何ですか。",
+        "choices": [
+          "仕事の話",
+          "旅行の思い出",
+          "料理の作り方",
+          "天気予報"
+        ],
+        "answer": "旅行の思い出",
+        "explanation": "京都旅行の思い出を書いています。"
+      }
+    ]
+  },
+  {
+    "id": "r-n4-004",
+    "title": "健康的な生活",
+    "jlpt": "N4",
+    "difficulty": 3,
+    "category": "health",
+    "estimatedMinutes": 3,
+    "summary": "Tips for a healthy lifestyle.",
+    "sentences": [
+      {
+        "japanese": "健康のために、毎日運動するようにしています。",
+        "reading": "けんこう の ために、まいにち うんどう する ように しています。",
+        "english": "For my health, I try to exercise every day."
+      },
+      {
+        "japanese": "朝は走ったり、夜はストレッチをしたりしています。",
+        "reading": "あさ は はしったり、よる は ストレッチ を したり しています。",
+        "english": "I run in the morning and do stretching at night."
+      },
+      {
+        "japanese": "野菜をたくさん食べるようにしています。",
+        "reading": "やさい を たくさん たべる ように しています。",
+        "english": "I try to eat lots of vegetables."
+      },
+      {
+        "japanese": "お酒は飲みすぎないように気をつけています。",
+        "reading": "おさけ は のみすぎない ように き を つけています。",
+        "english": "I'm careful not to drink too much alcohol."
+      },
+      {
+        "japanese": "睡眠も大切なので、早く寝るようにしています。",
+        "reading": "すいみん も たいせつ な ので、はやく ねる ように しています。",
+        "english": "Sleep is important too, so I try to go to bed early."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-004-1",
+        "type": "grammar_in_context",
+        "question": "「するようにしています」はどういう意味ですか。",
+        "choices": [
+          "started doing",
+          "try to do regularly",
+          "stopped doing",
+          "want to do"
+        ],
+        "answer": "try to do regularly",
+        "explanation": "〜ようにしている = try to do / make a habit of."
+      },
+      {
+        "id": "rq-n4-004-2",
+        "type": "detail",
+        "question": "お酒について何と言っていますか。",
+        "choices": [
+          "全く飲まない",
+          "たくさん飲む",
+          "飲みすぎないようにしている",
+          "毎日飲んでいる"
+        ],
+        "answer": "飲みすぎないようにしている",
+        "explanation": "お酒は飲みすぎないように気をつけています。"
+      },
+      {
+        "id": "rq-n4-004-3",
+        "type": "main_idea",
+        "question": "この文の主なテーマは何ですか。",
+        "choices": [
+          "旅行",
+          "料理",
+          "健康的な生活",
+          "仕事"
+        ],
+        "answer": "健康的な生活",
+        "explanation": "健康のための習慣について書いています。"
+      }
+    ]
+  },
+  {
+    "id": "r-n4-005",
+    "title": "アルバイト",
+    "jlpt": "N4",
+    "difficulty": 2,
+    "category": "work",
+    "estimatedMinutes": 3,
+    "summary": "A part-time job experience.",
+    "sentences": [
+      {
+        "japanese": "大学生の時、カフェでアルバイトをしていました。",
+        "reading": "だいがくせい の とき、カフェ で アルバイト を していました。",
+        "english": "When I was a university student, I worked part-time at a cafe."
+      },
+      {
+        "japanese": "最初はコーヒーの作り方が分かりませんでした。",
+        "reading": "さいしょ は コーヒー の つくりかた が わかりませんでした。",
+        "english": "At first I didn't know how to make coffee."
+      },
+      {
+        "japanese": "先輩に教えてもらって、だんだん上手になりました。",
+        "reading": "せんぱい に おしえて もらって、だんだん じょうず に なりました。",
+        "english": "My senior taught me, and I gradually got better."
+      },
+      {
+        "japanese": "忙しい時は大変でしたが、いい経験になりました。",
+        "reading": "いそがしい とき は たいへん でした が、いい けいけん に なりました。",
+        "english": "It was tough when busy, but it was a good experience."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n4-005-1",
+        "type": "detail",
+        "question": "どこでアルバイトをしていましたか。",
+        "choices": [
+          "レストラン",
+          "コンビニ",
+          "カフェ",
+          "本屋"
+        ],
+        "answer": "カフェ",
+        "explanation": "カフェでアルバイトをしていました。"
+      },
+      {
+        "id": "rq-n4-005-2",
+        "type": "grammar_in_context",
+        "question": "「教えてもらって」はどういう意味ですか。",
+        "choices": [
+          "I taught",
+          "someone taught me",
+          "I wanted to teach",
+          "I tried to teach"
+        ],
+        "answer": "someone taught me",
+        "explanation": "〜てもらう = have someone do something for you."
+      }
+    ]
+  }
+]

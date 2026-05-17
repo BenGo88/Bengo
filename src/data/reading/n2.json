@@ -1,0 +1,197 @@
+[
+  {
+    "id": "r-n2-001",
+    "title": "働き方改革",
+    "jlpt": "N2",
+    "difficulty": 4,
+    "category": "society",
+    "estimatedMinutes": 5,
+    "summary": "Work style reform in Japan.",
+    "sentences": [
+      {
+        "japanese": "近年、日本では「働き方改革」が進められている。",
+        "reading": "きんねん、にほん では はたらきかた かいかく が すすめられている。",
+        "english": "In recent years, 'work style reform' is being promoted in Japan."
+      },
+      {
+        "japanese": "長時間労働が問題視されてきたことが背景にある。",
+        "reading": "ちょうじかん ろうどう が もんだいし されてきた こと が はいけい に ある。",
+        "english": "The background is that long working hours have been seen as a problem."
+      },
+      {
+        "japanese": "残業を減らし、有給休暇を取りやすくする取り組みが行われている。",
+        "reading": "ざんぎょう を へらし、ゆうきゅうきゅうか を とりやすく する とりくみ が おこなわれている。",
+        "english": "Efforts to reduce overtime and make it easier to take paid leave are being made."
+      },
+      {
+        "japanese": "しかしながら、制度が変わっても、意識が変わらなければ効果は限られる。",
+        "reading": "しかしながら、せいど が かわっても、いしき が かわらなければ こうか は かぎられる。",
+        "english": "However, even if systems change, the effect is limited unless mindsets change."
+      },
+      {
+        "japanese": "真の改革には、企業文化そのものの見直しが求められている。",
+        "reading": "しん の かいかく に は、きぎょう ぶんか そのもの の みなおし が もとめられている。",
+        "english": "True reform requires rethinking corporate culture itself."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-001-1",
+        "type": "detail",
+        "question": "働き方改革の背景は何ですか。",
+        "choices": [
+          "人口減少",
+          "長時間労働が問題",
+          "技術の進歩",
+          "国際競争"
+        ],
+        "answer": "長時間労働が問題",
+        "explanation": "長時間労働が問題視されてきたことが背景にある。"
+      },
+      {
+        "id": "rq-n2-001-2",
+        "type": "grammar_in_context",
+        "question": "「変わらなければ」はどういう意味ですか。",
+        "choices": [
+          "if it changes",
+          "if it doesn't change",
+          "even if it changes",
+          "because it changed"
+        ],
+        "answer": "if it doesn't change",
+        "explanation": "〜なければ = if not ~. 変わらなければ = if it doesn't change."
+      },
+      {
+        "id": "rq-n2-001-3",
+        "type": "main_idea",
+        "question": "筆者は真の改革に何が必要だと言っていますか。",
+        "choices": [
+          "法律の変更",
+          "給料の増加",
+          "企業文化の見直し",
+          "残業の増加"
+        ],
+        "answer": "企業文化の見直し",
+        "explanation": "企業文化そのものの見直しが求められている。"
+      }
+    ]
+  },
+  {
+    "id": "r-n2-002",
+    "title": "技術と社会",
+    "jlpt": "N2",
+    "difficulty": 4,
+    "category": "technology",
+    "estimatedMinutes": 5,
+    "summary": "Technology's impact on society.",
+    "sentences": [
+      {
+        "japanese": "テクノロジーの発展に伴い、私たちの生活は大きく変化してきた。",
+        "reading": "テクノロジー の はってん に ともない、わたしたち の せいかつ は おおきく へんか してきた。",
+        "english": "Along with technological development, our lives have changed greatly."
+      },
+      {
+        "japanese": "スマートフォンの普及により、情報へのアクセスが容易になった。",
+        "reading": "スマートフォン の ふきゅう に より、じょうほう へ の アクセス が ようい に なった。",
+        "english": "With the spread of smartphones, access to information became easy."
+      },
+      {
+        "japanese": "一方で、SNSによる問題も指摘されている。",
+        "reading": "いっぽうで、SNS に よる もんだい も してき されている。",
+        "english": "On the other hand, problems caused by social media are also pointed out."
+      },
+      {
+        "japanese": "技術を正しく活用するためには、リテラシー教育が不可欠である。",
+        "reading": "ぎじゅつ を ただしく かつよう する ため に は、リテラシー きょういく が ふかけつ で ある。",
+        "english": "To properly utilize technology, literacy education is essential."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-002-1",
+        "type": "grammar_in_context",
+        "question": "「に伴い」はどういう意味ですか。",
+        "choices": [
+          "despite",
+          "instead of",
+          "along with",
+          "in order to"
+        ],
+        "answer": "along with",
+        "explanation": "〜に伴い = along with / accompanying."
+      },
+      {
+        "id": "rq-n2-002-2",
+        "type": "main_idea",
+        "question": "筆者は何が不可欠だと言っていますか。",
+        "choices": [
+          "スマートフォン",
+          "SNS",
+          "リテラシー教育",
+          "新しい技術"
+        ],
+        "answer": "リテラシー教育",
+        "explanation": "リテラシー教育が不可欠である。"
+      }
+    ]
+  },
+  {
+    "id": "r-n2-003",
+    "title": "多様性と共生",
+    "jlpt": "N2",
+    "difficulty": 5,
+    "category": "society",
+    "estimatedMinutes": 5,
+    "summary": "Diversity and coexistence in modern society.",
+    "sentences": [
+      {
+        "japanese": "現代社会では、多様性が重視されるようになってきた。",
+        "reading": "げんだい しゃかい では、たようせい が じゅうし される ように なってきた。",
+        "english": "In modern society, diversity has come to be valued."
+      },
+      {
+        "japanese": "国籍や文化の異なる人々が共に暮らす社会において、相互理解は欠かせない。",
+        "reading": "こくせき や ぶんか の ことなる ひとびと が ともに くらす しゃかい に おいて、そうご りかい は かかせない。",
+        "english": "In a society where people of different nationalities and cultures live together, mutual understanding is indispensable."
+      },
+      {
+        "japanese": "異なる価値観を認め合うことが、共生社会の基盤となる。",
+        "reading": "ことなる かちかん を みとめあう こと が、きょうせい しゃかい の きばん と なる。",
+        "english": "Accepting different values becomes the foundation of a coexisting society."
+      },
+      {
+        "japanese": "教育や地域活動を通じて、多文化共生の意識を高めていく必要がある。",
+        "reading": "きょういく や ちいき かつどう を つうじて、たぶんか きょうせい の いしき を たかめて いく ひつよう が ある。",
+        "english": "Through education and community activities, we need to raise awareness of multicultural coexistence."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n2-003-1",
+        "type": "vocabulary_in_context",
+        "question": "「欠かせない」の意味に一番近いのは？",
+        "choices": [
+          "unnecessary",
+          "indispensable",
+          "difficult",
+          "simple"
+        ],
+        "answer": "indispensable",
+        "explanation": "欠かせない = indispensable, essential."
+      },
+      {
+        "id": "rq-n2-003-2",
+        "type": "main_idea",
+        "question": "共生社会の基盤は何ですか。",
+        "choices": [
+          "お金",
+          "法律",
+          "異なる価値観を認め合うこと",
+          "同じ文化を持つこと"
+        ],
+        "answer": "異なる価値観を認め合うこと",
+        "explanation": "異なる価値観を認め合うことが基盤となる。"
+      }
+    ]
+  }
+]

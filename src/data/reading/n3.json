@@ -1,0 +1,320 @@
+[
+  {
+    "id": "r-n3-001",
+    "title": "リモートワークの変化",
+    "jlpt": "N3",
+    "difficulty": 3,
+    "category": "work",
+    "estimatedMinutes": 4,
+    "summary": "How remote work changed daily life.",
+    "sentences": [
+      {
+        "japanese": "最近、リモートワークをする人が増えています。",
+        "reading": "さいきん、リモートワーク を する ひと が ふえています。",
+        "english": "Recently, the number of people doing remote work has been increasing."
+      },
+      {
+        "japanese": "通勤時間がなくなったおかげで、自由な時間が増えました。",
+        "reading": "つうきん じかん が なくなった おかげで、じゆう な じかん が ふえました。",
+        "english": "Thanks to no commute time, free time has increased."
+      },
+      {
+        "japanese": "一方で、運動不足になりやすいという問題もあります。",
+        "reading": "いっぽうで、うんどうぶそく に なりやすい という もんだい も あります。",
+        "english": "On the other hand, there's the problem of easily becoming physically inactive."
+      },
+      {
+        "japanese": "仕事とプライベートの区別がつきにくくなったという人もいます。",
+        "reading": "しごと と プライベート の くべつ が つきにくく なった という ひと も います。",
+        "english": "Some people say it's become harder to distinguish work from private life."
+      },
+      {
+        "japanese": "リモートワークにはメリットもデメリットもあるようです。",
+        "reading": "リモートワーク に は メリット も デメリット も ある ようです。",
+        "english": "Remote work seems to have both advantages and disadvantages."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-001-1",
+        "type": "detail",
+        "question": "リモートワークのおかげで何が増えましたか。",
+        "choices": [
+          "通勤時間",
+          "ストレス",
+          "自由な時間",
+          "残業"
+        ],
+        "answer": "自由な時間",
+        "explanation": "通勤時間がなくなったおかげで、自由な時間が増えました。"
+      },
+      {
+        "id": "rq-n3-001-2",
+        "type": "grammar_in_context",
+        "question": "「なりやすい」はどういう意味ですか。",
+        "choices": [
+          "hard to become",
+          "easy to become",
+          "already became",
+          "will become"
+        ],
+        "answer": "easy to become",
+        "explanation": "〜やすい = easy to ~."
+      },
+      {
+        "id": "rq-n3-001-3",
+        "type": "main_idea",
+        "question": "この文の結論は何ですか。",
+        "choices": [
+          "リモートワークは悪い",
+          "リモートワークは良い",
+          "メリットもデメリットもある",
+          "みんなリモートワークをすべきだ"
+        ],
+        "answer": "メリットもデメリットもある",
+        "explanation": "メリットもデメリットもあるようです。"
+      }
+    ]
+  },
+  {
+    "id": "r-n3-002",
+    "title": "留学の経験",
+    "jlpt": "N3",
+    "difficulty": 3,
+    "category": "study",
+    "estimatedMinutes": 4,
+    "summary": "Reflecting on study abroad experience.",
+    "sentences": [
+      {
+        "japanese": "私は去年、一年間アメリカに留学しました。",
+        "reading": "わたし は きょねん、いちねんかん アメリカ に りゅうがく しました。",
+        "english": "Last year, I studied abroad in America for one year."
+      },
+      {
+        "japanese": "最初は英語が全然分からなくて、毎日苦労しました。",
+        "reading": "さいしょ は えいご が ぜんぜん わからなくて、まいにち くろう しました。",
+        "english": "At first I couldn't understand English at all and struggled every day."
+      },
+      {
+        "japanese": "しかし、ホストファミリーがとても親切で、いろいろ助けてくれました。",
+        "reading": "しかし、ホストファミリー が とても しんせつ で、いろいろ たすけて くれました。",
+        "english": "However, my host family was very kind and helped me a lot."
+      },
+      {
+        "japanese": "半年たったころ、少しずつ英語が話せるようになりました。",
+        "reading": "はんとし たった ころ、すこしずつ えいご が はなせる ように なりました。",
+        "english": "Around half a year later, I gradually became able to speak English."
+      },
+      {
+        "japanese": "この経験のおかげで、自信がつきました。",
+        "reading": "この けいけん の おかげで、じしん が つきました。",
+        "english": "Thanks to this experience, I gained confidence."
+      },
+      {
+        "japanese": "留学は大変でしたが、行ってよかったと思います。",
+        "reading": "りゅうがく は たいへん でした が、いって よかった と おもいます。",
+        "english": "Study abroad was tough, but I think it was worth going."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-002-1",
+        "type": "detail",
+        "question": "どのくらい留学しましたか。",
+        "choices": [
+          "半年",
+          "一年",
+          "二年",
+          "三ヶ月"
+        ],
+        "answer": "一年",
+        "explanation": "一年間アメリカに留学しました。"
+      },
+      {
+        "id": "rq-n3-002-2",
+        "type": "grammar_in_context",
+        "question": "「おかげで」はどういう意味ですか。",
+        "choices": [
+          "because of (negative)",
+          "thanks to (positive)",
+          "in spite of",
+          "instead of"
+        ],
+        "answer": "thanks to (positive)",
+        "explanation": "〜おかげで = thanks to (positive cause)."
+      },
+      {
+        "id": "rq-n3-002-3",
+        "type": "main_idea",
+        "question": "留学についてどう思っていますか。",
+        "choices": [
+          "行かなければよかった",
+          "大変だったがよかった",
+          "簡単だった",
+          "まだ行きたくない"
+        ],
+        "answer": "大変だったがよかった",
+        "explanation": "大変でしたが、行ってよかったと思います。"
+      }
+    ]
+  },
+  {
+    "id": "r-n3-003",
+    "title": "日本のマナー",
+    "jlpt": "N3",
+    "difficulty": 3,
+    "category": "culture",
+    "estimatedMinutes": 4,
+    "summary": "Japanese manners and customs.",
+    "sentences": [
+      {
+        "japanese": "日本にはさまざまなマナーがあります。",
+        "reading": "にほん に は さまざまな マナー が あります。",
+        "english": "Japan has various manners and customs."
+      },
+      {
+        "japanese": "例えば、電車の中では大きい声で話してはいけません。",
+        "reading": "たとえば、でんしゃ の なか では おおきい こえ で はなしては いけません。",
+        "english": "For example, you must not speak loudly on the train."
+      },
+      {
+        "japanese": "レストランでは「いただきます」と言ってから食べます。",
+        "reading": "レストラン では いただきます と いってから たべます。",
+        "english": "At restaurants, you say 'itadakimasu' before eating."
+      },
+      {
+        "japanese": "靴を脱いで家に入るのは日本の習慣です。",
+        "reading": "くつ を ぬいで いえ に はいる の は にほん の しゅうかん です。",
+        "english": "Taking off shoes before entering a house is a Japanese custom."
+      },
+      {
+        "japanese": "最初は驚くかもしれませんが、慣れると自然になります。",
+        "reading": "さいしょ は おどろく かもしれません が、なれると しぜん に なります。",
+        "english": "It might be surprising at first, but you get used to it naturally."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-003-1",
+        "type": "detail",
+        "question": "電車の中で何をしてはいけませんか。",
+        "choices": [
+          "本を読む",
+          "音楽を聞く",
+          "大きい声で話す",
+          "寝る"
+        ],
+        "answer": "大きい声で話す",
+        "explanation": "大きい声で話してはいけません。"
+      },
+      {
+        "id": "rq-n3-003-2",
+        "type": "vocabulary_in_context",
+        "question": "「習慣」の意味に一番近いのは？",
+        "choices": [
+          "custom/habit",
+          "rule/law",
+          "opinion",
+          "problem"
+        ],
+        "answer": "custom/habit",
+        "explanation": "習慣 = custom, habit."
+      },
+      {
+        "id": "rq-n3-003-3",
+        "type": "main_idea",
+        "question": "この文は何について書いていますか。",
+        "choices": [
+          "日本の食べ物",
+          "日本の歴史",
+          "日本のマナー",
+          "日本の天気"
+        ],
+        "answer": "日本のマナー",
+        "explanation": "日本のマナーや習慣について書いています。"
+      }
+    ]
+  },
+  {
+    "id": "r-n3-004",
+    "title": "環境問題",
+    "jlpt": "N3",
+    "difficulty": 4,
+    "category": "society",
+    "estimatedMinutes": 4,
+    "summary": "Environmental issues and what we can do.",
+    "sentences": [
+      {
+        "japanese": "最近、環境問題が深刻になっています。",
+        "reading": "さいきん、かんきょう もんだい が しんこく に なっています。",
+        "english": "Recently, environmental problems have become serious."
+      },
+      {
+        "japanese": "温暖化のせいで、異常気象が増えています。",
+        "reading": "おんだんか の せいで、いじょう きしょう が ふえています。",
+        "english": "Due to global warming, extreme weather has increased."
+      },
+      {
+        "japanese": "私たちにできることは何でしょうか。",
+        "reading": "わたしたち に できる こと は なん でしょうか。",
+        "english": "What can we do?"
+      },
+      {
+        "japanese": "まず、ゴミを減らすことが大切です。",
+        "reading": "まず、ゴミ を へらす こと が たいせつ です。",
+        "english": "First, reducing waste is important."
+      },
+      {
+        "japanese": "電気や水を無駄にしないようにしましょう。",
+        "reading": "でんき や みず を むだ に しない ように しましょう。",
+        "english": "Let's try not to waste electricity and water."
+      },
+      {
+        "japanese": "一人一人の行動が未来を変えることができます。",
+        "reading": "ひとりひとり の こうどう が みらい を かえる こと が できます。",
+        "english": "Each person's actions can change the future."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n3-004-1",
+        "type": "grammar_in_context",
+        "question": "「せいで」はどういう意味ですか。",
+        "choices": [
+          "thanks to (positive)",
+          "because of (negative)",
+          "in spite of",
+          "instead of"
+        ],
+        "answer": "because of (negative)",
+        "explanation": "〜せいで = because of (negative cause). Opposite of おかげで."
+      },
+      {
+        "id": "rq-n3-004-2",
+        "type": "detail",
+        "question": "まず何が大切ですか。",
+        "choices": [
+          "車を買うこと",
+          "ゴミを減らすこと",
+          "旅行すること",
+          "お金を貯めること"
+        ],
+        "answer": "ゴミを減らすこと",
+        "explanation": "まず、ゴミを減らすことが大切です。"
+      },
+      {
+        "id": "rq-n3-004-3",
+        "type": "main_idea",
+        "question": "この文の一番大切なメッセージは何ですか。",
+        "choices": [
+          "環境問題は難しい",
+          "何もできない",
+          "一人一人の行動が大切",
+          "政府が全部解決する"
+        ],
+        "answer": "一人一人の行動が大切",
+        "explanation": "一人一人の行動が未来を変えることができます。"
+      }
+    ]
+  }
+]

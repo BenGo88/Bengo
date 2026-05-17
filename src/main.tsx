@@ -20,6 +20,8 @@ import Placement from "./pages/Placement";
 import ContentTools from "./pages/ContentTools";
 import Curriculum from "./pages/Curriculum";
 import Sources from "./pages/Sources";
+import ReadingLibrary from "./pages/ReadingLibrary";
+import ReadingDetail from "./pages/ReadingDetail";
 import "./index.css";
 
 if (import.meta.env.DEV) {
@@ -47,6 +49,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/placement" element={<Placement />} />
           <Route path="/content-tools" element={<ContentTools />} />
           <Route path="/curriculum/:level" element={<Curriculum />} />
+          <Route path="/reading" element={<ReadingLibrary />} />
+          <Route path="/reading/:id" element={<ReadingDetail />} />
           <Route path="/sources" element={<Sources />} />
           <Route path="/settings" element={<Settings />} />
         </Route>

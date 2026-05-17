@@ -1,27 +1,1897 @@
 [
-  {"id":"g001","title":"〜わけではない","meaning_short":"Not necessarily / It doesn't mean that","simple_explanation":"Soft denial — 'it's not that...' to correct a misunderstanding.","explanation":"Partially deny something; correct a possible misunderstanding.","prerequisites":["plain form"],"formation":["Plain + わけではない"],"order":1,"unit":"Unit 1 — Denial & Certainty","examples":[{"ja":"日本語が嫌いなわけではない。","en":"It's not that I dislike Japanese.","reading":"にほんご が きらい な わけ では ない。","structure":"嫌いな (dislike) + わけではない (soft denial)","tokens":[{"text":"日本語が","reading":"にほんごが","meaning":"Japanese (subj)","partOfSpeech":"noun+particle"},{"text":"嫌いな","reading":"きらいな","meaning":"disliked","partOfSpeech":"な-adjective"},{"text":"わけではない","reading":"わけではない","meaning":"it's not that","partOfSpeech":"grammar","role":"target grammar"}]},{"ja":"全員が賛成したわけではない。","en":"It doesn't mean everyone agreed.","reading":"ぜんいん が さんせい した わけ では ない。","structure":"全員が賛成した (everyone agreed) + わけではない (not necessarily)","tokens":[{"text":"全員が","reading":"ぜんいんが","meaning":"everyone","partOfSpeech":"noun+particle"},{"text":"賛成した","reading":"さんせいした","meaning":"agreed","partOfSpeech":"suru-verb past"},{"text":"わけではない","reading":"わけではない","meaning":"doesn't mean that","partOfSpeech":"grammar","role":"target grammar"}]}],"similar":[{"title":"〜わけがない","diff":"わけがない = 'no way!' (strong). わけではない = 'not necessarily' (soft)."}],"jlpt":"N2","tags":["negation"]},
-  {"id":"g-n2-002","title":"〜わけがない","meaning_short":"There's no way that~","simple_explanation":"Strong denial — impossible, no way.","explanation":"Emphatic denial of possibility.","prerequisites":["わけではない"],"formation":["Plain + わけがない"],"order":2,"unit":"Unit 1 — Denial & Certainty","examples":[{"ja":"彼がそんなことを言うわけがない。","en":"There's no way he would say that.","reading":"かれ が そんな こと を いう わけ が ない。","structure":"言う (say) + わけがない (no way)","tokens":[{"text":"彼が","reading":"かれが","meaning":"he (subj)","partOfSpeech":"pronoun+particle"},{"text":"そんなことを言う","reading":"そんなことをいう","meaning":"say such a thing","partOfSpeech":"verb phrase"},{"text":"わけがない","reading":"わけがない","meaning":"there's no way","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["negation"]},
-  {"id":"g-n2-003","title":"〜とは限らない","meaning_short":"Not necessarily / not always","simple_explanation":"Just because X is true doesn't mean Y is always true.","explanation":"Denies something as universally true.","prerequisites":["plain form"],"formation":["Plain + とは限らない"],"order":3,"unit":"Unit 1 — Denial & Certainty","examples":[{"ja":"高いものがいいとは限らない。","en":"Expensive things aren't necessarily good.","reading":"たかい もの が いい とは かぎらない。","structure":"高いものがいい (expensive = good) + とは限らない (not necessarily)","tokens":[{"text":"高いものが","reading":"たかいものが","meaning":"expensive things","partOfSpeech":"noun phrase"},{"text":"いい","lexemeId":"lex-n5-いい"},{"text":"とは限らない","reading":"とはかぎらない","meaning":"not necessarily","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["negation"]},
-  {"id":"g-n2-004","title":"〜に違いない","meaning_short":"Must be / no doubt","simple_explanation":"Strong certainty — 'it must be' based on evidence.","explanation":"Confident assertion based on reasoning.","prerequisites":["plain form"],"formation":["Plain + に違いない"],"order":4,"unit":"Unit 1 — Denial & Certainty","examples":[{"ja":"彼は日本人に違いない。","en":"He must be Japanese.","reading":"かれ は にほんじん に ちがいない。","structure":"日本人 (Japanese person) + に違いない (must be)","tokens":[{"text":"彼は","reading":"かれは","meaning":"he (topic)","partOfSpeech":"pronoun+particle"},{"text":"日本人","reading":"にほんじん","meaning":"Japanese person","partOfSpeech":"noun"},{"text":"に違いない","reading":"にちがいない","meaning":"must be","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["certainty"]},
-  {"id":"g-n2-005","title":"〜わけにはいかない","meaning_short":"Can't / mustn't (social pressure)","simple_explanation":"Can't do X because of social/moral reasons, even if you want to.","explanation":"Social/moral impossibility.","prerequisites":["わけではない"],"formation":["Verb dict + わけにはいかない","Verb ない + わけにはいかない"],"order":5,"unit":"Unit 2 — Obligation","examples":[{"ja":"約束を破るわけにはいかない。","en":"I can't break my promise.","reading":"やくそく を やぶる わけ には いかない。","structure":"約束を破る (break promise) + わけにはいかない (can't)","tokens":[{"text":"約束を","reading":"やくそくを","meaning":"promise (obj)","partOfSpeech":"noun+particle"},{"text":"破る","reading":"やぶる","meaning":"to break","partOfSpeech":"godan verb"},{"text":"わけにはいかない","reading":"わけにはいかない","meaning":"can't (social reason)","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["obligation"]},
-  {"id":"g-n2-006","title":"〜ざるを得ない","meaning_short":"Have no choice but to~","simple_explanation":"You have to do it even though you don't want to.","explanation":"Reluctant necessity.","prerequisites":["ない form"],"formation":["Verb ない-stem + ざるを得ない","する → せざるを得ない"],"order":6,"unit":"Unit 2 — Obligation","examples":[{"ja":"この状況では、行かざるを得ない。","en":"In this situation, I have no choice but to go.","reading":"この じょうきょう では、いかざるを えない。","structure":"行か (go) + ざるを得ない (have no choice)","tokens":[{"text":"この状況では","reading":"このじょうきょうでは","meaning":"in this situation","partOfSpeech":"noun phrase"},{"text":"行かざるを得ない","reading":"いかざるをえない","meaning":"have no choice but to go","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["obligation"]},
-  {"id":"g-n2-007","title":"〜かねる","meaning_short":"Cannot / find it difficult to","simple_explanation":"Polite way to say 'I can't do that.' Common in business.","explanation":"Inability due to difficulty or reluctance. Formal/polite.","prerequisites":["verb stems"],"formation":["Verb stem + かねる"],"order":7,"unit":"Unit 2 — Obligation","examples":[{"ja":"その要求にはお応えしかねます。","en":"We cannot comply with that request.","reading":"その ようきゅう には おこたえ しかねます。","structure":"お応えし (respond) + かねます (cannot)","tokens":[{"text":"その要求には","reading":"そのようきゅうには","meaning":"to that request","partOfSpeech":"noun phrase"},{"text":"お応えしかねます","reading":"おこたえしかねます","meaning":"cannot comply","partOfSpeech":"かねる polite","role":"target grammar"}]}],"jlpt":"N2","tags":["formal"]},
-  {"id":"g-n2-008","title":"〜得る / 〜得ない","meaning_short":"Can / cannot (possibility)","simple_explanation":"Something is possible/impossible. あり得る = possible. あり得ない = impossible.","explanation":"Objective possibility or impossibility.","prerequisites":["verb stems"],"formation":["Verb stem + 得る（うる/える）","Verb stem + 得ない"],"order":8,"unit":"Unit 2 — Obligation","examples":[{"ja":"そんなことはあり得ない。","en":"That's impossible.","reading":"そんな こと は ありえない。","structure":"そんなこと (such thing) + あり得ない (impossible)","tokens":[{"text":"そんなことは","reading":"そんなことは","meaning":"such a thing","partOfSpeech":"noun phrase"},{"text":"あり得ない","reading":"ありえない","meaning":"impossible","partOfSpeech":"得ない form","role":"target grammar"}]}],"jlpt":"N2","tags":["possibility"]},
-  {"id":"g-n2-009","title":"〜にすぎない","meaning_short":"Nothing more than / merely","simple_explanation":"Downplays something — 'it's just X, nothing more.'","explanation":"Minimizing expression.","prerequisites":["noun","plain form"],"formation":["Noun + にすぎない","Plain + にすぎない"],"order":9,"unit":"Unit 3 — Emphasis","examples":[{"ja":"彼は学生にすぎない。","en":"He is nothing more than a student.","reading":"かれ は がくせい に すぎない。","structure":"学生 (student) + にすぎない (merely)","tokens":[{"text":"彼は","reading":"かれは","meaning":"he (topic)","partOfSpeech":"pronoun+particle"},{"text":"学生","lexemeId":"lex-n5-学生"},{"text":"にすぎない","reading":"にすぎない","meaning":"nothing more than","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["emphasis"]},
-  {"id":"g-n2-010","title":"〜どころではない","meaning_short":"Far from / not the time for","simple_explanation":"The situation is so bad/busy that X is impossible right now.","explanation":"Too occupied/troubled for something.","prerequisites":["noun","verb dict"],"formation":["Noun/Verb dict + どころではない"],"order":10,"unit":"Unit 3 — Emphasis","examples":[{"ja":"忙しくて旅行どころではない。","en":"I'm so busy that a trip is out of the question.","reading":"いそがしくて りょこう どころ では ない。","structure":"忙しくて (so busy) + 旅行どころではない (trip is out of question)","tokens":[{"text":"忙しくて","lexemeId":"lex-n5-忙しい","note":"て-form: so busy that"},{"text":"旅行","reading":"りょこう","meaning":"trip","partOfSpeech":"noun"},{"text":"どころではない","reading":"どころではない","meaning":"out of the question","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["emphasis"]},
-  {"id":"g-n2-011","title":"〜ものの","meaning_short":"Although / but","simple_explanation":"'Although X, Y.' More formal/written than けど.","explanation":"Formal concessive conjunction.","prerequisites":["plain form"],"formation":["Plain + ものの"],"order":11,"unit":"Unit 4 — Contrast","examples":[{"ja":"日本語を勉強しているものの、まだ上手ではない。","en":"Although I'm studying Japanese, I'm not good yet.","reading":"にほんご を べんきょう している ものの、まだ じょうず では ない。","structure":"勉強している (studying) + ものの (although) + 上手ではない (not skilled)","tokens":[{"text":"日本語を勉強している","reading":"にほんごをべんきょうしている","meaning":"studying Japanese","partOfSpeech":"ている form"},{"text":"ものの","reading":"ものの","meaning":"although","partOfSpeech":"conjunction","role":"target grammar"},{"text":"まだ上手ではない","reading":"まだじょうずではない","meaning":"not yet skilled","partOfSpeech":"negative"}]}],"jlpt":"N2","tags":["contrast"]},
-  {"id":"g-n2-012","title":"〜にもかかわらず","meaning_short":"In spite of / despite","simple_explanation":"Despite X, Y happened. Formal/written.","explanation":"Strong formal concessive.","prerequisites":["plain form"],"formation":["Plain/Noun + にもかかわらず"],"order":12,"unit":"Unit 4 — Contrast","examples":[{"ja":"努力したにもかかわらず、失敗した。","en":"Despite making an effort, I failed.","reading":"どりょく した にもかかわらず、しっぱい した。","structure":"努力した (made effort) + にもかかわらず (despite) + 失敗した (failed)","tokens":[{"text":"努力した","reading":"どりょくした","meaning":"made effort","partOfSpeech":"suru-verb past"},{"text":"にもかかわらず","reading":"にもかかわらず","meaning":"despite","partOfSpeech":"conjunction","role":"target grammar"},{"text":"失敗した","reading":"しっぱいした","meaning":"failed","partOfSpeech":"suru-verb past"}]}],"jlpt":"N2","tags":["contrast"]},
-  {"id":"g-n2-013","title":"〜一方で","meaning_short":"On the other hand / while","simple_explanation":"Shows two contrasting sides of something.","explanation":"Contrastive conjunction.","prerequisites":["plain form"],"formation":["Plain + 一方で","Noun + の一方で"],"order":13,"unit":"Unit 4 — Contrast","examples":[{"ja":"経済は成長している一方で、環境問題も増えている。","en":"While the economy is growing, environmental problems are also increasing.","reading":"けいざい は せいちょう している いっぽうで、かんきょう もんだい も ふえている。","structure":"経済は成長している (economy growing) + 一方で (on the other hand) + 環境問題も増えている (env problems increasing)","tokens":[{"text":"経済は成長している","reading":"けいざいはせいちょうしている","meaning":"economy is growing","partOfSpeech":"clause"},{"text":"一方で","reading":"いっぽうで","meaning":"on the other hand","partOfSpeech":"conjunction","role":"target grammar"},{"text":"環境問題も増えている","reading":"かんきょうもんだいもふえている","meaning":"env problems also increasing","partOfSpeech":"clause"}]}],"jlpt":"N2","tags":["contrast"]},
-  {"id":"g003","title":"〜に対して","meaning_short":"Toward / in contrast to","simple_explanation":"Direction of attitude or contrast.","explanation":"Directed toward or contrasting.","prerequisites":["noun"],"formation":["Noun + に対して"],"order":14,"unit":"Unit 5 — Relations","examples":[{"ja":"彼は誰に対しても礼儀正しい。","en":"He is polite toward everyone.","reading":"かれ は だれ に たいしても れいぎただしい。","structure":"誰に対しても (toward anyone) + 礼儀正しい (polite)","tokens":[{"text":"彼は","reading":"かれは","meaning":"he (topic)","partOfSpeech":"pronoun+particle"},{"text":"誰に対しても","reading":"だれにたいしても","meaning":"toward anyone","partOfSpeech":"grammar","role":"target grammar"},{"text":"礼儀正しい","reading":"れいぎただしい","meaning":"polite","partOfSpeech":"い-adjective"}]}],"jlpt":"N2","tags":["direction"]},
-  {"id":"g-n2-015","title":"〜に基づいて","meaning_short":"Based on","simple_explanation":"Based on X, do Y. Formal/written.","explanation":"Basis/foundation expression.","prerequisites":["noun"],"formation":["Noun + に基づいて/に基づく"],"order":15,"unit":"Unit 5 — Relations","examples":[{"ja":"データに基づいて判断する。","en":"Make a judgment based on data.","reading":"データ に もとづいて はんだん する。","structure":"データに基づいて (based on data) + 判断する (judge)","tokens":[{"text":"データに","reading":"データに","meaning":"on data","partOfSpeech":"noun+particle"},{"text":"基づいて","reading":"もとづいて","meaning":"based on","partOfSpeech":"grammar","role":"target grammar"},{"text":"判断する","reading":"はんだんする","meaning":"to judge","partOfSpeech":"suru-verb"}]}],"jlpt":"N2","tags":["basis"]},
-  {"id":"g-n2-016","title":"〜を通して","meaning_short":"Through / throughout","simple_explanation":"Through a means/medium, or throughout a period.","explanation":"Medium/duration expression.","prerequisites":["noun"],"formation":["Noun + を通して/を通じて"],"order":16,"unit":"Unit 5 — Relations","examples":[{"ja":"インターネットを通して情報を集める。","en":"Gather information through the internet.","reading":"インターネット を とおして じょうほう を あつめる。","structure":"インターネットを通して (through internet) + 情報を集める (gather info)","tokens":[{"text":"インターネットを","reading":"インターネットを","meaning":"internet (obj)","partOfSpeech":"noun+particle"},{"text":"通して","reading":"とおして","meaning":"through","partOfSpeech":"grammar","role":"target grammar"},{"text":"情報を集める","reading":"じょうほうをあつめる","meaning":"gather information","partOfSpeech":"verb phrase"}]}],"jlpt":"N2","tags":["means"]},
-  {"id":"g-n2-017","title":"〜一方だ","meaning_short":"Keep ~ing / continue to","simple_explanation":"A trend that keeps going in one direction.","explanation":"Continuing unidirectional change.","prerequisites":["dictionary form"],"formation":["Verb dict + 一方だ"],"order":17,"unit":"Unit 6 — Change","examples":[{"ja":"物価は上がる一方だ。","en":"Prices keep rising.","reading":"ぶっか は あがる いっぽう だ。","structure":"物価は上がる (prices rise) + 一方だ (keep doing)","tokens":[{"text":"物価は","reading":"ぶっかは","meaning":"prices (topic)","partOfSpeech":"noun+particle"},{"text":"上がる","reading":"あがる","meaning":"to rise","partOfSpeech":"godan verb"},{"text":"一方だ","reading":"いっぽうだ","meaning":"keep ~ing","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["change"]},
-  {"id":"g-n2-018","title":"〜つつある","meaning_short":"In the process of ~ing","simple_explanation":"Something is gradually changing. More formal than ている.","explanation":"Gradual ongoing change. Written/formal.","prerequisites":["verb stems"],"formation":["Verb stem + つつある"],"order":18,"unit":"Unit 6 — Change","examples":[{"ja":"環境問題は改善されつつある。","en":"Environmental problems are gradually improving.","reading":"かんきょう もんだい は かいぜん されつつ ある。","structure":"改善され (being improved) + つつある (in the process of)","tokens":[{"text":"環境問題は","reading":"かんきょうもんだいは","meaning":"environmental problems","partOfSpeech":"noun phrase"},{"text":"改善されつつある","reading":"かいぜんされつつある","meaning":"gradually being improved","partOfSpeech":"つつある form","role":"target grammar"}]}],"jlpt":"N2","tags":["change","formal"]},
-  {"id":"g-n2-019","title":"〜につれて","meaning_short":"As~ / along with~","simple_explanation":"As X changes, Y changes too.","explanation":"Proportional change.","prerequisites":["dictionary form","noun"],"formation":["Verb dict + につれて","Noun + につれて"],"order":19,"unit":"Unit 6 — Change","examples":[{"ja":"年を取るにつれて、体力が落ちる。","en":"As you get older, your stamina decreases.","reading":"とし を とる につれて、たいりょく が おちる。","structure":"年を取る (get older) + につれて (as) + 体力が落ちる (stamina decreases)","tokens":[{"text":"年を取る","reading":"としをとる","meaning":"get older","partOfSpeech":"verb phrase"},{"text":"につれて","reading":"につれて","meaning":"as","partOfSpeech":"grammar","role":"target grammar"},{"text":"体力が落ちる","reading":"たいりょくがおちる","meaning":"stamina decreases","partOfSpeech":"verb phrase"}]}],"jlpt":"N2","tags":["change"]},
-  {"id":"g004","title":"〜ことになっている","meaning_short":"It is the rule that","simple_explanation":"External rule or arrangement.","explanation":"Rules/customs set by others.","prerequisites":["dictionary form"],"formation":["Verb dict + ことになっている"],"order":20,"unit":"Unit 7 — Rules","examples":[{"ja":"この部屋では飲食しないことになっている。","en":"It's the rule not to eat or drink here.","reading":"この へや では いんしょく しない こと に なっている。","structure":"飲食しない (not eat/drink) + ことになっている (it's the rule)","tokens":[{"text":"この部屋では","reading":"このへやでは","meaning":"in this room","partOfSpeech":"noun+particle"},{"text":"飲食しない","reading":"いんしょくしない","meaning":"not eat/drink","partOfSpeech":"suru-verb negative"},{"text":"ことになっている","reading":"ことになっている","meaning":"it's the rule","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["rules"]},
-  {"id":"g-n2-021","title":"〜上で","meaning_short":"In the process of / after","simple_explanation":"After doing X / in order to do X properly.","explanation":"Sequential or conditional basis.","prerequisites":["past form","noun"],"formation":["Verb た + 上で","Noun + の上で"],"order":21,"unit":"Unit 7 — Rules","examples":[{"ja":"よく考えた上で決めてください。","en":"Please decide after thinking it over carefully.","reading":"よく かんがえた うえで きめて ください。","structure":"よく考えた (thought well) + 上で (after) + 決めてください (please decide)","tokens":[{"text":"よく考えた","reading":"よくかんがえた","meaning":"thought carefully","partOfSpeech":"verb past"},{"text":"上で","reading":"うえで","meaning":"after / on basis of","partOfSpeech":"grammar","role":"target grammar"},{"text":"決めてください","reading":"きめてください","meaning":"please decide","partOfSpeech":"request"}]}],"jlpt":"N2","tags":["sequence"]},
-  {"id":"g-n2-022","title":"〜限り","meaning_short":"As long as / as far as","simple_explanation":"As long as X is true, Y. Or 'as far as I know.'","explanation":"Conditional limit or extent of knowledge.","prerequisites":["plain form"],"formation":["Plain + 限り","Noun + の限り"],"order":22,"unit":"Unit 7 — Rules","examples":[{"ja":"私が知っている限り、彼は正しい。","en":"As far as I know, he is correct.","reading":"わたし が しっている かぎり、かれ は ただしい。","structure":"知っている限り (as far as I know) + 正しい (correct)","tokens":[{"text":"私が知っている","reading":"わたしがしっている","meaning":"as far as I know","partOfSpeech":"clause"},{"text":"限り","reading":"かぎり","meaning":"as far as","partOfSpeech":"grammar","role":"target grammar"},{"text":"彼は正しい","reading":"かれはただしい","meaning":"he is correct","partOfSpeech":"clause"}]}],"jlpt":"N2","tags":["condition"]},
-  {"id":"g005","title":"〜たびに","meaning_short":"Every time","simple_explanation":"Every time X happens, Y also happens.","explanation":"Repeating pattern.","prerequisites":["dictionary form"],"formation":["Verb dict + たびに","Noun + のたびに"],"order":23,"unit":"Unit 8 — Patterns","examples":[{"ja":"この曲を聞くたびに、学生時代を思い出す。","en":"Every time I hear this song, I remember school days.","reading":"この きょく を きく たびに、がくせい じだい を おもいだす。","structure":"聞くたびに (every time listen) + 思い出す (remember)","tokens":[{"text":"この曲を","reading":"このきょくを","meaning":"this song (obj)","partOfSpeech":"noun phrase"},{"text":"聞くたびに","reading":"きくたびに","meaning":"every time I hear","partOfSpeech":"grammar","role":"target grammar"},{"text":"学生時代を思い出す","reading":"がくせいじだいをおもいだす","meaning":"remember school days","partOfSpeech":"verb phrase"}]}],"jlpt":"N2","tags":["frequency"]},
-  {"id":"g002","title":"〜ようにする","meaning_short":"Try to / make a habit","simple_explanation":"Make conscious effort habitually.","explanation":"Habitual effort. Not a one-time attempt.","prerequisites":["dictionary form"],"formation":["Verb dict + ようにする","Verb ない + ようにする"],"order":24,"unit":"Unit 8 — Patterns","examples":[{"ja":"毎日運動するようにしている。","en":"I try to exercise every day.","reading":"まいにち うんどう する ように している。","structure":"運動する (exercise) + ようにしている (make habit of)","tokens":[{"text":"毎日","lexemeId":"lex-n5-毎日"},{"text":"運動する","reading":"うんどうする","meaning":"exercise","partOfSpeech":"suru-verb"},{"text":"ようにしている","reading":"ようにしている","meaning":"make a habit of","partOfSpeech":"grammar","role":"target grammar"}]}],"jlpt":"N2","tags":["effort"]},
-  {"id":"g-n2-025","title":"〜次第","meaning_short":"As soon as / depends on","simple_explanation":"As soon as X happens, Y. Or: it depends on X.","explanation":"Immediate sequence or dependency.","prerequisites":["verb stems","noun"],"formation":["Verb stem + 次第 (as soon as)","Noun + 次第 (depends on)"],"order":25,"unit":"Unit 8 — Patterns","examples":[{"ja":"届き次第、ご連絡します。","en":"I'll contact you as soon as it arrives.","reading":"とどき しだい、ごれんらく します。","structure":"届き (arrive) + 次第 (as soon as) + ご連絡します (will contact)","tokens":[{"text":"届き次第","reading":"とどきしだい","meaning":"as soon as it arrives","partOfSpeech":"次第 pattern","role":"target grammar"},{"text":"ご連絡します","reading":"ごれんらくします","meaning":"will contact (polite)","partOfSpeech":"suru-verb polite"}]}],"jlpt":"N2","tags":["sequence"]}
+  {
+    "id": "g001",
+    "title": "〜わけではない",
+    "meaning_short": "Not necessarily / It doesn't mean that",
+    "simple_explanation": "Soft denial — 'it's not that...' to correct a misunderstanding.",
+    "explanation": "Partially deny something; correct a possible misunderstanding.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + わけではない"
+    ],
+    "order": 1,
+    "unit": "Unit 1 — Denial & Certainty",
+    "examples": [
+      {
+        "ja": "日本語が嫌いなわけではない。",
+        "en": "It's not that I dislike Japanese.",
+        "reading": "にほんご が きらい な わけ では ない。",
+        "structure": "嫌いな (dislike) + わけではない (soft denial)",
+        "tokens": [
+          {
+            "text": "日本語が",
+            "reading": "にほんごが",
+            "meaning": "Japanese (subj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "嫌いな",
+            "reading": "きらいな",
+            "meaning": "disliked",
+            "partOfSpeech": "な-adjective"
+          },
+          {
+            "text": "わけではない",
+            "reading": "わけではない",
+            "meaning": "it's not that",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      },
+      {
+        "ja": "全員が賛成したわけではない。",
+        "en": "It doesn't mean everyone agreed.",
+        "reading": "ぜんいん が さんせい した わけ では ない。",
+        "structure": "全員が賛成した (everyone agreed) + わけではない (not necessarily)",
+        "tokens": [
+          {
+            "text": "全員が",
+            "reading": "ぜんいんが",
+            "meaning": "everyone",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "賛成した",
+            "reading": "さんせいした",
+            "meaning": "agreed",
+            "partOfSpeech": "suru-verb past"
+          },
+          {
+            "text": "わけではない",
+            "reading": "わけではない",
+            "meaning": "doesn't mean that",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "similar": [
+      {
+        "title": "〜わけがない",
+        "diff": "わけがない = 'no way!' (strong). わけではない = 'not necessarily' (soft)."
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "negation"
+    ]
+  },
+  {
+    "id": "g-n2-002",
+    "title": "〜わけがない",
+    "meaning_short": "There's no way that~",
+    "simple_explanation": "Strong denial — impossible, no way.",
+    "explanation": "Emphatic denial of possibility.",
+    "prerequisites": [
+      "わけではない"
+    ],
+    "formation": [
+      "Plain + わけがない"
+    ],
+    "order": 2,
+    "unit": "Unit 1 — Denial & Certainty",
+    "examples": [
+      {
+        "ja": "彼がそんなことを言うわけがない。",
+        "en": "There's no way he would say that.",
+        "reading": "かれ が そんな こと を いう わけ が ない。",
+        "structure": "言う (say) + わけがない (no way)",
+        "tokens": [
+          {
+            "text": "彼が",
+            "reading": "かれが",
+            "meaning": "he (subj)",
+            "partOfSpeech": "pronoun+particle"
+          },
+          {
+            "text": "そんなことを言う",
+            "reading": "そんなことをいう",
+            "meaning": "say such a thing",
+            "partOfSpeech": "verb phrase"
+          },
+          {
+            "text": "わけがない",
+            "reading": "わけがない",
+            "meaning": "there's no way",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "negation"
+    ]
+  },
+  {
+    "id": "g-n2-003",
+    "title": "〜とは限らない",
+    "meaning_short": "Not necessarily / not always",
+    "simple_explanation": "Just because X is true doesn't mean Y is always true.",
+    "explanation": "Denies something as universally true.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + とは限らない"
+    ],
+    "order": 3,
+    "unit": "Unit 1 — Denial & Certainty",
+    "examples": [
+      {
+        "ja": "高いものがいいとは限らない。",
+        "en": "Expensive things aren't necessarily good.",
+        "reading": "たかい もの が いい とは かぎらない。",
+        "structure": "高いものがいい (expensive = good) + とは限らない (not necessarily)",
+        "tokens": [
+          {
+            "text": "高いものが",
+            "reading": "たかいものが",
+            "meaning": "expensive things",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "いい",
+            "lexemeId": "lex-n5-いい"
+          },
+          {
+            "text": "とは限らない",
+            "reading": "とはかぎらない",
+            "meaning": "not necessarily",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "negation"
+    ]
+  },
+  {
+    "id": "g-n2-004",
+    "title": "〜に違いない",
+    "meaning_short": "Must be / no doubt",
+    "simple_explanation": "Strong certainty — 'it must be' based on evidence.",
+    "explanation": "Confident assertion based on reasoning.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + に違いない"
+    ],
+    "order": 4,
+    "unit": "Unit 1 — Denial & Certainty",
+    "examples": [
+      {
+        "ja": "彼は日本人に違いない。",
+        "en": "He must be Japanese.",
+        "reading": "かれ は にほんじん に ちがいない。",
+        "structure": "日本人 (Japanese person) + に違いない (must be)",
+        "tokens": [
+          {
+            "text": "彼は",
+            "reading": "かれは",
+            "meaning": "he (topic)",
+            "partOfSpeech": "pronoun+particle"
+          },
+          {
+            "text": "日本人",
+            "reading": "にほんじん",
+            "meaning": "Japanese person",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "に違いない",
+            "reading": "にちがいない",
+            "meaning": "must be",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "certainty"
+    ]
+  },
+  {
+    "id": "g-n2-005",
+    "title": "〜わけにはいかない",
+    "meaning_short": "Can't / mustn't (social pressure)",
+    "simple_explanation": "Can't do X because of social/moral reasons, even if you want to.",
+    "explanation": "Social/moral impossibility.",
+    "prerequisites": [
+      "わけではない"
+    ],
+    "formation": [
+      "Verb dict + わけにはいかない",
+      "Verb ない + わけにはいかない"
+    ],
+    "order": 5,
+    "unit": "Unit 2 — Obligation",
+    "examples": [
+      {
+        "ja": "約束を破るわけにはいかない。",
+        "en": "I can't break my promise.",
+        "reading": "やくそく を やぶる わけ には いかない。",
+        "structure": "約束を破る (break promise) + わけにはいかない (can't)",
+        "tokens": [
+          {
+            "text": "約束を",
+            "reading": "やくそくを",
+            "meaning": "promise (obj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "破る",
+            "reading": "やぶる",
+            "meaning": "to break",
+            "partOfSpeech": "godan verb"
+          },
+          {
+            "text": "わけにはいかない",
+            "reading": "わけにはいかない",
+            "meaning": "can't (social reason)",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "obligation"
+    ]
+  },
+  {
+    "id": "g-n2-006",
+    "title": "〜ざるを得ない",
+    "meaning_short": "Have no choice but to~",
+    "simple_explanation": "You have to do it even though you don't want to.",
+    "explanation": "Reluctant necessity.",
+    "prerequisites": [
+      "ない form"
+    ],
+    "formation": [
+      "Verb ない-stem + ざるを得ない",
+      "する → せざるを得ない"
+    ],
+    "order": 6,
+    "unit": "Unit 2 — Obligation",
+    "examples": [
+      {
+        "ja": "この状況では、行かざるを得ない。",
+        "en": "In this situation, I have no choice but to go.",
+        "reading": "この じょうきょう では、いかざるを えない。",
+        "structure": "行か (go) + ざるを得ない (have no choice)",
+        "tokens": [
+          {
+            "text": "この状況では",
+            "reading": "このじょうきょうでは",
+            "meaning": "in this situation",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "行かざるを得ない",
+            "reading": "いかざるをえない",
+            "meaning": "have no choice but to go",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "obligation"
+    ]
+  },
+  {
+    "id": "g-n2-007",
+    "title": "〜かねる",
+    "meaning_short": "Cannot / find it difficult to",
+    "simple_explanation": "Polite way to say 'I can't do that.' Common in business.",
+    "explanation": "Inability due to difficulty or reluctance. Formal/polite.",
+    "prerequisites": [
+      "verb stems"
+    ],
+    "formation": [
+      "Verb stem + かねる"
+    ],
+    "order": 7,
+    "unit": "Unit 2 — Obligation",
+    "examples": [
+      {
+        "ja": "その要求にはお応えしかねます。",
+        "en": "We cannot comply with that request.",
+        "reading": "その ようきゅう には おこたえ しかねます。",
+        "structure": "お応えし (respond) + かねます (cannot)",
+        "tokens": [
+          {
+            "text": "その要求には",
+            "reading": "そのようきゅうには",
+            "meaning": "to that request",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "お応えしかねます",
+            "reading": "おこたえしかねます",
+            "meaning": "cannot comply",
+            "partOfSpeech": "かねる polite",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "formal"
+    ]
+  },
+  {
+    "id": "g-n2-008",
+    "title": "〜得る / 〜得ない",
+    "meaning_short": "Can / cannot (possibility)",
+    "simple_explanation": "Something is possible/impossible. あり得る = possible. あり得ない = impossible.",
+    "explanation": "Objective possibility or impossibility.",
+    "prerequisites": [
+      "verb stems"
+    ],
+    "formation": [
+      "Verb stem + 得る（うる/える）",
+      "Verb stem + 得ない"
+    ],
+    "order": 8,
+    "unit": "Unit 2 — Obligation",
+    "examples": [
+      {
+        "ja": "そんなことはあり得ない。",
+        "en": "That's impossible.",
+        "reading": "そんな こと は ありえない。",
+        "structure": "そんなこと (such thing) + あり得ない (impossible)",
+        "tokens": [
+          {
+            "text": "そんなことは",
+            "reading": "そんなことは",
+            "meaning": "such a thing",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "あり得ない",
+            "reading": "ありえない",
+            "meaning": "impossible",
+            "partOfSpeech": "得ない form",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "possibility"
+    ]
+  },
+  {
+    "id": "g-n2-009",
+    "title": "〜にすぎない",
+    "meaning_short": "Nothing more than / merely",
+    "simple_explanation": "Downplays something — 'it's just X, nothing more.'",
+    "explanation": "Minimizing expression.",
+    "prerequisites": [
+      "noun",
+      "plain form"
+    ],
+    "formation": [
+      "Noun + にすぎない",
+      "Plain + にすぎない"
+    ],
+    "order": 9,
+    "unit": "Unit 3 — Emphasis",
+    "examples": [
+      {
+        "ja": "彼は学生にすぎない。",
+        "en": "He is nothing more than a student.",
+        "reading": "かれ は がくせい に すぎない。",
+        "structure": "学生 (student) + にすぎない (merely)",
+        "tokens": [
+          {
+            "text": "彼は",
+            "reading": "かれは",
+            "meaning": "he (topic)",
+            "partOfSpeech": "pronoun+particle"
+          },
+          {
+            "text": "学生",
+            "lexemeId": "lex-n5-学生"
+          },
+          {
+            "text": "にすぎない",
+            "reading": "にすぎない",
+            "meaning": "nothing more than",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "emphasis"
+    ]
+  },
+  {
+    "id": "g-n2-010",
+    "title": "〜どころではない",
+    "meaning_short": "Far from / not the time for",
+    "simple_explanation": "The situation is so bad/busy that X is impossible right now.",
+    "explanation": "Too occupied/troubled for something.",
+    "prerequisites": [
+      "noun",
+      "verb dict"
+    ],
+    "formation": [
+      "Noun/Verb dict + どころではない"
+    ],
+    "order": 10,
+    "unit": "Unit 3 — Emphasis",
+    "examples": [
+      {
+        "ja": "忙しくて旅行どころではない。",
+        "en": "I'm so busy that a trip is out of the question.",
+        "reading": "いそがしくて りょこう どころ では ない。",
+        "structure": "忙しくて (so busy) + 旅行どころではない (trip is out of question)",
+        "tokens": [
+          {
+            "text": "忙しくて",
+            "lexemeId": "lex-n5-忙しい",
+            "note": "て-form: so busy that"
+          },
+          {
+            "text": "旅行",
+            "reading": "りょこう",
+            "meaning": "trip",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "どころではない",
+            "reading": "どころではない",
+            "meaning": "out of the question",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "emphasis"
+    ]
+  },
+  {
+    "id": "g-n2-011",
+    "title": "〜ものの",
+    "meaning_short": "Although / but",
+    "simple_explanation": "'Although X, Y.' More formal/written than けど.",
+    "explanation": "Formal concessive conjunction.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + ものの"
+    ],
+    "order": 11,
+    "unit": "Unit 4 — Contrast",
+    "examples": [
+      {
+        "ja": "日本語を勉強しているものの、まだ上手ではない。",
+        "en": "Although I'm studying Japanese, I'm not good yet.",
+        "reading": "にほんご を べんきょう している ものの、まだ じょうず では ない。",
+        "structure": "勉強している (studying) + ものの (although) + 上手ではない (not skilled)",
+        "tokens": [
+          {
+            "text": "日本語を勉強している",
+            "reading": "にほんごをべんきょうしている",
+            "meaning": "studying Japanese",
+            "partOfSpeech": "ている form"
+          },
+          {
+            "text": "ものの",
+            "reading": "ものの",
+            "meaning": "although",
+            "partOfSpeech": "conjunction",
+            "role": "target grammar"
+          },
+          {
+            "text": "まだ上手ではない",
+            "reading": "まだじょうずではない",
+            "meaning": "not yet skilled",
+            "partOfSpeech": "negative"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "contrast"
+    ]
+  },
+  {
+    "id": "g-n2-012",
+    "title": "〜にもかかわらず",
+    "meaning_short": "In spite of / despite",
+    "simple_explanation": "Despite X, Y happened. Formal/written.",
+    "explanation": "Strong formal concessive.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain/Noun + にもかかわらず"
+    ],
+    "order": 12,
+    "unit": "Unit 4 — Contrast",
+    "examples": [
+      {
+        "ja": "努力したにもかかわらず、失敗した。",
+        "en": "Despite making an effort, I failed.",
+        "reading": "どりょく した にもかかわらず、しっぱい した。",
+        "structure": "努力した (made effort) + にもかかわらず (despite) + 失敗した (failed)",
+        "tokens": [
+          {
+            "text": "努力した",
+            "reading": "どりょくした",
+            "meaning": "made effort",
+            "partOfSpeech": "suru-verb past"
+          },
+          {
+            "text": "にもかかわらず",
+            "reading": "にもかかわらず",
+            "meaning": "despite",
+            "partOfSpeech": "conjunction",
+            "role": "target grammar"
+          },
+          {
+            "text": "失敗した",
+            "reading": "しっぱいした",
+            "meaning": "failed",
+            "partOfSpeech": "suru-verb past"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "contrast"
+    ]
+  },
+  {
+    "id": "g-n2-013",
+    "title": "〜一方で",
+    "meaning_short": "On the other hand / while",
+    "simple_explanation": "Shows two contrasting sides of something.",
+    "explanation": "Contrastive conjunction.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + 一方で",
+      "Noun + の一方で"
+    ],
+    "order": 13,
+    "unit": "Unit 4 — Contrast",
+    "examples": [
+      {
+        "ja": "経済は成長している一方で、環境問題も増えている。",
+        "en": "While the economy is growing, environmental problems are also increasing.",
+        "reading": "けいざい は せいちょう している いっぽうで、かんきょう もんだい も ふえている。",
+        "structure": "経済は成長している (economy growing) + 一方で (on the other hand) + 環境問題も増えている (env problems increasing)",
+        "tokens": [
+          {
+            "text": "経済は成長している",
+            "reading": "けいざいはせいちょうしている",
+            "meaning": "economy is growing",
+            "partOfSpeech": "clause"
+          },
+          {
+            "text": "一方で",
+            "reading": "いっぽうで",
+            "meaning": "on the other hand",
+            "partOfSpeech": "conjunction",
+            "role": "target grammar"
+          },
+          {
+            "text": "環境問題も増えている",
+            "reading": "かんきょうもんだいもふえている",
+            "meaning": "env problems also increasing",
+            "partOfSpeech": "clause"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "contrast"
+    ]
+  },
+  {
+    "id": "g003",
+    "title": "〜に対して",
+    "meaning_short": "Toward / in contrast to",
+    "simple_explanation": "Direction of attitude or contrast.",
+    "explanation": "Directed toward or contrasting.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + に対して"
+    ],
+    "order": 14,
+    "unit": "Unit 5 — Relations",
+    "examples": [
+      {
+        "ja": "彼は誰に対しても礼儀正しい。",
+        "en": "He is polite toward everyone.",
+        "reading": "かれ は だれ に たいしても れいぎただしい。",
+        "structure": "誰に対しても (toward anyone) + 礼儀正しい (polite)",
+        "tokens": [
+          {
+            "text": "彼は",
+            "reading": "かれは",
+            "meaning": "he (topic)",
+            "partOfSpeech": "pronoun+particle"
+          },
+          {
+            "text": "誰に対しても",
+            "reading": "だれにたいしても",
+            "meaning": "toward anyone",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "礼儀正しい",
+            "reading": "れいぎただしい",
+            "meaning": "polite",
+            "partOfSpeech": "い-adjective"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "id": "g-n2-015",
+    "title": "〜に基づいて",
+    "meaning_short": "Based on",
+    "simple_explanation": "Based on X, do Y. Formal/written.",
+    "explanation": "Basis/foundation expression.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + に基づいて/に基づく"
+    ],
+    "order": 15,
+    "unit": "Unit 5 — Relations",
+    "examples": [
+      {
+        "ja": "データに基づいて判断する。",
+        "en": "Make a judgment based on data.",
+        "reading": "データ に もとづいて はんだん する。",
+        "structure": "データに基づいて (based on data) + 判断する (judge)",
+        "tokens": [
+          {
+            "text": "データに",
+            "reading": "データに",
+            "meaning": "on data",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "基づいて",
+            "reading": "もとづいて",
+            "meaning": "based on",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "判断する",
+            "reading": "はんだんする",
+            "meaning": "to judge",
+            "partOfSpeech": "suru-verb"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "basis"
+    ]
+  },
+  {
+    "id": "g-n2-016",
+    "title": "〜を通して",
+    "meaning_short": "Through / throughout",
+    "simple_explanation": "Through a means/medium, or throughout a period.",
+    "explanation": "Medium/duration expression.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + を通して/を通じて"
+    ],
+    "order": 16,
+    "unit": "Unit 5 — Relations",
+    "examples": [
+      {
+        "ja": "インターネットを通して情報を集める。",
+        "en": "Gather information through the internet.",
+        "reading": "インターネット を とおして じょうほう を あつめる。",
+        "structure": "インターネットを通して (through internet) + 情報を集める (gather info)",
+        "tokens": [
+          {
+            "text": "インターネットを",
+            "reading": "インターネットを",
+            "meaning": "internet (obj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "通して",
+            "reading": "とおして",
+            "meaning": "through",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "情報を集める",
+            "reading": "じょうほうをあつめる",
+            "meaning": "gather information",
+            "partOfSpeech": "verb phrase"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "means"
+    ]
+  },
+  {
+    "id": "g-n2-017",
+    "title": "〜一方だ",
+    "meaning_short": "Keep ~ing / continue to",
+    "simple_explanation": "A trend that keeps going in one direction.",
+    "explanation": "Continuing unidirectional change.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + 一方だ"
+    ],
+    "order": 17,
+    "unit": "Unit 6 — Change",
+    "examples": [
+      {
+        "ja": "物価は上がる一方だ。",
+        "en": "Prices keep rising.",
+        "reading": "ぶっか は あがる いっぽう だ。",
+        "structure": "物価は上がる (prices rise) + 一方だ (keep doing)",
+        "tokens": [
+          {
+            "text": "物価は",
+            "reading": "ぶっかは",
+            "meaning": "prices (topic)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "上がる",
+            "reading": "あがる",
+            "meaning": "to rise",
+            "partOfSpeech": "godan verb"
+          },
+          {
+            "text": "一方だ",
+            "reading": "いっぽうだ",
+            "meaning": "keep ~ing",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "change"
+    ]
+  },
+  {
+    "id": "g-n2-018",
+    "title": "〜つつある",
+    "meaning_short": "In the process of ~ing",
+    "simple_explanation": "Something is gradually changing. More formal than ている.",
+    "explanation": "Gradual ongoing change. Written/formal.",
+    "prerequisites": [
+      "verb stems"
+    ],
+    "formation": [
+      "Verb stem + つつある"
+    ],
+    "order": 18,
+    "unit": "Unit 6 — Change",
+    "examples": [
+      {
+        "ja": "環境問題は改善されつつある。",
+        "en": "Environmental problems are gradually improving.",
+        "reading": "かんきょう もんだい は かいぜん されつつ ある。",
+        "structure": "改善され (being improved) + つつある (in the process of)",
+        "tokens": [
+          {
+            "text": "環境問題は",
+            "reading": "かんきょうもんだいは",
+            "meaning": "environmental problems",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "改善されつつある",
+            "reading": "かいぜんされつつある",
+            "meaning": "gradually being improved",
+            "partOfSpeech": "つつある form",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "change",
+      "formal"
+    ]
+  },
+  {
+    "id": "g-n2-019",
+    "title": "〜につれて",
+    "meaning_short": "As~ / along with~",
+    "simple_explanation": "As X changes, Y changes too.",
+    "explanation": "Proportional change.",
+    "prerequisites": [
+      "dictionary form",
+      "noun"
+    ],
+    "formation": [
+      "Verb dict + につれて",
+      "Noun + につれて"
+    ],
+    "order": 19,
+    "unit": "Unit 6 — Change",
+    "examples": [
+      {
+        "ja": "年を取るにつれて、体力が落ちる。",
+        "en": "As you get older, your stamina decreases.",
+        "reading": "とし を とる につれて、たいりょく が おちる。",
+        "structure": "年を取る (get older) + につれて (as) + 体力が落ちる (stamina decreases)",
+        "tokens": [
+          {
+            "text": "年を取る",
+            "reading": "としをとる",
+            "meaning": "get older",
+            "partOfSpeech": "verb phrase"
+          },
+          {
+            "text": "につれて",
+            "reading": "につれて",
+            "meaning": "as",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "体力が落ちる",
+            "reading": "たいりょくがおちる",
+            "meaning": "stamina decreases",
+            "partOfSpeech": "verb phrase"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "change"
+    ]
+  },
+  {
+    "id": "g004",
+    "title": "〜ことになっている",
+    "meaning_short": "It is the rule that",
+    "simple_explanation": "External rule or arrangement.",
+    "explanation": "Rules/customs set by others.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + ことになっている"
+    ],
+    "order": 20,
+    "unit": "Unit 7 — Rules",
+    "examples": [
+      {
+        "ja": "この部屋では飲食しないことになっている。",
+        "en": "It's the rule not to eat or drink here.",
+        "reading": "この へや では いんしょく しない こと に なっている。",
+        "structure": "飲食しない (not eat/drink) + ことになっている (it's the rule)",
+        "tokens": [
+          {
+            "text": "この部屋では",
+            "reading": "このへやでは",
+            "meaning": "in this room",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "飲食しない",
+            "reading": "いんしょくしない",
+            "meaning": "not eat/drink",
+            "partOfSpeech": "suru-verb negative"
+          },
+          {
+            "text": "ことになっている",
+            "reading": "ことになっている",
+            "meaning": "it's the rule",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "rules"
+    ]
+  },
+  {
+    "id": "g-n2-021",
+    "title": "〜上で",
+    "meaning_short": "In the process of / after",
+    "simple_explanation": "After doing X / in order to do X properly.",
+    "explanation": "Sequential or conditional basis.",
+    "prerequisites": [
+      "past form",
+      "noun"
+    ],
+    "formation": [
+      "Verb た + 上で",
+      "Noun + の上で"
+    ],
+    "order": 21,
+    "unit": "Unit 7 — Rules",
+    "examples": [
+      {
+        "ja": "よく考えた上で決めてください。",
+        "en": "Please decide after thinking it over carefully.",
+        "reading": "よく かんがえた うえで きめて ください。",
+        "structure": "よく考えた (thought well) + 上で (after) + 決めてください (please decide)",
+        "tokens": [
+          {
+            "text": "よく考えた",
+            "reading": "よくかんがえた",
+            "meaning": "thought carefully",
+            "partOfSpeech": "verb past"
+          },
+          {
+            "text": "上で",
+            "reading": "うえで",
+            "meaning": "after / on basis of",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "決めてください",
+            "reading": "きめてください",
+            "meaning": "please decide",
+            "partOfSpeech": "request"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "sequence"
+    ]
+  },
+  {
+    "id": "g-n2-022",
+    "title": "〜限り",
+    "meaning_short": "As long as / as far as",
+    "simple_explanation": "As long as X is true, Y. Or 'as far as I know.'",
+    "explanation": "Conditional limit or extent of knowledge.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + 限り",
+      "Noun + の限り"
+    ],
+    "order": 22,
+    "unit": "Unit 7 — Rules",
+    "examples": [
+      {
+        "ja": "私が知っている限り、彼は正しい。",
+        "en": "As far as I know, he is correct.",
+        "reading": "わたし が しっている かぎり、かれ は ただしい。",
+        "structure": "知っている限り (as far as I know) + 正しい (correct)",
+        "tokens": [
+          {
+            "text": "私が知っている",
+            "reading": "わたしがしっている",
+            "meaning": "as far as I know",
+            "partOfSpeech": "clause"
+          },
+          {
+            "text": "限り",
+            "reading": "かぎり",
+            "meaning": "as far as",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "彼は正しい",
+            "reading": "かれはただしい",
+            "meaning": "he is correct",
+            "partOfSpeech": "clause"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "condition"
+    ]
+  },
+  {
+    "id": "g005",
+    "title": "〜たびに",
+    "meaning_short": "Every time",
+    "simple_explanation": "Every time X happens, Y also happens.",
+    "explanation": "Repeating pattern.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + たびに",
+      "Noun + のたびに"
+    ],
+    "order": 23,
+    "unit": "Unit 8 — Patterns",
+    "examples": [
+      {
+        "ja": "この曲を聞くたびに、学生時代を思い出す。",
+        "en": "Every time I hear this song, I remember school days.",
+        "reading": "この きょく を きく たびに、がくせい じだい を おもいだす。",
+        "structure": "聞くたびに (every time listen) + 思い出す (remember)",
+        "tokens": [
+          {
+            "text": "この曲を",
+            "reading": "このきょくを",
+            "meaning": "this song (obj)",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "聞くたびに",
+            "reading": "きくたびに",
+            "meaning": "every time I hear",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "学生時代を思い出す",
+            "reading": "がくせいじだいをおもいだす",
+            "meaning": "remember school days",
+            "partOfSpeech": "verb phrase"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "frequency"
+    ]
+  },
+  {
+    "id": "g002",
+    "title": "〜ようにする",
+    "meaning_short": "Try to / make a habit",
+    "simple_explanation": "Make conscious effort habitually.",
+    "explanation": "Habitual effort. Not a one-time attempt.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + ようにする",
+      "Verb ない + ようにする"
+    ],
+    "order": 24,
+    "unit": "Unit 8 — Patterns",
+    "examples": [
+      {
+        "ja": "毎日運動するようにしている。",
+        "en": "I try to exercise every day.",
+        "reading": "まいにち うんどう する ように している。",
+        "structure": "運動する (exercise) + ようにしている (make habit of)",
+        "tokens": [
+          {
+            "text": "毎日",
+            "lexemeId": "lex-n5-毎日"
+          },
+          {
+            "text": "運動する",
+            "reading": "うんどうする",
+            "meaning": "exercise",
+            "partOfSpeech": "suru-verb"
+          },
+          {
+            "text": "ようにしている",
+            "reading": "ようにしている",
+            "meaning": "make a habit of",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "effort"
+    ]
+  },
+  {
+    "id": "g-n2-025",
+    "title": "〜次第",
+    "meaning_short": "As soon as / depends on",
+    "simple_explanation": "As soon as X happens, Y. Or: it depends on X.",
+    "explanation": "Immediate sequence or dependency.",
+    "prerequisites": [
+      "verb stems",
+      "noun"
+    ],
+    "formation": [
+      "Verb stem + 次第 (as soon as)",
+      "Noun + 次第 (depends on)"
+    ],
+    "order": 25,
+    "unit": "Unit 8 — Patterns",
+    "examples": [
+      {
+        "ja": "届き次第、ご連絡します。",
+        "en": "I'll contact you as soon as it arrives.",
+        "reading": "とどき しだい、ごれんらく します。",
+        "structure": "届き (arrive) + 次第 (as soon as) + ご連絡します (will contact)",
+        "tokens": [
+          {
+            "text": "届き次第",
+            "reading": "とどきしだい",
+            "meaning": "as soon as it arrives",
+            "partOfSpeech": "次第 pattern",
+            "role": "target grammar"
+          },
+          {
+            "text": "ご連絡します",
+            "reading": "ごれんらくします",
+            "meaning": "will contact (polite)",
+            "partOfSpeech": "suru-verb polite"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "sequence"
+    ]
+  },
+  {
+    "id": "g-n2-026",
+    "title": "〜に限らず",
+    "meaning_short": "Not limited to~",
+    "simple_explanation": "Not just X, but also others.",
+    "explanation": "Expanding scope beyond X.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + に限らず"
+    ],
+    "order": 26,
+    "unit": "Unit 3 — Emphasis",
+    "examples": [
+      {
+        "ja": "日本に限らず、世界中で問題になっている。",
+        "en": "Not limited to Japan, it's a problem worldwide.",
+        "reading": "にほん に かぎらず、せかいじゅう で もんだい に なっている。",
+        "structure": "日本に限らず (not just Japan) + 世界中で問題になっている",
+        "tokens": [
+          {
+            "text": "日本に限らず",
+            "reading": "にほんにかぎらず",
+            "meaning": "not limited to Japan",
+            "partOfSpeech": "に限らず",
+            "role": "target grammar"
+          },
+          {
+            "text": "世界中で問題になっている",
+            "reading": "せかいじゅうでもんだいになっている",
+            "meaning": "is a problem worldwide",
+            "partOfSpeech": "clause"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "scope"
+    ]
+  },
+  {
+    "id": "g-n2-027",
+    "title": "〜とはいえ",
+    "meaning_short": "Although / having said that",
+    "simple_explanation": "Even though X is true, Y is also true.",
+    "explanation": "Concessive conjunction (formal).",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + とはいえ",
+      "Noun + とはいえ"
+    ],
+    "order": 27,
+    "unit": "Unit 4 — Contrast",
+    "examples": [
+      {
+        "ja": "回復したとはいえ、まだ無理はできない。",
+        "en": "Although I've recovered, I still can't overdo it.",
+        "reading": "かいふく した とはいえ、まだ むり は できない。",
+        "structure": "回復したとはいえ (although recovered) + 無理はできない (can't overdo)",
+        "tokens": [
+          {
+            "text": "回復した",
+            "reading": "かいふくした",
+            "meaning": "recovered",
+            "partOfSpeech": "suru-verb past"
+          },
+          {
+            "text": "とはいえ",
+            "reading": "とはいえ",
+            "meaning": "although",
+            "partOfSpeech": "conjunction",
+            "role": "target grammar"
+          },
+          {
+            "text": "まだ無理はできない",
+            "reading": "まだむりはできない",
+            "meaning": "still can't overdo it",
+            "partOfSpeech": "clause"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "concessive"
+    ]
+  },
+  {
+    "id": "g-n2-028",
+    "title": "〜からすると",
+    "meaning_short": "From the perspective of~",
+    "simple_explanation": "From X's viewpoint or based on X.",
+    "explanation": "Perspective/judgment basis.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + からすると/からすれば"
+    ],
+    "order": 28,
+    "unit": "Unit 5 — Relations",
+    "examples": [
+      {
+        "ja": "経験からすると、この方法が一番いい。",
+        "en": "From experience, this method is the best.",
+        "reading": "けいけん からすると、この ほうほう が いちばん いい。",
+        "structure": "経験からすると (from experience) + 一番いい (is the best)",
+        "tokens": [
+          {
+            "text": "経験からすると",
+            "reading": "けいけんからすると",
+            "meaning": "from experience",
+            "partOfSpeech": "からすると",
+            "role": "target grammar"
+          },
+          {
+            "text": "この方法が一番いい",
+            "reading": "このほうほうがいちばんいい",
+            "meaning": "this method is best",
+            "partOfSpeech": "clause"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "perspective"
+    ]
+  },
+  {
+    "id": "g-n2-029",
+    "title": "〜ものだから",
+    "meaning_short": "Because~ (excuse)",
+    "simple_explanation": "Because X (explaining/excusing). Often for excuses.",
+    "explanation": "Explanatory cause with excuse nuance.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + ものだから/もんだから"
+    ],
+    "order": 29,
+    "unit": "Unit 8 — Patterns",
+    "examples": [
+      {
+        "ja": "電車が遅れたものだから、遅刻してしまいました。",
+        "en": "Because the train was delayed, I ended up being late.",
+        "reading": "でんしゃ が おくれた ものだから、ちこく して しまいました。",
+        "structure": "遅れたものだから (because it was delayed) + 遅刻してしまいました (ended up late)",
+        "tokens": [
+          {
+            "text": "電車が遅れた",
+            "reading": "でんしゃがおくれた",
+            "meaning": "train was delayed",
+            "partOfSpeech": "verb past"
+          },
+          {
+            "text": "ものだから",
+            "reading": "ものだから",
+            "meaning": "because (excuse)",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "遅刻してしまいました",
+            "reading": "ちこくしてしまいました",
+            "meaning": "ended up being late",
+            "partOfSpeech": "てしまう past"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "cause"
+    ]
+  },
+  {
+    "id": "g-n2-030",
+    "title": "〜あげく",
+    "meaning_short": "After all that~ / in the end~",
+    "simple_explanation": "After a long process of X, Y (usually negative) happened.",
+    "explanation": "Negative result after prolonged effort.",
+    "prerequisites": [
+      "past form"
+    ],
+    "formation": [
+      "Verb た + あげく(に)",
+      "Noun + のあげく"
+    ],
+    "order": 30,
+    "unit": "Unit 8 — Patterns",
+    "examples": [
+      {
+        "ja": "散々悩んだあげく、転職を決めた。",
+        "en": "After agonizing for a long time, I decided to change jobs.",
+        "reading": "さんざん なやんだ あげく、てんしょく を きめた。",
+        "structure": "悩んだあげく (after agonizing) + 転職を決めた (decided to change jobs)",
+        "tokens": [
+          {
+            "text": "散々悩んだ",
+            "reading": "さんざんなやんだ",
+            "meaning": "agonized a lot",
+            "partOfSpeech": "verb past"
+          },
+          {
+            "text": "あげく",
+            "reading": "あげく",
+            "meaning": "after all that / in the end",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "転職を決めた",
+            "reading": "てんしょくをきめた",
+            "meaning": "decided to change jobs",
+            "partOfSpeech": "verb past"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "result"
+    ]
+  },
+  {
+    "id": "g-n2-031",
+    "title": "〜際(に)",
+    "meaning_short": "When / on the occasion of~",
+    "simple_explanation": "When doing X (formal). More formal than とき.",
+    "explanation": "Formal temporal/occasion expression.",
+    "prerequisites": [
+      "dictionary form",
+      "noun"
+    ],
+    "formation": [
+      "Verb dict/past + 際(に)",
+      "Noun + の際(に)"
+    ],
+    "order": 31,
+    "unit": "Unit 7 — Rules",
+    "examples": [
+      {
+        "ja": "お申し込みの際は、身分証明書をお持ちください。",
+        "en": "When applying, please bring your ID.",
+        "reading": "おもうしこみ の さい は、みぶんしょうめいしょ を おもち ください。",
+        "structure": "お申し込みの際は (when applying) + お持ちください (please bring)",
+        "tokens": [
+          {
+            "text": "お申し込みの際は",
+            "reading": "おもうしこみのさいは",
+            "meaning": "when applying",
+            "partOfSpeech": "際 pattern",
+            "role": "target grammar"
+          },
+          {
+            "text": "身分証明書をお持ちください",
+            "reading": "みぶんしょうめいしょをおもちください",
+            "meaning": "please bring ID",
+            "partOfSpeech": "polite request"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "formal",
+      "time"
+    ]
+  },
+  {
+    "id": "g-n2-032",
+    "title": "〜に関して",
+    "meaning_short": "Regarding~ / concerning~",
+    "simple_explanation": "About/concerning X. More formal than について.",
+    "explanation": "Formal topic expression.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + に関して/に関する + Noun"
+    ],
+    "order": 32,
+    "unit": "Unit 5 — Relations",
+    "examples": [
+      {
+        "ja": "この件に関しては、後日ご連絡いたします。",
+        "en": "Regarding this matter, we will contact you later.",
+        "reading": "この けん に かんしては、ごじつ ごれんらく いたします。",
+        "structure": "この件に関しては (regarding this matter) + ご連絡いたします (will contact)",
+        "tokens": [
+          {
+            "text": "この件に関しては",
+            "reading": "このけんにかんしては",
+            "meaning": "regarding this matter",
+            "partOfSpeech": "に関して",
+            "role": "target grammar"
+          },
+          {
+            "text": "後日ご連絡いたします",
+            "reading": "ごじつごれんらくいたします",
+            "meaning": "will contact later",
+            "partOfSpeech": "humble polite"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "formal",
+      "topic"
+    ]
+  },
+  {
+    "id": "g-n2-033",
+    "title": "〜をはじめ",
+    "meaning_short": "Starting with~ / including~",
+    "simple_explanation": "Starting with X, and many others.",
+    "explanation": "Representative example expression.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + をはじめ(とする)"
+    ],
+    "order": 33,
+    "unit": "Unit 5 — Relations",
+    "examples": [
+      {
+        "ja": "東京をはじめ、多くの都市で実施されている。",
+        "en": "Starting with Tokyo, it's being implemented in many cities.",
+        "reading": "とうきょう を はじめ、おおく の とし で じっし されている。",
+        "structure": "東京をはじめ (starting with Tokyo) + 実施されている (being implemented)",
+        "tokens": [
+          {
+            "text": "東京をはじめ",
+            "reading": "とうきょうをはじめ",
+            "meaning": "starting with Tokyo",
+            "partOfSpeech": "をはじめ",
+            "role": "target grammar"
+          },
+          {
+            "text": "多くの都市で実施されている",
+            "reading": "おおくのとしでじっしされている",
+            "meaning": "being implemented in many cities",
+            "partOfSpeech": "passive ている"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "listing"
+    ]
+  },
+  {
+    "id": "g-n2-034",
+    "title": "〜にわたって",
+    "meaning_short": "Over / spanning~",
+    "simple_explanation": "Spanning a range of time/space.",
+    "explanation": "Duration/range expression.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + にわたって/にわたる + Noun"
+    ],
+    "order": 34,
+    "unit": "Unit 6 — Change",
+    "examples": [
+      {
+        "ja": "10年にわたって研究が続けられてきた。",
+        "en": "Research has been continued over 10 years.",
+        "reading": "じゅうねん にわたって けんきゅう が つづけられてきた。",
+        "structure": "10年にわたって (over 10 years) + 続けられてきた (has been continued)",
+        "tokens": [
+          {
+            "text": "10年にわたって",
+            "reading": "じゅうねんにわたって",
+            "meaning": "over 10 years",
+            "partOfSpeech": "にわたって",
+            "role": "target grammar"
+          },
+          {
+            "text": "研究が続けられてきた",
+            "reading": "けんきゅうがつづけられてきた",
+            "meaning": "research has been continued",
+            "partOfSpeech": "passive てきた"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "range"
+    ]
+  },
+  {
+    "id": "g-n2-035",
+    "title": "〜だけに",
+    "meaning_short": "Precisely because~ / as expected of~",
+    "simple_explanation": "Because X is the case, Y is especially true.",
+    "explanation": "Emphasis from expectation.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + だけに",
+      "Noun + だけに"
+    ],
+    "order": 35,
+    "unit": "Unit 3 — Emphasis",
+    "examples": [
+      {
+        "ja": "経験が豊富なだけに、判断が的確だ。",
+        "en": "Precisely because of rich experience, the judgment is accurate.",
+        "reading": "けいけん が ほうふ な だけに、はんだん が てきかく だ。",
+        "structure": "経験が豊富なだけに (precisely because experienced) + 判断が的確だ (judgment is accurate)",
+        "tokens": [
+          {
+            "text": "経験が豊富な",
+            "reading": "けいけんがほうふな",
+            "meaning": "experience is rich",
+            "partOfSpeech": "な-adj clause"
+          },
+          {
+            "text": "だけに",
+            "reading": "だけに",
+            "meaning": "precisely because",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "判断が的確だ",
+            "reading": "はんだんがてきかくだ",
+            "meaning": "judgment is accurate",
+            "partOfSpeech": "clause"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "emphasis"
+    ]
+  },
+  {
+    "id": "g-n2-036",
+    "title": "〜からこそ",
+    "meaning_short": "Precisely because~",
+    "simple_explanation": "BECAUSE of X (not despite it). Emphasis on the reason.",
+    "explanation": "Emphatic reason expression.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + からこそ"
+    ],
+    "order": 36,
+    "unit": "Unit 3 — Emphasis",
+    "examples": [
+      {
+        "ja": "困難だからこそ、やりがいがある。",
+        "en": "Precisely because it's difficult, it's rewarding.",
+        "reading": "こんなん だ からこそ、やりがい が ある。",
+        "structure": "困難だからこそ (precisely because difficult) + やりがいがある (is rewarding)",
+        "tokens": [
+          {
+            "text": "困難だ",
+            "reading": "こんなんだ",
+            "meaning": "is difficult",
+            "partOfSpeech": "な-adj+copula"
+          },
+          {
+            "text": "からこそ",
+            "reading": "からこそ",
+            "meaning": "precisely because",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "やりがいがある",
+            "reading": "やりがいがある",
+            "meaning": "is rewarding",
+            "partOfSpeech": "expression"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "emphasis"
+    ]
+  },
+  {
+    "id": "g-n2-037",
+    "title": "〜以上(は)",
+    "meaning_short": "Since~ / now that~",
+    "simple_explanation": "Since X is the case, Y must follow. Implies obligation.",
+    "explanation": "Commitment/obligation from premise.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Verb plain + 以上(は)",
+      "Noun + である以上(は)"
+    ],
+    "order": 37,
+    "unit": "Unit 7 — Rules",
+    "examples": [
+      {
+        "ja": "約束した以上、守らなければならない。",
+        "en": "Since I made a promise, I must keep it.",
+        "reading": "やくそく した いじょう、まもらなければ ならない。",
+        "structure": "約束した以上 (since I promised) + 守らなければならない (must keep)",
+        "tokens": [
+          {
+            "text": "約束した",
+            "reading": "やくそくした",
+            "meaning": "promised",
+            "partOfSpeech": "suru-verb past"
+          },
+          {
+            "text": "以上",
+            "reading": "いじょう",
+            "meaning": "since / now that",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "守らなければならない",
+            "reading": "まもらなければならない",
+            "meaning": "must keep",
+            "partOfSpeech": "obligation"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "obligation"
+    ]
+  },
+  {
+    "id": "g-n2-038",
+    "title": "〜にしたがって",
+    "meaning_short": "As~ / in accordance with~",
+    "simple_explanation": "As X changes, Y also changes. Proportional change.",
+    "explanation": "Proportional change expression.",
+    "prerequisites": [
+      "dictionary form",
+      "noun"
+    ],
+    "formation": [
+      "Verb dict + にしたがって",
+      "Noun + にしたがって"
+    ],
+    "order": 38,
+    "unit": "Unit 6 — Change",
+    "examples": [
+      {
+        "ja": "技術が進むにしたがって、生活が便利になる。",
+        "en": "As technology advances, life becomes more convenient.",
+        "reading": "ぎじゅつ が すすむ に したがって、せいかつ が べんり に なる。",
+        "structure": "技術が進むにしたがって (as tech advances) + 便利になる (becomes convenient)",
+        "tokens": [
+          {
+            "text": "技術が進む",
+            "reading": "ぎじゅつがすすむ",
+            "meaning": "technology advances",
+            "partOfSpeech": "verb"
+          },
+          {
+            "text": "にしたがって",
+            "reading": "にしたがって",
+            "meaning": "as / in accordance with",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "生活が便利になる",
+            "reading": "せいかつがべんりになる",
+            "meaning": "life becomes convenient",
+            "partOfSpeech": "なる change"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "change"
+    ]
+  },
+  {
+    "id": "g-n2-039",
+    "title": "〜に加えて",
+    "meaning_short": "In addition to~",
+    "simple_explanation": "In addition to X, also Y.",
+    "explanation": "Additive expression.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + に加えて/に加え"
+    ],
+    "order": 39,
+    "unit": "Unit 5 — Relations",
+    "examples": [
+      {
+        "ja": "経験に加えて、資格も持っている。",
+        "en": "In addition to experience, I also have qualifications.",
+        "reading": "けいけん に くわえて、しかく も もっている。",
+        "structure": "経験に加えて (in addition to experience) + 資格も持っている (also have qualifications)",
+        "tokens": [
+          {
+            "text": "経験に加えて",
+            "reading": "けいけんにくわえて",
+            "meaning": "in addition to experience",
+            "partOfSpeech": "に加えて",
+            "role": "target grammar"
+          },
+          {
+            "text": "資格も持っている",
+            "reading": "しかくももっている",
+            "meaning": "also have qualifications",
+            "partOfSpeech": "ている form"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "addition"
+    ]
+  },
+  {
+    "id": "g-n2-040",
+    "title": "〜を中心に",
+    "meaning_short": "Centered on~ / mainly~",
+    "simple_explanation": "With X as the center/focus.",
+    "explanation": "Focus/center expression.",
+    "prerequisites": [
+      "noun"
+    ],
+    "formation": [
+      "Noun + を中心に/を中心として"
+    ],
+    "order": 40,
+    "unit": "Unit 5 — Relations",
+    "examples": [
+      {
+        "ja": "若者を中心に人気が広がっている。",
+        "en": "Popularity is spreading, mainly among young people.",
+        "reading": "わかもの を ちゅうしん に にんき が ひろがっている。",
+        "structure": "若者を中心に (centered on young people) + 人気が広がっている (popularity is spreading)",
+        "tokens": [
+          {
+            "text": "若者を中心に",
+            "reading": "わかものをちゅうしんに",
+            "meaning": "centered on young people",
+            "partOfSpeech": "を中心に",
+            "role": "target grammar"
+          },
+          {
+            "text": "人気が広がっている",
+            "reading": "にんきがひろがっている",
+            "meaning": "popularity is spreading",
+            "partOfSpeech": "ている form"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N2",
+    "tags": [
+      "focus"
+    ]
+  }
 ]

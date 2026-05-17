@@ -10,6 +10,7 @@ const SIDEBAR_ITEMS = [
   { to: "/grammar", label: "Grammar", icon: "文" },
   { to: "/reviews", label: "Reviews", icon: "↻" },
   { to: "/quiz", label: "Quiz", icon: "⚡" },
+  { to: "/reading", label: "Reading", icon: "📄" },
   { to: "/weak-points", label: "Weak Points", icon: "△" },
   { to: "/content-tools", label: "Content Tools", icon: "🔧" },
   { to: "/sources", label: "About / Sources", icon: "ℹ" },
@@ -59,7 +60,7 @@ export default function Layout() {
         ))}
 
         <div className="mt-auto px-3 py-2">
-          <p className="label">v1.2.06</p>
+          <p className="label">v1.2.07</p>
         </div>
       </aside>
 

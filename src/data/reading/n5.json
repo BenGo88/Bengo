@@ -1,0 +1,371 @@
+[
+  {
+    "id": "r-n5-001",
+    "title": "私の一日",
+    "jlpt": "N5",
+    "difficulty": 1,
+    "category": "daily_life",
+    "estimatedMinutes": 2,
+    "summary": "A simple daily routine.",
+    "sentences": [
+      {
+        "japanese": "私は毎朝七時に起きます。",
+        "reading": "わたし は まいあさ しちじ に おきます。",
+        "english": "I wake up at seven every morning."
+      },
+      {
+        "japanese": "顔を洗って、朝ごはんを食べます。",
+        "reading": "かお を あらって、あさごはん を たべます。",
+        "english": "I wash my face and eat breakfast."
+      },
+      {
+        "japanese": "八時に家を出ます。",
+        "reading": "はちじ に いえ を でます。",
+        "english": "I leave home at eight."
+      },
+      {
+        "japanese": "電車で会社に行きます。",
+        "reading": "でんしゃ で かいしゃ に いきます。",
+        "english": "I go to work by train."
+      },
+      {
+        "japanese": "六時に帰ります。",
+        "reading": "ろくじ に かえります。",
+        "english": "I go home at six."
+      },
+      {
+        "japanese": "夜はテレビを見たり、本を読んだりします。",
+        "reading": "よる は テレビ を みたり、ほん を よんだり します。",
+        "english": "In the evening I watch TV, read books, and so on."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-001-1",
+        "type": "detail",
+        "question": "この人は何時に起きますか。",
+        "choices": [
+          "六時",
+          "七時",
+          "八時",
+          "九時"
+        ],
+        "answer": "七時",
+        "explanation": "毎朝七時に起きます。"
+      },
+      {
+        "id": "rq-n5-001-2",
+        "type": "detail",
+        "question": "会社にどうやって行きますか。",
+        "choices": [
+          "バスで",
+          "電車で",
+          "車で",
+          "歩いて"
+        ],
+        "answer": "電車で",
+        "explanation": "電車で会社に行きます。"
+      },
+      {
+        "id": "rq-n5-001-3",
+        "type": "main_idea",
+        "question": "この文は何についてですか。",
+        "choices": [
+          "毎日の生活",
+          "旅行の計画",
+          "料理の作り方",
+          "友達の紹介"
+        ],
+        "answer": "毎日の生活",
+        "explanation": "一日の生活について書いています。"
+      }
+    ]
+  },
+  {
+    "id": "r-n5-002",
+    "title": "私の家族",
+    "jlpt": "N5",
+    "difficulty": 1,
+    "category": "family",
+    "estimatedMinutes": 2,
+    "summary": "Introducing a simple family.",
+    "sentences": [
+      {
+        "japanese": "私の家族は四人です。",
+        "reading": "わたし の かぞく は よにん です。",
+        "english": "My family has four people."
+      },
+      {
+        "japanese": "父と母と姉と私です。",
+        "reading": "ちち と はは と あね と わたし です。",
+        "english": "Father, mother, older sister, and me."
+      },
+      {
+        "japanese": "父は会社員です。",
+        "reading": "ちち は かいしゃいん です。",
+        "english": "My father is an office worker."
+      },
+      {
+        "japanese": "母は先生です。",
+        "reading": "はは は せんせい です。",
+        "english": "My mother is a teacher."
+      },
+      {
+        "japanese": "姉は大学生です。",
+        "reading": "あね は だいがくせい です。",
+        "english": "My older sister is a university student."
+      },
+      {
+        "japanese": "私は高校生です。",
+        "reading": "わたし は こうこうせい です。",
+        "english": "I am a high school student."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-002-1",
+        "type": "detail",
+        "question": "家族は何人ですか。",
+        "choices": [
+          "三人",
+          "四人",
+          "五人",
+          "六人"
+        ],
+        "answer": "四人",
+        "explanation": "家族は四人です。"
+      },
+      {
+        "id": "rq-n5-002-2",
+        "type": "detail",
+        "question": "お母さんの仕事は何ですか。",
+        "choices": [
+          "会社員",
+          "先生",
+          "医者",
+          "看護師"
+        ],
+        "answer": "先生",
+        "explanation": "母は先生です。"
+      },
+      {
+        "id": "rq-n5-002-3",
+        "type": "detail",
+        "question": "この人は何ですか。",
+        "choices": [
+          "大学生",
+          "高校生",
+          "中学生",
+          "会社員"
+        ],
+        "answer": "高校生",
+        "explanation": "私は高校生です。"
+      }
+    ]
+  },
+  {
+    "id": "r-n5-003",
+    "title": "週末の予定",
+    "jlpt": "N5",
+    "difficulty": 1,
+    "category": "plans",
+    "estimatedMinutes": 2,
+    "summary": "Weekend plans with a friend.",
+    "sentences": [
+      {
+        "japanese": "来週の土曜日に友達と会います。",
+        "reading": "らいしゅう の どようび に ともだち と あいます。",
+        "english": "I'm meeting a friend next Saturday."
+      },
+      {
+        "japanese": "一緒に映画を見ます。",
+        "reading": "いっしょ に えいが を みます。",
+        "english": "We'll watch a movie together."
+      },
+      {
+        "japanese": "映画の後で、レストランで食べます。",
+        "reading": "えいが の あとで、レストラン で たべます。",
+        "english": "After the movie, we'll eat at a restaurant."
+      },
+      {
+        "japanese": "とても楽しみです。",
+        "reading": "とても たのしみ です。",
+        "english": "I'm really looking forward to it."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-003-1",
+        "type": "detail",
+        "question": "いつ友達に会いますか。",
+        "choices": [
+          "来週の月曜日",
+          "来週の土曜日",
+          "今週の日曜日",
+          "明日"
+        ],
+        "answer": "来週の土曜日",
+        "explanation": "来週の土曜日に友達と会います。"
+      },
+      {
+        "id": "rq-n5-003-2",
+        "type": "detail",
+        "question": "映画の後で何をしますか。",
+        "choices": [
+          "買い物する",
+          "家に帰る",
+          "レストランで食べる",
+          "公園に行く"
+        ],
+        "answer": "レストランで食べる",
+        "explanation": "映画の後で、レストランで食べます。"
+      }
+    ]
+  },
+  {
+    "id": "r-n5-004",
+    "title": "買い物",
+    "jlpt": "N5",
+    "difficulty": 1,
+    "category": "shopping",
+    "estimatedMinutes": 2,
+    "summary": "Going shopping.",
+    "sentences": [
+      {
+        "japanese": "今日はデパートに行きました。",
+        "reading": "きょう は デパート に いきました。",
+        "english": "Today I went to the department store."
+      },
+      {
+        "japanese": "新しい服がほしかったです。",
+        "reading": "あたらしい ふく が ほしかった です。",
+        "english": "I wanted new clothes."
+      },
+      {
+        "japanese": "青いシャツを買いました。",
+        "reading": "あおい シャツ を かいました。",
+        "english": "I bought a blue shirt."
+      },
+      {
+        "japanese": "少し高かったですが、とてもきれいです。",
+        "reading": "すこし たかかった です が、とても きれい です。",
+        "english": "It was a bit expensive, but very nice."
+      },
+      {
+        "japanese": "母にも何か買いたいです。",
+        "reading": "はは に も なにか かいたい です。",
+        "english": "I want to buy something for my mother too."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-004-1",
+        "type": "detail",
+        "question": "何を買いましたか。",
+        "choices": [
+          "赤いズボン",
+          "青いシャツ",
+          "白い靴",
+          "黒いかばん"
+        ],
+        "answer": "青いシャツ",
+        "explanation": "青いシャツを買いました。"
+      },
+      {
+        "id": "rq-n5-004-2",
+        "type": "vocabulary_in_context",
+        "question": "「高かった」の意味は？",
+        "choices": [
+          "expensive",
+          "cheap",
+          "big",
+          "small"
+        ],
+        "answer": "expensive",
+        "explanation": "高い = expensive/tall. ここでは値段の意味です。"
+      }
+    ]
+  },
+  {
+    "id": "r-n5-005",
+    "title": "天気と季節",
+    "jlpt": "N5",
+    "difficulty": 2,
+    "category": "weather",
+    "estimatedMinutes": 2,
+    "summary": "Talking about weather and seasons.",
+    "sentences": [
+      {
+        "japanese": "日本には四つの季節があります。",
+        "reading": "にほん に は よっつ の きせつ が あります。",
+        "english": "Japan has four seasons."
+      },
+      {
+        "japanese": "春は暖かいです。",
+        "reading": "はる は あたたかい です。",
+        "english": "Spring is warm."
+      },
+      {
+        "japanese": "夏はとても暑いです。",
+        "reading": "なつ は とても あつい です。",
+        "english": "Summer is very hot."
+      },
+      {
+        "japanese": "秋は涼しくて、紅葉がきれいです。",
+        "reading": "あき は すずしくて、こうよう が きれい です。",
+        "english": "Autumn is cool and the fall leaves are beautiful."
+      },
+      {
+        "japanese": "冬は寒くて、雪が降ります。",
+        "reading": "ふゆ は さむくて、ゆき が ふります。",
+        "english": "Winter is cold and it snows."
+      },
+      {
+        "japanese": "私は秋が一番好きです。",
+        "reading": "わたし は あき が いちばん すき です。",
+        "english": "I like autumn the most."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n5-005-1",
+        "type": "detail",
+        "question": "夏はどんな天気ですか。",
+        "choices": [
+          "寒い",
+          "涼しい",
+          "暑い",
+          "暖かい"
+        ],
+        "answer": "暑い",
+        "explanation": "夏はとても暑いです。"
+      },
+      {
+        "id": "rq-n5-005-2",
+        "type": "detail",
+        "question": "この人はどの季節が一番好きですか。",
+        "choices": [
+          "春",
+          "夏",
+          "秋",
+          "冬"
+        ],
+        "answer": "秋",
+        "explanation": "私は秋が一番好きです。"
+      },
+      {
+        "id": "rq-n5-005-3",
+        "type": "grammar_in_context",
+        "question": "「一番好きです」はどういう意味ですか。",
+        "choices": [
+          "like the most",
+          "like a little",
+          "don't like",
+          "used to like"
+        ],
+        "answer": "like the most",
+        "explanation": "一番 = the most. 一番好き = like the most."
+      }
+    ]
+  }
+]

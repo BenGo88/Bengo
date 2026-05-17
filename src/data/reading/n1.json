@@ -1,0 +1,110 @@
+[
+  {
+    "id": "r-n1-001",
+    "title": "言語と思考",
+    "jlpt": "N1",
+    "difficulty": 5,
+    "category": "academic",
+    "estimatedMinutes": 6,
+    "summary": "The relationship between language and thought.",
+    "sentences": [
+      {
+        "japanese": "言語は単なるコミュニケーションの手段にとどまらず、思考そのものに影響を及ぼす。",
+        "reading": "げんご は たんなる コミュニケーション の しゅだん に とどまらず、しこう そのもの に えいきょう を およぼす。",
+        "english": "Language is not merely a means of communication but also influences thought itself."
+      },
+      {
+        "japanese": "異なる言語を話す人々は、世界の捉え方も異なるという研究がある。",
+        "reading": "ことなる げんご を はなす ひとびと は、せかい の とらえかた も ことなる という けんきゅう が ある。",
+        "english": "There is research suggesting that people who speak different languages perceive the world differently."
+      },
+      {
+        "japanese": "多言語を学ぶことは、新たな視点を獲得することに他ならない。",
+        "reading": "たげんご を まなぶ こと は、あらた な してん を かくとく する こと に ほかならない。",
+        "english": "Learning multiple languages is nothing other than acquiring new perspectives."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n1-001-1",
+        "type": "grammar_in_context",
+        "question": "「にとどまらず」はどういう意味ですか。",
+        "choices": [
+          "limited to",
+          "not limited to",
+          "stopped at",
+          "remained at"
+        ],
+        "answer": "not limited to",
+        "explanation": "〜にとどまらず = not limited to, goes beyond."
+      },
+      {
+        "id": "rq-n1-001-2",
+        "type": "main_idea",
+        "question": "筆者は多言語学習について何と言っていますか。",
+        "choices": [
+          "時間の無駄だ",
+          "新しい視点を得ること",
+          "コミュニケーションのためだけ",
+          "必要ない"
+        ],
+        "answer": "新しい視点を得ること",
+        "explanation": "新たな視点を獲得することに他ならない。"
+      }
+    ]
+  },
+  {
+    "id": "r-n1-002",
+    "title": "AI時代の教育",
+    "jlpt": "N1",
+    "difficulty": 5,
+    "category": "technology",
+    "estimatedMinutes": 6,
+    "summary": "Education in the age of AI.",
+    "sentences": [
+      {
+        "japanese": "AIの急速な発展は、教育のあり方そのものを問い直す契機となっている。",
+        "reading": "AI の きゅうそく な はってん は、きょういく の ありかた そのもの を といなおす けいき と なっている。",
+        "english": "The rapid development of AI is becoming an opportunity to reexamine education itself."
+      },
+      {
+        "japanese": "知識の暗記よりも、創造性や批判的思考力が求められる時代になりつつある。",
+        "reading": "ちしき の あんき よりも、そうぞうせい や ひはんてき しこうりょく が もとめられる じだい に なりつつ ある。",
+        "english": "We are entering an era where creativity and critical thinking are demanded more than rote memorization."
+      },
+      {
+        "japanese": "教育者は、テクノロジーを排除するのではなく、いかに活用するかを模索すべきである。",
+        "reading": "きょういくしゃ は、テクノロジー を はいじょ する の では なく、いかに かつよう するか を もさく すべき で ある。",
+        "english": "Educators should not reject technology but explore how to utilize it."
+      }
+    ],
+    "questions": [
+      {
+        "id": "rq-n1-002-1",
+        "type": "grammar_in_context",
+        "question": "「なりつつある」はどういう意味ですか。",
+        "choices": [
+          "has already become",
+          "is in the process of becoming",
+          "used to be",
+          "will not become"
+        ],
+        "answer": "is in the process of becoming",
+        "explanation": "〜つつある = in the process of ~ing (gradual change)."
+      },
+      {
+        "id": "rq-n1-002-2",
+        "type": "main_idea",
+        "question": "筆者は教育者に何を求めていますか。",
+        "choices": [
+          "AIを禁止する",
+          "テクノロジーの活用を模索する",
+          "暗記教育を続ける",
+          "学校を閉鎖する"
+        ],
+        "answer": "テクノロジーの活用を模索する",
+        "explanation": "いかに活用するかを模索すべきである。"
+      }
+    ]
+  }
+]

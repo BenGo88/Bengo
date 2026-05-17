@@ -1,27 +1,1844 @@
 [
-  {"id":"g-n5-001","title":"〜は","meaning_short":"Topic marker","simple_explanation":"は marks the topic — what you're talking about.","explanation":"Sets the sentence topic. Pronounced 'wa'.","prerequisites":[],"formation":["Noun + は"],"order":1,"unit":"Unit 1 — First Sentences","examples":[{"ja":"私は学生です。","en":"I am a student.","reading":"わたし は がくせい です。","structure":"私は (topic) + 学生です (is student)","tokens":[{"text":"私","lexemeId":"lex-n5-私","role":"topic"},{"text":"は","lexemeId":"lex-f-は","role":"target grammar"},{"text":"学生","lexemeId":"lex-n5-学生"},{"text":"です","lexemeId":"lex-f-です"}]},{"ja":"これは本です。","en":"This is a book.","reading":"これ は ほん です。","structure":"これは (topic) + 本です (is book)","tokens":[{"text":"これ","lexemeId":"lex-n5-これ"},{"text":"は","lexemeId":"lex-f-は","role":"target grammar"},{"text":"本","lexemeId":"lex-n5-本"},{"text":"です","lexemeId":"lex-f-です"}]}],"similar":[{"title":"が","diff":"は = topic. が = subject (new info)."}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-002","title":"〜です","meaning_short":"Is / am / are (polite)","simple_explanation":"です makes sentences polite. Put it at the end.","explanation":"Polite copula. Follows nouns and な-adjectives.","prerequisites":[],"formation":["Noun + です","な-adj + です"],"order":2,"unit":"Unit 1 — First Sentences","examples":[{"ja":"学生です。","en":"I am a student.","reading":"がくせい です。","structure":"学生 (noun) + です (polite copula)","tokens":[{"text":"学生","lexemeId":"lex-n5-学生"},{"text":"です","lexemeId":"lex-f-です","role":"target grammar"}]}],"jlpt":"N5","tags":["politeness"]},
-  {"id":"g-n5-003","title":"〜か (question)","meaning_short":"Question marker","simple_explanation":"か at the end makes a sentence a question.","explanation":"Turn statements into questions by adding か.","prerequisites":["です"],"formation":["Statement + か"],"order":3,"unit":"Unit 1 — First Sentences","examples":[{"ja":"学生ですか。","en":"Are you a student?","reading":"がくせい です か。","structure":"学生です (is student) + か (question)","tokens":[{"text":"学生","lexemeId":"lex-n5-学生"},{"text":"です","lexemeId":"lex-f-です"},{"text":"か","lexemeId":"lex-f-か","role":"target grammar"}]}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-004","title":"〜の (possessive)","meaning_short":"'s / of","simple_explanation":"の connects nouns: AのB = B of A, or A's B.","explanation":"Possessive/connecting particle between nouns.","prerequisites":["は"],"formation":["Noun + の + Noun"],"order":4,"unit":"Unit 1 — First Sentences","examples":[{"ja":"私の本です。","en":"It's my book.","reading":"わたし の ほん です。","structure":"私の (my) + 本 (book) + です","tokens":[{"text":"私","lexemeId":"lex-n5-私"},{"text":"の","lexemeId":"lex-f-の","role":"target grammar"},{"text":"本","lexemeId":"lex-n5-本"},{"text":"です","lexemeId":"lex-f-です"}]}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-005","title":"〜が (subject marker)","meaning_short":"Marks the subject","simple_explanation":"が marks WHO/WHAT does the action. Often new information.","explanation":"Subject marker, often introduces new or specific information.","prerequisites":["は"],"formation":["Noun + が"],"order":5,"unit":"Unit 2 — Basic Particles","examples":[{"ja":"猫がいます。","en":"There is a cat.","reading":"ねこ が います。","structure":"猫が (subject) + います (exists)","tokens":[{"text":"猫","lexemeId":"lex-n5-猫","role":"subject"},{"text":"が","lexemeId":"lex-f-が","role":"target grammar"},{"text":"います","reading":"います","meaning":"exists (animate)","partOfSpeech":"verb"}]}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-006","title":"〜を (object marker)","meaning_short":"Marks the direct object","simple_explanation":"を marks WHAT is acted on.","explanation":"Direct object marker.","prerequisites":["は","が"],"formation":["Noun + を + Verb"],"order":6,"unit":"Unit 2 — Basic Particles","examples":[{"ja":"水を飲みます。","en":"I drink water.","reading":"みず を のみます。","structure":"水を (object) + 飲みます (drink)","tokens":[{"text":"水","lexemeId":"lex-n5-水","role":"object"},{"text":"を","lexemeId":"lex-f-を","role":"target grammar"},{"text":"飲みます","lexemeId":"lex-n5-飲みます"}]}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-007","title":"〜に (location/time/direction)","meaning_short":"At / to / in / on","simple_explanation":"に marks WHERE, WHEN, or direction.","explanation":"Location of existence, time, destination.","prerequisites":["は","が"],"formation":["Time + に","Place + に + いる/ある","Place + に + 行く"],"order":7,"unit":"Unit 2 — Basic Particles","examples":[{"ja":"7時に起きます。","en":"I wake up at 7.","reading":"しちじ に おきます。","tokens":[{"text":"7時","reading":"しちじ","meaning":"7 o'clock","partOfSpeech":"time"},{"text":"に","lexemeId":"lex-f-に","role":"target grammar"},{"text":"起きます","lexemeId":"lex-n5-起きます"}]},{"ja":"学校に行きます。","en":"I go to school.","reading":"がっこう に いきます。","tokens":[{"text":"学校","lexemeId":"lex-n5-学校"},{"text":"に","lexemeId":"lex-f-に","role":"target grammar"},{"text":"行きます","lexemeId":"lex-n5-行きます"}]}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-008","title":"〜で (action location/means)","meaning_short":"At (action) / by means of","simple_explanation":"で marks WHERE an action happens or HOW you do it.","explanation":"Action location or means/tool.","prerequisites":["は","に"],"beginner_warning":"に = EXISTS. で = HAPPENS.","formation":["Place + で + Verb","Tool + で + Verb"],"order":8,"unit":"Unit 2 — Basic Particles","examples":[{"ja":"図書館で勉強します。","en":"I study at the library.","reading":"としょかん で べんきょう します。","tokens":[{"text":"図書館","lexemeId":"lex-n5-図書館","role":"action location"},{"text":"で","lexemeId":"lex-f-で","role":"target grammar"},{"text":"勉強します","lexemeId":"lex-n5-勉強します"}]}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-009","title":"〜も (also)","meaning_short":"Also / too","simple_explanation":"も replaces は/が to mean 'also'.","explanation":"Inclusive particle.","prerequisites":["は","が"],"formation":["Noun + も"],"order":9,"unit":"Unit 2 — Basic Particles","examples":[{"ja":"私も学生です。","en":"I am also a student.","reading":"わたし も がくせい です。","tokens":[{"text":"私","lexemeId":"lex-n5-私"},{"text":"も","lexemeId":"lex-f-も","role":"target grammar"},{"text":"学生","lexemeId":"lex-n5-学生"},{"text":"です","lexemeId":"lex-f-です"}]}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-010","title":"〜と (and/with)","meaning_short":"And / with","simple_explanation":"と connects nouns ('A and B') or means 'with someone'.","explanation":"Conjunction and companionship particle.","prerequisites":["は"],"formation":["Noun + と + Noun","Person + と + Verb"],"order":10,"unit":"Unit 2 — Basic Particles","examples":[{"ja":"犬と猫がいます。","en":"There are dogs and cats.","reading":"いぬ と ねこ が います。","tokens":[{"text":"犬","lexemeId":"lex-n5-犬"},{"text":"と","lexemeId":"lex-f-と","role":"target grammar"},{"text":"猫","lexemeId":"lex-n5-猫"},{"text":"が","lexemeId":"lex-f-が"},{"text":"います","reading":"います","meaning":"exist","partOfSpeech":"verb"}]},{"ja":"友達と遊びます。","en":"I hang out with friends.","reading":"ともだち と あそびます。","tokens":[{"text":"友達","lexemeId":"lex-n5-友達"},{"text":"と","lexemeId":"lex-f-と","role":"target grammar — with"},{"text":"遊びます","reading":"あそびます","meaning":"play/hang out","partOfSpeech":"verb"}]}],"jlpt":"N5","tags":["particle"]},
-  {"id":"g-n5-011","title":"〜ます (polite verb)","meaning_short":"Polite verb ending","simple_explanation":"ます makes verbs polite. Use with anyone you're not close with.","explanation":"Polite verb conjugation.","prerequisites":["です"],"formation":["Verb stem + ます"],"order":11,"unit":"Unit 3 — Polite Verbs","examples":[{"ja":"毎日勉強します。","en":"I study every day.","reading":"まいにち べんきょう します。","tokens":[{"text":"毎日","lexemeId":"lex-n5-毎日"},{"text":"勉強します","lexemeId":"lex-n5-勉強します","role":"target grammar"}]}],"jlpt":"N5","tags":["politeness"]},
-  {"id":"g-n5-012","title":"〜ません (polite negative)","meaning_short":"Don't / doesn't (polite)","simple_explanation":"ません is the polite negative of verbs.","explanation":"Polite negative conjugation.","prerequisites":["ます"],"formation":["Verb stem + ません"],"order":12,"unit":"Unit 3 — Polite Verbs","examples":[{"ja":"お酒を飲みません。","en":"I don't drink alcohol.","reading":"おさけ を のみません。","tokens":[{"text":"お酒","reading":"おさけ","meaning":"alcohol","partOfSpeech":"noun"},{"text":"を","lexemeId":"lex-f-を"},{"text":"飲みません","reading":"のみません","meaning":"don't drink (polite)","partOfSpeech":"verb negative","role":"target grammar"}]}],"jlpt":"N5","tags":["negative"]},
-  {"id":"g-n5-013","title":"〜ました (polite past)","meaning_short":"Did (polite past)","simple_explanation":"ました is the polite past tense.","explanation":"Polite past conjugation.","prerequisites":["ます"],"formation":["Verb stem + ました"],"order":13,"unit":"Unit 3 — Polite Verbs","examples":[{"ja":"昨日、映画を見ました。","en":"I watched a movie yesterday.","reading":"きのう、えいが を みました。","tokens":[{"text":"昨日","reading":"きのう","meaning":"yesterday","partOfSpeech":"noun"},{"text":"映画","reading":"えいが","meaning":"movie","partOfSpeech":"noun"},{"text":"を","lexemeId":"lex-f-を"},{"text":"見ました","reading":"みました","meaning":"watched (polite past)","partOfSpeech":"verb past","role":"target grammar"}]}],"jlpt":"N5","tags":["past"]},
-  {"id":"g-n5-014","title":"あります / います","meaning_short":"There is / exists","simple_explanation":"あります for objects. います for living things.","explanation":"Existence verbs. あります = inanimate. います = animate.","prerequisites":["が","に"],"beginner_warning":"猫がいます (living) ✓ / 猫があります ✗","formation":["Noun + が + あります (objects)","Noun + が + います (living)"],"order":14,"unit":"Unit 4 — Existence","examples":[{"ja":"机の上に本があります。","en":"There is a book on the desk.","reading":"つくえ の うえ に ほん が あります。","tokens":[{"text":"机","reading":"つくえ","meaning":"desk","partOfSpeech":"noun"},{"text":"の上に","reading":"のうえに","meaning":"on top of","partOfSpeech":"location"},{"text":"本","lexemeId":"lex-n5-本"},{"text":"が","lexemeId":"lex-f-が"},{"text":"あります","reading":"あります","meaning":"exists (inanimate)","partOfSpeech":"verb","role":"target grammar"}]}],"jlpt":"N5","tags":["existence"]},
-  {"id":"g-n5-015","title":"〜ない (negative)","meaning_short":"Not / don't","simple_explanation":"ない is the plain negative. 食べない = don't eat.","explanation":"Plain negative form.","prerequisites":["ます"],"formation":["Ichidan: stem + ない","Godan: あ-row + ない","する → しない","来る → 来ない"],"order":15,"unit":"Unit 5 — Plain Form Basics","examples":[{"ja":"今日は食べない。","en":"I won't eat today.","reading":"きょう は たべない。","tokens":[{"text":"今日","lexemeId":"lex-n5-今日"},{"text":"は","lexemeId":"lex-f-は"},{"text":"食べない","reading":"たべない","meaning":"won't eat","partOfSpeech":"negative","role":"target grammar"}]}],"jlpt":"N5","tags":["conjugation"]},
-  {"id":"g-n5-016","title":"〜たい (want to)","meaning_short":"Want to do~","simple_explanation":"たい = 'want to'. Verb stem + たい.","explanation":"Expresses speaker's desire. Conjugates like い-adjective.","prerequisites":["ます"],"beginner_warning":"Only for your own desires. Others → たがっている.","formation":["Verb stem + たい"],"order":16,"unit":"Unit 5 — Plain Form Basics","examples":[{"ja":"日本に行きたいです。","en":"I want to go to Japan.","reading":"にほん に いきたい です。","tokens":[{"text":"日本","lexemeId":"lex-n5-日本"},{"text":"に","lexemeId":"lex-f-に"},{"text":"行きたい","reading":"いきたい","meaning":"want to go","partOfSpeech":"verb + たい","role":"target grammar"},{"text":"です","lexemeId":"lex-f-です"}]}],"jlpt":"N5","tags":["desire"]},
-  {"id":"g-n5-017","title":"〜ください","meaning_short":"Please do~","simple_explanation":"て-form + ください = 'please do X'.","explanation":"Polite request form.","prerequisites":["て-form basics"],"formation":["Verb て-form + ください"],"order":17,"unit":"Unit 6 — Requests","examples":[{"ja":"ここに名前を書いてください。","en":"Please write your name here.","reading":"ここ に なまえ を かいて ください。","tokens":[{"text":"ここに","reading":"ここに","meaning":"here","partOfSpeech":"location"},{"text":"名前","reading":"なまえ","meaning":"name","partOfSpeech":"noun"},{"text":"を","lexemeId":"lex-f-を"},{"text":"書いてください","reading":"かいてください","meaning":"please write","partOfSpeech":"request","role":"target grammar"}]}],"jlpt":"N5","tags":["request"]},
-  {"id":"g-n5-018","title":"〜から (because/from)","meaning_short":"Because / from","simple_explanation":"から after a clause = 'because'. After a noun = 'from'.","explanation":"Reason or starting point.","prerequisites":["は","です"],"formation":["Clause + から (because)","Place/Time + から (from)"],"order":18,"unit":"Unit 7 — Connecting Ideas","examples":[{"ja":"暑いから、窓を開けてください。","en":"Because it's hot, please open the window.","reading":"あつい から、まど を あけて ください。","tokens":[{"text":"暑い","reading":"あつい","meaning":"hot","partOfSpeech":"い-adjective"},{"text":"から","lexemeId":"lex-f-から","role":"target grammar — reason"},{"text":"窓","reading":"まど","meaning":"window","partOfSpeech":"noun"},{"text":"を","lexemeId":"lex-f-を"},{"text":"開けてください","reading":"あけてください","meaning":"please open","partOfSpeech":"request"}]}],"jlpt":"N5","tags":["reason"]},
-  {"id":"g-n5-019","title":"〜けど / 〜が (but)","meaning_short":"But / although","simple_explanation":"けど (casual) and が (polite) mean 'but'.","explanation":"Contrast conjunction.","prerequisites":["から"],"formation":["Clause + けど + Clause","Clause + が + Clause"],"order":19,"unit":"Unit 7 — Connecting Ideas","examples":[{"ja":"日本語は難しいけど、楽しいです。","en":"Japanese is hard, but fun.","reading":"にほんご は むずかしい けど、たのしい です。"}],"jlpt":"N5","tags":["contrast"]},
-  {"id":"g-n5-020","title":"〜ましょう","meaning_short":"Let's~ / Shall we~","simple_explanation":"ましょう = 'let's do' or 'shall we?'","explanation":"Volitional polite form for suggestions.","prerequisites":["ます"],"formation":["Verb stem + ましょう"],"order":20,"unit":"Unit 8 — Suggestions","examples":[{"ja":"一緒に食べましょう。","en":"Let's eat together.","reading":"いっしょ に たべましょう。","tokens":[{"text":"一緒に","reading":"いっしょに","meaning":"together","partOfSpeech":"adverb"},{"text":"食べましょう","reading":"たべましょう","meaning":"let's eat","partOfSpeech":"volitional","role":"target grammar"}]}],"jlpt":"N5","tags":["suggestion"]},
-  {"id":"g-n5-021","title":"〜ませんか","meaning_short":"Won't you~ / Would you like to~","simple_explanation":"ませんか invites someone politely. 'Would you like to...?'","explanation":"Polite invitation using negative question.","prerequisites":["ます"],"formation":["Verb stem + ませんか"],"order":21,"unit":"Unit 8 — Suggestions","examples":[{"ja":"映画を見ませんか。","en":"Would you like to watch a movie?","reading":"えいが を みませんか。"}],"jlpt":"N5","tags":["invitation"]},
-  {"id":"g-n5-022","title":"〜より〜のほうが","meaning_short":"~ is more than ~","simple_explanation":"AよりBのほうが = B is more than A.","explanation":"Comparison pattern.","prerequisites":["は","が"],"formation":["A より B のほうが + Adjective"],"order":22,"unit":"Unit 9 — Comparison","examples":[{"ja":"夏より冬のほうが好きです。","en":"I like winter more than summer.","reading":"なつ より ふゆ の ほう が すき です。"}],"jlpt":"N5","tags":["comparison"]},
-  {"id":"g-n5-023","title":"〜一番","meaning_short":"The most / number one","simple_explanation":"一番 + adjective = 'the most'. 一番好き = like the most.","explanation":"Superlative expression.","prerequisites":["より"],"formation":["一番 + Adjective"],"order":23,"unit":"Unit 9 — Comparison","examples":[{"ja":"日本語が一番面白いです。","en":"Japanese is the most interesting.","reading":"にほんご が いちばん おもしろい です。"}],"jlpt":"N5","tags":["comparison"]},
-  {"id":"g-n5-024","title":"〜つもり","meaning_short":"Plan to / intend to","simple_explanation":"つもり = 'I plan to' or 'I intend to'.","explanation":"Expresses intention or plan.","prerequisites":["dictionary form"],"formation":["Verb dict + つもりです","Verb ない + つもりです"],"order":24,"unit":"Unit 10 — Plans & Opinions","examples":[{"ja":"来年日本に行くつもりです。","en":"I plan to go to Japan next year.","reading":"らいねん にほん に いく つもり です。"}],"jlpt":"N5","tags":["intention"]},
-  {"id":"g-n5-025","title":"〜と思います","meaning_short":"I think that~","simple_explanation":"と思います = 'I think (that)...'","explanation":"Express opinion or thought.","prerequisites":["plain form"],"formation":["Plain form + と思います"],"order":25,"unit":"Unit 10 — Plans & Opinions","examples":[{"ja":"明日は暑いと思います。","en":"I think it will be hot tomorrow.","reading":"あした は あつい と おもいます。","tokens":[{"text":"明日は","reading":"あしたは","meaning":"tomorrow (topic)","partOfSpeech":"noun + particle"},{"text":"暑い","reading":"あつい","meaning":"hot","partOfSpeech":"い-adjective"},{"text":"と思います","reading":"とおもいます","meaning":"I think","partOfSpeech":"quotation + verb","role":"target grammar"}]}],"jlpt":"N5","tags":["opinion"]}
+  {
+    "id": "g-n5-001",
+    "title": "〜は",
+    "meaning_short": "Topic marker",
+    "simple_explanation": "は marks the topic — what you're talking about.",
+    "explanation": "Sets the sentence topic. Pronounced 'wa'.",
+    "prerequisites": [],
+    "formation": [
+      "Noun + は"
+    ],
+    "order": 1,
+    "unit": "Unit 1 — First Sentences",
+    "examples": [
+      {
+        "ja": "私は学生です。",
+        "en": "I am a student.",
+        "reading": "わたし は がくせい です。",
+        "structure": "私は (topic) + 学生です (is student)",
+        "tokens": [
+          {
+            "text": "私",
+            "lexemeId": "lex-n5-私",
+            "role": "topic"
+          },
+          {
+            "text": "は",
+            "lexemeId": "lex-f-は",
+            "role": "target grammar"
+          },
+          {
+            "text": "学生",
+            "lexemeId": "lex-n5-学生"
+          },
+          {
+            "text": "です",
+            "lexemeId": "lex-f-です"
+          }
+        ]
+      },
+      {
+        "ja": "これは本です。",
+        "en": "This is a book.",
+        "reading": "これ は ほん です。",
+        "structure": "これは (topic) + 本です (is book)",
+        "tokens": [
+          {
+            "text": "これ",
+            "lexemeId": "lex-n5-これ"
+          },
+          {
+            "text": "は",
+            "lexemeId": "lex-f-は",
+            "role": "target grammar"
+          },
+          {
+            "text": "本",
+            "lexemeId": "lex-n5-本"
+          },
+          {
+            "text": "です",
+            "lexemeId": "lex-f-です"
+          }
+        ]
+      }
+    ],
+    "similar": [
+      {
+        "title": "が",
+        "diff": "は = topic. が = subject (new info)."
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-002",
+    "title": "〜です",
+    "meaning_short": "Is / am / are (polite)",
+    "simple_explanation": "です makes sentences polite. Put it at the end.",
+    "explanation": "Polite copula. Follows nouns and な-adjectives.",
+    "prerequisites": [],
+    "formation": [
+      "Noun + です",
+      "な-adj + です"
+    ],
+    "order": 2,
+    "unit": "Unit 1 — First Sentences",
+    "examples": [
+      {
+        "ja": "学生です。",
+        "en": "I am a student.",
+        "reading": "がくせい です。",
+        "structure": "学生 (noun) + です (polite copula)",
+        "tokens": [
+          {
+            "text": "学生",
+            "lexemeId": "lex-n5-学生"
+          },
+          {
+            "text": "です",
+            "lexemeId": "lex-f-です",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "politeness"
+    ]
+  },
+  {
+    "id": "g-n5-003",
+    "title": "〜か (question)",
+    "meaning_short": "Question marker",
+    "simple_explanation": "か at the end makes a sentence a question.",
+    "explanation": "Turn statements into questions by adding か.",
+    "prerequisites": [
+      "です"
+    ],
+    "formation": [
+      "Statement + か"
+    ],
+    "order": 3,
+    "unit": "Unit 1 — First Sentences",
+    "examples": [
+      {
+        "ja": "学生ですか。",
+        "en": "Are you a student?",
+        "reading": "がくせい です か。",
+        "structure": "学生です (is student) + か (question)",
+        "tokens": [
+          {
+            "text": "学生",
+            "lexemeId": "lex-n5-学生"
+          },
+          {
+            "text": "です",
+            "lexemeId": "lex-f-です"
+          },
+          {
+            "text": "か",
+            "lexemeId": "lex-f-か",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-004",
+    "title": "〜の (possessive)",
+    "meaning_short": "'s / of",
+    "simple_explanation": "の connects nouns: AのB = B of A, or A's B.",
+    "explanation": "Possessive/connecting particle between nouns.",
+    "prerequisites": [
+      "は"
+    ],
+    "formation": [
+      "Noun + の + Noun"
+    ],
+    "order": 4,
+    "unit": "Unit 1 — First Sentences",
+    "examples": [
+      {
+        "ja": "私の本です。",
+        "en": "It's my book.",
+        "reading": "わたし の ほん です。",
+        "structure": "私の (my) + 本 (book) + です",
+        "tokens": [
+          {
+            "text": "私",
+            "lexemeId": "lex-n5-私"
+          },
+          {
+            "text": "の",
+            "lexemeId": "lex-f-の",
+            "role": "target grammar"
+          },
+          {
+            "text": "本",
+            "lexemeId": "lex-n5-本"
+          },
+          {
+            "text": "です",
+            "lexemeId": "lex-f-です"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-005",
+    "title": "〜が (subject marker)",
+    "meaning_short": "Marks the subject",
+    "simple_explanation": "が marks WHO/WHAT does the action. Often new information.",
+    "explanation": "Subject marker, often introduces new or specific information.",
+    "prerequisites": [
+      "は"
+    ],
+    "formation": [
+      "Noun + が"
+    ],
+    "order": 5,
+    "unit": "Unit 2 — Basic Particles",
+    "examples": [
+      {
+        "ja": "猫がいます。",
+        "en": "There is a cat.",
+        "reading": "ねこ が います。",
+        "structure": "猫が (subject) + います (exists)",
+        "tokens": [
+          {
+            "text": "猫",
+            "lexemeId": "lex-n5-猫",
+            "role": "subject"
+          },
+          {
+            "text": "が",
+            "lexemeId": "lex-f-が",
+            "role": "target grammar"
+          },
+          {
+            "text": "います",
+            "reading": "います",
+            "meaning": "exists (animate)",
+            "partOfSpeech": "verb"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-006",
+    "title": "〜を (object marker)",
+    "meaning_short": "Marks the direct object",
+    "simple_explanation": "を marks WHAT is acted on.",
+    "explanation": "Direct object marker.",
+    "prerequisites": [
+      "は",
+      "が"
+    ],
+    "formation": [
+      "Noun + を + Verb"
+    ],
+    "order": 6,
+    "unit": "Unit 2 — Basic Particles",
+    "examples": [
+      {
+        "ja": "水を飲みます。",
+        "en": "I drink water.",
+        "reading": "みず を のみます。",
+        "structure": "水を (object) + 飲みます (drink)",
+        "tokens": [
+          {
+            "text": "水",
+            "lexemeId": "lex-n5-水",
+            "role": "object"
+          },
+          {
+            "text": "を",
+            "lexemeId": "lex-f-を",
+            "role": "target grammar"
+          },
+          {
+            "text": "飲みます",
+            "lexemeId": "lex-n5-飲みます"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-007",
+    "title": "〜に (location/time/direction)",
+    "meaning_short": "At / to / in / on",
+    "simple_explanation": "に marks WHERE, WHEN, or direction.",
+    "explanation": "Location of existence, time, destination.",
+    "prerequisites": [
+      "は",
+      "が"
+    ],
+    "formation": [
+      "Time + に",
+      "Place + に + いる/ある",
+      "Place + に + 行く"
+    ],
+    "order": 7,
+    "unit": "Unit 2 — Basic Particles",
+    "examples": [
+      {
+        "ja": "7時に起きます。",
+        "en": "I wake up at 7.",
+        "reading": "しちじ に おきます。",
+        "tokens": [
+          {
+            "text": "7時",
+            "reading": "しちじ",
+            "meaning": "7 o'clock",
+            "partOfSpeech": "time"
+          },
+          {
+            "text": "に",
+            "lexemeId": "lex-f-に",
+            "role": "target grammar"
+          },
+          {
+            "text": "起きます",
+            "lexemeId": "lex-n5-起きます"
+          }
+        ]
+      },
+      {
+        "ja": "学校に行きます。",
+        "en": "I go to school.",
+        "reading": "がっこう に いきます。",
+        "tokens": [
+          {
+            "text": "学校",
+            "lexemeId": "lex-n5-学校"
+          },
+          {
+            "text": "に",
+            "lexemeId": "lex-f-に",
+            "role": "target grammar"
+          },
+          {
+            "text": "行きます",
+            "lexemeId": "lex-n5-行きます"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-008",
+    "title": "〜で (action location/means)",
+    "meaning_short": "At (action) / by means of",
+    "simple_explanation": "で marks WHERE an action happens or HOW you do it.",
+    "explanation": "Action location or means/tool.",
+    "prerequisites": [
+      "は",
+      "に"
+    ],
+    "beginner_warning": "に = EXISTS. で = HAPPENS.",
+    "formation": [
+      "Place + で + Verb",
+      "Tool + で + Verb"
+    ],
+    "order": 8,
+    "unit": "Unit 2 — Basic Particles",
+    "examples": [
+      {
+        "ja": "図書館で勉強します。",
+        "en": "I study at the library.",
+        "reading": "としょかん で べんきょう します。",
+        "tokens": [
+          {
+            "text": "図書館",
+            "lexemeId": "lex-n5-図書館",
+            "role": "action location"
+          },
+          {
+            "text": "で",
+            "lexemeId": "lex-f-で",
+            "role": "target grammar"
+          },
+          {
+            "text": "勉強します",
+            "lexemeId": "lex-n5-勉強します"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-009",
+    "title": "〜も (also)",
+    "meaning_short": "Also / too",
+    "simple_explanation": "も replaces は/が to mean 'also'.",
+    "explanation": "Inclusive particle.",
+    "prerequisites": [
+      "は",
+      "が"
+    ],
+    "formation": [
+      "Noun + も"
+    ],
+    "order": 9,
+    "unit": "Unit 2 — Basic Particles",
+    "examples": [
+      {
+        "ja": "私も学生です。",
+        "en": "I am also a student.",
+        "reading": "わたし も がくせい です。",
+        "tokens": [
+          {
+            "text": "私",
+            "lexemeId": "lex-n5-私"
+          },
+          {
+            "text": "も",
+            "lexemeId": "lex-f-も",
+            "role": "target grammar"
+          },
+          {
+            "text": "学生",
+            "lexemeId": "lex-n5-学生"
+          },
+          {
+            "text": "です",
+            "lexemeId": "lex-f-です"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-010",
+    "title": "〜と (and/with)",
+    "meaning_short": "And / with",
+    "simple_explanation": "と connects nouns ('A and B') or means 'with someone'.",
+    "explanation": "Conjunction and companionship particle.",
+    "prerequisites": [
+      "は"
+    ],
+    "formation": [
+      "Noun + と + Noun",
+      "Person + と + Verb"
+    ],
+    "order": 10,
+    "unit": "Unit 2 — Basic Particles",
+    "examples": [
+      {
+        "ja": "犬と猫がいます。",
+        "en": "There are dogs and cats.",
+        "reading": "いぬ と ねこ が います。",
+        "tokens": [
+          {
+            "text": "犬",
+            "lexemeId": "lex-n5-犬"
+          },
+          {
+            "text": "と",
+            "lexemeId": "lex-f-と",
+            "role": "target grammar"
+          },
+          {
+            "text": "猫",
+            "lexemeId": "lex-n5-猫"
+          },
+          {
+            "text": "が",
+            "lexemeId": "lex-f-が"
+          },
+          {
+            "text": "います",
+            "reading": "います",
+            "meaning": "exist",
+            "partOfSpeech": "verb"
+          }
+        ]
+      },
+      {
+        "ja": "友達と遊びます。",
+        "en": "I hang out with friends.",
+        "reading": "ともだち と あそびます。",
+        "tokens": [
+          {
+            "text": "友達",
+            "lexemeId": "lex-n5-友達"
+          },
+          {
+            "text": "と",
+            "lexemeId": "lex-f-と",
+            "role": "target grammar — with"
+          },
+          {
+            "text": "遊びます",
+            "reading": "あそびます",
+            "meaning": "play/hang out",
+            "partOfSpeech": "verb"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "particle"
+    ]
+  },
+  {
+    "id": "g-n5-011",
+    "title": "〜ます (polite verb)",
+    "meaning_short": "Polite verb ending",
+    "simple_explanation": "ます makes verbs polite. Use with anyone you're not close with.",
+    "explanation": "Polite verb conjugation.",
+    "prerequisites": [
+      "です"
+    ],
+    "formation": [
+      "Verb stem + ます"
+    ],
+    "order": 11,
+    "unit": "Unit 3 — Polite Verbs",
+    "examples": [
+      {
+        "ja": "毎日勉強します。",
+        "en": "I study every day.",
+        "reading": "まいにち べんきょう します。",
+        "tokens": [
+          {
+            "text": "毎日",
+            "lexemeId": "lex-n5-毎日"
+          },
+          {
+            "text": "勉強します",
+            "lexemeId": "lex-n5-勉強します",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "politeness"
+    ]
+  },
+  {
+    "id": "g-n5-012",
+    "title": "〜ません (polite negative)",
+    "meaning_short": "Don't / doesn't (polite)",
+    "simple_explanation": "ません is the polite negative of verbs.",
+    "explanation": "Polite negative conjugation.",
+    "prerequisites": [
+      "ます"
+    ],
+    "formation": [
+      "Verb stem + ません"
+    ],
+    "order": 12,
+    "unit": "Unit 3 — Polite Verbs",
+    "examples": [
+      {
+        "ja": "お酒を飲みません。",
+        "en": "I don't drink alcohol.",
+        "reading": "おさけ を のみません。",
+        "tokens": [
+          {
+            "text": "お酒",
+            "reading": "おさけ",
+            "meaning": "alcohol",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "を",
+            "lexemeId": "lex-f-を"
+          },
+          {
+            "text": "飲みません",
+            "reading": "のみません",
+            "meaning": "don't drink (polite)",
+            "partOfSpeech": "verb negative",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "negative"
+    ]
+  },
+  {
+    "id": "g-n5-013",
+    "title": "〜ました (polite past)",
+    "meaning_short": "Did (polite past)",
+    "simple_explanation": "ました is the polite past tense.",
+    "explanation": "Polite past conjugation.",
+    "prerequisites": [
+      "ます"
+    ],
+    "formation": [
+      "Verb stem + ました"
+    ],
+    "order": 13,
+    "unit": "Unit 3 — Polite Verbs",
+    "examples": [
+      {
+        "ja": "昨日、映画を見ました。",
+        "en": "I watched a movie yesterday.",
+        "reading": "きのう、えいが を みました。",
+        "tokens": [
+          {
+            "text": "昨日",
+            "reading": "きのう",
+            "meaning": "yesterday",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "映画",
+            "reading": "えいが",
+            "meaning": "movie",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "を",
+            "lexemeId": "lex-f-を"
+          },
+          {
+            "text": "見ました",
+            "reading": "みました",
+            "meaning": "watched (polite past)",
+            "partOfSpeech": "verb past",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "past"
+    ]
+  },
+  {
+    "id": "g-n5-014",
+    "title": "あります / います",
+    "meaning_short": "There is / exists",
+    "simple_explanation": "あります for objects. います for living things.",
+    "explanation": "Existence verbs. あります = inanimate. います = animate.",
+    "prerequisites": [
+      "が",
+      "に"
+    ],
+    "beginner_warning": "猫がいます (living) ✓ / 猫があります ✗",
+    "formation": [
+      "Noun + が + あります (objects)",
+      "Noun + が + います (living)"
+    ],
+    "order": 14,
+    "unit": "Unit 4 — Existence",
+    "examples": [
+      {
+        "ja": "机の上に本があります。",
+        "en": "There is a book on the desk.",
+        "reading": "つくえ の うえ に ほん が あります。",
+        "tokens": [
+          {
+            "text": "机",
+            "reading": "つくえ",
+            "meaning": "desk",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "の上に",
+            "reading": "のうえに",
+            "meaning": "on top of",
+            "partOfSpeech": "location"
+          },
+          {
+            "text": "本",
+            "lexemeId": "lex-n5-本"
+          },
+          {
+            "text": "が",
+            "lexemeId": "lex-f-が"
+          },
+          {
+            "text": "あります",
+            "reading": "あります",
+            "meaning": "exists (inanimate)",
+            "partOfSpeech": "verb",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "existence"
+    ]
+  },
+  {
+    "id": "g-n5-015",
+    "title": "〜ない (negative)",
+    "meaning_short": "Not / don't",
+    "simple_explanation": "ない is the plain negative. 食べない = don't eat.",
+    "explanation": "Plain negative form.",
+    "prerequisites": [
+      "ます"
+    ],
+    "formation": [
+      "Ichidan: stem + ない",
+      "Godan: あ-row + ない",
+      "する → しない",
+      "来る → 来ない"
+    ],
+    "order": 15,
+    "unit": "Unit 5 — Plain Form Basics",
+    "examples": [
+      {
+        "ja": "今日は食べない。",
+        "en": "I won't eat today.",
+        "reading": "きょう は たべない。",
+        "tokens": [
+          {
+            "text": "今日",
+            "lexemeId": "lex-n5-今日"
+          },
+          {
+            "text": "は",
+            "lexemeId": "lex-f-は"
+          },
+          {
+            "text": "食べない",
+            "reading": "たべない",
+            "meaning": "won't eat",
+            "partOfSpeech": "negative",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "g-n5-016",
+    "title": "〜たい (want to)",
+    "meaning_short": "Want to do~",
+    "simple_explanation": "たい = 'want to'. Verb stem + たい.",
+    "explanation": "Expresses speaker's desire. Conjugates like い-adjective.",
+    "prerequisites": [
+      "ます"
+    ],
+    "beginner_warning": "Only for your own desires. Others → たがっている.",
+    "formation": [
+      "Verb stem + たい"
+    ],
+    "order": 16,
+    "unit": "Unit 5 — Plain Form Basics",
+    "examples": [
+      {
+        "ja": "日本に行きたいです。",
+        "en": "I want to go to Japan.",
+        "reading": "にほん に いきたい です。",
+        "tokens": [
+          {
+            "text": "日本",
+            "lexemeId": "lex-n5-日本"
+          },
+          {
+            "text": "に",
+            "lexemeId": "lex-f-に"
+          },
+          {
+            "text": "行きたい",
+            "reading": "いきたい",
+            "meaning": "want to go",
+            "partOfSpeech": "verb + たい",
+            "role": "target grammar"
+          },
+          {
+            "text": "です",
+            "lexemeId": "lex-f-です"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "desire"
+    ]
+  },
+  {
+    "id": "g-n5-017",
+    "title": "〜ください",
+    "meaning_short": "Please do~",
+    "simple_explanation": "て-form + ください = 'please do X'.",
+    "explanation": "Polite request form.",
+    "prerequisites": [
+      "て-form basics"
+    ],
+    "formation": [
+      "Verb て-form + ください"
+    ],
+    "order": 17,
+    "unit": "Unit 6 — Requests",
+    "examples": [
+      {
+        "ja": "ここに名前を書いてください。",
+        "en": "Please write your name here.",
+        "reading": "ここ に なまえ を かいて ください。",
+        "tokens": [
+          {
+            "text": "ここに",
+            "reading": "ここに",
+            "meaning": "here",
+            "partOfSpeech": "location"
+          },
+          {
+            "text": "名前",
+            "reading": "なまえ",
+            "meaning": "name",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "を",
+            "lexemeId": "lex-f-を"
+          },
+          {
+            "text": "書いてください",
+            "reading": "かいてください",
+            "meaning": "please write",
+            "partOfSpeech": "request",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "request"
+    ]
+  },
+  {
+    "id": "g-n5-018",
+    "title": "〜から (because/from)",
+    "meaning_short": "Because / from",
+    "simple_explanation": "から after a clause = 'because'. After a noun = 'from'.",
+    "explanation": "Reason or starting point.",
+    "prerequisites": [
+      "は",
+      "です"
+    ],
+    "formation": [
+      "Clause + から (because)",
+      "Place/Time + から (from)"
+    ],
+    "order": 18,
+    "unit": "Unit 7 — Connecting Ideas",
+    "examples": [
+      {
+        "ja": "暑いから、窓を開けてください。",
+        "en": "Because it's hot, please open the window.",
+        "reading": "あつい から、まど を あけて ください。",
+        "tokens": [
+          {
+            "text": "暑い",
+            "reading": "あつい",
+            "meaning": "hot",
+            "partOfSpeech": "い-adjective"
+          },
+          {
+            "text": "から",
+            "lexemeId": "lex-f-から",
+            "role": "target grammar — reason"
+          },
+          {
+            "text": "窓",
+            "reading": "まど",
+            "meaning": "window",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "を",
+            "lexemeId": "lex-f-を"
+          },
+          {
+            "text": "開けてください",
+            "reading": "あけてください",
+            "meaning": "please open",
+            "partOfSpeech": "request"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "reason"
+    ]
+  },
+  {
+    "id": "g-n5-019",
+    "title": "〜けど / 〜が (but)",
+    "meaning_short": "But / although",
+    "simple_explanation": "けど (casual) and が (polite) mean 'but'.",
+    "explanation": "Contrast conjunction.",
+    "prerequisites": [
+      "から"
+    ],
+    "formation": [
+      "Clause + けど + Clause",
+      "Clause + が + Clause"
+    ],
+    "order": 19,
+    "unit": "Unit 7 — Connecting Ideas",
+    "examples": [
+      {
+        "ja": "日本語は難しいけど、楽しいです。",
+        "en": "Japanese is hard, but fun.",
+        "reading": "にほんご は むずかしい けど、たのしい です。"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "contrast"
+    ]
+  },
+  {
+    "id": "g-n5-020",
+    "title": "〜ましょう",
+    "meaning_short": "Let's~ / Shall we~",
+    "simple_explanation": "ましょう = 'let's do' or 'shall we?'",
+    "explanation": "Volitional polite form for suggestions.",
+    "prerequisites": [
+      "ます"
+    ],
+    "formation": [
+      "Verb stem + ましょう"
+    ],
+    "order": 20,
+    "unit": "Unit 8 — Suggestions",
+    "examples": [
+      {
+        "ja": "一緒に食べましょう。",
+        "en": "Let's eat together.",
+        "reading": "いっしょ に たべましょう。",
+        "tokens": [
+          {
+            "text": "一緒に",
+            "reading": "いっしょに",
+            "meaning": "together",
+            "partOfSpeech": "adverb"
+          },
+          {
+            "text": "食べましょう",
+            "reading": "たべましょう",
+            "meaning": "let's eat",
+            "partOfSpeech": "volitional",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "suggestion"
+    ]
+  },
+  {
+    "id": "g-n5-021",
+    "title": "〜ませんか",
+    "meaning_short": "Won't you~ / Would you like to~",
+    "simple_explanation": "ませんか invites someone politely. 'Would you like to...?'",
+    "explanation": "Polite invitation using negative question.",
+    "prerequisites": [
+      "ます"
+    ],
+    "formation": [
+      "Verb stem + ませんか"
+    ],
+    "order": 21,
+    "unit": "Unit 8 — Suggestions",
+    "examples": [
+      {
+        "ja": "映画を見ませんか。",
+        "en": "Would you like to watch a movie?",
+        "reading": "えいが を みませんか。"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "invitation"
+    ]
+  },
+  {
+    "id": "g-n5-022",
+    "title": "〜より〜のほうが",
+    "meaning_short": "~ is more than ~",
+    "simple_explanation": "AよりBのほうが = B is more than A.",
+    "explanation": "Comparison pattern.",
+    "prerequisites": [
+      "は",
+      "が"
+    ],
+    "formation": [
+      "A より B のほうが + Adjective"
+    ],
+    "order": 22,
+    "unit": "Unit 9 — Comparison",
+    "examples": [
+      {
+        "ja": "夏より冬のほうが好きです。",
+        "en": "I like winter more than summer.",
+        "reading": "なつ より ふゆ の ほう が すき です。"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "comparison"
+    ]
+  },
+  {
+    "id": "g-n5-023",
+    "title": "〜一番",
+    "meaning_short": "The most / number one",
+    "simple_explanation": "一番 + adjective = 'the most'. 一番好き = like the most.",
+    "explanation": "Superlative expression.",
+    "prerequisites": [
+      "より"
+    ],
+    "formation": [
+      "一番 + Adjective"
+    ],
+    "order": 23,
+    "unit": "Unit 9 — Comparison",
+    "examples": [
+      {
+        "ja": "日本語が一番面白いです。",
+        "en": "Japanese is the most interesting.",
+        "reading": "にほんご が いちばん おもしろい です。"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "comparison"
+    ]
+  },
+  {
+    "id": "g-n5-024",
+    "title": "〜つもり",
+    "meaning_short": "Plan to / intend to",
+    "simple_explanation": "つもり = 'I plan to' or 'I intend to'.",
+    "explanation": "Expresses intention or plan.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + つもりです",
+      "Verb ない + つもりです"
+    ],
+    "order": 24,
+    "unit": "Unit 10 — Plans & Opinions",
+    "examples": [
+      {
+        "ja": "来年日本に行くつもりです。",
+        "en": "I plan to go to Japan next year.",
+        "reading": "らいねん にほん に いく つもり です。"
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "intention"
+    ]
+  },
+  {
+    "id": "g-n5-025",
+    "title": "〜と思います",
+    "meaning_short": "I think that~",
+    "simple_explanation": "と思います = 'I think (that)...'",
+    "explanation": "Express opinion or thought.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain form + と思います"
+    ],
+    "order": 25,
+    "unit": "Unit 10 — Plans & Opinions",
+    "examples": [
+      {
+        "ja": "明日は暑いと思います。",
+        "en": "I think it will be hot tomorrow.",
+        "reading": "あした は あつい と おもいます。",
+        "tokens": [
+          {
+            "text": "明日は",
+            "reading": "あしたは",
+            "meaning": "tomorrow (topic)",
+            "partOfSpeech": "noun + particle"
+          },
+          {
+            "text": "暑い",
+            "reading": "あつい",
+            "meaning": "hot",
+            "partOfSpeech": "い-adjective"
+          },
+          {
+            "text": "と思います",
+            "reading": "とおもいます",
+            "meaning": "I think",
+            "partOfSpeech": "quotation + verb",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "opinion"
+    ]
+  },
+  {
+    "id": "g-n5-026",
+    "title": "〜でした (past copula)",
+    "meaning_short": "Was (polite past)",
+    "simple_explanation": "でした = polite past of です. 'It was...'",
+    "explanation": "Polite past-tense copula.",
+    "prerequisites": [
+      "です"
+    ],
+    "formation": [
+      "Noun + でした",
+      "な-adj + でした"
+    ],
+    "order": 26,
+    "unit": "Unit 11 — Adjective Basics",
+    "examples": [
+      {
+        "ja": "昨日は休みでした。",
+        "en": "Yesterday was a day off.",
+        "reading": "きのう は やすみ でした。",
+        "structure": "昨日は (yesterday) + 休みでした (was holiday)",
+        "tokens": [
+          {
+            "text": "昨日は",
+            "reading": "きのうは",
+            "meaning": "yesterday",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "休み",
+            "reading": "やすみ",
+            "meaning": "holiday",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "でした",
+            "reading": "でした",
+            "meaning": "was (polite)",
+            "partOfSpeech": "copula past",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "g-n5-027",
+    "title": "い-adjective past/negative",
+    "meaning_short": "Was~/wasn't~ (い-adj)",
+    "simple_explanation": "高い → 高かった (was), 高くない (isn't), 高くなかった (wasn't).",
+    "explanation": "い-adjective conjugation patterns.",
+    "prerequisites": [
+      "です"
+    ],
+    "formation": [
+      "い → かった (past)",
+      "い → くない (negative)",
+      "い → くなかった (past neg)"
+    ],
+    "order": 27,
+    "unit": "Unit 11 — Adjective Basics",
+    "examples": [
+      {
+        "ja": "映画は面白かったです。",
+        "en": "The movie was interesting.",
+        "reading": "えいが は おもしろかった です。",
+        "structure": "面白かった (was interesting) + です",
+        "tokens": [
+          {
+            "text": "映画は",
+            "reading": "えいがは",
+            "meaning": "movie",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "面白かったです",
+            "reading": "おもしろかったです",
+            "meaning": "was interesting",
+            "partOfSpeech": "い-adj past",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "g-n5-028",
+    "title": "な-adjective past/negative",
+    "meaning_short": "Was~/wasn't~ (な-adj)",
+    "simple_explanation": "静か → 静かでした (was), 静かじゃない (isn't), 静かじゃなかった (wasn't).",
+    "explanation": "な-adjective conjugation patterns.",
+    "prerequisites": [
+      "です",
+      "でした"
+    ],
+    "formation": [
+      "な-adj + でした (past)",
+      "な-adj + じゃないです (neg)",
+      "な-adj + じゃなかったです (past neg)"
+    ],
+    "order": 28,
+    "unit": "Unit 11 — Adjective Basics",
+    "examples": [
+      {
+        "ja": "この町は静かじゃないです。",
+        "en": "This town isn't quiet.",
+        "reading": "この まち は しずか じゃない です。",
+        "structure": "静かじゃない (not quiet) + です",
+        "tokens": [
+          {
+            "text": "この町は",
+            "reading": "このまちは",
+            "meaning": "this town",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "静かじゃないです",
+            "reading": "しずかじゃないです",
+            "meaning": "isn't quiet",
+            "partOfSpeech": "な-adj negative",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "g-n5-029",
+    "title": "この/その/あの/どの",
+    "meaning_short": "This~/that~/which~",
+    "simple_explanation": "この + noun = 'this X'. その = 'that X'. あの = 'that X over there'. どの = 'which X?'",
+    "explanation": "Demonstrative adjectives.",
+    "prerequisites": [
+      "は",
+      "です"
+    ],
+    "formation": [
+      "この + Noun",
+      "その + Noun",
+      "あの + Noun",
+      "どの + Noun + ですか"
+    ],
+    "order": 29,
+    "unit": "Unit 12 — Pointing & Asking",
+    "examples": [
+      {
+        "ja": "この本は誰のですか。",
+        "en": "Whose book is this?",
+        "reading": "この ほん は だれ の です か。",
+        "structure": "この本 (this book) + 誰のですか (whose is it?)",
+        "tokens": [
+          {
+            "text": "この本は",
+            "reading": "このほんは",
+            "meaning": "this book",
+            "partOfSpeech": "demonstrative+noun",
+            "role": "target grammar"
+          },
+          {
+            "text": "誰の",
+            "reading": "だれの",
+            "meaning": "whose",
+            "partOfSpeech": "question"
+          },
+          {
+            "text": "ですか",
+            "reading": "ですか",
+            "meaning": "is it?",
+            "partOfSpeech": "copula+question"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "demonstrative"
+    ]
+  },
+  {
+    "id": "g-n5-030",
+    "title": "ここ/そこ/あそこ/どこ",
+    "meaning_short": "Here/there/over there/where",
+    "simple_explanation": "ここ = here. そこ = there (near you). あそこ = over there. どこ = where?",
+    "explanation": "Demonstrative location words.",
+    "prerequisites": [
+      "は",
+      "です"
+    ],
+    "formation": [
+      "ここ/そこ/あそこ/どこ + は/に/で"
+    ],
+    "order": 30,
+    "unit": "Unit 12 — Pointing & Asking",
+    "examples": [
+      {
+        "ja": "トイレはどこですか。",
+        "en": "Where is the toilet?",
+        "reading": "トイレ は どこ です か。",
+        "structure": "トイレは (toilet) + どこですか (where?)",
+        "tokens": [
+          {
+            "text": "トイレは",
+            "reading": "トイレは",
+            "meaning": "toilet (topic)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "どこですか",
+            "reading": "どこですか",
+            "meaning": "where is it?",
+            "partOfSpeech": "question",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "demonstrative"
+    ]
+  },
+  {
+    "id": "g-n5-031",
+    "title": "〜がほしいです",
+    "meaning_short": "Want (noun)",
+    "simple_explanation": "Noun + がほしい = 'I want X'. Only for your own desires.",
+    "explanation": "Express desire for a thing.",
+    "prerequisites": [
+      "が"
+    ],
+    "formation": [
+      "Noun + がほしいです"
+    ],
+    "order": 31,
+    "unit": "Unit 13 — Desires & Ability",
+    "examples": [
+      {
+        "ja": "新しいパソコンがほしいです。",
+        "en": "I want a new computer.",
+        "reading": "あたらしい パソコン が ほしい です。",
+        "structure": "パソコンが (computer) + ほしいです (want)",
+        "tokens": [
+          {
+            "text": "新しいパソコンが",
+            "reading": "あたらしいパソコンが",
+            "meaning": "new computer (subj)",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "ほしいです",
+            "reading": "ほしいです",
+            "meaning": "want",
+            "partOfSpeech": "い-adjective",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "desire"
+    ]
+  },
+  {
+    "id": "g-n5-032",
+    "title": "〜方 (how to)",
+    "meaning_short": "How to do~",
+    "simple_explanation": "Verb stem + 方 = 'how to do X'. 食べ方 = how to eat.",
+    "explanation": "Method/way of doing.",
+    "prerequisites": [
+      "ます form"
+    ],
+    "formation": [
+      "Verb stem + 方"
+    ],
+    "order": 32,
+    "unit": "Unit 13 — Desires & Ability",
+    "examples": [
+      {
+        "ja": "この漢字の読み方を教えてください。",
+        "en": "Please teach me how to read this kanji.",
+        "reading": "この かんじ の よみかた を おしえて ください。",
+        "structure": "読み方 (how to read) + 教えてください (please teach)",
+        "tokens": [
+          {
+            "text": "この漢字の",
+            "reading": "このかんじの",
+            "meaning": "this kanji's",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "読み方を",
+            "reading": "よみかたを",
+            "meaning": "how to read (obj)",
+            "partOfSpeech": "方 pattern",
+            "role": "target grammar"
+          },
+          {
+            "text": "教えてください",
+            "reading": "おしえてください",
+            "meaning": "please teach",
+            "partOfSpeech": "request"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "method"
+    ]
+  },
+  {
+    "id": "g-n5-033",
+    "title": "〜時 (when)",
+    "meaning_short": "When~ / at the time of~",
+    "simple_explanation": "Clause + 時 = 'when X happens'. 子供の時 = 'when I was a child'.",
+    "explanation": "Temporal clause.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Verb dict/past + 時",
+      "Noun + の時",
+      "い-adj + 時",
+      "な-adj + な時"
+    ],
+    "order": 33,
+    "unit": "Unit 14 — Time Expressions",
+    "examples": [
+      {
+        "ja": "日本に行った時、富士山を見ました。",
+        "en": "When I went to Japan, I saw Mt. Fuji.",
+        "reading": "にほん に いった とき、ふじさん を みました。",
+        "structure": "行った時 (when I went) + 富士山を見ました (saw Fuji)",
+        "tokens": [
+          {
+            "text": "日本に行った",
+            "reading": "にほんにいった",
+            "meaning": "went to Japan",
+            "partOfSpeech": "verb past"
+          },
+          {
+            "text": "時",
+            "reading": "とき",
+            "meaning": "when",
+            "partOfSpeech": "temporal",
+            "role": "target grammar"
+          },
+          {
+            "text": "富士山を見ました",
+            "reading": "ふじさんをみました",
+            "meaning": "saw Mt. Fuji",
+            "partOfSpeech": "verb past"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n5-034",
+    "title": "〜前に (before)",
+    "meaning_short": "Before~",
+    "simple_explanation": "Before X, do Y. 食べる前に = before eating.",
+    "explanation": "Temporal 'before'.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + 前に",
+      "Noun + の前に"
+    ],
+    "order": 34,
+    "unit": "Unit 14 — Time Expressions",
+    "examples": [
+      {
+        "ja": "寝る前に歯を磨きます。",
+        "en": "I brush my teeth before sleeping.",
+        "reading": "ねる まえに は を みがきます。",
+        "structure": "寝る前に (before sleeping) + 歯を磨きます (brush teeth)",
+        "tokens": [
+          {
+            "text": "寝る前に",
+            "reading": "ねるまえに",
+            "meaning": "before sleeping",
+            "partOfSpeech": "temporal",
+            "role": "target grammar"
+          },
+          {
+            "text": "歯を磨きます",
+            "reading": "はをみがきます",
+            "meaning": "brush teeth",
+            "partOfSpeech": "verb"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n5-035",
+    "title": "〜後で (after)",
+    "meaning_short": "After~",
+    "simple_explanation": "After X, do Y. 食べた後で = after eating.",
+    "explanation": "Temporal 'after'.",
+    "prerequisites": [
+      "past form"
+    ],
+    "formation": [
+      "Verb た + 後で",
+      "Noun + の後で"
+    ],
+    "order": 35,
+    "unit": "Unit 14 — Time Expressions",
+    "examples": [
+      {
+        "ja": "食べた後で散歩します。",
+        "en": "I take a walk after eating.",
+        "reading": "たべた あとで さんぽ します。",
+        "structure": "食べた後で (after eating) + 散歩します (take a walk)",
+        "tokens": [
+          {
+            "text": "食べた後で",
+            "reading": "たべたあとで",
+            "meaning": "after eating",
+            "partOfSpeech": "temporal",
+            "role": "target grammar"
+          },
+          {
+            "text": "散歩します",
+            "reading": "さんぽします",
+            "meaning": "take a walk",
+            "partOfSpeech": "suru-verb"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n5-036",
+    "title": "〜ことができます",
+    "meaning_short": "Can / able to",
+    "simple_explanation": "Verb dictionary form + ことができます = 'can do X'.",
+    "explanation": "Ability expression.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + ことができます"
+    ],
+    "order": 36,
+    "unit": "Unit 13 — Desires & Ability",
+    "examples": [
+      {
+        "ja": "日本語を話すことができます。",
+        "en": "I can speak Japanese.",
+        "reading": "にほんご を はなす こと が できます。",
+        "structure": "話す (speak) + ことができます (can)",
+        "tokens": [
+          {
+            "text": "日本語を",
+            "reading": "にほんごを",
+            "meaning": "Japanese (obj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "話すことができます",
+            "reading": "はなすことができます",
+            "meaning": "can speak",
+            "partOfSpeech": "ability",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "ability"
+    ]
+  },
+  {
+    "id": "g-n5-037",
+    "title": "〜たことがあります",
+    "meaning_short": "Have experienced~",
+    "simple_explanation": "Past experience. 'I have done X before.'",
+    "explanation": "Experience expression.",
+    "prerequisites": [
+      "past form"
+    ],
+    "formation": [
+      "Verb た + ことがあります"
+    ],
+    "order": 37,
+    "unit": "Unit 13 — Desires & Ability",
+    "examples": [
+      {
+        "ja": "日本に行ったことがあります。",
+        "en": "I have been to Japan.",
+        "reading": "にほん に いった こと が あります。",
+        "structure": "行った (went) + ことがあります (have the experience)",
+        "tokens": [
+          {
+            "text": "日本に",
+            "reading": "にほんに",
+            "meaning": "to Japan",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "行ったことがあります",
+            "reading": "いったことがあります",
+            "meaning": "have been",
+            "partOfSpeech": "experience",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "experience"
+    ]
+  },
+  {
+    "id": "g-n5-038",
+    "title": "〜だけ",
+    "meaning_short": "Only / just",
+    "simple_explanation": "Limits to X only. 一つだけ = just one.",
+    "explanation": "Restrictive particle.",
+    "prerequisites": [
+      "は",
+      "が"
+    ],
+    "formation": [
+      "Noun + だけ",
+      "Verb dict + だけ"
+    ],
+    "order": 38,
+    "unit": "Unit 15 — Review Patterns",
+    "examples": [
+      {
+        "ja": "水だけ飲みます。",
+        "en": "I only drink water.",
+        "reading": "みず だけ のみます。",
+        "structure": "水だけ (only water) + 飲みます (drink)",
+        "tokens": [
+          {
+            "text": "水",
+            "lexemeId": "lex-n5-水"
+          },
+          {
+            "text": "だけ",
+            "reading": "だけ",
+            "meaning": "only",
+            "partOfSpeech": "particle",
+            "role": "target grammar"
+          },
+          {
+            "text": "飲みます",
+            "lexemeId": "lex-n5-飲みます"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "limit"
+    ]
+  },
+  {
+    "id": "g-n5-039",
+    "title": "もう / まだ",
+    "meaning_short": "Already / not yet",
+    "simple_explanation": "もう = already/anymore. まだ = still/not yet.",
+    "explanation": "Temporal adverbs.",
+    "prerequisites": [
+      "ました",
+      "ません"
+    ],
+    "formation": [
+      "もう + past affirmative",
+      "まだ + present/negative"
+    ],
+    "order": 39,
+    "unit": "Unit 15 — Review Patterns",
+    "examples": [
+      {
+        "ja": "もう食べましたか。",
+        "en": "Have you eaten already?",
+        "reading": "もう たべました か。",
+        "structure": "もう (already) + 食べましたか (did you eat?)",
+        "tokens": [
+          {
+            "text": "もう",
+            "reading": "もう",
+            "meaning": "already",
+            "partOfSpeech": "adverb",
+            "role": "target grammar"
+          },
+          {
+            "text": "食べましたか",
+            "reading": "たべましたか",
+            "meaning": "did you eat?",
+            "partOfSpeech": "verb past question"
+          }
+        ]
+      },
+      {
+        "ja": "まだ食べていません。",
+        "en": "I haven't eaten yet.",
+        "reading": "まだ たべていません。",
+        "structure": "まだ (not yet) + 食べていません (haven't eaten)",
+        "tokens": [
+          {
+            "text": "まだ",
+            "reading": "まだ",
+            "meaning": "not yet",
+            "partOfSpeech": "adverb",
+            "role": "target grammar"
+          },
+          {
+            "text": "食べていません",
+            "reading": "たべていません",
+            "meaning": "haven't eaten",
+            "partOfSpeech": "ている negative"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n5-040",
+    "title": "て-form basics",
+    "meaning_short": "Connecting form",
+    "simple_explanation": "Connect actions: 食べて → 'eat and...'. Base for ている/てください/てもいい.",
+    "explanation": "Conjunctive verb form.",
+    "prerequisites": [
+      "ます form"
+    ],
+    "formation": [
+      "Ichidan: drop る → て",
+      "Godan: see chart",
+      "する → して",
+      "来る → 来て"
+    ],
+    "order": 40,
+    "unit": "Unit 15 — Review Patterns",
+    "examples": [
+      {
+        "ja": "朝起きて、顔を洗って、朝ごはんを食べます。",
+        "en": "I wake up, wash my face, and eat breakfast.",
+        "reading": "あさ おきて、かお を あらって、あさごはん を たべます。",
+        "structure": "起きて (wake up) + 洗って (wash) + 食べます (eat)",
+        "tokens": [
+          {
+            "text": "朝起きて",
+            "reading": "あさおきて",
+            "meaning": "wake up in the morning and",
+            "partOfSpeech": "て-form"
+          },
+          {
+            "text": "顔を洗って",
+            "reading": "かおをあらって",
+            "meaning": "wash face and",
+            "partOfSpeech": "て-form",
+            "role": "target grammar"
+          },
+          {
+            "text": "朝ごはんを食べます",
+            "reading": "あさごはんをたべます",
+            "meaning": "eat breakfast",
+            "partOfSpeech": "verb"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N5",
+    "tags": [
+      "conjugation",
+      "essential"
+    ]
+  }
 ]

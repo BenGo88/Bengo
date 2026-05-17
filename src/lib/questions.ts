@@ -21,8 +21,10 @@ export interface Question {
   choices: string[];
   correctIndex: number;
   explanation: string;
-  questionKind: "meaning" | "reading";
-  detailPath?: string;            // link to detail page (v0.8+)
+  questionKind: "meaning" | "reading" | "cloze" | "context";
+  detailPath?: string;
+  contextSentence?: string;  // Japanese sentence for cloze/context
+  contextEnglish?: string;   // English meaning for context
 }
 
 /** Build a meaning question for any item type. */
@@ -197,4 +199,118 @@ export function buildUnitQuizQueue(
   const shuffled = candidates.sort(() => Math.random() - 0.5);
   const selected = shuffled.slice(0, size);
   return buildQuestionQueue(selected);
+}
+
+/** Generate a cloze question for a grammar item using its example sentence. */
+function clozeGrammarQuestion(id: string): Question | null {
+  const g = allGrammar.find((x) => x.id === id);
+  if (!g || !g.examples?.length) return null;
+  const ex = g.examples[0];
+  if (!ex.ja || !ex.en) return null;
+
+  // Replace the grammar pattern in the sentence with a blank
+  const title = g.title.replace(/[〜～]/g, "");
+  const blankSentence = ex.ja.includes(title) ? ex.ja.replace(title, "（　　）") : ex.ja.replace(/.$/, "（　　）。");
+
+  // Build distractors from other grammar at same level
+  const distractors = allGrammar
+    .filter((x) => x.jlpt === g.jlpt && x.id !== id)
+    .map((x) => x.title.replace(/[〜～]/g, ""))
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 3);
+
+  const choices = [...distractors];
+  const correctIndex = Math.floor(Math.random() * (choices.length + 1));
+  choices.splice(correctIndex, 0, title);
+
+  return {
+    itemType: "grammar", itemId: id,
+    prompt: blankSentence,
+    promptLabel: "Choose the correct grammar:",
+    choices: choices.slice(0, 4),
+    correctIndex: Math.min(correctIndex, 3),
+    explanation: `${g.title}: ${g.meaning_short}. ${g.simple_explanation || ""}`,
+    questionKind: "cloze",
+    detailPath: `/grammar/${id}`,
+    contextSentence: ex.ja,
+    contextEnglish: ex.en,
+  };
+}
+
+/** Generate a cloze question for vocab using its example sentence. */
+function clozeVocabQuestion(id: string): Question | null {
+  const v = allVocab.find((x) => x.id === id);
+  if (!v || !v.sentences?.length) return null;
+  const ex = v.sentences[0];
+  if (!ex.ja) return null;
+
+  const blankSentence = ex.ja.includes(v.word) ? ex.ja.replace(v.word, "（　　）") : null;
+  if (!blankSentence) return null;
+
+  const distractors = allVocab
+    .filter((x) => x.jlpt === v.jlpt && x.id !== id && x.part_of_speech === v.part_of_speech)
+    .map((x) => x.word)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 3);
+
+  if (distractors.length < 2) return null; // not enough distractors
+
+  const choices = [...distractors];
+  const correctIndex = Math.floor(Math.random() * (choices.length + 1));
+  choices.splice(correctIndex, 0, v.word);
+
+  return {
+    itemType: "vocab", itemId: id,
+    prompt: blankSentence,
+    promptLabel: "Choose the correct word:",
+    choices: choices.slice(0, 4),
+    correctIndex: Math.min(correctIndex, 3),
+    explanation: `${v.word} (${v.reading}) = ${v.meanings.join(", ")}`,
+    questionKind: "cloze",
+    detailPath: `/vocab/${id}`,
+    contextSentence: ex.ja,
+    contextEnglish: ex.en,
+  };
+}
+
+/** Generate a reading-style question: pick the best one. Picks cloze or meaning randomly. */
+export function generateReadingStyleQuestion(type: ItemType, id: string): Question | null {
+  if (type === "grammar") return clozeGrammarQuestion(id);
+  if (type === "vocab") return clozeVocabQuestion(id) ?? meaningQuestion(type, id);
+  return meaningQuestion(type, id); // kanji falls back to standard
+}
+
+/** Build quiz with mixed standard + reading-style questions. */
+export function buildMixedQuizQueue(
+  category: ItemType | "mixed",
+  level: string,
+  source: "all" | "learned" | "unlearned" | "weak",
+  size: number,
+  readingPct = 40,
+): Question[] {
+  const candidates: { type: ItemType; id: string }[] = [];
+  const addPool = (type: ItemType, pool: { id: string; jlpt: string }[]) => {
+    for (const item of pool) {
+      if (item.jlpt !== level) continue;
+      const ui = getUserItem(type, item.id);
+      if (source === "learned" && !ui) continue;
+      if (source === "unlearned" && ui) continue;
+      if (source === "weak" && (!ui || !ui.isWeak)) continue;
+      candidates.push({ type, id: item.id });
+    }
+  };
+  if (category === "kanji" || category === "mixed") addPool("kanji", allKanji);
+  if (category === "vocab" || category === "mixed") addPool("vocab", allVocab);
+  if (category === "grammar" || category === "mixed") addPool("grammar", allGrammar);
+
+  const shuffled = candidates.sort(() => Math.random() - 0.5).slice(0, size);
+  const questions: Question[] = [];
+  for (const item of shuffled) {
+    const useReading = Math.random() * 100 < readingPct;
+    const q = useReading
+      ? generateReadingStyleQuestion(item.type, item.id) ?? generateQuestion(item.type, item.id)
+      : generateQuestion(item.type, item.id);
+    if (q) questions.push(q);
+  }
+  return questions;
 }

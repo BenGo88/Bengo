@@ -6,7 +6,7 @@ import {
   getUserItem,
   recordStudySession,
 } from "../lib/storage";
-import { buildQuizQueue, buildUnitQuizQueue, type Question } from "../lib/questions";
+import { buildQuizQueue, buildUnitQuizQueue, buildMixedQuizQueue, type Question } from "../lib/questions";
 import { getContentCounts } from "../lib/content";
 import QuestionCard, { TypeBadge } from "../components/QuestionCard";
 import SessionSummary, { type ResultItem } from "../components/SessionSummary";
@@ -52,6 +52,7 @@ export default function Quiz() {
   const [source, setSource] = useState<Source>(urlUnit ? "unit" : "all");
   const [unitName, setUnitName] = useState(urlUnit || "");
   const [testMode, setTestMode] = useState(false);
+  const [questionStyle, setQuestionStyle] = useState<"standard" | "reading" | "mixed">("mixed");
 
   // Session state
   const [phase, setPhase] = useState<Phase>("setup");
@@ -68,6 +69,10 @@ export default function Quiz() {
     let q: Question[];
     if (source === "unit" && unitName) {
       q = buildUnitQuizQueue(level, unitName, size);
+    } else if (questionStyle === "reading") {
+      q = buildMixedQuizQueue(category, level, source === "unit" ? "all" : source, size, 80);
+    } else if (questionStyle === "mixed") {
+      q = buildMixedQuizQueue(category, level, source === "unit" ? "all" : source, size, 40);
     } else {
       q = buildQuizQueue(category, level, source === "unit" ? "all" : source, size);
     }
@@ -148,6 +153,22 @@ export default function Quiz() {
           {source === "unit" && !unitName && (
             <p className="text-xs text-ink-500 mt-1">Select a unit from the Curriculum page to use unit filtering.</p>
           )}
+        </OptionGroup>
+
+        {/* Question Style */}
+        <OptionGroup label="Question Style">
+          <div className="flex flex-wrap gap-1.5">
+            {(["standard", "reading", "mixed"] as const).map((s) => (
+              <Chip key={s} active={questionStyle === s} onClick={() => setQuestionStyle(s)}>
+                {s === "standard" ? "Standard" : s === "reading" ? "Reading-style" : "Mixed"}
+              </Chip>
+            ))}
+          </div>
+          <p className="text-[10px] text-ink-600 mt-1">
+            {questionStyle === "standard" ? "Meaning and reading questions." :
+             questionStyle === "reading" ? "Cloze and context questions where available." :
+             "Mix of standard and reading-style questions."}
+          </p>
         </OptionGroup>
 
         {/* Content count notice */}

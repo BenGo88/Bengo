@@ -1,22 +1,1620 @@
 [
-  {"id":"g-n4-001","title":"〜てform","meaning_short":"Connecting form","simple_explanation":"The Swiss Army knife of Japanese. Connects actions, makes requests, shows ongoing states.","explanation":"Conjunctive form for sequential actions, requests, reasons.","prerequisites":["verb groups","ます form"],"formation":["Ichidan: drop る → て","Godan: chart","する → して","来る → 来て"],"order":1,"unit":"Unit 1 — て-Form","examples":[{"ja":"手を洗って食べてください。","en":"Please wash your hands and eat.","reading":"て を あらって たべて ください。","structure":"洗って (wash, then) + 食べてください (please eat)","tokens":[{"text":"手を洗って","reading":"てをあらって","meaning":"wash hands and","partOfSpeech":"て-form"},{"text":"食べてください","reading":"たべてください","meaning":"please eat","partOfSpeech":"request","role":"target grammar"}]}],"jlpt":"N4","tags":["conjugation","essential"]},
-  {"id":"g-n4-002","title":"〜ている","meaning_short":"Ongoing/state","simple_explanation":"て + いる = happening now OR continuing state.","explanation":"Progressive or resultant state.","prerequisites":["て-form"],"formation":["Verb て + いる/います"],"order":2,"unit":"Unit 1 — て-Form","examples":[{"ja":"今、本を読んでいます。","en":"I'm reading a book now.","reading":"いま、ほん を よんでいます。","structure":"今 (now) + 読んでいます (am reading)","tokens":[{"text":"今","reading":"いま","meaning":"now","partOfSpeech":"adverb"},{"text":"本を","reading":"ほんを","meaning":"book (obj)","partOfSpeech":"noun+particle"},{"text":"読んでいます","reading":"よんでいます","meaning":"am reading","partOfSpeech":"ている form","role":"target grammar"}]}],"jlpt":"N4","tags":["state","essential"]},
-  {"id":"g-n4-003","title":"〜てもいい","meaning_short":"May I / it's OK to","simple_explanation":"Asking or giving permission.","explanation":"Permission expression.","prerequisites":["て-form"],"formation":["Verb て + もいいです(か)"],"order":3,"unit":"Unit 2 — Permission","examples":[{"ja":"写真を撮ってもいいですか。","en":"May I take a photo?","reading":"しゃしん を とっても いい です か。","structure":"写真を撮って (take photo) + もいいですか (is it OK?)","tokens":[{"text":"写真を","reading":"しゃしんを","meaning":"photo (obj)","partOfSpeech":"noun+particle"},{"text":"撮っても","reading":"とっても","meaning":"even if take","partOfSpeech":"て-form + も"},{"text":"いいですか","reading":"いいですか","meaning":"is it OK?","partOfSpeech":"question","role":"target grammar"}]}],"jlpt":"N4","tags":["permission"]},
-  {"id":"g-n4-004","title":"〜てはいけない","meaning_short":"Must not","simple_explanation":"Prohibition. You must not do X.","explanation":"Prohibition expression.","prerequisites":["て-form"],"formation":["Verb て + はいけない/はだめ"],"order":4,"unit":"Unit 2 — Permission","examples":[{"ja":"ここで走ってはいけません。","en":"You must not run here.","reading":"ここ で はしっては いけません。","structure":"ここで走って (run here) + はいけません (must not)","tokens":[{"text":"ここで","reading":"ここで","meaning":"here (location)","partOfSpeech":"place+particle"},{"text":"走っては","reading":"はしっては","meaning":"running","partOfSpeech":"て-form + は"},{"text":"いけません","reading":"いけません","meaning":"must not","partOfSpeech":"prohibition","role":"target grammar"}]}],"jlpt":"N4","tags":["prohibition"]},
-  {"id":"g-n4-005","title":"〜なければならない","meaning_short":"Must / have to","simple_explanation":"Obligation. 'I have to do X.'","explanation":"Strong obligation.","prerequisites":["ない form"],"formation":["Verb ない-stem + なければならない"],"order":5,"unit":"Unit 3 — Obligation","examples":[{"ja":"宿題をしなければなりません。","en":"I have to do homework.","reading":"しゅくだい を しなければ なりません。","structure":"宿題を (homework) + しなければなりません (must do)","tokens":[{"text":"宿題","lexemeId":"lex-n4-宿題","role":"object"},{"text":"を","lexemeId":"lex-f-を"},{"text":"しなければなりません","reading":"しなければなりません","meaning":"must do","partOfSpeech":"obligation","role":"target grammar"}]}],"jlpt":"N4","tags":["obligation"]},
-  {"id":"g-n4-006","title":"〜なくてもいい","meaning_short":"Don't have to","simple_explanation":"You don't need to do X.","explanation":"Lack of obligation.","prerequisites":["ない form","てもいい"],"formation":["Verb ない-stem + なくてもいい"],"order":6,"unit":"Unit 3 — Obligation","examples":[{"ja":"明日来なくてもいいです。","en":"You don't have to come tomorrow.","reading":"あした こなくても いい です。","structure":"明日 (tomorrow) + 来なくてもいい (don't have to come)","tokens":[{"text":"明日","reading":"あした","meaning":"tomorrow","partOfSpeech":"noun"},{"text":"来なくてもいいです","reading":"こなくてもいいです","meaning":"don't have to come","partOfSpeech":"lack of obligation","role":"target grammar"}]}],"jlpt":"N4","tags":["permission"]},
-  {"id":"g-n4-007","title":"〜たら (conditional)","meaning_short":"If / when","simple_explanation":"Simple conditional: 'If/when X, then Y.'","explanation":"Conditional expressing if/when.","prerequisites":["past form"],"formation":["Verb た + ら","い-adj → かったら"],"order":7,"unit":"Unit 4 — Conditionals","examples":[{"ja":"雨が降ったら、行きません。","en":"If it rains, I won't go.","reading":"あめ が ふったら、いきません。","structure":"雨が降ったら (if rain) + 行きません (won't go)","tokens":[{"text":"雨が降ったら","reading":"あめがふったら","meaning":"if it rains","partOfSpeech":"conditional","role":"target grammar"},{"text":"行きません","reading":"いきません","meaning":"won't go","partOfSpeech":"verb negative"}]}],"jlpt":"N4","tags":["conditional"]},
-  {"id":"g-n4-008","title":"〜ば (conditional)","meaning_short":"If~","simple_explanation":"Another 'if.' More hypothetical.","explanation":"Hypothetical conditional.","prerequisites":["たら"],"formation":["Verb え-row (行けば)","い-adj → ければ"],"order":8,"unit":"Unit 4 — Conditionals","examples":[{"ja":"安ければ買います。","en":"If it's cheap, I'll buy it.","reading":"やすければ かいます。","structure":"安ければ (if cheap) + 買います (will buy)","tokens":[{"text":"安ければ","reading":"やすければ","meaning":"if cheap","partOfSpeech":"ば conditional","role":"target grammar"},{"text":"買います","reading":"かいます","meaning":"will buy","partOfSpeech":"verb"}]}],"jlpt":"N4","tags":["conditional"]},
-  {"id":"g-n4-009","title":"〜と思う","meaning_short":"I think that~","simple_explanation":"Express your opinion.","explanation":"Quotation + thought.","prerequisites":["plain form"],"formation":["Plain form + と思う"],"order":9,"unit":"Unit 5 — Thoughts","examples":[{"ja":"明日は暑いと思います。","en":"I think tomorrow will be hot.","reading":"あした は あつい と おもいます。","structure":"明日は暑い (tomorrow hot) + と思います (I think)","tokens":[{"text":"明日は","reading":"あしたは","meaning":"tomorrow (topic)","partOfSpeech":"noun+particle"},{"text":"暑い","lexemeId":"lex-n5-暑い"},{"text":"と思います","reading":"とおもいます","meaning":"I think","partOfSpeech":"quotation+verb","role":"target grammar"}]}],"jlpt":"N4","tags":["opinion"]},
-  {"id":"g-n4-010","title":"〜と言う","meaning_short":"To say that~","simple_explanation":"Report what someone said.","explanation":"Quotation for reported speech.","prerequisites":["plain form"],"formation":["Plain form + と言う"],"order":10,"unit":"Unit 5 — Thoughts","examples":[{"ja":"先生は明日テストがあると言いました。","en":"The teacher said there's a test tomorrow.","reading":"せんせい は あした テスト が ある と いいました。","structure":"先生は (teacher) + テストがある (there is test) + と言いました (said)","tokens":[{"text":"先生は","reading":"せんせいは","meaning":"teacher (topic)","partOfSpeech":"noun+particle"},{"text":"明日テストがある","reading":"あしたテストがある","meaning":"there is a test tomorrow","partOfSpeech":"clause"},{"text":"と言いました","reading":"といいました","meaning":"said","partOfSpeech":"quotation+verb","role":"target grammar"}]}],"jlpt":"N4","tags":["speech"]},
-  {"id":"g-n4-011","title":"〜ことができる","meaning_short":"Can / able to","simple_explanation":"Ability expression.","explanation":"Ability/possibility.","prerequisites":["dictionary form"],"formation":["Verb dict + ことができる"],"order":11,"unit":"Unit 6 — Ability","examples":[{"ja":"ピアノを弾くことができます。","en":"I can play the piano.","reading":"ピアノ を ひく こと が できます。","structure":"ピアノを弾く (play piano) + ことができます (can)","tokens":[{"text":"ピアノを","reading":"ピアノを","meaning":"piano (obj)","partOfSpeech":"noun+particle"},{"text":"弾くことができます","reading":"ひくことができます","meaning":"can play","partOfSpeech":"ability pattern","role":"target grammar"}]}],"jlpt":"N4","tags":["ability"]},
-  {"id":"g-n4-012","title":"〜たことがある","meaning_short":"Have experienced~","simple_explanation":"Past experience. 'I have done X before.'","explanation":"Experience expression.","prerequisites":["past form"],"formation":["Verb た + ことがある"],"order":12,"unit":"Unit 6 — Ability","examples":[{"ja":"日本に行ったことがあります。","en":"I have been to Japan.","reading":"にほん に いった こと が あります。","structure":"日本に行った (went to Japan) + ことがあります (have the experience of)","tokens":[{"text":"日本に","reading":"にほんに","meaning":"to Japan","partOfSpeech":"noun+particle"},{"text":"行ったことがあります","reading":"いったことがあります","meaning":"have been","partOfSpeech":"experience pattern","role":"target grammar"}]}],"jlpt":"N4","tags":["experience"]},
-  {"id":"g-n4-013","title":"〜そうです (appearance)","meaning_short":"Looks like~","simple_explanation":"Based on what you SEE. 美味しそう = looks delicious.","explanation":"Visual conjecture.","prerequisites":["adjective stems"],"beginner_warning":"Different from hearsay そう.","formation":["い-adj stem + そう","な-adj stem + そう"],"order":13,"unit":"Unit 7 — Conjecture","examples":[{"ja":"このケーキは美味しそうです。","en":"This cake looks delicious.","reading":"この ケーキ は おいしそう です。","structure":"このケーキは (this cake) + 美味しそうです (looks delicious)","tokens":[{"text":"このケーキは","reading":"このケーキは","meaning":"this cake (topic)","partOfSpeech":"noun phrase"},{"text":"美味しそうです","reading":"おいしそうです","meaning":"looks delicious","partOfSpeech":"そう appearance","role":"target grammar"}]}],"jlpt":"N4","tags":["appearance"]},
-  {"id":"g-n4-014","title":"〜かもしれない","meaning_short":"Maybe / might","simple_explanation":"Possibility. Less certain than と思う.","explanation":"Expresses possibility/uncertainty.","prerequisites":["plain form"],"formation":["Plain form + かもしれない"],"order":14,"unit":"Unit 7 — Conjecture","examples":[{"ja":"明日は雨かもしれません。","en":"It might rain tomorrow.","reading":"あした は あめ かもしれません。","structure":"明日は雨 (tomorrow rain) + かもしれません (might)","tokens":[{"text":"明日は","reading":"あしたは","meaning":"tomorrow (topic)","partOfSpeech":"noun+particle"},{"text":"雨","reading":"あめ","meaning":"rain","partOfSpeech":"noun"},{"text":"かもしれません","reading":"かもしれません","meaning":"might be","partOfSpeech":"conjecture","role":"target grammar"}]}],"jlpt":"N4","tags":["conjecture"]},
-  {"id":"g-n4-015","title":"〜のに (despite)","meaning_short":"Even though","simple_explanation":"Contrast with frustration.","explanation":"Concessive with frustration nuance.","prerequisites":["plain form"],"formation":["Plain form + のに"],"order":15,"unit":"Unit 8 — Contrast","examples":[{"ja":"勉強したのに、テストに落ちた。","en":"Even though I studied, I failed.","reading":"べんきょう した のに、テスト に おちた。","structure":"勉強した (studied) + のに (despite) + テストに落ちた (failed)","tokens":[{"text":"勉強した","reading":"べんきょうした","meaning":"studied","partOfSpeech":"suru-verb past"},{"text":"のに","reading":"のに","meaning":"even though","partOfSpeech":"conjunction","role":"target grammar"},{"text":"テストに落ちた","reading":"テストにおちた","meaning":"failed the test","partOfSpeech":"verb phrase"}]}],"jlpt":"N4","tags":["contrast"]},
-  {"id":"g-n4-016","title":"〜ながら","meaning_short":"While doing~","simple_explanation":"Do two things at the same time.","explanation":"Simultaneous actions.","prerequisites":["verb stems"],"formation":["Verb stem + ながら"],"order":16,"unit":"Unit 9 — Time","examples":[{"ja":"音楽を聞きながら勉強します。","en":"I study while listening to music.","reading":"おんがく を ききながら べんきょう します。","structure":"音楽を聞き (listen to music) + ながら (while) + 勉強します (study)","tokens":[{"text":"音楽を","lexemeId":"lex-n5-音楽","note":"object"},{"text":"聞きながら","reading":"ききながら","meaning":"while listening","partOfSpeech":"ながら form","role":"target grammar"},{"text":"勉強します","lexemeId":"lex-n5-勉強します"}]}],"jlpt":"N4","tags":["time"]},
-  {"id":"g-n4-017","title":"〜まえに (before)","meaning_short":"Before doing~","simple_explanation":"Before X happens, do Y.","explanation":"Temporal 'before'.","prerequisites":["dictionary form"],"formation":["Verb dict + まえに"],"order":17,"unit":"Unit 9 — Time","examples":[{"ja":"寝るまえに歯を磨きます。","en":"I brush my teeth before sleeping.","reading":"ねる まえに は を みがきます。","structure":"寝るまえに (before sleeping) + 歯を磨きます (brush teeth)","tokens":[{"text":"寝るまえに","reading":"ねるまえに","meaning":"before sleeping","partOfSpeech":"temporal","role":"target grammar"},{"text":"歯を磨きます","reading":"はをみがきます","meaning":"brush teeth","partOfSpeech":"verb phrase"}]}],"jlpt":"N4","tags":["time"]},
-  {"id":"g-n4-018","title":"〜あとで (after)","meaning_short":"After doing~","simple_explanation":"After X happens, do Y.","explanation":"Temporal 'after'.","prerequisites":["past form"],"formation":["Verb た + あとで"],"order":18,"unit":"Unit 9 — Time","examples":[{"ja":"食べたあとで、散歩します。","en":"After eating, I take a walk.","reading":"たべた あとで、さんぽ します。","structure":"食べたあとで (after eating) + 散歩します (take a walk)","tokens":[{"text":"食べたあとで","reading":"たべたあとで","meaning":"after eating","partOfSpeech":"temporal","role":"target grammar"},{"text":"散歩します","reading":"さんぽします","meaning":"take a walk","partOfSpeech":"suru-verb"}]}],"jlpt":"N4","tags":["time"]},
-  {"id":"g-n4-019","title":"〜すぎる","meaning_short":"Too much~","simple_explanation":"Excess. 食べすぎる = eat too much.","explanation":"Excessive degree.","prerequisites":["verb stems","adjective stems"],"formation":["Verb stem + すぎる","い-adj stem + すぎる"],"order":19,"unit":"Unit 10 — Degree","examples":[{"ja":"昨日食べすぎました。","en":"I ate too much yesterday.","reading":"きのう たべすぎました。","structure":"昨日 (yesterday) + 食べすぎました (ate too much)","tokens":[{"text":"昨日","reading":"きのう","meaning":"yesterday","partOfSpeech":"noun"},{"text":"食べすぎました","reading":"たべすぎました","meaning":"ate too much","partOfSpeech":"すぎる past","role":"target grammar"}]}],"jlpt":"N4","tags":["degree"]},
-  {"id":"g-n4-020","title":"〜やすい / 〜にくい","meaning_short":"Easy to~ / hard to~","simple_explanation":"やすい = easy. にくい = hard.","explanation":"Ease/difficulty of action.","prerequisites":["verb stems"],"formation":["Verb stem + やすい","Verb stem + にくい"],"order":20,"unit":"Unit 10 — Degree","examples":[{"ja":"この本は読みやすいです。","en":"This book is easy to read.","reading":"この ほん は よみやすい です。","structure":"この本は (this book) + 読みやすい (easy to read)","tokens":[{"text":"この本は","reading":"このほんは","meaning":"this book (topic)","partOfSpeech":"noun phrase"},{"text":"読みやすいです","reading":"よみやすいです","meaning":"easy to read","partOfSpeech":"やすい form","role":"target grammar"}]},{"ja":"この漢字は覚えにくいです。","en":"This kanji is hard to memorize.","reading":"この かんじ は おぼえにくい です。","structure":"この漢字は (this kanji) + 覚えにくい (hard to memorize)","tokens":[{"text":"この漢字は","reading":"このかんじは","meaning":"this kanji (topic)","partOfSpeech":"noun phrase"},{"text":"覚えにくいです","reading":"おぼえにくいです","meaning":"hard to memorize","partOfSpeech":"にくい form","role":"target grammar"}]}],"jlpt":"N4","tags":["degree"]}
+  {
+    "id": "g-n4-001",
+    "title": "〜てform",
+    "meaning_short": "Connecting form",
+    "simple_explanation": "The Swiss Army knife of Japanese. Connects actions, makes requests, shows ongoing states.",
+    "explanation": "Conjunctive form for sequential actions, requests, reasons.",
+    "prerequisites": [
+      "verb groups",
+      "ます form"
+    ],
+    "formation": [
+      "Ichidan: drop る → て",
+      "Godan: chart",
+      "する → して",
+      "来る → 来て"
+    ],
+    "order": 1,
+    "unit": "Unit 1 — て-Form",
+    "examples": [
+      {
+        "ja": "手を洗って食べてください。",
+        "en": "Please wash your hands and eat.",
+        "reading": "て を あらって たべて ください。",
+        "structure": "洗って (wash, then) + 食べてください (please eat)",
+        "tokens": [
+          {
+            "text": "手を洗って",
+            "reading": "てをあらって",
+            "meaning": "wash hands and",
+            "partOfSpeech": "て-form"
+          },
+          {
+            "text": "食べてください",
+            "reading": "たべてください",
+            "meaning": "please eat",
+            "partOfSpeech": "request",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "conjugation",
+      "essential"
+    ]
+  },
+  {
+    "id": "g-n4-002",
+    "title": "〜ている",
+    "meaning_short": "Ongoing/state",
+    "simple_explanation": "て + いる = happening now OR continuing state.",
+    "explanation": "Progressive or resultant state.",
+    "prerequisites": [
+      "て-form"
+    ],
+    "formation": [
+      "Verb て + いる/います"
+    ],
+    "order": 2,
+    "unit": "Unit 1 — て-Form",
+    "examples": [
+      {
+        "ja": "今、本を読んでいます。",
+        "en": "I'm reading a book now.",
+        "reading": "いま、ほん を よんでいます。",
+        "structure": "今 (now) + 読んでいます (am reading)",
+        "tokens": [
+          {
+            "text": "今",
+            "reading": "いま",
+            "meaning": "now",
+            "partOfSpeech": "adverb"
+          },
+          {
+            "text": "本を",
+            "reading": "ほんを",
+            "meaning": "book (obj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "読んでいます",
+            "reading": "よんでいます",
+            "meaning": "am reading",
+            "partOfSpeech": "ている form",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "state",
+      "essential"
+    ]
+  },
+  {
+    "id": "g-n4-003",
+    "title": "〜てもいい",
+    "meaning_short": "May I / it's OK to",
+    "simple_explanation": "Asking or giving permission.",
+    "explanation": "Permission expression.",
+    "prerequisites": [
+      "て-form"
+    ],
+    "formation": [
+      "Verb て + もいいです(か)"
+    ],
+    "order": 3,
+    "unit": "Unit 2 — Permission",
+    "examples": [
+      {
+        "ja": "写真を撮ってもいいですか。",
+        "en": "May I take a photo?",
+        "reading": "しゃしん を とっても いい です か。",
+        "structure": "写真を撮って (take photo) + もいいですか (is it OK?)",
+        "tokens": [
+          {
+            "text": "写真を",
+            "reading": "しゃしんを",
+            "meaning": "photo (obj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "撮っても",
+            "reading": "とっても",
+            "meaning": "even if take",
+            "partOfSpeech": "て-form + も"
+          },
+          {
+            "text": "いいですか",
+            "reading": "いいですか",
+            "meaning": "is it OK?",
+            "partOfSpeech": "question",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "permission"
+    ]
+  },
+  {
+    "id": "g-n4-004",
+    "title": "〜てはいけない",
+    "meaning_short": "Must not",
+    "simple_explanation": "Prohibition. You must not do X.",
+    "explanation": "Prohibition expression.",
+    "prerequisites": [
+      "て-form"
+    ],
+    "formation": [
+      "Verb て + はいけない/はだめ"
+    ],
+    "order": 4,
+    "unit": "Unit 2 — Permission",
+    "examples": [
+      {
+        "ja": "ここで走ってはいけません。",
+        "en": "You must not run here.",
+        "reading": "ここ で はしっては いけません。",
+        "structure": "ここで走って (run here) + はいけません (must not)",
+        "tokens": [
+          {
+            "text": "ここで",
+            "reading": "ここで",
+            "meaning": "here (location)",
+            "partOfSpeech": "place+particle"
+          },
+          {
+            "text": "走っては",
+            "reading": "はしっては",
+            "meaning": "running",
+            "partOfSpeech": "て-form + は"
+          },
+          {
+            "text": "いけません",
+            "reading": "いけません",
+            "meaning": "must not",
+            "partOfSpeech": "prohibition",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "prohibition"
+    ]
+  },
+  {
+    "id": "g-n4-005",
+    "title": "〜なければならない",
+    "meaning_short": "Must / have to",
+    "simple_explanation": "Obligation. 'I have to do X.'",
+    "explanation": "Strong obligation.",
+    "prerequisites": [
+      "ない form"
+    ],
+    "formation": [
+      "Verb ない-stem + なければならない"
+    ],
+    "order": 5,
+    "unit": "Unit 3 — Obligation",
+    "examples": [
+      {
+        "ja": "宿題をしなければなりません。",
+        "en": "I have to do homework.",
+        "reading": "しゅくだい を しなければ なりません。",
+        "structure": "宿題を (homework) + しなければなりません (must do)",
+        "tokens": [
+          {
+            "text": "宿題",
+            "lexemeId": "lex-n4-宿題",
+            "role": "object"
+          },
+          {
+            "text": "を",
+            "lexemeId": "lex-f-を"
+          },
+          {
+            "text": "しなければなりません",
+            "reading": "しなければなりません",
+            "meaning": "must do",
+            "partOfSpeech": "obligation",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "obligation"
+    ]
+  },
+  {
+    "id": "g-n4-006",
+    "title": "〜なくてもいい",
+    "meaning_short": "Don't have to",
+    "simple_explanation": "You don't need to do X.",
+    "explanation": "Lack of obligation.",
+    "prerequisites": [
+      "ない form",
+      "てもいい"
+    ],
+    "formation": [
+      "Verb ない-stem + なくてもいい"
+    ],
+    "order": 6,
+    "unit": "Unit 3 — Obligation",
+    "examples": [
+      {
+        "ja": "明日来なくてもいいです。",
+        "en": "You don't have to come tomorrow.",
+        "reading": "あした こなくても いい です。",
+        "structure": "明日 (tomorrow) + 来なくてもいい (don't have to come)",
+        "tokens": [
+          {
+            "text": "明日",
+            "reading": "あした",
+            "meaning": "tomorrow",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "来なくてもいいです",
+            "reading": "こなくてもいいです",
+            "meaning": "don't have to come",
+            "partOfSpeech": "lack of obligation",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "permission"
+    ]
+  },
+  {
+    "id": "g-n4-007",
+    "title": "〜たら (conditional)",
+    "meaning_short": "If / when",
+    "simple_explanation": "Simple conditional: 'If/when X, then Y.'",
+    "explanation": "Conditional expressing if/when.",
+    "prerequisites": [
+      "past form"
+    ],
+    "formation": [
+      "Verb た + ら",
+      "い-adj → かったら"
+    ],
+    "order": 7,
+    "unit": "Unit 4 — Conditionals",
+    "examples": [
+      {
+        "ja": "雨が降ったら、行きません。",
+        "en": "If it rains, I won't go.",
+        "reading": "あめ が ふったら、いきません。",
+        "structure": "雨が降ったら (if rain) + 行きません (won't go)",
+        "tokens": [
+          {
+            "text": "雨が降ったら",
+            "reading": "あめがふったら",
+            "meaning": "if it rains",
+            "partOfSpeech": "conditional",
+            "role": "target grammar"
+          },
+          {
+            "text": "行きません",
+            "reading": "いきません",
+            "meaning": "won't go",
+            "partOfSpeech": "verb negative"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "g-n4-008",
+    "title": "〜ば (conditional)",
+    "meaning_short": "If~",
+    "simple_explanation": "Another 'if.' More hypothetical.",
+    "explanation": "Hypothetical conditional.",
+    "prerequisites": [
+      "たら"
+    ],
+    "formation": [
+      "Verb え-row (行けば)",
+      "い-adj → ければ"
+    ],
+    "order": 8,
+    "unit": "Unit 4 — Conditionals",
+    "examples": [
+      {
+        "ja": "安ければ買います。",
+        "en": "If it's cheap, I'll buy it.",
+        "reading": "やすければ かいます。",
+        "structure": "安ければ (if cheap) + 買います (will buy)",
+        "tokens": [
+          {
+            "text": "安ければ",
+            "reading": "やすければ",
+            "meaning": "if cheap",
+            "partOfSpeech": "ば conditional",
+            "role": "target grammar"
+          },
+          {
+            "text": "買います",
+            "reading": "かいます",
+            "meaning": "will buy",
+            "partOfSpeech": "verb"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "g-n4-009",
+    "title": "〜と思う",
+    "meaning_short": "I think that~",
+    "simple_explanation": "Express your opinion.",
+    "explanation": "Quotation + thought.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain form + と思う"
+    ],
+    "order": 9,
+    "unit": "Unit 5 — Thoughts",
+    "examples": [
+      {
+        "ja": "明日は暑いと思います。",
+        "en": "I think tomorrow will be hot.",
+        "reading": "あした は あつい と おもいます。",
+        "structure": "明日は暑い (tomorrow hot) + と思います (I think)",
+        "tokens": [
+          {
+            "text": "明日は",
+            "reading": "あしたは",
+            "meaning": "tomorrow (topic)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "暑い",
+            "lexemeId": "lex-n5-暑い"
+          },
+          {
+            "text": "と思います",
+            "reading": "とおもいます",
+            "meaning": "I think",
+            "partOfSpeech": "quotation+verb",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "opinion"
+    ]
+  },
+  {
+    "id": "g-n4-010",
+    "title": "〜と言う",
+    "meaning_short": "To say that~",
+    "simple_explanation": "Report what someone said.",
+    "explanation": "Quotation for reported speech.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain form + と言う"
+    ],
+    "order": 10,
+    "unit": "Unit 5 — Thoughts",
+    "examples": [
+      {
+        "ja": "先生は明日テストがあると言いました。",
+        "en": "The teacher said there's a test tomorrow.",
+        "reading": "せんせい は あした テスト が ある と いいました。",
+        "structure": "先生は (teacher) + テストがある (there is test) + と言いました (said)",
+        "tokens": [
+          {
+            "text": "先生は",
+            "reading": "せんせいは",
+            "meaning": "teacher (topic)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "明日テストがある",
+            "reading": "あしたテストがある",
+            "meaning": "there is a test tomorrow",
+            "partOfSpeech": "clause"
+          },
+          {
+            "text": "と言いました",
+            "reading": "といいました",
+            "meaning": "said",
+            "partOfSpeech": "quotation+verb",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "speech"
+    ]
+  },
+  {
+    "id": "g-n4-011",
+    "title": "〜ことができる",
+    "meaning_short": "Can / able to",
+    "simple_explanation": "Ability expression.",
+    "explanation": "Ability/possibility.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + ことができる"
+    ],
+    "order": 11,
+    "unit": "Unit 6 — Ability",
+    "examples": [
+      {
+        "ja": "ピアノを弾くことができます。",
+        "en": "I can play the piano.",
+        "reading": "ピアノ を ひく こと が できます。",
+        "structure": "ピアノを弾く (play piano) + ことができます (can)",
+        "tokens": [
+          {
+            "text": "ピアノを",
+            "reading": "ピアノを",
+            "meaning": "piano (obj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "弾くことができます",
+            "reading": "ひくことができます",
+            "meaning": "can play",
+            "partOfSpeech": "ability pattern",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "ability"
+    ]
+  },
+  {
+    "id": "g-n4-012",
+    "title": "〜たことがある",
+    "meaning_short": "Have experienced~",
+    "simple_explanation": "Past experience. 'I have done X before.'",
+    "explanation": "Experience expression.",
+    "prerequisites": [
+      "past form"
+    ],
+    "formation": [
+      "Verb た + ことがある"
+    ],
+    "order": 12,
+    "unit": "Unit 6 — Ability",
+    "examples": [
+      {
+        "ja": "日本に行ったことがあります。",
+        "en": "I have been to Japan.",
+        "reading": "にほん に いった こと が あります。",
+        "structure": "日本に行った (went to Japan) + ことがあります (have the experience of)",
+        "tokens": [
+          {
+            "text": "日本に",
+            "reading": "にほんに",
+            "meaning": "to Japan",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "行ったことがあります",
+            "reading": "いったことがあります",
+            "meaning": "have been",
+            "partOfSpeech": "experience pattern",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "experience"
+    ]
+  },
+  {
+    "id": "g-n4-013",
+    "title": "〜そうです (appearance)",
+    "meaning_short": "Looks like~",
+    "simple_explanation": "Based on what you SEE. 美味しそう = looks delicious.",
+    "explanation": "Visual conjecture.",
+    "prerequisites": [
+      "adjective stems"
+    ],
+    "beginner_warning": "Different from hearsay そう.",
+    "formation": [
+      "い-adj stem + そう",
+      "な-adj stem + そう"
+    ],
+    "order": 13,
+    "unit": "Unit 7 — Conjecture",
+    "examples": [
+      {
+        "ja": "このケーキは美味しそうです。",
+        "en": "This cake looks delicious.",
+        "reading": "この ケーキ は おいしそう です。",
+        "structure": "このケーキは (this cake) + 美味しそうです (looks delicious)",
+        "tokens": [
+          {
+            "text": "このケーキは",
+            "reading": "このケーキは",
+            "meaning": "this cake (topic)",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "美味しそうです",
+            "reading": "おいしそうです",
+            "meaning": "looks delicious",
+            "partOfSpeech": "そう appearance",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "appearance"
+    ]
+  },
+  {
+    "id": "g-n4-014",
+    "title": "〜かもしれない",
+    "meaning_short": "Maybe / might",
+    "simple_explanation": "Possibility. Less certain than と思う.",
+    "explanation": "Expresses possibility/uncertainty.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain form + かもしれない"
+    ],
+    "order": 14,
+    "unit": "Unit 7 — Conjecture",
+    "examples": [
+      {
+        "ja": "明日は雨かもしれません。",
+        "en": "It might rain tomorrow.",
+        "reading": "あした は あめ かもしれません。",
+        "structure": "明日は雨 (tomorrow rain) + かもしれません (might)",
+        "tokens": [
+          {
+            "text": "明日は",
+            "reading": "あしたは",
+            "meaning": "tomorrow (topic)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "雨",
+            "reading": "あめ",
+            "meaning": "rain",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "かもしれません",
+            "reading": "かもしれません",
+            "meaning": "might be",
+            "partOfSpeech": "conjecture",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "conjecture"
+    ]
+  },
+  {
+    "id": "g-n4-015",
+    "title": "〜のに (despite)",
+    "meaning_short": "Even though",
+    "simple_explanation": "Contrast with frustration.",
+    "explanation": "Concessive with frustration nuance.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain form + のに"
+    ],
+    "order": 15,
+    "unit": "Unit 8 — Contrast",
+    "examples": [
+      {
+        "ja": "勉強したのに、テストに落ちた。",
+        "en": "Even though I studied, I failed.",
+        "reading": "べんきょう した のに、テスト に おちた。",
+        "structure": "勉強した (studied) + のに (despite) + テストに落ちた (failed)",
+        "tokens": [
+          {
+            "text": "勉強した",
+            "reading": "べんきょうした",
+            "meaning": "studied",
+            "partOfSpeech": "suru-verb past"
+          },
+          {
+            "text": "のに",
+            "reading": "のに",
+            "meaning": "even though",
+            "partOfSpeech": "conjunction",
+            "role": "target grammar"
+          },
+          {
+            "text": "テストに落ちた",
+            "reading": "テストにおちた",
+            "meaning": "failed the test",
+            "partOfSpeech": "verb phrase"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "contrast"
+    ]
+  },
+  {
+    "id": "g-n4-016",
+    "title": "〜ながら",
+    "meaning_short": "While doing~",
+    "simple_explanation": "Do two things at the same time.",
+    "explanation": "Simultaneous actions.",
+    "prerequisites": [
+      "verb stems"
+    ],
+    "formation": [
+      "Verb stem + ながら"
+    ],
+    "order": 16,
+    "unit": "Unit 9 — Time",
+    "examples": [
+      {
+        "ja": "音楽を聞きながら勉強します。",
+        "en": "I study while listening to music.",
+        "reading": "おんがく を ききながら べんきょう します。",
+        "structure": "音楽を聞き (listen to music) + ながら (while) + 勉強します (study)",
+        "tokens": [
+          {
+            "text": "音楽を",
+            "lexemeId": "lex-n5-音楽",
+            "note": "object"
+          },
+          {
+            "text": "聞きながら",
+            "reading": "ききながら",
+            "meaning": "while listening",
+            "partOfSpeech": "ながら form",
+            "role": "target grammar"
+          },
+          {
+            "text": "勉強します",
+            "lexemeId": "lex-n5-勉強します"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n4-017",
+    "title": "〜まえに (before)",
+    "meaning_short": "Before doing~",
+    "simple_explanation": "Before X happens, do Y.",
+    "explanation": "Temporal 'before'.",
+    "prerequisites": [
+      "dictionary form"
+    ],
+    "formation": [
+      "Verb dict + まえに"
+    ],
+    "order": 17,
+    "unit": "Unit 9 — Time",
+    "examples": [
+      {
+        "ja": "寝るまえに歯を磨きます。",
+        "en": "I brush my teeth before sleeping.",
+        "reading": "ねる まえに は を みがきます。",
+        "structure": "寝るまえに (before sleeping) + 歯を磨きます (brush teeth)",
+        "tokens": [
+          {
+            "text": "寝るまえに",
+            "reading": "ねるまえに",
+            "meaning": "before sleeping",
+            "partOfSpeech": "temporal",
+            "role": "target grammar"
+          },
+          {
+            "text": "歯を磨きます",
+            "reading": "はをみがきます",
+            "meaning": "brush teeth",
+            "partOfSpeech": "verb phrase"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n4-018",
+    "title": "〜あとで (after)",
+    "meaning_short": "After doing~",
+    "simple_explanation": "After X happens, do Y.",
+    "explanation": "Temporal 'after'.",
+    "prerequisites": [
+      "past form"
+    ],
+    "formation": [
+      "Verb た + あとで"
+    ],
+    "order": 18,
+    "unit": "Unit 9 — Time",
+    "examples": [
+      {
+        "ja": "食べたあとで、散歩します。",
+        "en": "After eating, I take a walk.",
+        "reading": "たべた あとで、さんぽ します。",
+        "structure": "食べたあとで (after eating) + 散歩します (take a walk)",
+        "tokens": [
+          {
+            "text": "食べたあとで",
+            "reading": "たべたあとで",
+            "meaning": "after eating",
+            "partOfSpeech": "temporal",
+            "role": "target grammar"
+          },
+          {
+            "text": "散歩します",
+            "reading": "さんぽします",
+            "meaning": "take a walk",
+            "partOfSpeech": "suru-verb"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n4-019",
+    "title": "〜すぎる",
+    "meaning_short": "Too much~",
+    "simple_explanation": "Excess. 食べすぎる = eat too much.",
+    "explanation": "Excessive degree.",
+    "prerequisites": [
+      "verb stems",
+      "adjective stems"
+    ],
+    "formation": [
+      "Verb stem + すぎる",
+      "い-adj stem + すぎる"
+    ],
+    "order": 19,
+    "unit": "Unit 10 — Degree",
+    "examples": [
+      {
+        "ja": "昨日食べすぎました。",
+        "en": "I ate too much yesterday.",
+        "reading": "きのう たべすぎました。",
+        "structure": "昨日 (yesterday) + 食べすぎました (ate too much)",
+        "tokens": [
+          {
+            "text": "昨日",
+            "reading": "きのう",
+            "meaning": "yesterday",
+            "partOfSpeech": "noun"
+          },
+          {
+            "text": "食べすぎました",
+            "reading": "たべすぎました",
+            "meaning": "ate too much",
+            "partOfSpeech": "すぎる past",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "degree"
+    ]
+  },
+  {
+    "id": "g-n4-020",
+    "title": "〜やすい / 〜にくい",
+    "meaning_short": "Easy to~ / hard to~",
+    "simple_explanation": "やすい = easy. にくい = hard.",
+    "explanation": "Ease/difficulty of action.",
+    "prerequisites": [
+      "verb stems"
+    ],
+    "formation": [
+      "Verb stem + やすい",
+      "Verb stem + にくい"
+    ],
+    "order": 20,
+    "unit": "Unit 10 — Degree",
+    "examples": [
+      {
+        "ja": "この本は読みやすいです。",
+        "en": "This book is easy to read.",
+        "reading": "この ほん は よみやすい です。",
+        "structure": "この本は (this book) + 読みやすい (easy to read)",
+        "tokens": [
+          {
+            "text": "この本は",
+            "reading": "このほんは",
+            "meaning": "this book (topic)",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "読みやすいです",
+            "reading": "よみやすいです",
+            "meaning": "easy to read",
+            "partOfSpeech": "やすい form",
+            "role": "target grammar"
+          }
+        ]
+      },
+      {
+        "ja": "この漢字は覚えにくいです。",
+        "en": "This kanji is hard to memorize.",
+        "reading": "この かんじ は おぼえにくい です。",
+        "structure": "この漢字は (this kanji) + 覚えにくい (hard to memorize)",
+        "tokens": [
+          {
+            "text": "この漢字は",
+            "reading": "このかんじは",
+            "meaning": "this kanji (topic)",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "覚えにくいです",
+            "reading": "おぼえにくいです",
+            "meaning": "hard to memorize",
+            "partOfSpeech": "にくい form",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "degree"
+    ]
+  },
+  {
+    "id": "g-n4-021",
+    "title": "〜んです / 〜のです",
+    "meaning_short": "Explanatory / it's that~",
+    "simple_explanation": "Adds explanation nuance. 'The thing is...' or 'It's because...'",
+    "explanation": "Explanatory sentence ending.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Verb/adj plain + んです",
+      "Noun + なんです"
+    ],
+    "order": 21,
+    "unit": "Unit 11 — Explanatory",
+    "examples": [
+      {
+        "ja": "頭が痛いんです。",
+        "en": "It's that I have a headache.",
+        "reading": "あたま が いたい んです。",
+        "structure": "頭が痛い (head hurts) + んです (explanatory)",
+        "tokens": [
+          {
+            "text": "頭が痛い",
+            "reading": "あたまがいたい",
+            "meaning": "have a headache",
+            "partOfSpeech": "clause"
+          },
+          {
+            "text": "んです",
+            "reading": "んです",
+            "meaning": "it's that (explanatory)",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "explanatory"
+    ]
+  },
+  {
+    "id": "g-n4-022",
+    "title": "〜あげる (give)",
+    "meaning_short": "Give (to someone)",
+    "simple_explanation": "I give to you/others. Giver is subject.",
+    "explanation": "Giving pattern: giver's perspective.",
+    "prerequisites": [
+      "て-form"
+    ],
+    "formation": [
+      "Verb て + あげる",
+      "Noun を + あげる"
+    ],
+    "order": 22,
+    "unit": "Unit 11 — Giving & Receiving",
+    "examples": [
+      {
+        "ja": "友達に本をあげました。",
+        "en": "I gave a book to my friend.",
+        "reading": "ともだち に ほん を あげました。",
+        "structure": "友達に (to friend) + 本をあげました (gave a book)",
+        "tokens": [
+          {
+            "text": "友達に",
+            "reading": "ともだちに",
+            "meaning": "to friend",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "本を",
+            "reading": "ほんを",
+            "meaning": "book (obj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "あげました",
+            "reading": "あげました",
+            "meaning": "gave",
+            "partOfSpeech": "verb past",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "giving"
+    ]
+  },
+  {
+    "id": "g-n4-023",
+    "title": "〜くれる (give to me)",
+    "meaning_short": "Give (to me/my group)",
+    "simple_explanation": "Someone gives to me. Giver is subject. Shows gratitude.",
+    "explanation": "Receiving from giver's action.",
+    "prerequisites": [
+      "あげる"
+    ],
+    "formation": [
+      "Verb て + くれる",
+      "Noun を + くれる"
+    ],
+    "order": 23,
+    "unit": "Unit 11 — Giving & Receiving",
+    "examples": [
+      {
+        "ja": "母がケーキを作ってくれました。",
+        "en": "My mother made a cake for me.",
+        "reading": "はは が ケーキ を つくって くれました。",
+        "structure": "母が (mother) + 作ってくれました (made for me)",
+        "tokens": [
+          {
+            "text": "母が",
+            "reading": "ははが",
+            "meaning": "mother (subj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "ケーキを作って",
+            "reading": "ケーキをつくって",
+            "meaning": "made cake and",
+            "partOfSpeech": "て-form"
+          },
+          {
+            "text": "くれました",
+            "reading": "くれました",
+            "meaning": "did for me",
+            "partOfSpeech": "giving verb",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "similar": [
+      {
+        "title": "〜あげる",
+        "diff": "あげる = I give. くれる = someone gives to me."
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "giving"
+    ]
+  },
+  {
+    "id": "g-n4-024",
+    "title": "〜もらう (receive)",
+    "meaning_short": "Receive / have someone do~",
+    "simple_explanation": "I receive from someone. Receiver is subject.",
+    "explanation": "Receiving pattern.",
+    "prerequisites": [
+      "くれる"
+    ],
+    "formation": [
+      "Verb て + もらう",
+      "Noun を + もらう"
+    ],
+    "order": 24,
+    "unit": "Unit 11 — Giving & Receiving",
+    "examples": [
+      {
+        "ja": "先生に推薦状を書いてもらいました。",
+        "en": "I had the teacher write a recommendation letter.",
+        "reading": "せんせい に すいせんじょう を かいて もらいました。",
+        "structure": "先生に (from teacher) + 書いてもらいました (had written for me)",
+        "tokens": [
+          {
+            "text": "先生に",
+            "reading": "せんせいに",
+            "meaning": "from teacher",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "推薦状を書いて",
+            "reading": "すいせんじょうをかいて",
+            "meaning": "write rec letter",
+            "partOfSpeech": "て-form"
+          },
+          {
+            "text": "もらいました",
+            "reading": "もらいました",
+            "meaning": "received (the favor)",
+            "partOfSpeech": "verb past",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "giving"
+    ]
+  },
+  {
+    "id": "g-n4-025",
+    "title": "Passive 〜れる/〜られる",
+    "meaning_short": "Is done / was done",
+    "simple_explanation": "Something is done TO you. 食べられる = is eaten. 言われる = is told.",
+    "explanation": "Passive voice basics.",
+    "prerequisites": [
+      "verb groups"
+    ],
+    "formation": [
+      "Godan: あ-row + れる",
+      "Ichidan: drop る + られる",
+      "する → される",
+      "来る → 来られる"
+    ],
+    "order": 25,
+    "unit": "Unit 12 — Passive & Causative",
+    "examples": [
+      {
+        "ja": "先生に褒められました。",
+        "en": "I was praised by the teacher.",
+        "reading": "せんせい に ほめられました。",
+        "structure": "先生に (by teacher) + 褒められました (was praised)",
+        "tokens": [
+          {
+            "text": "先生に",
+            "reading": "せんせいに",
+            "meaning": "by teacher",
+            "partOfSpeech": "agent"
+          },
+          {
+            "text": "褒められました",
+            "reading": "ほめられました",
+            "meaning": "was praised",
+            "partOfSpeech": "passive past",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "passive"
+    ]
+  },
+  {
+    "id": "g-n4-026",
+    "title": "Causative 〜せる/〜させる",
+    "meaning_short": "Make/let someone do~",
+    "simple_explanation": "Make or let someone do something. 食べさせる = make eat. 行かせる = let go.",
+    "explanation": "Causative voice basics.",
+    "prerequisites": [
+      "passive"
+    ],
+    "formation": [
+      "Godan: あ-row + せる",
+      "Ichidan: drop る + させる",
+      "する → させる",
+      "来る → 来させる"
+    ],
+    "order": 26,
+    "unit": "Unit 12 — Passive & Causative",
+    "examples": [
+      {
+        "ja": "子供に野菜を食べさせます。",
+        "en": "I make my child eat vegetables.",
+        "reading": "こども に やさい を たべさせます。",
+        "structure": "子供に (child) + 食べさせます (make eat)",
+        "tokens": [
+          {
+            "text": "子供に",
+            "reading": "こどもに",
+            "meaning": "make the child",
+            "partOfSpeech": "causee"
+          },
+          {
+            "text": "野菜を",
+            "reading": "やさいを",
+            "meaning": "vegetables",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "食べさせます",
+            "reading": "たべさせます",
+            "meaning": "make eat",
+            "partOfSpeech": "causative",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "causative"
+    ]
+  },
+  {
+    "id": "g-n4-027",
+    "title": "〜たり〜たりする",
+    "meaning_short": "Do things like~ and~",
+    "simple_explanation": "List example activities. 'Do things like X and Y.'",
+    "explanation": "Non-exhaustive action list.",
+    "prerequisites": [
+      "past form"
+    ],
+    "formation": [
+      "Verb た + り + Verb た + り + する"
+    ],
+    "order": 27,
+    "unit": "Unit 13 — Lists & Conditions",
+    "examples": [
+      {
+        "ja": "週末は映画を見たり、買い物をしたりします。",
+        "en": "On weekends I watch movies, go shopping, and such.",
+        "reading": "しゅうまつ は えいが を みたり、かいもの を したり します。",
+        "structure": "見たり (watch) + したりします (do and such)",
+        "tokens": [
+          {
+            "text": "週末は",
+            "reading": "しゅうまつは",
+            "meaning": "on weekends",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "映画を見たり",
+            "reading": "えいがをみたり",
+            "meaning": "watch movies and",
+            "partOfSpeech": "たり form",
+            "role": "target grammar"
+          },
+          {
+            "text": "買い物をしたりします",
+            "reading": "かいものをしたりします",
+            "meaning": "go shopping and such",
+            "partOfSpeech": "たり form"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "listing"
+    ]
+  },
+  {
+    "id": "g-n4-028",
+    "title": "〜はじめる / 〜おわる",
+    "meaning_short": "Start~/finish~",
+    "simple_explanation": "Verb stem + はじめる = start doing. Verb stem + おわる = finish doing.",
+    "explanation": "Aspect verbs for starting/ending.",
+    "prerequisites": [
+      "verb stems"
+    ],
+    "formation": [
+      "Verb stem + はじめる",
+      "Verb stem + おわる"
+    ],
+    "order": 28,
+    "unit": "Unit 13 — Lists & Conditions",
+    "examples": [
+      {
+        "ja": "雨が降りはじめました。",
+        "en": "It started raining.",
+        "reading": "あめ が ふりはじめました。",
+        "structure": "降り (fall) + はじめました (started)",
+        "tokens": [
+          {
+            "text": "雨が",
+            "reading": "あめが",
+            "meaning": "rain (subj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "降りはじめました",
+            "reading": "ふりはじめました",
+            "meaning": "started to fall",
+            "partOfSpeech": "はじめる form",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "aspect"
+    ]
+  },
+  {
+    "id": "g-n4-029",
+    "title": "〜つづける",
+    "meaning_short": "Continue~ing",
+    "simple_explanation": "Verb stem + つづける = keep doing.",
+    "explanation": "Continuation aspect.",
+    "prerequisites": [
+      "verb stems"
+    ],
+    "formation": [
+      "Verb stem + つづける"
+    ],
+    "order": 29,
+    "unit": "Unit 13 — Lists & Conditions",
+    "examples": [
+      {
+        "ja": "3時間勉強しつづけた。",
+        "en": "I kept studying for 3 hours.",
+        "reading": "さんじかん べんきょう しつづけた。",
+        "structure": "勉強し (study) + つづけた (kept)",
+        "tokens": [
+          {
+            "text": "3時間",
+            "reading": "さんじかん",
+            "meaning": "3 hours",
+            "partOfSpeech": "time"
+          },
+          {
+            "text": "勉強しつづけた",
+            "reading": "べんきょうしつづけた",
+            "meaning": "kept studying",
+            "partOfSpeech": "つづける form",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "aspect"
+    ]
+  },
+  {
+    "id": "g-n4-030",
+    "title": "〜場合",
+    "meaning_short": "In case of~ / if~",
+    "simple_explanation": "In the case that X happens. More formal than たら/ば.",
+    "explanation": "Conditional for hypothetical/planned situations.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Verb plain + 場合",
+      "Noun + の場合"
+    ],
+    "order": 30,
+    "unit": "Unit 14 — Situations",
+    "examples": [
+      {
+        "ja": "雨の場合は中止です。",
+        "en": "In case of rain, it's cancelled.",
+        "reading": "あめ の ばあい は ちゅうし です。",
+        "structure": "雨の場合 (in case of rain) + 中止です (cancelled)",
+        "tokens": [
+          {
+            "text": "雨の",
+            "reading": "あめの",
+            "meaning": "rain's",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "場合は",
+            "reading": "ばあいは",
+            "meaning": "in case of",
+            "partOfSpeech": "conditional",
+            "role": "target grammar"
+          },
+          {
+            "text": "中止です",
+            "reading": "ちゅうしです",
+            "meaning": "cancelled",
+            "partOfSpeech": "noun+copula"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "g-n4-031",
+    "title": "〜ところ (timing)",
+    "meaning_short": "About to~/just did~",
+    "simple_explanation": "Dict + ところ = about to. ている + ところ = in the middle of. た + ところ = just did.",
+    "explanation": "Temporal situation marker.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Verb dict + ところ (about to)",
+      "Verb ている + ところ (in the middle)",
+      "Verb た + ところ (just did)"
+    ],
+    "order": 31,
+    "unit": "Unit 14 — Situations",
+    "examples": [
+      {
+        "ja": "今から出かけるところです。",
+        "en": "I'm about to go out.",
+        "reading": "いまから でかける ところ です。",
+        "structure": "出かける (go out) + ところです (about to)",
+        "tokens": [
+          {
+            "text": "今から",
+            "reading": "いまから",
+            "meaning": "from now",
+            "partOfSpeech": "adverb"
+          },
+          {
+            "text": "出かけるところです",
+            "reading": "でかけるところです",
+            "meaning": "about to go out",
+            "partOfSpeech": "ところ pattern",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n4-032",
+    "title": "〜間 / 〜間に",
+    "meaning_short": "During / while",
+    "simple_explanation": "間 = during (whole time). 間に = while (something happens within the period).",
+    "explanation": "Duration and simultaneous events.",
+    "prerequisites": [
+      "ている"
+    ],
+    "formation": [
+      "Verb ている + 間/間に",
+      "Noun + の間/の間に"
+    ],
+    "order": 32,
+    "unit": "Unit 14 — Situations",
+    "examples": [
+      {
+        "ja": "寝ている間に雨が降った。",
+        "en": "It rained while I was sleeping.",
+        "reading": "ねている あいだに あめ が ふった。",
+        "structure": "寝ている間に (while sleeping) + 雨が降った (it rained)",
+        "tokens": [
+          {
+            "text": "寝ている間に",
+            "reading": "ねているあいだに",
+            "meaning": "while sleeping",
+            "partOfSpeech": "間に pattern",
+            "role": "target grammar"
+          },
+          {
+            "text": "雨が降った",
+            "reading": "あめがふった",
+            "meaning": "it rained",
+            "partOfSpeech": "verb past"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "g-n4-033",
+    "title": "〜はず (expectation)",
+    "meaning_short": "Should / supposed to",
+    "simple_explanation": "Based on logic, X should be true. 'He should be here by now.'",
+    "explanation": "Expectation based on reasoning.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + はずです",
+      "Noun + のはずです"
+    ],
+    "order": 33,
+    "unit": "Unit 14 — Situations",
+    "examples": [
+      {
+        "ja": "彼はもう帰ったはずです。",
+        "en": "He should have gone home by now.",
+        "reading": "かれ は もう かえった はず です。",
+        "structure": "帰った (went home) + はずです (should have)",
+        "tokens": [
+          {
+            "text": "彼はもう",
+            "reading": "かれはもう",
+            "meaning": "he already",
+            "partOfSpeech": "noun phrase"
+          },
+          {
+            "text": "帰ったはずです",
+            "reading": "かえったはずです",
+            "meaning": "should have gone home",
+            "partOfSpeech": "はず pattern",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "expectation"
+    ]
+  },
+  {
+    "id": "g-n4-034",
+    "title": "〜かどうか",
+    "meaning_short": "Whether or not",
+    "simple_explanation": "Indirect question: 'whether X or not'.",
+    "explanation": "Embedded yes/no question.",
+    "prerequisites": [
+      "plain form"
+    ],
+    "formation": [
+      "Plain + かどうか"
+    ],
+    "order": 34,
+    "unit": "Unit 14 — Situations",
+    "examples": [
+      {
+        "ja": "明日来るかどうか分かりません。",
+        "en": "I don't know whether they'll come tomorrow.",
+        "reading": "あした くる かどうか わかりません。",
+        "structure": "来るかどうか (whether will come) + 分かりません (don't know)",
+        "tokens": [
+          {
+            "text": "明日来る",
+            "reading": "あしたくる",
+            "meaning": "come tomorrow",
+            "partOfSpeech": "clause"
+          },
+          {
+            "text": "かどうか",
+            "reading": "かどうか",
+            "meaning": "whether or not",
+            "partOfSpeech": "grammar",
+            "role": "target grammar"
+          },
+          {
+            "text": "分かりません",
+            "reading": "わかりません",
+            "meaning": "don't know",
+            "partOfSpeech": "verb negative"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "g-n4-035",
+    "title": "Potential form",
+    "meaning_short": "Can do~",
+    "simple_explanation": "食べられる = can eat. 話せる = can speak. Simpler than ことができる.",
+    "explanation": "Verb potential form.",
+    "prerequisites": [
+      "verb groups"
+    ],
+    "formation": [
+      "Godan: え-row + る",
+      "Ichidan: drop る + られる",
+      "する → できる",
+      "来る → 来られる"
+    ],
+    "order": 35,
+    "unit": "Unit 15 — Mixed N4 Review",
+    "examples": [
+      {
+        "ja": "日本語が話せます。",
+        "en": "I can speak Japanese.",
+        "reading": "にほんご が はなせます。",
+        "structure": "日本語が (Japanese) + 話せます (can speak)",
+        "tokens": [
+          {
+            "text": "日本語が",
+            "reading": "にほんごが",
+            "meaning": "Japanese (subj)",
+            "partOfSpeech": "noun+particle"
+          },
+          {
+            "text": "話せます",
+            "reading": "はなせます",
+            "meaning": "can speak",
+            "partOfSpeech": "potential",
+            "role": "target grammar"
+          }
+        ]
+      }
+    ],
+    "jlpt": "N4",
+    "tags": [
+      "ability"
+    ]
+  }
 ]

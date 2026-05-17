@@ -16,9 +16,15 @@ export default function QuestionCard({ question, selectedAnswer, onSelect }: Pro
       {/* Prompt */}
       <div className="text-center">
         <p className="label mb-3">{question.promptLabel}</p>
-        <p className="text-4xl md:text-5xl font-display font-bold text-ink-50">
+        <p className={`font-display font-bold text-ink-50 ${
+          question.questionKind === "cloze" || question.questionKind === "context"
+            ? "text-xl md:text-2xl leading-relaxed" : "text-4xl md:text-5xl"
+        }`}>
           {question.prompt}
         </p>
+        {question.contextEnglish && (
+          <p className="text-sm text-ink-500 mt-2">{question.contextEnglish}</p>
+        )}
       </div>
 
       {/* Choices */}

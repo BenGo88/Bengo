@@ -1,6 +1,7 @@
 Bengo 勉語
 Personal Japanese study app — Foundation to N1.
 Live: https://bengo88.github.io/Bengo/
+> **Note:** The JLPT does not publish official current vocabulary/kanji/grammar lists. Bengo uses curated study-level estimates based on common learning resources.
 Content Structure
 Data files are split by type and JLPT level:
 ```

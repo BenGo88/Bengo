@@ -1,109 +1,12 @@
 [
-  {
-    "id": "g-n5-001", "title": "〜は (topic marker)", "meaning_short": "As for~ / Speaking of~",
-    "simple_explanation": "は marks what you're talking about — the topic. Think: 'As for X, ...'",
-    "explanation": "The topic marker は sets context. It tells the listener what you're about to talk about.",
-    "prerequisites": [], "formation": ["Noun + は"],
-    "examples": [
-      { "ja": "私は学生です。", "en": "I am a student.", "reading": "わたし は がくせい です。",
-        "tokens": [
-          { "text": "私", "reading": "わたし", "meaning": "I/me", "partOfSpeech": "pronoun", "role": "topic" },
-          { "text": "は", "reading": "は", "meaning": "topic marker", "partOfSpeech": "particle", "role": "target grammar", "note": "Pronounced 'wa' not 'ha'." },
-          { "text": "学生", "reading": "がくせい", "meaning": "student", "partOfSpeech": "noun" },
-          { "text": "です", "reading": "です", "meaning": "is (polite)", "partOfSpeech": "copula" }
-        ] },
-      { "ja": "これは本です。", "en": "This is a book.", "reading": "これ は ほん です。",
-        "tokens": [
-          { "text": "これ", "reading": "これ", "meaning": "this", "partOfSpeech": "pronoun" },
-          { "text": "は", "reading": "は", "meaning": "topic marker", "partOfSpeech": "particle", "role": "target grammar" },
-          { "text": "本", "reading": "ほん", "meaning": "book", "partOfSpeech": "noun" },
-          { "text": "です", "reading": "です", "meaning": "is (polite)", "partOfSpeech": "copula" }
-        ] }
-    ],
-    "similar": [{ "title": "が (subject marker)", "diff": "は = topic (known). が = subject (new info, answers who/what)." }],
-    "jlpt": "N5", "tags": ["particle", "basic"]
-  },
-  {
-    "id": "g-n5-002", "title": "〜が (subject marker)", "meaning_short": "Marks the subject / new info",
-    "simple_explanation": "が marks WHO or WHAT does the action. It often introduces new information.",
-    "explanation": "The subject marker が identifies the grammatical subject, often introducing new or specific information.",
-    "prerequisites": ["は"], "formation": ["Noun + が"],
-    "examples": [
-      { "ja": "猫がいます。", "en": "There is a cat.", "reading": "ねこ が います。",
-        "tokens": [
-          { "text": "猫", "reading": "ねこ", "meaning": "cat", "partOfSpeech": "noun", "role": "subject" },
-          { "text": "が", "reading": "が", "meaning": "subject marker", "partOfSpeech": "particle", "role": "target grammar" },
-          { "text": "います", "reading": "います", "meaning": "exists (animate)", "partOfSpeech": "verb", "note": "For living things. Use あります for objects." }
-        ] },
-      { "ja": "誰が来ましたか。", "en": "Who came?", "reading": "だれ が きました か。",
-        "tokens": [
-          { "text": "誰", "reading": "だれ", "meaning": "who", "partOfSpeech": "pronoun" },
-          { "text": "が", "reading": "が", "meaning": "subject marker", "partOfSpeech": "particle", "role": "target grammar" },
-          { "text": "来ました", "reading": "きました", "meaning": "came", "partOfSpeech": "verb past polite" },
-          { "text": "か", "reading": "か", "meaning": "question", "partOfSpeech": "particle" }
-        ] }
-    ],
-    "similar": [{ "title": "は", "diff": "は = topic (known). が = subject (new info)." }],
-    "jlpt": "N5", "tags": ["particle", "basic"]
-  },
-  {
-    "id": "g-n5-003", "title": "〜を (object marker)", "meaning_short": "Marks the direct object",
-    "simple_explanation": "を marks WHAT is being acted on. Eat food → food gets を.",
-    "explanation": "The object marker を indicates the direct object receiving the verb's action.",
-    "prerequisites": ["は", "basic verbs"], "formation": ["Noun + を + Verb"],
-    "examples": [
-      { "ja": "水を飲みます。", "en": "I drink water.", "reading": "みず を のみます。",
-        "tokens": [
-          { "text": "水", "reading": "みず", "meaning": "water", "partOfSpeech": "noun", "role": "object" },
-          { "text": "を", "reading": "を", "meaning": "object marker", "partOfSpeech": "particle", "role": "target grammar" },
-          { "text": "飲みます", "reading": "のみます", "meaning": "drink (polite)", "partOfSpeech": "godan verb" }
-        ] }
-    ],
-    "jlpt": "N5", "tags": ["particle", "basic"]
-  },
-  {
-    "id": "g-n5-004", "title": "〜に (location / time / direction)", "meaning_short": "At / to / in / on",
-    "simple_explanation": "に marks WHERE something exists, WHEN something happens, or WHERE you're going.",
-    "explanation": "Multiple uses: location of existence, time, destination, indirect object.",
-    "prerequisites": ["は", "が"], "formation": ["Time + に", "Place + に + いる/ある", "Place + に + 行く"],
-    "examples": [
-      { "ja": "7時に起きます。", "en": "I wake up at 7.", "reading": "しちじ に おきます。",
-        "tokens": [
-          { "text": "7時", "reading": "しちじ", "meaning": "7 o'clock", "partOfSpeech": "time", "role": "when" },
-          { "text": "に", "reading": "に", "meaning": "at (time)", "partOfSpeech": "particle", "role": "target grammar" },
-          { "text": "起きます", "reading": "おきます", "meaning": "wake up (polite)", "partOfSpeech": "ichidan verb" }
-        ] },
-      { "ja": "学校に行きます。", "en": "I go to school.", "reading": "がっこう に いきます。",
-        "tokens": [
-          { "text": "学校", "reading": "がっこう", "meaning": "school", "partOfSpeech": "noun", "role": "destination" },
-          { "text": "に", "reading": "に", "meaning": "to (direction)", "partOfSpeech": "particle", "role": "target grammar" },
-          { "text": "行きます", "reading": "いきます", "meaning": "go (polite)", "partOfSpeech": "godan verb" }
-        ] }
-    ],
-    "jlpt": "N5", "tags": ["particle", "basic"]
-  },
-  {
-    "id": "g-n5-005", "title": "〜で (action location / means)", "meaning_short": "At (action) / by means of",
-    "simple_explanation": "で marks WHERE an action happens or HOW you do it (by bus, with chopsticks).",
-    "explanation": "Indicates location of action or means/tool used.",
-    "prerequisites": ["は", "に"],
-    "beginner_warning": "に = where something EXISTS. で = where something HAPPENS.",
-    "formation": ["Place + で + Action verb", "Tool + で + Verb"],
-    "examples": [
-      { "ja": "図書館で勉強します。", "en": "I study at the library.", "reading": "としょかん で べんきょう します。",
-        "tokens": [
-          { "text": "図書館", "reading": "としょかん", "meaning": "library", "partOfSpeech": "noun", "role": "action location" },
-          { "text": "で", "reading": "で", "meaning": "at (action)", "partOfSpeech": "particle", "role": "target grammar" },
-          { "text": "勉強します", "reading": "べんきょうします", "meaning": "study (polite)", "partOfSpeech": "suru-verb" }
-        ] },
-      { "ja": "箸で食べます。", "en": "I eat with chopsticks.", "reading": "はし で たべます。",
-        "tokens": [
-          { "text": "箸", "reading": "はし", "meaning": "chopsticks", "partOfSpeech": "noun", "role": "tool/means" },
-          { "text": "で", "reading": "で", "meaning": "with / by means of", "partOfSpeech": "particle", "role": "target grammar" },
-          { "text": "食べます", "reading": "たべます", "meaning": "eat (polite)", "partOfSpeech": "ichidan verb" }
-        ] }
-    ],
-    "similar": [{ "title": "に", "diff": "に = where something EXISTS. で = where something HAPPENS." }],
-    "jlpt": "N5", "tags": ["particle", "basic"]
-  }
+  { "id": "g-n5-001", "title": "〜は (topic marker)", "meaning_short": "As for~ / Speaking of~", "simple_explanation": "は marks what you're talking about. Think: 'As for X, ...'", "explanation": "The topic marker は sets context.", "prerequisites": [], "formation": ["Noun + は"], "examples": [{ "ja": "私は学生です。", "en": "I am a student.", "reading": "わたし は がくせい です。", "tokens": [{ "text": "私", "reading": "わたし", "meaning": "I", "partOfSpeech": "pronoun", "role": "topic" }, { "text": "は", "reading": "は", "meaning": "topic marker", "partOfSpeech": "particle", "role": "target grammar", "note": "Pronounced 'wa'." }, { "text": "学生です", "reading": "がくせいです", "meaning": "am a student", "partOfSpeech": "noun + copula" }] }, { "ja": "これは本です。", "en": "This is a book.", "reading": "これ は ほん です。", "tokens": [{ "text": "これ", "reading": "これ", "meaning": "this", "partOfSpeech": "pronoun" }, { "text": "は", "reading": "は", "meaning": "topic marker", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "本です", "reading": "ほんです", "meaning": "is a book", "partOfSpeech": "noun + copula" }] }], "similar": [{ "title": "が", "diff": "は = topic (known). が = subject (new info)." }], "jlpt": "N5", "tags": ["particle"] },
+  { "id": "g-n5-002", "title": "〜が (subject marker)", "meaning_short": "Marks the subject", "simple_explanation": "が marks WHO/WHAT does the action. Often introduces new info.", "explanation": "Identifies the grammatical subject.", "prerequisites": ["は"], "formation": ["Noun + が"], "examples": [{ "ja": "猫がいます。", "en": "There is a cat.", "reading": "ねこ が います。", "tokens": [{ "text": "猫", "reading": "ねこ", "meaning": "cat", "partOfSpeech": "noun", "role": "subject" }, { "text": "が", "reading": "が", "meaning": "subject marker", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "います", "reading": "います", "meaning": "exists (animate)", "partOfSpeech": "verb", "note": "For living things." }] }], "jlpt": "N5", "tags": ["particle"] },
+  { "id": "g-n5-003", "title": "〜を (object marker)", "meaning_short": "Marks the direct object", "simple_explanation": "を marks WHAT is being acted on.", "explanation": "Indicates the direct object.", "prerequisites": ["は", "basic verbs"], "formation": ["Noun + を + Verb"], "examples": [{ "ja": "水を飲みます。", "en": "I drink water.", "reading": "みず を のみます。", "tokens": [{ "text": "水", "reading": "みず", "meaning": "water", "partOfSpeech": "noun", "role": "object" }, { "text": "を", "reading": "を", "meaning": "object marker", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "飲みます", "reading": "のみます", "meaning": "drink", "partOfSpeech": "verb" }] }], "jlpt": "N5", "tags": ["particle"] },
+  { "id": "g-n5-004", "title": "〜に (location/time/direction)", "meaning_short": "At / to / in / on", "simple_explanation": "に marks WHERE, WHEN, or direction.", "explanation": "Location of existence, time, destination.", "prerequisites": ["は", "が"], "formation": ["Time + に", "Place + に + いる/ある", "Place + に + 行く"], "examples": [{ "ja": "7時に起きます。", "en": "I wake up at 7.", "reading": "しちじ に おきます。", "tokens": [{ "text": "7時", "reading": "しちじ", "meaning": "7 o'clock", "partOfSpeech": "time" }, { "text": "に", "reading": "に", "meaning": "at (time)", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "起きます", "reading": "おきます", "meaning": "wake up", "partOfSpeech": "verb" }] }, { "ja": "学校に行きます。", "en": "I go to school.", "reading": "がっこう に いきます。", "tokens": [{ "text": "学校", "reading": "がっこう", "meaning": "school", "partOfSpeech": "noun" }, { "text": "に", "reading": "に", "meaning": "to", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "行きます", "reading": "いきます", "meaning": "go", "partOfSpeech": "verb" }] }], "jlpt": "N5", "tags": ["particle"] },
+  { "id": "g-n5-005", "title": "〜で (action location / means)", "meaning_short": "At (action) / by means of", "simple_explanation": "で marks WHERE an action happens or HOW you do it.", "explanation": "Location of action or means/tool.", "prerequisites": ["は", "に"], "beginner_warning": "に = where something EXISTS. で = where something HAPPENS.", "formation": ["Place + で + Verb", "Tool + で + Verb"], "examples": [{ "ja": "図書館で勉強します。", "en": "I study at the library.", "reading": "としょかん で べんきょう します。", "tokens": [{ "text": "図書館", "reading": "としょかん", "meaning": "library", "partOfSpeech": "noun", "role": "action location" }, { "text": "で", "reading": "で", "meaning": "at (action)", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "勉強します", "reading": "べんきょうします", "meaning": "study", "partOfSpeech": "suru-verb" }] }], "similar": [{ "title": "に", "diff": "に = EXISTS. で = HAPPENS." }], "jlpt": "N5", "tags": ["particle"] },
+  { "id": "g-n5-006", "title": "〜です / 〜ます (polite endings)", "meaning_short": "Polite sentence endings", "simple_explanation": "です makes nouns/adjectives polite. ます makes verbs polite. Use these with anyone you're not close friends with.", "explanation": "The polite form (丁寧語). です follows nouns/adjectives, ます replaces the dictionary ending of verbs.", "prerequisites": [], "formation": ["Noun + です", "い-adj + です", "Verb stem + ます"], "examples": [{ "ja": "学生です。", "en": "I am a student.", "reading": "がくせい です。", "tokens": [{ "text": "学生", "reading": "がくせい", "meaning": "student", "partOfSpeech": "noun" }, { "text": "です", "reading": "です", "meaning": "is (polite)", "partOfSpeech": "copula", "role": "target grammar" }] }, { "ja": "毎日勉強します。", "en": "I study every day.", "reading": "まいにち べんきょう します。", "tokens": [{ "text": "毎日", "reading": "まいにち", "meaning": "every day", "partOfSpeech": "adverb" }, { "text": "勉強します", "reading": "べんきょうします", "meaning": "study (polite)", "partOfSpeech": "suru-verb", "role": "target grammar — ます form" }] }], "jlpt": "N5", "tags": ["politeness", "basic"] },
+  { "id": "g-n5-007", "title": "〜と (and / with / quotation)", "meaning_short": "And / with / says that", "simple_explanation": "と connects two nouns ('A and B'), means 'with someone', or quotes speech.", "explanation": "Conjunction particle with three main uses: listing (A と B), companionship (友達と), and quotation (〜と言う).", "prerequisites": ["は", "が"], "formation": ["Noun + と + Noun", "Person + と + Verb", "Sentence + と + 言う/思う"], "examples": [{ "ja": "犬と猫がいます。", "en": "There are dogs and cats.", "reading": "いぬ と ねこ が います。", "tokens": [{ "text": "犬", "reading": "いぬ", "meaning": "dog", "partOfSpeech": "noun" }, { "text": "と", "reading": "と", "meaning": "and", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "猫", "reading": "ねこ", "meaning": "cat", "partOfSpeech": "noun" }, { "text": "がいます", "reading": "がいます", "meaning": "exist", "partOfSpeech": "verb" }] }, { "ja": "友達と遊びます。", "en": "I hang out with friends.", "reading": "ともだち と あそびます。", "tokens": [{ "text": "友達", "reading": "ともだち", "meaning": "friend", "partOfSpeech": "noun" }, { "text": "と", "reading": "と", "meaning": "with", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "遊びます", "reading": "あそびます", "meaning": "play/hang out", "partOfSpeech": "verb" }] }], "jlpt": "N5", "tags": ["particle", "basic"] },
+  { "id": "g-n5-008", "title": "〜も (also / too)", "meaning_short": "Also / too", "simple_explanation": "も replaces は/が to mean 'also' or 'too'. 私も = me too.", "explanation": "The inclusive particle. Replaces は or が to include additional items.", "prerequisites": ["は", "が"], "formation": ["Noun + も"], "examples": [{ "ja": "私も学生です。", "en": "I am also a student.", "reading": "わたし も がくせい です。", "tokens": [{ "text": "私", "reading": "わたし", "meaning": "I", "partOfSpeech": "pronoun" }, { "text": "も", "reading": "も", "meaning": "also/too", "partOfSpeech": "particle", "role": "target grammar" }, { "text": "学生です", "reading": "がくせいです", "meaning": "am a student", "partOfSpeech": "noun + copula" }] }], "jlpt": "N5", "tags": ["particle", "basic"] },
+  { "id": "g-n5-009", "title": "〜ない (negative)", "meaning_short": "Not / don't", "simple_explanation": "ない is the plain negative ending. 食べない = don't eat. 行かない = don't go.", "explanation": "Plain negative form. For ichidan verbs: drop る, add ない. For godan verbs: change last syllable to あ-row, add ない.", "prerequisites": ["verb forms", "です/ます"], "formation": ["Ichidan: stem + ない (食べる → 食べない)", "Godan: あ-row + ない (行く → 行かない)", "する → しない", "来る → 来ない"], "examples": [{ "ja": "今日は食べない。", "en": "I won't eat today.", "reading": "きょう は たべない。", "tokens": [{ "text": "今日は", "reading": "きょうは", "meaning": "today (topic)", "partOfSpeech": "noun + particle" }, { "text": "食べない", "reading": "たべない", "meaning": "won't eat", "partOfSpeech": "ichidan negative", "role": "target grammar" }] }], "jlpt": "N5", "tags": ["conjugation", "basic"] },
+  { "id": "g-n5-010", "title": "〜たい (want to)", "meaning_short": "Want to do~", "simple_explanation": "たい means 'want to' do something. Attach to the verb stem: 食べたい = want to eat.", "explanation": "Expresses the speaker's desire. Verb stem + たい. Conjugates like an い-adjective.", "prerequisites": ["verb stems", "ます form"], "beginner_warning": "Only for the speaker's desires. Don't use たい about other people's wants — use たがっている instead.", "formation": ["Verb stem + たい (食べます → 食べたい)", "Object は/が OK: 水が飲みたい"], "examples": [{ "ja": "日本に行きたいです。", "en": "I want to go to Japan.", "reading": "にほん に いきたい です。", "tokens": [{ "text": "日本", "reading": "にほん", "meaning": "Japan", "partOfSpeech": "noun" }, { "text": "に", "reading": "に", "meaning": "to", "partOfSpeech": "particle" }, { "text": "行きたい", "reading": "いきたい", "meaning": "want to go", "partOfSpeech": "verb + たい", "role": "target grammar" }, { "text": "です", "reading": "です", "meaning": "(polite)", "partOfSpeech": "copula" }] }, { "ja": "何を食べたいですか。", "en": "What do you want to eat?", "reading": "なに を たべたい です か。", "tokens": [{ "text": "何", "reading": "なに", "meaning": "what", "partOfSpeech": "pronoun" }, { "text": "を", "reading": "を", "meaning": "object marker", "partOfSpeech": "particle" }, { "text": "食べたい", "reading": "たべたい", "meaning": "want to eat", "partOfSpeech": "verb + たい", "role": "target grammar" }, { "text": "ですか", "reading": "ですか", "meaning": "? (polite)", "partOfSpeech": "question" }] }], "jlpt": "N5", "tags": ["desire", "basic"] }
 ]

@@ -108,6 +108,10 @@ export interface UserProfile {
   lastStudyDate: string | null;
   furiganaMode?: FuriganaMode;
   beginnerAssist?: boolean;
+  // Placement (v0.7+)
+  placementLevel?: JLPTLevel | "Foundation";
+  placementDate?: string;
+  placementScores?: Record<string, number>;
 }
 
 export interface UserData {

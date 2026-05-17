@@ -16,9 +16,10 @@ import Reviews from "./pages/Reviews";
 import Quiz from "./pages/Quiz";
 import WeakPoints from "./pages/WeakPoints";
 import StudyPath from "./pages/StudyPath";
+import Placement from "./pages/Placement";
+import ContentTools from "./pages/ContentTools";
 import "./index.css";
 
-// Dev-only content validation
 if (import.meta.env.DEV) {
   import("./lib/contentValidation").then((m) => m.logContentIssues());
 }
@@ -41,6 +42,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/weak-points" element={<WeakPoints />} />
           <Route path="/study-path" element={<StudyPath />} />
+          <Route path="/placement" element={<Placement />} />
+          <Route path="/content-tools" element={<ContentTools />} />
           <Route path="/settings" element={<Settings />} />
         </Route>
       </Routes>

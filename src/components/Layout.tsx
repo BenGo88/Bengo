@@ -3,6 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 const SIDEBAR_ITEMS = [
   { to: "/", label: "Dashboard", icon: "◉" },
   { to: "/study-path", label: "Study Path", icon: "🗺" },
+  { to: "/placement", label: "Placement", icon: "🎯" },
   { to: "/lessons", label: "Lessons", icon: "📖" },
   { to: "/kanji", label: "Kanji", icon: "字" },
   { to: "/vocab", label: "Vocabulary", icon: "語" },
@@ -10,6 +11,7 @@ const SIDEBAR_ITEMS = [
   { to: "/reviews", label: "Reviews", icon: "↻" },
   { to: "/quiz", label: "Quiz", icon: "⚡" },
   { to: "/weak-points", label: "Weak Points", icon: "△" },
+  { to: "/content-tools", label: "Content Tools", icon: "🔧" },
   { to: "/settings", label: "Settings", icon: "⚙" },
 ];
 
@@ -37,7 +39,7 @@ export default function Layout() {
         {SIDEBAR_ITEMS.map((item, i) => (
           <div key={item.to}>
             {/* Divider before Reviews group */}
-            {i === 6 && <div className="border-t border-ink-800/40 my-2" />}
+            {i === 7 && <div className="border-t border-ink-800/40 my-2" />}
             <NavLink
               to={item.to}
               end={item.to === "/"}
@@ -56,7 +58,7 @@ export default function Layout() {
         ))}
 
         <div className="mt-auto px-3 py-2">
-          <p className="label">v0.6.0</p>
+          <p className="label">v0.7.0</p>
         </div>
       </aside>
 

@@ -44,6 +44,7 @@ export default function Quiz() {
   const [category, setCategory] = useState<Category>("mixed");
   const [size, setSize] = useState(10);
   const [source, setSource] = useState<Source>("all");
+  const [testMode, setTestMode] = useState(false);
 
   // Session state
   const [phase, setPhase] = useState<Phase>("setup");
@@ -144,12 +145,21 @@ export default function Quiz() {
           </div>
         ) : null}
 
+        {/* Test mode toggle */}
+        <OptionGroup label="Mode">
+          <div className="flex gap-1.5">
+            <Chip active={!testMode} onClick={() => setTestMode(false)}>Study (feedback each Q)</Chip>
+            <Chip active={testMode} onClick={() => setTestMode(true)}>Practice Test (end only)</Chip>
+          </div>
+          {testMode && <p className="text-xs text-ink-500 mt-1">JLPT-style: no feedback until the end.</p>}
+        </OptionGroup>
+
         <button
           className="btn-primary w-full text-base py-4"
           onClick={startQuiz}
           disabled={totalAvailable === 0}
         >
-          Start Quiz
+          {testMode ? "Start Practice Test" : "Start Quiz"}
         </button>
 
         <button className="btn-secondary w-full" onClick={() => navigate("/")}>
@@ -163,11 +173,12 @@ export default function Quiz() {
   if (phase === "session" && qIndex < questions.length) {
     const q = questions[qIndex];
     const answered = selectedAnswer !== null;
+    const showFeedback = answered && !testMode;
 
     return (
       <div className="max-w-2xl mx-auto animate-fade-in" key={qIndex}>
         <div className="flex items-center justify-between mb-4">
-          <span className="label">Quiz</span>
+          <span className="label">{testMode ? "Practice Test" : "Quiz"}</span>
           <span className="text-xs text-ink-500">{qIndex + 1} / {questions.length}</span>
           <TypeBadge type={q.itemType} />
         </div>
@@ -179,13 +190,32 @@ export default function Quiz() {
           />
         </div>
 
+        {/* In test mode, show question without feedback on select */}
         <QuestionCard
           question={q}
-          selectedAnswer={selectedAnswer}
-          onSelect={(idx) => setSelectedAnswer(idx)}
+          selectedAnswer={testMode ? null : selectedAnswer}
+          onSelect={(idx) => {
+            setSelectedAnswer(idx);
+            if (testMode) {
+              // In test mode, immediately move to next
+              const correct = idx === q.correctIndex;
+              const newResults = [...results, { question: q, correct }];
+              setResults(newResults);
+              setTimeout(() => {
+                if (qIndex < questions.length - 1) {
+                  setQIndex(qIndex + 1);
+                  setSelectedAnswer(null);
+                } else {
+                  recordStudySession();
+                  setPhase("summary");
+                }
+              }, 200);
+            }
+          }}
         />
 
-        {answered && (
+        {/* Study mode: show feedback + next button */}
+        {showFeedback && (
           <button
             className="btn-primary w-full mt-6 py-3"
             onClick={() => {

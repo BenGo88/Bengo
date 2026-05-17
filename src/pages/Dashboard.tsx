@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import { getProfile, getDueItems, getWeakItems, getLearnedCount, getStats } from "../lib/storage";
+import { getProfile, getDueItems, getWeakItems, getLearnedCount, getStats, getAllItems } from "../lib/storage";
 import { getContentCounts } from "../lib/content";
 import type { UserProfile, JLPTLevel } from "../lib/types";
 
@@ -17,6 +17,24 @@ export default function Dashboard() {
   const learned = { kanji: getLearnedCount("kanji"), vocab: getLearnedCount("vocab"), grammar: getLearnedCount("grammar") };
   const unlearnedTotal = counts.kanji + counts.vocab + counts.grammar - learned.kanji - learned.vocab - learned.grammar;
 
+  // Review forecast
+  const forecast = useMemo(() => {
+    const items = getAllItems().filter((i) => i.srsStage !== "lesson" && i.srsStage !== "burned");
+    const now = new Date();
+    const todayEnd = new Date(now); todayEnd.setHours(23, 59, 59);
+    const tmrEnd = new Date(todayEnd); tmrEnd.setDate(tmrEnd.getDate() + 1);
+    const weekEnd = new Date(now); weekEnd.setDate(weekEnd.getDate() + 7);
+    let laterToday = 0, tomorrow = 0, thisWeek = 0;
+    for (const i of items) {
+      const d = new Date(i.nextReview);
+      if (d <= now) continue; // already due
+      if (d <= todayEnd) laterToday++;
+      else if (d <= tmrEnd) tomorrow++;
+      else if (d <= weekEnd) thisWeek++;
+    }
+    return { laterToday, tomorrow, thisWeek };
+  }, []);
+
   return (
     <div className="max-w-3xl mx-auto space-y-8 animate-fade-in">
       <header>
@@ -28,9 +46,26 @@ export default function Dashboard() {
         <SC label="Streak" value={`${profile.currentStreak}日`} accent="vermillion" />
         <SC label="XP" value={profile.totalXp.toLocaleString()} accent="jade" />
         <SC label="Accuracy" value={stats.totalReviews > 0 ? `${stats.accuracy}%` : "—"} />
-        <SC label="Reviews Due" value={String(dueItems.length)} accent={dueItems.length > 0 ? "vermillion" : undefined} />
+        <SC label="Due Now" value={String(dueItems.length)} accent={dueItems.length > 0 ? "vermillion" : undefined} />
       </div>
 
+      {/* Placement card */}
+      {!profile.placementLevel ? (
+        <div className="card-hover p-5 border-jade-500/20" onClick={() => navigate("/placement")}>
+          <div className="flex items-center gap-3 mb-2"><span className="text-lg">🎯</span><h3 className="font-semibold text-ink-100">Find Your Level</h3></div>
+          <p className="text-sm text-ink-400">Take a quick placement quiz to find your recommended starting point.</p>
+        </div>
+      ) : (
+        <div className="card p-4 flex items-center justify-between">
+          <div>
+            <p className="text-xs text-ink-500">Recommended level</p>
+            <p className="text-lg font-display font-bold text-vermillion-400">{profile.placementLevel}</p>
+          </div>
+          <button className="btn-secondary text-xs" onClick={() => navigate("/placement")}>Retake</button>
+        </div>
+      )}
+
+      {/* Study actions */}
       <section className="space-y-3">
         <h2 className="label">Today&apos;s Study</h2>
         <div className="grid gap-3 md:grid-cols-2">
@@ -39,15 +74,27 @@ export default function Dashboard() {
         </div>
       </section>
 
+      {/* Review forecast */}
+      {(forecast.laterToday > 0 || forecast.tomorrow > 0 || forecast.thisWeek > 0) && (
+        <div className="card p-4">
+          <h2 className="label mb-2">Review Forecast</h2>
+          <div className="flex gap-6 text-sm">
+            <div><span className="text-ink-500">Later today:</span> <span className="text-ink-200 font-semibold">{forecast.laterToday}</span></div>
+            <div><span className="text-ink-500">Tomorrow:</span> <span className="text-ink-200 font-semibold">{forecast.tomorrow}</span></div>
+            <div><span className="text-ink-500">This week:</span> <span className="text-ink-200 font-semibold">{forecast.thisWeek}</span></div>
+          </div>
+        </div>
+      )}
+
+      {/* Path + Weak points */}
       <section className="grid gap-3 md:grid-cols-2">
         <div className="card-hover p-5" onClick={() => navigate("/study-path")}>
           <div className="flex items-center gap-3 mb-2"><span className="text-lg">🗺</span><h3 className="font-semibold text-ink-100">Study Path</h3></div>
           <p className="text-sm text-ink-400">Foundation → N5 → N4 → N3 → N2 → N1</p>
-          <p className="text-xs text-vermillion-400 mt-2 font-medium">Target: {profile.targetLevel}</p>
         </div>
         <div className="card-hover p-5" onClick={() => navigate("/weak-points")}>
           <div className="flex items-center gap-3 mb-2"><span className="text-lg">△</span><h3 className="font-semibold text-ink-100">Weak Points</h3></div>
-          {weakItems.length > 0 ? <p className="text-sm text-vermillion-400">{weakItems.length} need practice</p> : <p className="text-sm text-ink-400">No weak points — keep it up!</p>}
+          {weakItems.length > 0 ? <p className="text-sm text-vermillion-400">{weakItems.length} need practice</p> : <p className="text-sm text-ink-400">No weak points!</p>}
         </div>
       </section>
 
@@ -56,6 +103,7 @@ export default function Dashboard() {
         <div className="flex flex-wrap gap-2">
           <button className="btn-secondary" onClick={() => navigate("/lessons/session?type=mixed")}>Mixed Lesson</button>
           <button className="btn-secondary" onClick={() => navigate("/quiz")}>{profile.targetLevel} Quiz</button>
+          <button className="btn-secondary" onClick={() => navigate("/quiz")}>Practice Test</button>
           <button className="btn-secondary" onClick={() => navigate("/kanji")}>Browse Kanji</button>
           <button className="btn-secondary" onClick={() => navigate("/grammar")}>Browse Grammar</button>
         </div>
@@ -73,8 +121,8 @@ export default function Dashboard() {
       <section className="space-y-3">
         <h2 className="label">Lifetime Stats</h2>
         <div className="card p-5"><div className="grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-6 text-sm">
-          <MS l="Total Reviews" v={stats.totalReviews} /><MS l="Correct" v={stats.totalCorrect} />
-          <MS l="Weak Items" v={stats.weakCount} /><MS l="Burned" v={stats.burnedCount} />
+          <MS l="Reviews" v={stats.totalReviews} /><MS l="Correct" v={stats.totalCorrect} />
+          <MS l="Weak" v={stats.weakCount} /><MS l="Burned" v={stats.burnedCount} />
         </div></div>
       </section>
     </div>
